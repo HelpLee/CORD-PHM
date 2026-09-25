@@ -1,0 +1,64 @@
+{
+  "section": "E_representation_and_mechanism_analysis",
+  "encoder_training": false,
+  "domains": {
+    "bearing": {
+      "scaler_train": ["Bearing2_2", "Bearing2_3", "Bearing2_4", "Bearing2_5"],
+      "test_trajectory": "Bearing2_1 post-FPT"
+    },
+    "battery": {
+      "scaler_train": ["CS2_35", "CS2_36", "CS2_37"],
+      "test_trajectory": "CS2_38"
+    },
+    "milling": {
+      "scaler_train": ["C1", "C4"],
+      "test_trajectory": "C6"
+    }
+  },
+  "E1": {
+    "name": "health_trajectory",
+    "variants": ["single_domain", "three_domain_no_adapter", "three_domain_adapter"],
+    "representation": "frozen 96D snapshot projector output e_t",
+    "projection": "one joint PCA fitted per domain across all three variants",
+    "color": "continuous normalized RUL",
+    "test_labels_used_for_encoder": false
+  },
+  "E2": {
+    "name": "cross_domain_degradation_axis_transfer",
+    "checkpoint": "three_domain_adapter",
+    "representation": "frozen 96D snapshot projector output e_t",
+    "target_protocol": "leave one domain out",
+    "source_fit": "equal-domain-weighted linear least squares with intercept",
+    "source_target": "1 - t/(T-1)",
+    "orientation": "high score is healthy; low score is degraded",
+    "tests": [
+      "bearing+battery -> milling",
+      "bearing+milling -> battery",
+      "battery+milling -> bearing"
+    ],
+    "primary_metric": "zero-shot Spearman rho(score, target lifecycle)",
+    "secondary_metric": "health-oriented concordance index",
+    "target_labels_used_for_fit_or_sign_selection": false
+  },
+  "E3": {
+    "name": "layerwise_health_information_gain",
+    "variants": ["single_domain", "three_domain_adapter"],
+    "layers": ["stem", "block1_after_adapter1", "block2_after_adapter2", "final_snapshot_embedding"],
+    "intermediate_readout": "concat(global token, mean valid local tokens)",
+    "lifecycle": "t/(T-1) within each held-out device",
+    "metric": "Spearman correlation between all pairwise Euclidean representation distances and absolute lifecycle distances",
+    "probe_training": false,
+    "lifecycle_used_during_encoder_forward": false
+  },
+  "E4": {
+    "name": "layerwise_knn_health_consistency",
+    "variants": ["single_domain", "three_domain_adapter"],
+    "layers_and_readout": "identical to E3",
+    "neighbors": 5,
+    "self_neighbor_excluded": true,
+    "latent_distance": "Euclidean",
+    "metric": "mean absolute normalized-lifecycle difference between every query and its five nearest neighbors",
+    "lower_is_better": true,
+    "probe_training": false
+  }
+}

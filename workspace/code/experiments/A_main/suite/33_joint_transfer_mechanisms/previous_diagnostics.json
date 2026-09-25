@@ -1,0 +1,1405 @@
+{
+  "28_three_fullchannel_models": {
+    "single5": {
+      "status": {
+        "state": "complete",
+        "epoch": 347,
+        "best_epoch": 317,
+        "best_validation": 0.2381659816717729,
+        "reason": "early_stopping"
+      },
+      "domain_minima": {
+        "milling": {
+          "epoch": 344,
+          "minimum": 0.23810398823115975,
+          "at_selected_checkpoint": 0.2381659816717729,
+          "relative_regret": 0.0002603628820905257,
+          "datasets": {
+            "luh_milling": {
+              "mask": 0.2304326631128788,
+              "temporal": 0.02615102264098823,
+              "temporal_share": 0.022193587732130326
+            },
+            "matwi_milling": {
+              "mask": 0.19061065837740898,
+              "temporal": 0.06930705136619508,
+              "temporal_share": 0.06779121649579442
+            },
+            "nonastreda_milling": {
+              "mask": 0.13679900858551264,
+              "temporal": 0.10085535049438477,
+              "temporal_share": 0.12850264373908946
+            },
+            "hmotp_milling": {
+              "mask": 0.3301764130592346,
+              "temporal": 0.12691249325871468,
+              "temporal_share": 0.07138760361707812
+            }
+          }
+        }
+      }
+    },
+    "three4": {
+      "status": {
+        "state": "complete",
+        "epoch": 319,
+        "best_epoch": 289,
+        "best_validation": 0.4564339531080772,
+        "reason": "early_stopping"
+      },
+      "domain_minima": {
+        "bearing": {
+          "epoch": 289,
+          "minimum": 0.6675728315231492,
+          "at_selected_checkpoint": 0.6675728315231492,
+          "relative_regret": 0.0,
+          "datasets": {
+            "cwru": {
+              "mask": 1.125869455791655,
+              "temporal": 0.030600901338316146,
+              "temporal_share": 0.005406569170517142
+            },
+            "femto": {
+              "mask": 0.19429532904177904,
+              "temporal": 0.04958496941253543,
+              "temporal_share": 0.04856217166769078
+            },
+            "ferrara": {
+              "mask": 1.0005505308508873,
+              "temporal": 0.050282277166843414,
+              "temporal_share": 0.009950906306658045
+            },
+            "ims": {
+              "mask": 1.0238214805722237,
+              "temporal": 0.0357160281855613,
+              "temporal_share": 0.0069286617986659554
+            },
+            "seu": {
+              "mask": 0.34208660234104504,
+              "temporal": 0.01701802760362625,
+              "temporal_share": 0.009851525291527288
+            },
+            "unsw": {
+              "mask": 0.2759068291634321,
+              "temporal": 0.03133160318247974,
+              "temporal_share": 0.022207359704277382
+            }
+          }
+        },
+        "battery": {
+          "epoch": 309,
+          "minimum": 0.4576701638804349,
+          "at_selected_checkpoint": 0.480739730874276,
+          "relative_regret": 0.05040653469354828,
+          "datasets": {
+            "hust": {
+              "mask": 0.5538884364068508,
+              "temporal": 0.00861402990994975,
+              "temporal_share": 0.003100739960881238
+            },
+            "mich_exp": {
+              "mask": 0.12190287467092276,
+              "temporal": 0.025250816601328552,
+              "temporal_share": 0.039779775263166464
+            },
+            "nasa": {
+              "mask": 0.23036613687872887,
+              "temporal": 0.025308815180324018,
+              "temporal_share": 0.021500268395958012
+            },
+            "oxford": {
+              "mask": 0.08938084822148085,
+              "temporal": 0.01647312066052109,
+              "temporal_share": 0.03555011966417853
+            },
+            "rwth": {
+              "mask": 0.6501212064176798,
+              "temporal": 0.06269990606233478,
+              "temporal_share": 0.01892366936007415
+            },
+            "sdu": {
+              "mask": 0.3517078342847526,
+              "temporal": 0.015357881668023765,
+              "temporal_share": 0.008657707413886268
+            },
+            "xjtu": {
+              "mask": 1.321825128979981,
+              "temporal": 0.07622368121519685,
+              "temporal_share": 0.011401600349804145
+            }
+          }
+        },
+        "milling": {
+          "epoch": 315,
+          "minimum": 0.21351218873169273,
+          "at_selected_checkpoint": 0.22098929692680636,
+          "relative_regret": 0.03501958478122136,
+          "datasets": {
+            "luh_milling": {
+              "mask": 0.26961240358650684,
+              "temporal": 0.02070754556916654,
+              "temporal_share": 0.015128584183440465
+            },
+            "matwi_milling": {
+              "mask": 0.1986551284790039,
+              "temporal": 0.03887572116218507,
+              "temporal_share": 0.03766474815108887
+            },
+            "nonastreda_milling": {
+              "mask": 0.16647939011454582,
+              "temporal": 0.08152157627046108,
+              "temporal_share": 0.08920004778987102
+            }
+          }
+        }
+      }
+    },
+    "three5": {
+      "status": {
+        "state": "complete",
+        "epoch": 319,
+        "best_epoch": 289,
+        "best_validation": 0.47508949618203095,
+        "reason": "early_stopping"
+      },
+      "domain_minima": {
+        "bearing": {
+          "epoch": 289,
+          "minimum": 0.6703367007554953,
+          "at_selected_checkpoint": 0.6703367007554953,
+          "relative_regret": 0.0,
+          "datasets": {
+            "cwru": {
+              "mask": 1.1176935888472057,
+              "temporal": 0.02995430678129196,
+              "temporal_share": 0.005331444566286946
+            },
+            "femto": {
+              "mask": 0.19625741802155972,
+              "temporal": 0.04863334074616432,
+              "temporal_share": 0.04722048353370346
+            },
+            "ferrara": {
+              "mask": 1.0114432126283646,
+              "temporal": 0.05633658356964588,
+              "temporal_share": 0.011017112262621566
+            },
+            "ims": {
+              "mask": 1.0260144025087357,
+              "temporal": 0.03707924438640475,
+              "temporal_share": 0.007175954901005616
+            },
+            "seu": {
+              "mask": 0.3474340628493916,
+              "temporal": 0.01653696715154431,
+              "temporal_share": 0.00942971915949213
+            },
+            "unsw": {
+              "mask": 0.27929762937128544,
+              "temporal": 0.03085900889709592,
+              "temporal_share": 0.021619834230730557
+            }
+          }
+        },
+        "battery": {
+          "epoch": 309,
+          "minimum": 0.45919036704913846,
+          "at_selected_checkpoint": 0.4827816362659047,
+          "relative_regret": 0.05137579293827321,
+          "datasets": {
+            "hust": {
+              "mask": 0.5513356141746044,
+              "temporal": 0.008508164901286364,
+              "temporal_share": 0.0030768867540322846
+            },
+            "mich_exp": {
+              "mask": 0.12099048681557178,
+              "temporal": 0.025992910494096577,
+              "temporal_share": 0.041196770398124784
+            },
+            "nasa": {
+              "mask": 0.23203413374722004,
+              "temporal": 0.02606990875210613,
+              "temporal_share": 0.021976915346554413
+            },
+            "oxford": {
+              "mask": 0.09104926604777575,
+              "temporal": 0.01621552335564047,
+              "temporal_share": 0.03439413651817233
+            },
+            "rwth": {
+              "mask": 0.6569769205525517,
+              "temporal": 0.064820546656847,
+              "temporal_share": 0.019351120103236037
+            },
+            "sdu": {
+              "mask": 0.3517371262423694,
+              "temporal": 0.01589071424677968,
+              "temporal_share": 0.008954652352628333
+            },
+            "xjtu": {
+              "mask": 1.3287907484918833,
+              "temporal": 0.07528802054002881,
+              "temporal_share": 0.011204838759428789
+            }
+          }
+        },
+        "milling": {
+          "epoch": 317,
+          "minimum": 0.2659593483898789,
+          "at_selected_checkpoint": 0.2721501515246928,
+          "relative_regret": 0.023277253355797,
+          "datasets": {
+            "luh_milling": {
+              "mask": 0.28986855037510395,
+              "temporal": 0.02288313629105687,
+              "temporal_share": 0.01554322368257916
+            },
+            "matwi_milling": {
+              "mask": 0.21799680218100548,
+              "temporal": 0.0382999824360013,
+              "temporal_share": 0.03394533881721476
+            },
+            "nonastreda_milling": {
+              "mask": 0.1808382784947753,
+              "temporal": 0.08029528707265854,
+              "temporal_share": 0.0815605622105963
+            },
+            "hmotp_milling": {
+              "mask": 0.3531184643507004,
+              "temporal": 0.09241414768621325,
+              "temporal_share": 0.049738334718544275
+            }
+          }
+        }
+      }
+    }
+  },
+  "29_joint_optimization_comparison": {
+    "joint_cagrad": {
+      "status": {
+        "state": "complete",
+        "arm": "joint_cagrad",
+        "epoch": 500,
+        "best_epoch": 492,
+        "best_validation": 0.2718693635059037,
+        "reason": "max_epochs"
+      },
+      "domain_minima": {
+        "bearing": {
+          "epoch": 483,
+          "minimum": 0.6385195635680799,
+          "at_selected_checkpoint": 0.643939870894748,
+          "relative_regret": 0.008488866490447222,
+          "datasets": {
+            "cwru": {
+              "mask": 1.1893275124686105,
+              "temporal": 0.024312065825575876,
+              "temporal_share": 0.0040717251592411645
+            },
+            "femto": {
+              "mask": 0.18012761417776346,
+              "temporal": 0.04983253125101328,
+              "temporal_share": 0.052429324104105286
+            },
+            "ferrara": {
+              "mask": 0.8070796802639961,
+              "temporal": 0.06235628807917237,
+              "temporal_share": 0.015217184240063812
+            },
+            "ims": {
+              "mask": 1.067191518843174,
+              "temporal": 0.04079166753217578,
+              "temporal_share": 0.007586678408528561
+            },
+            "seu": {
+              "mask": 0.31170372800393537,
+              "temporal": 0.020994831892577084,
+              "temporal_share": 0.013291961269035256
+            },
+            "unsw": {
+              "mask": 0.2626067902892828,
+              "temporal": 0.029724522028118372,
+              "temporal_share": 0.022136908919444736
+            }
+          }
+        },
+        "battery": {
+          "epoch": 492,
+          "minimum": 0.4376240071957,
+          "at_selected_checkpoint": 0.4376240071957,
+          "relative_regret": 0.0,
+          "datasets": {
+            "hust": {
+              "mask": 0.3895213920623064,
+              "temporal": 0.008754545589908957,
+              "temporal_share": 0.004474912005526856
+            },
+            "mich_exp": {
+              "mask": 0.1071955538354814,
+              "temporal": 0.02638166444376111,
+              "temporal_share": 0.04691246001491112
+            },
+            "nasa": {
+              "mask": 0.19901865627616644,
+              "temporal": 0.026615385664626956,
+              "temporal_share": 0.02604987754639724
+            },
+            "oxford": {
+              "mask": 0.06436473270878196,
+              "temporal": 0.011225648282561451,
+              "temporal_share": 0.033705664248333156
+            },
+            "rwth": {
+              "mask": 0.5715334182605147,
+              "temporal": 0.20787657424807549,
+              "temporal_share": 0.06781067142644522
+            },
+            "sdu": {
+              "mask": 0.27623994881287217,
+              "temporal": 0.011721385060809553,
+              "temporal_share": 0.008414966803017208
+            },
+            "xjtu": {
+              "mask": 1.3852573856711388,
+              "temporal": 0.0586096104234457,
+              "temporal_share": 0.008390906021020295
+            }
+          }
+        },
+        "milling": {
+          "epoch": 479,
+          "minimum": 0.24014566256082617,
+          "at_selected_checkpoint": 0.24259468455566094,
+          "relative_regret": 0.010198068825059359,
+          "datasets": {
+            "luh_milling": {
+              "mask": 0.265762135386467,
+              "temporal": 0.020671950420364738,
+              "temporal_share": 0.015318426485354029
+            },
+            "matwi_milling": {
+              "mask": 0.18188703246414661,
+              "temporal": 0.05240852991119027,
+              "temporal_share": 0.05448757457625801
+            },
+            "nonastreda_milling": {
+              "mask": 0.1458233194425702,
+              "temporal": 0.0872707674279809,
+              "temporal_share": 0.1068987238262507
+            },
+            "hmotp_milling": {
+              "mask": 0.32587514631450176,
+              "temporal": 0.09480427531525493,
+              "temporal_share": 0.05498513782582462
+            }
+          }
+        }
+      },
+      "gradients_last50": {
+        "mean_norms": [
+          0.36087086240947247,
+          0.5263132808208466,
+          0.36839118009805677
+        ],
+        "mean_cosine": [
+          [
+            1.0000000116825103,
+            0.0028844586547202198,
+            0.020721865009050815
+          ],
+          [
+            0.0028844586547202198,
+            1.0000000088214873,
+            0.01337615844850734
+          ],
+          [
+            0.020721865009050815,
+            0.01337615844850734,
+            1.0000000099539756
+          ]
+        ],
+        "conflict_frequency": [
+          [
+            0.0,
+            0.474,
+            0.426
+          ],
+          [
+            0.474,
+            0.0,
+            0.436
+          ],
+          [
+            0.426,
+            0.436,
+            0.0
+          ]
+        ],
+        "applied_direction_mean_cosine": [
+          0.5502411484718323,
+          0.6198036690950394,
+          0.5422593609392643
+        ]
+      }
+    },
+    "joint_norm": {
+      "status": {
+        "state": "complete",
+        "arm": "joint_norm",
+        "epoch": 500,
+        "best_epoch": 492,
+        "best_validation": 0.2724795905696284,
+        "reason": "max_epochs"
+      },
+      "domain_minima": {
+        "bearing": {
+          "epoch": 439,
+          "minimum": 0.6238464841834492,
+          "at_selected_checkpoint": 0.6436730896650066,
+          "relative_regret": 0.03178122500362934,
+          "datasets": {
+            "cwru": {
+              "mask": 1.181760237330482,
+              "temporal": 0.019736157552826972,
+              "temporal_share": 0.003329009569639937
+            },
+            "femto": {
+              "mask": 0.17982477601617575,
+              "temporal": 0.04903016984462738,
+              "temporal_share": 0.05171118538013896
+            },
+            "ferrara": {
+              "mask": 0.798595480620861,
+              "temporal": 0.06081914156675339,
+              "temporal_share": 0.015003007895574714
+            },
+            "ims": {
+              "mask": 1.0569999516010284,
+              "temporal": 0.033743494655936956,
+              "temporal_share": 0.0063442608625739515
+            },
+            "seu": {
+              "mask": 0.3325864808125929,
+              "temporal": 0.01855565116486766,
+              "temporal_share": 0.011035256008615223
+            },
+            "unsw": {
+              "mask": 0.27045122906565666,
+              "temporal": 0.027217297931201756,
+              "temporal_share": 0.019730207974784524
+            }
+          }
+        },
+        "battery": {
+          "epoch": 492,
+          "minimum": 0.4365765199630654,
+          "at_selected_checkpoint": 0.4365765199630654,
+          "relative_regret": 0.0,
+          "datasets": {
+            "hust": {
+              "mask": 0.3776765000075102,
+              "temporal": 0.00752879458013922,
+              "temporal_share": 0.003971069005977624
+            },
+            "mich_exp": {
+              "mask": 0.11003375425934792,
+              "temporal": 0.02477872057352215,
+              "temporal_share": 0.04309736267031761
+            },
+            "nasa": {
+              "mask": 0.19971851725131273,
+              "temporal": 0.024976885644719005,
+              "temporal_share": 0.024401749300244746
+            },
+            "oxford": {
+              "mask": 0.06584604550153017,
+              "temporal": 0.010286690667271614,
+              "temporal_share": 0.03029802085435934
+            },
+            "rwth": {
+              "mask": 0.5568534815683961,
+              "temporal": 0.18507611192762852,
+              "temporal_share": 0.06232896621607073
+            },
+            "sdu": {
+              "mask": 0.26525458926334977,
+              "temporal": 0.01379056612495333,
+              "temporal_share": 0.010290979492327065
+            },
+            "xjtu": {
+              "mask": 1.416054243221879,
+              "temporal": 0.056554773822426796,
+              "temporal_share": 0.007924359358377332
+            }
+          }
+        },
+        "milling": {
+          "epoch": 460,
+          "minimum": 0.24115099214250224,
+          "at_selected_checkpoint": 0.24330544128897602,
+          "relative_regret": 0.008934025638180465,
+          "datasets": {
+            "luh_milling": {
+              "mask": 0.26363275200128555,
+              "temporal": 0.022931849700398743,
+              "temporal_share": 0.017099339923580703
+            },
+            "matwi_milling": {
+              "mask": 0.1820880975574255,
+              "temporal": 0.051573006669059396,
+              "temporal_share": 0.053609442036166986
+            },
+            "nonastreda_milling": {
+              "mask": 0.14238165225833654,
+              "temporal": 0.09016938228160143,
+              "temporal_share": 0.11241976759244113
+            },
+            "hmotp_milling": {
+              "mask": 0.3304557390511036,
+              "temporal": 0.10864338278770447,
+              "temporal_share": 0.06169687128259049
+            }
+          }
+        }
+      },
+      "gradients_last50": {
+        "mean_norms": [
+          0.34840994104743006,
+          0.507034373447299,
+          0.3494098777920008
+        ],
+        "mean_cosine": [
+          [
+            1.00000000923872,
+            0.0013332514125659145,
+            0.021256777205146363
+          ],
+          [
+            0.0013332514125659145,
+            1.000000007212162,
+            0.01360125879561747
+          ],
+          [
+            0.021256777205146363,
+            0.01360125879561747,
+            1.000000011563301
+          ]
+        ],
+        "conflict_frequency": [
+          [
+            0.0,
+            0.495,
+            0.425
+          ],
+          [
+            0.495,
+            0.0,
+            0.423
+          ],
+          [
+            0.425,
+            0.423,
+            0.0
+          ]
+        ],
+        "applied_direction_mean_cosine": [
+          0.4891422552969307,
+          0.6005805518068373,
+          0.5204458211604506
+        ]
+      }
+    },
+    "joint_pcgrad": {
+      "status": {
+        "state": "complete",
+        "arm": "joint_pcgrad",
+        "epoch": 500,
+        "best_epoch": 492,
+        "best_validation": 0.2727512788436976,
+        "reason": "max_epochs"
+      },
+      "domain_minima": {
+        "bearing": {
+          "epoch": 439,
+          "minimum": 0.6280644414948957,
+          "at_selected_checkpoint": 0.6444242768915247,
+          "relative_regret": 0.026048020419194406,
+          "datasets": {
+            "cwru": {
+              "mask": 1.1802832399095808,
+              "temporal": 0.021867688567865463,
+              "temporal_share": 0.0036918184204778504
+            },
+            "femto": {
+              "mask": 0.17871363926678896,
+              "temporal": 0.049208699725568295,
+              "temporal_share": 0.05219548753394778
+            },
+            "ferrara": {
+              "mask": 0.802301399409771,
+              "temporal": 0.061819101218134165,
+              "temporal_share": 0.015176565717248939
+            },
+            "ims": {
+              "mask": 1.0604509934782982,
+              "temporal": 0.03480457072146237,
+              "temporal_share": 0.006521300816098515
+            },
+            "seu": {
+              "mask": 0.33238531242717395,
+              "temporal": 0.019262300296263263,
+              "temporal_share": 0.011457546934017269
+            },
+            "unsw": {
+              "mask": 0.26949977688491344,
+              "temporal": 0.027594139333814383,
+              "temporal_share": 0.02006710735714049
+            }
+          }
+        },
+        "battery": {
+          "epoch": 492,
+          "minimum": 0.43756690113472624,
+          "at_selected_checkpoint": 0.43756690113472624,
+          "relative_regret": 0.0,
+          "datasets": {
+            "hust": {
+              "mask": 0.38042731396853924,
+              "temporal": 0.00775290239835158,
+              "temporal_share": 0.004059346109308823
+            },
+            "mich_exp": {
+              "mask": 0.10979325650259852,
+              "temporal": 0.024978959816507995,
+              "temporal_share": 0.043521503401830856
+            },
+            "nasa": {
+              "mask": 0.2001770744100213,
+              "temporal": 0.025152580114081502,
+              "temporal_share": 0.024514278503078756
+            },
+            "oxford": {
+              "mask": 0.0656303665600717,
+              "temporal": 0.010727737855631858,
+              "temporal_share": 0.03165649034217526
+            },
+            "rwth": {
+              "mask": 0.5587247740477324,
+              "temporal": 0.18951764423400164,
+              "temporal_share": 0.06352955208948681
+            },
+            "sdu": {
+              "mask": 0.267852634890005,
+              "temporal": 0.01342621201183647,
+              "temporal_share": 0.009925569126371657
+            },
+            "xjtu": {
+              "mask": 1.414622725918889,
+              "temporal": 0.05714477179571986,
+              "temporal_share": 0.008014404048046635
+            }
+          }
+        },
+        "milling": {
+          "epoch": 460,
+          "minimum": 0.2414941810304299,
+          "at_selected_checkpoint": 0.24377187708741985,
+          "relative_regret": 0.00943168090954094,
+          "datasets": {
+            "luh_milling": {
+              "mask": 0.2665373980998993,
+              "temporal": 0.022754475590772927,
+              "temporal_share": 0.016787501459880474
+            },
+            "matwi_milling": {
+              "mask": 0.18349335342645645,
+              "temporal": 0.05088815395720303,
+              "temporal_share": 0.052551138894352235
+            },
+            "nonastreda_milling": {
+              "mask": 0.14198933634907007,
+              "temporal": 0.08990202844142914,
+              "temporal_share": 0.11239879154200969
+            },
+            "hmotp_milling": {
+              "mask": 0.3287032898515463,
+              "temporal": 0.10827599512413144,
+              "temporal_share": 0.06180868942058813
+            }
+          }
+        }
+      },
+      "gradients_last50": {
+        "mean_norms": [
+          0.3497315009310842,
+          0.5073592615500092,
+          0.35324985471367837
+        ],
+        "mean_cosine": [
+          [
+            1.0000000118017196,
+            0.001537567768509689,
+            0.021646356761481002
+          ],
+          [
+            0.001537567768509689,
+            1.0000000094175339,
+            0.01398890906869201
+          ],
+          [
+            0.021646356761481002,
+            0.01398890906869201,
+            1.000000009894371
+          ]
+        ],
+        "conflict_frequency": [
+          [
+            0.0,
+            0.493,
+            0.417
+          ],
+          [
+            0.493,
+            0.0,
+            0.417
+          ],
+          [
+            0.417,
+            0.417,
+            0.0
+          ]
+        ],
+        "applied_direction_mean_cosine": [
+          0.4960737214833498,
+          0.5992783297598362,
+          0.527940299987793
+        ]
+      }
+    },
+    "joint_raw": {
+      "status": {
+        "state": "complete",
+        "arm": "joint_raw",
+        "epoch": 319,
+        "best_epoch": 289,
+        "best_validation": 0.4749188210542212,
+        "reason": "early_stopping"
+      },
+      "domain_minima": {
+        "bearing": {
+          "epoch": 289,
+          "minimum": 0.6697845692642526,
+          "at_selected_checkpoint": 0.6697845692642526,
+          "relative_regret": 0.0,
+          "datasets": {
+            "cwru": {
+              "mask": 1.1179032723108928,
+              "temporal": 0.02984884363554773,
+              "temporal_share": 0.005311782122290169
+            },
+            "femto": {
+              "mask": 0.1963543090969324,
+              "temporal": 0.048673801589757204,
+              "temporal_share": 0.047235694477100645
+            },
+            "ferrara": {
+              "mask": 1.0080872178077698,
+              "temporal": 0.05649104667827487,
+              "temporal_share": 0.011083353788287328
+            },
+            "ims": {
+              "mask": 1.0258609056472778,
+              "temporal": 0.03720879275351763,
+              "temporal_share": 0.0072019155747358845
+            },
+            "seu": {
+              "mask": 0.3473225208846005,
+              "temporal": 0.016553556377237495,
+              "temporal_share": 0.009442092111612259
+            },
+            "unsw": {
+              "mask": 0.27924732863903046,
+              "temporal": 0.030883264960721135,
+              "temporal_share": 0.02164027338153284
+            }
+          }
+        },
+        "battery": {
+          "epoch": 309,
+          "minimum": 0.45909729333694227,
+          "at_selected_checkpoint": 0.48284853924830845,
+          "relative_regret": 0.051734667696972325,
+          "datasets": {
+            "hust": {
+              "mask": 0.5513013750314713,
+              "temporal": 0.008524138829670846,
+              "temporal_share": 0.0030828366070945056
+            },
+            "mich_exp": {
+              "mask": 0.12090240139514208,
+              "temporal": 0.026052761124446988,
+              "temporal_share": 0.04131655056298489
+            },
+            "nasa": {
+              "mask": 0.2317708432674408,
+              "temporal": 0.026133178733289242,
+              "temporal_share": 0.02205354997192575
+            },
+            "oxford": {
+              "mask": 0.09096081834286451,
+              "temporal": 0.016226375533733517,
+              "temporal_share": 0.03444867511126051
+            },
+            "rwth": {
+              "mask": 0.6570759555324912,
+              "temporal": 0.06495683174580336,
+              "temporal_share": 0.01938815089904537
+            },
+            "sdu": {
+              "mask": 0.3516433141194284,
+              "temporal": 0.015905447769910097,
+              "temporal_share": 0.008965250194318588
+            },
+            "xjtu": {
+              "mask": 1.3296534828841686,
+              "temporal": 0.07535918708890676,
+              "temporal_share": 0.011208116029522715
+            }
+          }
+        },
+        "milling": {
+          "epoch": 317,
+          "minimum": 0.2660233049653471,
+          "at_selected_checkpoint": 0.2721233546501025,
+          "relative_regret": 0.022930508609198874,
+          "datasets": {
+            "luh_milling": {
+              "mask": 0.28988223522901535,
+              "temporal": 0.022892416222020984,
+              "temporal_share": 0.015548706354248364
+            },
+            "matwi_milling": {
+              "mask": 0.21790821477770805,
+              "temporal": 0.03831434273160994,
+              "temporal_share": 0.03397097018554623
+            },
+            "nonastreda_milling": {
+              "mask": 0.18062599934637547,
+              "temporal": 0.08041519625112414,
+              "temporal_share": 0.08176055032838127
+            },
+            "hmotp_milling": {
+              "mask": 0.3532404191792011,
+              "temporal": 0.09256079513579607,
+              "temporal_share": 0.04979698894484356
+            }
+          }
+        }
+      },
+      "gradients_last50": {
+        "mean_norms": [
+          0.35759166925400493,
+          1.2390624709129334,
+          0.28595322774350646
+        ],
+        "mean_cosine": [
+          [
+            1.0000000064969063,
+            0.00669236043087767,
+            0.01758063053750084
+          ],
+          [
+            0.00669236043087767,
+            1.0000000109672547,
+            0.015508029095915844
+          ],
+          [
+            0.01758063053750084,
+            0.015508029095915844,
+            1.0000000051856042
+          ]
+        ],
+        "conflict_frequency": [
+          [
+            0.0,
+            0.467,
+            0.421
+          ],
+          [
+            0.467,
+            0.0,
+            0.41
+          ],
+          [
+            0.421,
+            0.41,
+            0.0
+          ]
+        ],
+        "applied_direction_mean_cosine": [
+          0.3548437089860672,
+          0.792778012432158,
+          0.3230875384309329
+        ]
+      }
+    },
+    "single_battery_norm": {
+      "status": {
+        "state": "complete",
+        "arm": "single_battery_norm",
+        "epoch": 500,
+        "best_epoch": 492,
+        "best_validation": 0.14735746912574518,
+        "reason": "max_epochs"
+      },
+      "domain_minima": {
+        "battery": {
+          "epoch": 492,
+          "minimum": 0.3954056792077609,
+          "at_selected_checkpoint": 0.3954056792077609,
+          "relative_regret": 0.0,
+          "datasets": {
+            "hust": {
+              "mask": 0.27990124747157097,
+              "temporal": 0.006216365203727037,
+              "temporal_share": 0.0044221848552475785
+            },
+            "mich_exp": {
+              "mask": 0.10513124149292707,
+              "temporal": 0.02971207449445501,
+              "temporal_share": 0.053499768459308
+            },
+            "nasa": {
+              "mask": 0.17647164314985275,
+              "temporal": 0.025710666785016656,
+              "temporal_share": 0.028313564399720586
+            },
+            "oxford": {
+              "mask": 0.06268518976867199,
+              "temporal": 0.008431606518570334,
+              "temporal_share": 0.026196702168724776
+            },
+            "rwth": {
+              "mask": 0.5114727066829801,
+              "temporal": 0.03567358269356191,
+              "temporal_share": 0.013757451627649495
+            },
+            "sdu": {
+              "mask": 0.26167846540920436,
+              "temporal": 0.013610012829303741,
+              "temporal_share": 0.010294999047117621
+            },
+            "xjtu": {
+              "mask": 1.3366550374776125,
+              "temporal": 0.04986680648289621,
+              "temporal_share": 0.0074061718181925975
+            }
+          }
+        }
+      }
+    },
+    "single_battery_raw": {
+      "status": {
+        "state": "complete",
+        "arm": "single_battery_raw",
+        "epoch": 500,
+        "best_epoch": 492,
+        "best_validation": 0.38880470147622487,
+        "reason": "max_epochs"
+      },
+      "domain_minima": {
+        "battery": {
+          "epoch": 492,
+          "minimum": 0.38880470147622487,
+          "at_selected_checkpoint": 0.38880470147622487,
+          "relative_regret": 0.0,
+          "datasets": {
+            "hust": {
+              "mask": 0.35147696919739246,
+              "temporal": 0.005671479739248753,
+              "temporal_share": 0.0032168454611979816
+            },
+            "mich_exp": {
+              "mask": 0.11315527837723494,
+              "temporal": 0.028757112217135727,
+              "temporal_share": 0.04836920378525662
+            },
+            "nasa": {
+              "mask": 0.1754717193543911,
+              "temporal": 0.024420862726401538,
+              "temporal_share": 0.027080748479219527
+            },
+            "oxford": {
+              "mask": 0.07618388766422868,
+              "temporal": 0.008036907238420099,
+              "temporal_share": 0.020662748738185462
+            },
+            "rwth": {
+              "mask": 0.5116624152287841,
+              "temporal": 0.03424760466441512,
+              "temporal_share": 0.01320995806497193
+            },
+            "sdu": {
+              "mask": 0.31096441531553864,
+              "temporal": 0.0120137392077595,
+              "temporal_share": 0.007667516332422505
+            },
+            "xjtu": {
+              "mask": 1.1403553653508425,
+              "temporal": 0.09866659343242645,
+              "temporal_share": 0.017010181168054857
+            }
+          }
+        }
+      }
+    },
+    "single_bearing_norm": {
+      "status": {
+        "state": "complete",
+        "arm": "single_bearing_norm",
+        "epoch": 182,
+        "best_epoch": 152,
+        "best_validation": 0.3236751606652513,
+        "reason": "early_stopping"
+      },
+      "domain_minima": {
+        "bearing": {
+          "epoch": 179,
+          "minimum": 0.6663867311924426,
+          "at_selected_checkpoint": 0.6787871101336093,
+          "relative_regret": 0.01860838213116467,
+          "datasets": {
+            "cwru": {
+              "mask": 1.190094056583586,
+              "temporal": 0.030514633371716452,
+              "temporal_share": 0.005101941201792306
+            },
+            "femto": {
+              "mask": 0.19497990794479847,
+              "temporal": 0.05596515443176031,
+              "temporal_share": 0.054289524851361896
+            },
+            "ferrara": {
+              "mask": 1.0497130304574966,
+              "temporal": 0.06333836121484637,
+              "temporal_share": 0.011923853860268088
+            },
+            "ims": {
+              "mask": 1.0048003271222115,
+              "temporal": 0.029465671628713608,
+              "temporal_share": 0.005830783071753542
+            },
+            "seu": {
+              "mask": 0.3247504342686046,
+              "temporal": 0.018179876391183247,
+              "temporal_share": 0.011072246513654857
+            },
+            "unsw": {
+              "mask": 0.26309487968683243,
+              "temporal": 0.028986426652409136,
+              "temporal_share": 0.021559889370925085
+            }
+          }
+        }
+      }
+    },
+    "single_bearing_raw": {
+      "status": {
+        "state": "complete",
+        "arm": "single_bearing_raw",
+        "epoch": 190,
+        "best_epoch": 160,
+        "best_validation": 0.6741349140456628,
+        "reason": "early_stopping"
+      },
+      "domain_minima": {
+        "bearing": {
+          "epoch": 160,
+          "minimum": 0.6741349140456628,
+          "at_selected_checkpoint": 0.6741349140456628,
+          "relative_regret": 0.0,
+          "datasets": {
+            "cwru": {
+              "mask": 1.241413678441729,
+              "temporal": 0.02884857338808832,
+              "temporal_share": 0.004626195882216614
+            },
+            "femto": {
+              "mask": 0.18445258121937513,
+              "temporal": 0.04507239116355777,
+              "temporal_share": 0.04659438282796687
+            },
+            "ferrara": {
+              "mask": 0.9376618191599846,
+              "temporal": 0.06221068138256669,
+              "temporal_share": 0.013095552550138745
+            },
+            "ims": {
+              "mask": 0.9980204105377197,
+              "temporal": 0.030348664382472634,
+              "temporal_share": 0.006045007927132494
+            },
+            "seu": {
+              "mask": 0.35936825383793225,
+              "temporal": 0.01869187910448421,
+              "temporal_share": 0.010295531713120682
+            },
+            "unsw": {
+              "mask": 0.2816871143877506,
+              "temporal": 0.025855944026261568,
+              "temporal_share": 0.018026979688899065
+            }
+          }
+        }
+      }
+    },
+    "single_milling_norm": {
+      "status": {
+        "state": "complete",
+        "arm": "single_milling_norm",
+        "epoch": 347,
+        "best_epoch": 317,
+        "best_validation": 0.3218935950390023,
+        "reason": "early_stopping"
+      },
+      "domain_minima": {
+        "milling": {
+          "epoch": 317,
+          "minimum": 0.24051758530549708,
+          "at_selected_checkpoint": 0.24051758530549708,
+          "relative_regret": 0.0,
+          "datasets": {
+            "luh_milling": {
+              "mask": 0.2601828332990408,
+              "temporal": 0.03435411513783038,
+              "temporal_share": 0.0257282492292974
+            },
+            "matwi_milling": {
+              "mask": 0.18533567152917385,
+              "temporal": 0.07040931633673608,
+              "temporal_share": 0.07061497015152592
+            },
+            "nonastreda_milling": {
+              "mask": 0.13275981415063143,
+              "temporal": 0.09279847983270884,
+              "temporal_share": 0.12265236618972793
+            },
+            "hmotp_milling": {
+              "mask": 0.31798248551785946,
+              "temporal": 0.13148577231913805,
+              "temporal_share": 0.07638312409419973
+            }
+          }
+        }
+      }
+    },
+    "single_milling_raw": {
+      "status": {
+        "state": "complete",
+        "arm": "single_milling_raw",
+        "epoch": 347,
+        "best_epoch": 317,
+        "best_validation": 0.2381659816717729,
+        "reason": "early_stopping"
+      },
+      "domain_minima": {
+        "milling": {
+          "epoch": 344,
+          "minimum": 0.23810398823115975,
+          "at_selected_checkpoint": 0.2381659816717729,
+          "relative_regret": 0.0002603628820905257,
+          "datasets": {
+            "luh_milling": {
+              "mask": 0.2304326631128788,
+              "temporal": 0.02615102264098823,
+              "temporal_share": 0.022193587732130326
+            },
+            "matwi_milling": {
+              "mask": 0.19061065837740898,
+              "temporal": 0.06930705136619508,
+              "temporal_share": 0.06779121649579442
+            },
+            "nonastreda_milling": {
+              "mask": 0.13679900858551264,
+              "temporal": 0.10085535049438477,
+              "temporal_share": 0.12850264373908946
+            },
+            "hmotp_milling": {
+              "mask": 0.3301764130592346,
+              "temporal": 0.12691249325871468,
+              "temporal_share": 0.07138760361707812
+            }
+          }
+        }
+      }
+    },
+    "smoke": {
+      "status": {
+        "state": "complete",
+        "arm": "joint_pcgrad",
+        "epoch": 1,
+        "best_epoch": 1,
+        "best_validation": 0.9904655611358701,
+        "reason": "smoke"
+      },
+      "domain_minima": {
+        "bearing": {
+          "epoch": 1,
+          "minimum": 3.4834580338007695,
+          "at_selected_checkpoint": 3.4834580338007695,
+          "relative_regret": 0.0,
+          "datasets": {
+            "cwru": {
+              "mask": 2.0034797475451516,
+              "temporal": 0.3269024477118537,
+              "temporal_share": 0.03160217803519264
+            },
+            "femto": {
+              "mask": 3.155313201248646,
+              "temporal": 0.31291576847434044,
+              "temporal_share": 0.01944846781616329
+            },
+            "ferrara": {
+              "mask": 11.921369075775146,
+              "temporal": 0.2987277992069721,
+              "temporal_share": 0.004986644536710082
+            },
+            "ims": {
+              "mask": 1.539265789091587,
+              "temporal": 0.34706389904022217,
+              "temporal_share": 0.043148942958520405
+            },
+            "seu": {
+              "mask": 1.1329768029126255,
+              "temporal": 0.312441116029566,
+              "temporal_share": 0.05227105924528908
+            },
+            "unsw": {
+              "mask": 0.7691604942083359,
+              "temporal": 0.2978644296526909,
+              "temporal_share": 0.07188426019542657
+            }
+          }
+        },
+        "battery": {
+          "epoch": 1,
+          "minimum": 2.25909381210804,
+          "at_selected_checkpoint": 2.25909381210804,
+          "relative_regret": 0.0,
+          "datasets": {
+            "hust": {
+              "mask": 1.5793614834547043,
+              "temporal": 0.30244114995002747,
+              "temporal_share": 0.036886447272623774
+            },
+            "mich_exp": {
+              "mask": 0.9313732832670212,
+              "temporal": 0.30642756074666977,
+              "temporal_share": 0.0617387489360115
+            },
+            "nasa": {
+              "mask": 2.192368283867836,
+              "temporal": 0.31217898055911064,
+              "temporal_share": 0.027690120248667193
+            },
+            "oxford": {
+              "mask": 0.783556193113327,
+              "temporal": 0.33079735189676285,
+              "temporal_share": 0.07786071649828137
+            },
+            "rwth": {
+              "mask": 3.0860958956182003,
+              "temporal": 0.3251902051270008,
+              "temporal_share": 0.020639567321811395
+            },
+            "sdu": {
+              "mask": 1.3114485368132591,
+              "temporal": 0.3099932409822941,
+              "temporal_share": 0.04514090448699718
+            },
+            "xjtu": {
+              "mask": 5.48578816652298,
+              "temporal": 0.3312957212328911,
+              "temporal_share": 0.011934182210236639
+            }
+          }
+        },
+        "milling": {
+          "epoch": 1,
+          "minimum": 0.7803351799026131,
+          "at_selected_checkpoint": 0.7803351799026131,
+          "relative_regret": 0.0,
+          "datasets": {
+            "luh_milling": {
+              "mask": 1.1463721171021461,
+              "temporal": 0.3237621746957302,
+              "temporal_share": 0.053464719900202615
+            },
+            "matwi_milling": {
+              "mask": 0.6421266868710518,
+              "temporal": 0.33347312733531,
+              "temporal_share": 0.09409229703754744
+            },
+            "nonastreda_milling": {
+              "mask": 0.4800931066274643,
+              "temporal": 0.3463073894381523,
+              "temporal_share": 0.12607791004195643
+            },
+            "hmotp_milling": {
+              "mask": 0.5834826752543449,
+              "temporal": 0.3427879773080349,
+              "temporal_share": 0.10514319213187479
+            }
+          }
+        }
+      },
+      "gradients_last50": {
+        "mean_norms": [
+          0.5739671587944031,
+          0.2247132807970047,
+          0.35915225744247437
+        ],
+        "mean_cosine": [
+          [
+            0.9999998807907104,
+            0.4554443955421448,
+            0.5045871734619141
+          ],
+          [
+            0.4554443955421448,
+            1.0,
+            0.4126040041446686
+          ],
+          [
+            0.5045871734619141,
+            0.4126040041446686,
+            1.0
+          ]
+        ],
+        "conflict_frequency": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "applied_direction_mean_cosine": [
+          0.903398871421814,
+          0.6682358980178833,
+          0.7811431288719177
+        ]
+      }
+    }
+  }
+}

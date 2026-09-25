@@ -1,0 +1,279 @@
+{
+  "schema_version": 1,
+  "note": "Dataset NPZ files are intentionally excluded; stage exact external files before running.",
+  "files": [
+    {
+      "relative_path": "processed_health_tokens/battery/calce_cs2_downstream_battery_health_tokens.npz",
+      "category": "processed_health_tokens",
+      "bytes": 8244995,
+      "sha256": "5ccad94ace8355a75b9ccfc8f7466187cd0be2dea9bad34bd4609f9e9dd045e0",
+      "required": true
+    },
+    {
+      "relative_path": "processed_health_tokens/battery/hust_battery_health_tokens.npz",
+      "category": "processed_health_tokens",
+      "bytes": 332812007,
+      "sha256": "427a09e4f41a2652beb1deaf036d59df5d2de450b445f26bbb14262465824007",
+      "required": true
+    },
+    {
+      "relative_path": "processed_health_tokens/battery/isu_ilcc_battery_health_tokens.npz",
+      "category": "processed_health_tokens",
+      "bytes": 1975625579,
+      "sha256": "bebe8675d1ab4f310d8bd21b3570f4b45db831e4edd4bca65304306da7d2d215",
+      "required": true
+    },
+    {
+      "relative_path": "processed_health_tokens/battery/mich_exp_battery_health_tokens.npz",
+      "category": "processed_health_tokens",
+      "bytes": 57405193,
+      "sha256": "0417546fe3f1298627c3046edc2a1a0234a5417b6123d49626e08a338286d37c",
+      "required": true
+    },
+    {
+      "relative_path": "processed_health_tokens/battery/nasa_battery_health_tokens.npz",
+      "category": "processed_health_tokens",
+      "bytes": 9825420,
+      "sha256": "ca43d0fca59da223f821016115207dbe8dce156ca91386f2664c8abb6784b98a",
+      "required": true
+    },
+    {
+      "relative_path": "processed_health_tokens/battery/oxford_battery_health_tokens.npz",
+      "category": "processed_health_tokens",
+      "bytes": 1809242,
+      "sha256": "829eb05495f32bf614c6926e654bbf5b0fffb729342f53be3d61f9593d931332",
+      "required": true
+    },
+    {
+      "relative_path": "processed_health_tokens/battery/rwth_battery_health_tokens.npz",
+      "category": "processed_health_tokens",
+      "bytes": 8347985,
+      "sha256": "e87db248a3578d0d3f8b1f25d08479965789404969e6f9ffa3a96c855e8a9918",
+      "required": true
+    },
+    {
+      "relative_path": "processed_health_tokens/battery/sdu_battery_health_tokens.npz",
+      "category": "processed_health_tokens",
+      "bytes": 183175219,
+      "sha256": "cf03c6b7f96319aad3c51f8fd840857acd86b077daf573e0b6f26411474e2209",
+      "required": true
+    },
+    {
+      "relative_path": "processed_health_tokens/battery/xjtu_battery_health_tokens.npz",
+      "category": "processed_health_tokens",
+      "bytes": 85453502,
+      "sha256": "86463654229ccdf102ec80a2dbe35c82896c6096a5ab8065550e1700b67bf2a0",
+      "required": true
+    },
+    {
+      "relative_path": "processed_health_tokens/bearing/cwru_bearing_health_tokens.npz",
+      "category": "processed_health_tokens",
+      "bytes": 7396805,
+      "sha256": "6018a9177d04c5decd680adfda347cd7d3718c85e190aab61330827718098dea",
+      "required": true
+    },
+    {
+      "relative_path": "processed_health_tokens/bearing/femto_bearing_health_tokens.npz",
+      "category": "processed_health_tokens",
+      "bytes": 4608906,
+      "sha256": "e326dc1d099613942a137a217641b28ed7b62753e306a7007834c38cd1823b7d",
+      "required": true
+    },
+    {
+      "relative_path": "processed_health_tokens/bearing/ferrara_bearing_health_tokens.npz",
+      "category": "processed_health_tokens",
+      "bytes": 42517134,
+      "sha256": "478474b063bf00f9693268a9bd263528c9459cfe1469891c1d6b6aa6572c28ef",
+      "required": true
+    },
+    {
+      "relative_path": "processed_health_tokens/bearing/hust_bearing_health_tokens.npz",
+      "category": "processed_health_tokens",
+      "bytes": 3084087,
+      "sha256": "08516208b8852d3b8f045f64fc8c162b90199b6e27d4f547770dbe0f6d7cd714",
+      "required": true
+    },
+    {
+      "relative_path": "processed_health_tokens/bearing/ims_bearing_health_tokens.npz",
+      "category": "processed_health_tokens",
+      "bytes": 80771954,
+      "sha256": "8035eff45edfad907c74fc94a850d971eeed5ac5cfb3e8d586d7acda3c3fd070",
+      "required": true
+    },
+    {
+      "relative_path": "processed_health_tokens/bearing/kaist_bearing_health_tokens.npz",
+      "category": "processed_health_tokens",
+      "bytes": 35878827,
+      "sha256": "36e34f5ee4605160b62549da057dd6d3ecbd0d3d05e434bf3db949e1824f6b62",
+      "required": true
+    },
+    {
+      "relative_path": "processed_health_tokens/bearing/mfpt_bearing_health_tokens.npz",
+      "category": "processed_health_tokens",
+      "bytes": 77372,
+      "sha256": "9bcd54bc2f6404444524b6fe444106bf3fcc63e59158529bfe3e8c61f32b8244",
+      "required": true
+    },
+    {
+      "relative_path": "processed_health_tokens/bearing/paderborn_bearing_health_tokens.npz",
+      "category": "processed_health_tokens",
+      "bytes": 17902371,
+      "sha256": "a68f6c157483b2587ce3b3211dbc55d8327fd203f683d67185bb5ddff99a0093",
+      "required": true
+    },
+    {
+      "relative_path": "processed_health_tokens/bearing/seu_bearing_health_tokens.npz",
+      "category": "processed_health_tokens",
+      "bytes": 12643285,
+      "sha256": "f99b2aa785f513737ac78ef024b5bcbef32981e43f88b9f700ee0b2614541e8a",
+      "required": true
+    },
+    {
+      "relative_path": "processed_health_tokens/bearing/unsw_bearing_health_tokens.npz",
+      "category": "processed_health_tokens",
+      "bytes": 17013800,
+      "sha256": "d613c7dc839b83d041e6dce47f5b7c3ba5a023e2d34c8c6af2ce54a6d73c9433",
+      "required": true
+    },
+    {
+      "relative_path": "processed_health_tokens/bearing/xjtu_downstream_bearing_health_tokens.npz",
+      "category": "processed_health_tokens",
+      "bytes": 14950705,
+      "sha256": "af1ad3ae3f41e99aed49d35ecb1a5aa410fc0f78fef0f07c1e83c69eb68dffa8",
+      "required": true
+    },
+    {
+      "relative_path": "processed_health_tokens/engine/ncmapss_ds02_downstream_health_tokens.npz",
+      "category": "processed_health_tokens",
+      "bytes": 38610595,
+      "sha256": "1a6f04edbf548f663113dc094cf9927824eae1fa1213be5d6850cf26e83c20a9",
+      "required": true
+    },
+    {
+      "relative_path": "processed_health_tokens/milling/_archive/legacy_names/hmotp_milling_downstream_wear_health_tokens.npz",
+      "category": "processed_health_tokens",
+      "bytes": 6395883,
+      "sha256": "3072de62860463251e4dd3a7b76630b7798a5e126369e204d9749bd2f4e69764",
+      "required": false
+    },
+    {
+      "relative_path": "processed_health_tokens/milling/_archive/legacy_names/nasa_milling_downstream_health_tokens.npz",
+      "category": "processed_health_tokens",
+      "bytes": 1334184,
+      "sha256": "883e976a7d59a4eb773888e6b459d01ef5db670a41990c9f4dabeea0d21142e9",
+      "required": false
+    },
+    {
+      "relative_path": "processed_health_tokens/milling/_archive/legacy_names/nonastreda_milling_snapshot_health_tokens.npz",
+      "category": "processed_health_tokens",
+      "bytes": 3184604,
+      "sha256": "6bb292bcaf0f4e05c1d61147dfe88f4bc993a651fbe01581618f7fbf1b7c0a02",
+      "required": false
+    },
+    {
+      "relative_path": "processed_health_tokens/milling/_archive/legacy_names/qit_cemc_milling_snapshot_health_tokens.npz",
+      "category": "processed_health_tokens",
+      "bytes": 1533228,
+      "sha256": "3b3fc78add7574cd143de79f19b689fbc02edba909dd2c7dc2db3bb6405e0acf",
+      "required": false
+    },
+    {
+      "relative_path": "processed_health_tokens/milling/_archive/qit_cemc_milling_snapshot_force3_health_tokens.npz",
+      "category": "processed_health_tokens",
+      "bytes": 617481,
+      "sha256": "6ed131e993d5797cba0adc0c8eb0de43f0d4866b2613ea95e2ee798577c6d84b",
+      "required": false
+    },
+    {
+      "relative_path": "processed_health_tokens/milling/_archive/qit_cemc_milling_snapshot_pre_candidate8_health_tokens.npz",
+      "category": "processed_health_tokens",
+      "bytes": 1533161,
+      "sha256": "f78ce8f57b94dcd30818fbbf575504a2ed1947f91dae7f81d17171eebadbd612",
+      "required": false
+    },
+    {
+      "relative_path": "processed_health_tokens/milling/hmotp_milling_health_tokens.npz",
+      "category": "processed_health_tokens",
+      "bytes": 6395956,
+      "sha256": "75e4d0bfaa4e2cc0cbb20f4afbf9f53c76d43d9bb3cd378ba740a143e98797a2",
+      "required": true
+    },
+    {
+      "relative_path": "processed_health_tokens/milling/luh_milling_health_tokens.npz",
+      "category": "processed_health_tokens",
+      "bytes": 52717788,
+      "sha256": "0cfda33e4217eb1777802be8d89bcb6eaba4da068274e7bd29c5227a99cacb6d",
+      "required": true
+    },
+    {
+      "relative_path": "processed_health_tokens/milling/matwi_milling_health_tokens.npz",
+      "category": "processed_health_tokens",
+      "bytes": 24246423,
+      "sha256": "22a48f1f27e57702d9ba1fe5c73be253a92aa48f7faf34de681aa2d40ebc4041",
+      "required": true
+    },
+    {
+      "relative_path": "processed_health_tokens/milling/nasa_milling_health_tokens.npz",
+      "category": "processed_health_tokens",
+      "bytes": 1334319,
+      "sha256": "44f8a7cc1915040050bb3b403a529d6f137076c0b6cc7a4e25dfb9e708160791",
+      "required": true
+    },
+    {
+      "relative_path": "processed_health_tokens/milling/nonastreda_milling_health_tokens.npz",
+      "category": "processed_health_tokens",
+      "bytes": 3184742,
+      "sha256": "064dba1c6c0d250d8459f5d3203158f005df76e4362fced54d7a393181ad59e9",
+      "required": true
+    },
+    {
+      "relative_path": "processed_health_tokens/milling/phm2010_milling_downstream_health_tokens.npz",
+      "category": "processed_health_tokens",
+      "bytes": 17292800,
+      "sha256": "829a19999e35081021cdfa0c276e65707adc121b182141d4bf25b525a72ff704",
+      "required": true
+    },
+    {
+      "relative_path": "processed_health_tokens/milling/piecuch_milling_health_tokens.npz",
+      "category": "processed_health_tokens",
+      "bytes": 25231131,
+      "sha256": "c0ff79394c3607d446ab035ad2c4af899456bc72e0117c4cf7801c3c30cb6219",
+      "required": true
+    },
+    {
+      "relative_path": "processed_health_tokens/milling/qit_cemc_milling_health_tokens.npz",
+      "category": "processed_health_tokens",
+      "bytes": 1533326,
+      "sha256": "9f98e9f71168dfaadf9b2215cd9f49c1141d3bf3374db34291f52b0f19335ad7",
+      "required": true
+    },
+    {
+      "relative_path": "processed_health_tokens/milling/qit_cemc_milling_snapshot_health_tokens.npz",
+      "category": "processed_health_tokens",
+      "bytes": 1533326,
+      "sha256": "9f98e9f71168dfaadf9b2215cd9f49c1141d3bf3374db34291f52b0f19335ad7",
+      "required": true
+    },
+    {
+      "relative_path": "processed_raw_patches/battery/calce_cs2_downstream_battery_raw_patches.npz",
+      "category": "processed_raw_patches",
+      "bytes": 10453381,
+      "sha256": "364136857bc674614a333ae7a33da091b8785525b7cc8fe63c4653205b71a864",
+      "required": true
+    },
+    {
+      "relative_path": "processed_raw_patches/bearing/xjtu_downstream_bearing_raw_patches.npz",
+      "category": "processed_raw_patches",
+      "bytes": 17616061,
+      "sha256": "5b030e4fa202983f78952861c4cddcb7ae3fa05f672c7856241fdbc40324d83d",
+      "required": true
+    },
+    {
+      "relative_path": "processed_raw_patches/milling/phm2010_milling_downstream_raw_patches.npz",
+      "category": "processed_raw_patches",
+      "bytes": 17150808,
+      "sha256": "9825ad6400964337e4fdb923b9b7e50740285f7e98f739b42c920d74c89ec50b",
+      "required": true
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "metrics": {
+    "rmse": 0.10411063065023206,
+    "mae": 0.09363242538569316,
+    "r2": 0.8476687800794352,
+    "bias": 0.09324735869572723,
+    "n": 219
+  },
+  "seconds": 92.51375937461853,
+  "best_epoch": 54,
+  "stopped_epoch": 70,
+  "updates": 980,
+  "validation_rmse": 0.005990032785727489,
+  "parameter_count": 571843,
+  "trainable_parameter_count": 571843,
+  "model": "controlled_tcn",
+  "domain": "milling",
+  "fraction": 1.0,
+  "seed": 44,
+  "input_family": "controlled_healthtoken",
+  "split_sha256": "685835228ff087cde6f88540d4477550f77aa498e857d6b77337d8d71631be20",
+  "snapshot_sha256": "b9425763068707f9ab9253f6e8be620bad9177dd350f0afb1192ca3f6f60f347"
+}

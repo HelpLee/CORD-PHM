@@ -1,0 +1,41 @@
+{
+  "comparison": "seven-channel Scratch vs refreshed Milling-only upstream",
+  "source_checkpoint": "/path/to/CORD/code/experiments/A_main/suite/14_upstream_full_milling_sources_refresh/milling_only/training/encoder.pt",
+  "source_checkpoint_sha256": "cf578a88da6edc36f0ce96941f8b099822c35f30c4c7242b657481c5c071dcbd",
+  "train": [
+    "C1",
+    "C4"
+  ],
+  "test": "C6",
+  "channels": 7,
+  "fractions": [
+    0.1,
+    0.2,
+    1.0
+  ],
+  "seeds": [
+    42,
+    43,
+    44,
+    45,
+    46
+  ],
+  "arms": [
+    "frozen_probe",
+    "partial_finetune",
+    "full_finetune"
+  ],
+  "max_epochs": 200,
+  "patience": 15,
+  "validation_interval": 2,
+  "validation": "20% uniform interval subset of independently selected labels per source unit",
+  "batch": 32,
+  "microbatch": 8,
+  "dropout": 0.05,
+  "head_lr": 0.001,
+  "encoder_lr": 0.0001,
+  "weight_decay": 0.0001,
+  "loss": "SmoothL1 beta=0.05",
+  "conv1d_stem": false,
+  "partial": "Block2 + FinalNorm + Adapter2 + downstream head from epoch 1"
+}

@@ -1,0 +1,19 @@
+{
+  "domain": "bearing",
+  "train_units": [
+    "Bearing2_2",
+    "Bearing2_3",
+    "Bearing2_4",
+    "Bearing2_5"
+  ],
+  "source_relative": "code/data_phm/processed_health_tokens/bearing/xjtu_downstream_bearing_health_tokens.npz",
+  "source_sha256": "af1ad3ae3f41e99aed49d35ecb1a5aa410fc0f78fef0f07c1e83c69eb68dffa8",
+  "files": {
+    "cache/x.npy": "5d21acceb3bad7b41144cabb9fa22262279ba073d5adebb7f139e3eb56aebf3c",
+    "cache/arrays.npz": "b158f0bc45d538f759902f19c87a98bc19d4b326b270d3cd4e33df5e27d7a1aa",
+    "cache/manifest.json": "5a2da904d478217714e1871d3d42e4adfb794b37dbf595daaa2ac307d4026341",
+    "global.npy": "5c5dafadd6fb9d5ffe3ccb3298a45e44fa873e7c2c801e17e2a8f8d2f1b73809",
+    "feature_mask.npy": "a4918dd096876761e968a4f09d131a8d9ac38eb915ebdb293c87b49106f31d1d",
+    "reference.npz": "a0bd8fc206cfb26c7360fe90d9d2c840ba344b25f1031e543571dbea1a783c23"
+  }
+}

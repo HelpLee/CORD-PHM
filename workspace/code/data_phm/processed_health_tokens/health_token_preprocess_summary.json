@@ -1,0 +1,8 @@
+[
+  {
+    "dataset": "realhyfc_stack_durability_upstream_fuelcell",
+    "output_path": "data_phm\\processed_health_tokens\\fuelcell\\realhyfc_stack_durability_fuelcell_health_tokens.npz",
+    "num_snapshots": 80,
+    "tokens_per_snapshot": 39
+  }
+]

@@ -1,0 +1,48 @@
+{
+  "seeds": [
+    42,
+    43,
+    44,
+    45,
+    46
+  ],
+  "fractions": [
+    0.1,
+    0.2,
+    1.0
+  ],
+  "arms": [
+    "frozen_probe"
+  ],
+  "train": [
+    "CS2_35",
+    "CS2_36",
+    "CS2_37"
+  ],
+  "test": "CS2_38",
+  "max_epochs": 200,
+  "validation_interval": 2,
+  "patience_epochs": 15,
+  "selection": "lowest validation RMSE",
+  "validation": "20% interval selection within independently selected source labels",
+  "nested": false,
+  "batch": 32,
+  "microbatch": 32,
+  "dropout": 0.05,
+  "loss": "SmoothL1 beta=1",
+  "weight_decay": 0.0001,
+  "scratch_lr": 0.001,
+  "head_lr": 0.001,
+  "pretrained_lr": 0.0001,
+  "clip": 5,
+  "scheduler": null,
+  "precision": "BF16",
+  "frozen_epochs": 0,
+  "partial": "epoch1+ block2/finalnorm/adapter2; other encoder parameters frozen",
+  "partial_early_stop": "active from first validation; no warmup or stage transition",
+  "upstream": "/path/to/CORD/code/experiments/A_main/suite/16_update_matched_all7_fullchannels/three_domain/training/encoder_fixed_1000.pt",
+  "upstream_sha256": "20776652f6900db599cb046f2cbee6e43be49fe72ca03d78e26e95f60126a9a9",
+  "npz": "/path/to/CORD/code/data_phm/processed_health_tokens/battery/calce_cs2_downstream_battery_health_tokens.npz",
+  "npz_sha256": "5ccad94ace8355a75b9ccfc8f7466187cd0be2dea9bad34bd4609f9e9dd045e0",
+  "labels_sha256": "54cba717d18bb178c3faabccd3c0f01c74a461e68839b6e552e8edeafa706bcc"
+}

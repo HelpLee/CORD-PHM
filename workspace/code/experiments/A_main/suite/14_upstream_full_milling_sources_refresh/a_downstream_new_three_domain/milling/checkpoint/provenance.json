@@ -1,0 +1,18 @@
+{
+  "source": "/path/to/CORD/code/experiments/A_main/suite/14_upstream_full_milling_sources_refresh/three_domain/training/encoder.pt",
+  "source_sha256": "5e1dd53474fa8092ffe0000674d23bff1d546b59d1ff9711c1a16f4e9e723bda",
+  "converted": "/path/to/CORD/code/experiments/A_main/suite/14_upstream_full_milling_sources_refresh/a_downstream_new_three_domain/milling/checkpoint/three_domain_refreshed_encoder.pt",
+  "converted_sha256": "37c35852ee4f2f9119df5af2a3263e4c39c82a2145931e73cbcac3249fc6beb4",
+  "strict_load": true,
+  "mapping": {
+    "local_norm.weight": "stems.milling.local.0.weight",
+    "local_norm.bias": "stems.milling.local.0.bias",
+    "local_proj.weight": "stems.milling.local.1.weight",
+    "local_proj.bias": "stems.milling.local.1.bias",
+    "global_norm.weight": "stems.milling.global.0.weight",
+    "global_norm.bias": "stems.milling.global.0.bias",
+    "global_proj.weight": "stems.milling.global.1.weight",
+    "global_proj.bias": "stems.milling.global.1.bias"
+  },
+  "note": "Channel count is not encoded in stem or channel-attention parameters."
+}

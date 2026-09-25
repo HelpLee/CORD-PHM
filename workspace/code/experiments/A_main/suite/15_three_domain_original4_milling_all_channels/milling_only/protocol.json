@@ -1,0 +1,40 @@
+{
+  "seed": 42,
+  "max_epochs": 500,
+  "patience": 30,
+  "min_delta": 0.0001,
+  "updates_per_epoch": 20,
+  "batch_per_domain": 32,
+  "joint_batch": 32,
+  "microbatch": 8,
+  "lr": 0.0001,
+  "weight_decay": 0.0001,
+  "dropout": 0.1,
+  "gradient_clip": 5,
+  "scheduler": null,
+  "architecture": "original joint model plus domain residual LN96-Linear96x24-GELU-Linear24x96 Adapter after each shared Transformer block; zero output initialization; shared GRU96 retained; Milling reconstruction query capacity expanded 3 to 20 for canonical all-channel inputs",
+  "adapter_count": 2,
+  "adapter_parameters": 9840,
+  "reference": "joint_upstream500_adapter_seed42",
+  "objective": "macro mean domains (masked observed-feature MSE + 0.2 * 6-to-1 stop-gradient MSE)",
+  "sampling": "dataset round robin per domain; uniform unit/row and temporal window; no R2F weighting; full eligible pool",
+  "validation": "same deterministic unit-disjoint rule; fixed windows/masks; macro dataset then macro domain",
+  "excluded": [
+    "XJTU bearing downstream",
+    "CALCE CS2",
+    "PHM2010",
+    "ISU-ILCC"
+  ],
+  "initialization": "identical joint initialization then prune bearing/battery modules",
+  "sampling_domain_rng_index": 2,
+  "sources": {
+    "milling": [
+      "luh_milling",
+      "matwi_milling",
+      "nonastreda_milling",
+      "qit_cemc_milling"
+    ]
+  },
+  "only_protocol_change": "the original four Milling pretraining datasets now use every available signal channel; all other data, architecture, sampling, optimization, and objective settings are unchanged",
+  "milling_runtime": "/path/to/CORD/code/experiments/A_main/suite/14_upstream_full_milling_sources_refresh/runtime/milling"
+}

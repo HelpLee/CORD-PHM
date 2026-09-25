@@ -1,0 +1,15 @@
+{
+  "signature": {
+    "source": {
+      "path": "/path/to/CORD/code/data_phm/processed_health_tokens/bearing/unsw_bearing_health_tokens.npz",
+      "bytes": 17013800,
+      "mtime_ns": 1788126222662366800,
+      "version": 4,
+      "row_scoped_globals": true,
+      "selection": "all rows belonging to a genuine ordered sequence of length >=7",
+      "no_cross_boundary": true
+    },
+    "rows_sha256": "cfacdc2dc0891f1fcd41a59388e80a320c035bbfba9e3e07b7f15de1ed07ce01"
+  },
+  "explicit_source_mask": false
+}

@@ -1,0 +1,33 @@
+{
+  "metrics": {
+    "rmse": 0.18317270715433925,
+    "mae": 0.16106160855977922,
+    "r2": 0.6185639966799561,
+    "bias": 0.15720433102467576,
+    "n": 37
+  },
+  "seconds": 2.537666082382202,
+  "validation_rmse": 0.04468402395036143,
+  "feature_count": 204,
+  "model": "native_xgboost",
+  "domain": "bearing",
+  "fraction": 1.0,
+  "seed": 44,
+  "input_family": "native_raw",
+  "split_sha256": "8ae37c77d6c60a96030021ecaffa97e53b0470ca206dc9ae934f26088061d0ec",
+  "snapshot_sha256": "0a86e96f716949a82cc77924c841390a8ae6dfa74fdacc7b6c88fb11a8ea2668",
+  "raw_sha256": "5b030e4fa202983f78952861c4cddcb7ae3fa05f672c7856241fdbc40324d83d",
+  "raw_signal_name": "vibration_amplitude",
+  "native_view": "source_scaled",
+  "normalization": {
+    "source_rows": 527,
+    "center": [
+      0.016889896243810654,
+      -0.015619911253452301
+    ],
+    "iqr": [
+      3.010132074356079,
+      3.645717144012451
+    ]
+  }
+}

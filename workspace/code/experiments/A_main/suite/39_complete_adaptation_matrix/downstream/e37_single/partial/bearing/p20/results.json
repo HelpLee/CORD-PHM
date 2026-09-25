@@ -1,0 +1,135 @@
+{
+  "complete": true,
+  "rows": [
+    {
+      "seed": 42,
+      "fraction": 0.2,
+      "arm": "partial_finetune",
+      "metrics": {
+        "rmse": 0.11744944723502453,
+        "mae": 0.09593821080351198,
+        "r2": 0.843179761685194,
+        "bias": 0.023950248805655015,
+        "n": 37
+      },
+      "head_hash": "7c43d17405a3cb0c4bdf70b5dc1c5f686f2005c7d40cb0431fb9e2489665e75f",
+      "epochs": 32,
+      "best_epoch": 16,
+      "validation_rmse": 0.11105659514293327,
+      "optimizer_updates": 96,
+      "unfrozen_updates": 96,
+      "partial_reached_stage2": true,
+      "sample_order_hash": "650ef6f7343e3f745bfc4cd4c83a648ad7c5abbb9eb92feb7638761c98919435",
+      "seconds": 16.954036712646484
+    },
+    {
+      "seed": 43,
+      "fraction": 0.2,
+      "arm": "partial_finetune",
+      "metrics": {
+        "rmse": 0.1391265437201008,
+        "mae": 0.10994819979611281,
+        "r2": 0.779950620823897,
+        "bias": 0.0547271222379562,
+        "n": 37
+      },
+      "head_hash": "06e22bc78c319eafe9177f2f11dc52a1b3c9a0cd66e73b657d2b3de6d263685c",
+      "epochs": 46,
+      "best_epoch": 30,
+      "validation_rmse": 0.09572765894468854,
+      "optimizer_updates": 138,
+      "unfrozen_updates": 138,
+      "partial_reached_stage2": true,
+      "sample_order_hash": "ee031ff77438e26fe0b1deaefdbd3204c550a21ef494be38eb2421824955ad8a",
+      "seconds": 21.140352964401245
+    },
+    {
+      "seed": 44,
+      "fraction": 0.2,
+      "arm": "partial_finetune",
+      "metrics": {
+        "rmse": 0.18370923726927538,
+        "mae": 0.1491901514095229,
+        "r2": 0.6163262001409722,
+        "bias": 0.057139754396032645,
+        "n": 37
+      },
+      "head_hash": "cc964eefb9c6b17e4290c497e88a101ca9b1f65ed90af87fcd834c5d96157295",
+      "epochs": 38,
+      "best_epoch": 22,
+      "validation_rmse": 0.08619499786465169,
+      "optimizer_updates": 114,
+      "unfrozen_updates": 114,
+      "partial_reached_stage2": true,
+      "sample_order_hash": "62f515224824737de6a0e908f2c113ea4b29420825ad050136f7e9bf8e14b414",
+      "seconds": 17.44386649131775
+    },
+    {
+      "seed": 45,
+      "fraction": 0.2,
+      "arm": "partial_finetune",
+      "metrics": {
+        "rmse": 0.1279424930605299,
+        "mae": 0.1058227634812529,
+        "r2": 0.813907113087865,
+        "bias": 0.01967221574002021,
+        "n": 37
+      },
+      "head_hash": "f756c29ceed4215828ecb7cc14d5dfd051e249a09094d7f7c8683ac2c62072c7",
+      "epochs": 46,
+      "best_epoch": 30,
+      "validation_rmse": 0.0935224637272525,
+      "optimizer_updates": 138,
+      "unfrozen_updates": 138,
+      "partial_reached_stage2": true,
+      "sample_order_hash": "b5b5f4b37e24461e70caae3cdbba378e1e4907261bef840930887a171786a35e",
+      "seconds": 21.034518241882324
+    },
+    {
+      "seed": 46,
+      "fraction": 0.2,
+      "arm": "partial_finetune",
+      "metrics": {
+        "rmse": 0.14075569014131645,
+        "mae": 0.10256218170193401,
+        "r2": 0.7747669715975508,
+        "bias": 0.06822249560138664,
+        "n": 37
+      },
+      "head_hash": "efa585f7e52ca3258998ea5f4f2bbbdf49fb0d9f0ccb991c78eeb212a1184d3b",
+      "epochs": 52,
+      "best_epoch": 36,
+      "validation_rmse": 0.09517866270245019,
+      "optimizer_updates": 156,
+      "unfrozen_updates": 156,
+      "partial_reached_stage2": true,
+      "sample_order_hash": "64a3785e61817dc29ffbe2017f237f3da81155c9844c2de6b1bdba5827d33a9b",
+      "seconds": 23.943635940551758
+    }
+  ],
+  "summary": [
+    {
+      "fraction": 0.2,
+      "arm": "partial_finetune",
+      "n": 5,
+      "metrics": {
+        "rmse": {
+          "mean": 0.14179668228524944,
+          "std": 0.02524679179398373
+        },
+        "mae": {
+          "mean": 0.11269230143846694,
+          "std": 0.021036471763105052
+        },
+        "r2": {
+          "mean": 0.7656261334670957,
+          "std": 0.08792729126084721
+        },
+        "bias": {
+          "mean": 0.04474236735621014,
+          "std": 0.021595900384984736
+        }
+      }
+    }
+  ]
+}

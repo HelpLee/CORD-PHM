@@ -1,0 +1,1141 @@
+{
+  "complete": true,
+  "missing": [],
+  "summary": [
+    {
+      "model": "e37_joint",
+      "mode": "frozen",
+      "domain": "bearing",
+      "fraction": 0.1,
+      "metrics": {
+        "rmse": {
+          "mean": 0.10870411937504672,
+          "std": 0.013689547840545744
+        },
+        "mae": {
+          "mean": 0.08591865620298965,
+          "std": 0.010207195405551513
+        },
+        "r2": {
+          "mean": 0.8635335938771524,
+          "std": 0.03392242494574943
+        }
+      },
+      "source": "/path/to/CORD/code/experiments/A_main/suite/39_complete_adaptation_matrix/downstream/e37_joint/frozen/bearing/p10/results.json"
+    },
+    {
+      "model": "e37_joint",
+      "mode": "frozen",
+      "domain": "bearing",
+      "fraction": 0.2,
+      "metrics": {
+        "rmse": {
+          "mean": 0.12449462649834953,
+          "std": 0.008657674651925297
+        },
+        "mae": {
+          "mean": 0.09942508300615324,
+          "std": 0.00847380478155498
+        },
+        "r2": {
+          "mean": 0.8229497164242252,
+          "std": 0.02533271284089299
+        }
+      },
+      "source": "/path/to/CORD/code/experiments/A_main/suite/39_complete_adaptation_matrix/downstream/e37_joint/frozen/bearing/p20/results.json"
+    },
+    {
+      "model": "e37_joint",
+      "mode": "frozen",
+      "domain": "bearing",
+      "fraction": 1.0,
+      "metrics": {
+        "rmse": {
+          "mean": 0.09914169552416001,
+          "std": 0.014865645067520965
+        },
+        "mae": {
+          "mean": 0.0804833590480927,
+          "std": 0.010845616407424579
+        },
+        "r2": {
+          "mean": 0.8857466486811021,
+          "std": 0.03321555352649017
+        }
+      },
+      "source": "/path/to/CORD/code/experiments/A_main/suite/39_complete_adaptation_matrix/downstream/e37_joint/frozen/bearing/p100/results.json"
+    },
+    {
+      "model": "e37_joint",
+      "mode": "frozen",
+      "domain": "battery",
+      "fraction": 0.1,
+      "metrics": {
+        "rmse": {
+          "mean": 0.07042979377020109,
+          "std": 0.002540772648017081
+        },
+        "mae": {
+          "mean": 0.05222145157181355,
+          "std": 0.0016632423697327298
+        },
+        "r2": {
+          "mean": 0.9401560428979373,
+          "std": 0.004332954708492523
+        }
+      },
+      "source": "/path/to/CORD/code/experiments/A_main/suite/39_complete_adaptation_matrix/downstream/e37_joint/frozen/battery/p10/results.json"
+    },
+    {
+      "model": "e37_joint",
+      "mode": "frozen",
+      "domain": "battery",
+      "fraction": 0.2,
+      "metrics": {
+        "rmse": {
+          "mean": 0.06757038646910464,
+          "std": 0.001033935063031488
+        },
+        "mae": {
+          "mean": 0.04944413319884093,
+          "std": 0.0008094674170426218
+        },
+        "r2": {
+          "mean": 0.9449753720298519,
+          "std": 0.001693870125887727
+        }
+      },
+      "source": "/path/to/CORD/code/experiments/A_main/suite/39_complete_adaptation_matrix/downstream/e37_joint/frozen/battery/p20/results.json"
+    },
+    {
+      "model": "e37_joint",
+      "mode": "frozen",
+      "domain": "battery",
+      "fraction": 1.0,
+      "metrics": {
+        "rmse": {
+          "mean": 0.06362410368407381,
+          "std": 0.0016281342204891916
+        },
+        "mae": {
+          "mean": 0.04536669304437355,
+          "std": 0.002360502967086488
+        },
+        "r2": {
+          "mean": 0.9511943285860849,
+          "std": 0.0024675533650340372
+        }
+      },
+      "source": "/path/to/CORD/code/experiments/A_main/suite/39_complete_adaptation_matrix/downstream/e37_joint/frozen/battery/p100/results.json"
+    },
+    {
+      "model": "e37_joint",
+      "mode": "frozen",
+      "domain": "milling",
+      "fraction": 0.1,
+      "metrics": {
+        "rmse": {
+          "mean": 0.08636189464159164,
+          "std": 0.005252521637916608
+        },
+        "mae": {
+          "mean": 0.06708912205155174,
+          "std": 0.005339868264513931
+        },
+        "r2": {
+          "mean": 0.8947925229500642,
+          "std": 0.012856464786241988
+        }
+      },
+      "source": "/path/to/CORD/code/experiments/A_main/suite/39_complete_adaptation_matrix/downstream/e37_joint/frozen/milling/p10/results.json"
+    },
+    {
+      "model": "e37_joint",
+      "mode": "frozen",
+      "domain": "milling",
+      "fraction": 0.2,
+      "metrics": {
+        "rmse": {
+          "mean": 0.07824191317959509,
+          "std": 0.007183614350515251
+        },
+        "mae": {
+          "mean": 0.06070775449292981,
+          "std": 0.0065881126862766485
+        },
+        "r2": {
+          "mean": 0.9132392546735494,
+          "std": 0.015857184442022824
+        }
+      },
+      "source": "/path/to/CORD/code/experiments/A_main/suite/39_complete_adaptation_matrix/downstream/e37_joint/frozen/milling/p20/results.json"
+    },
+    {
+      "model": "e37_joint",
+      "mode": "frozen",
+      "domain": "milling",
+      "fraction": 1.0,
+      "metrics": {
+        "rmse": {
+          "mean": 0.06579955094265964,
+          "std": 0.009792411855762682
+        },
+        "mae": {
+          "mean": 0.051610283792597245,
+          "std": 0.00915838717257958
+        },
+        "r2": {
+          "mean": 0.9378045827203729,
+          "std": 0.01660689592323752
+        }
+      },
+      "source": "/path/to/CORD/code/experiments/A_main/suite/39_complete_adaptation_matrix/downstream/e37_joint/frozen/milling/p100/results.json"
+    },
+    {
+      "model": "e37_joint",
+      "mode": "partial",
+      "domain": "bearing",
+      "fraction": 0.1,
+      "metrics": {
+        "rmse": {
+          "mean": 0.11752749998863463,
+          "std": 0.017023804731341404
+        },
+        "mae": {
+          "mean": 0.0976690180700373,
+          "std": 0.013824198321845355
+        },
+        "r2": {
+          "mean": 0.8396765767256754,
+          "std": 0.04675693583564663
+        }
+      },
+      "source": "/path/to/CORD/code/experiments/A_main/suite/38_automatic_routing_and_confirmation/downstream/bearing10/e37_joint/partial/bearing/p10/results.json"
+    },
+    {
+      "model": "e37_joint",
+      "mode": "partial",
+      "domain": "bearing",
+      "fraction": 0.2,
+      "metrics": {
+        "rmse": {
+          "mean": 0.135093092792773,
+          "std": 0.015291063199380917
+        },
+        "mae": {
+          "mean": 0.11081452926469815,
+          "std": 0.010741664594726981
+        },
+        "r2": {
+          "mean": 0.7898665537811866,
+          "std": 0.04614268036888168
+        }
+      },
+      "source": "/path/to/CORD/code/experiments/A_main/suite/39_complete_adaptation_matrix/downstream/e37_joint/partial/bearing/p20/results.json"
+    },
+    {
+      "model": "e37_joint",
+      "mode": "partial",
+      "domain": "bearing",
+      "fraction": 1.0,
+      "metrics": {
+        "rmse": {
+          "mean": 0.10631872263795643,
+          "std": 0.016984853568921057
+        },
+        "mae": {
+          "mean": 0.08423288159475133,
+          "std": 0.012281242208522131
+        },
+        "r2": {
+          "mean": 0.8682154877780711,
+          "std": 0.04363609604477629
+        }
+      },
+      "source": "/path/to/CORD/code/experiments/A_main/suite/39_complete_adaptation_matrix/downstream/e37_joint/partial/bearing/p100/results.json"
+    },
+    {
+      "model": "e37_joint",
+      "mode": "partial",
+      "domain": "battery",
+      "fraction": 0.1,
+      "metrics": {
+        "rmse": {
+          "mean": 0.07256798958305719,
+          "std": 0.0035499800015668056
+        },
+        "mae": {
+          "mean": 0.0528848985598692,
+          "std": 0.002771392619454462
+        },
+        "r2": {
+          "mean": 0.9363979828859431,
+          "std": 0.006303077456484171
+        }
+      },
+      "source": "/path/to/CORD/code/experiments/A_main/suite/39_complete_adaptation_matrix/downstream/e37_joint/partial/battery/p10/results.json"
+    },
+    {
+      "model": "e37_joint",
+      "mode": "partial",
+      "domain": "battery",
+      "fraction": 0.2,
+      "metrics": {
+        "rmse": {
+          "mean": 0.07324282390659287,
+          "std": 0.004623656959262617
+        },
+        "mae": {
+          "mean": 0.052396664846282984,
+          "std": 0.0035545458398084065
+        },
+        "r2": {
+          "mean": 0.9351066683954702,
+          "std": 0.008225857515411172
+        }
+      },
+      "source": "/path/to/CORD/code/experiments/A_main/suite/39_complete_adaptation_matrix/downstream/e37_joint/partial/battery/p20/results.json"
+    },
+    {
+      "model": "e37_joint",
+      "mode": "partial",
+      "domain": "battery",
+      "fraction": 1.0,
+      "metrics": {
+        "rmse": {
+          "mean": 0.07394620365452231,
+          "std": 0.007600340676732972
+        },
+        "mae": {
+          "mean": 0.052712742911041444,
+          "std": 0.0036015089863843455
+        },
+        "r2": {
+          "mean": 0.9334208438896514,
+          "std": 0.014255020751414034
+        }
+      },
+      "source": "/path/to/CORD/code/experiments/A_main/suite/39_complete_adaptation_matrix/downstream/e37_joint/partial/battery/p100/results.json"
+    },
+    {
+      "model": "e37_joint",
+      "mode": "partial",
+      "domain": "milling",
+      "fraction": 0.1,
+      "metrics": {
+        "rmse": {
+          "mean": 0.07911773199787273,
+          "std": 0.010397498833768505
+        },
+        "mae": {
+          "mean": 0.06678459639639751,
+          "std": 0.009542502970292981
+        },
+        "r2": {
+          "mean": 0.9105082578423594,
+          "std": 0.023884815028058833
+        }
+      },
+      "source": "/path/to/CORD/code/experiments/A_main/suite/39_complete_adaptation_matrix/downstream/e37_joint/partial/milling/p10/results.json"
+    },
+    {
+      "model": "e37_joint",
+      "mode": "partial",
+      "domain": "milling",
+      "fraction": 0.2,
+      "metrics": {
+        "rmse": {
+          "mean": 0.06598629714325385,
+          "std": 0.004389375475435258
+        },
+        "mae": {
+          "mean": 0.05137138419176481,
+          "std": 0.002447131454405045
+        },
+        "r2": {
+          "mean": 0.9385355883858564,
+          "std": 0.008186439055216668
+        }
+      },
+      "source": "/path/to/CORD/code/experiments/A_main/suite/39_complete_adaptation_matrix/downstream/e37_joint/partial/milling/p20/results.json"
+    },
+    {
+      "model": "e37_joint",
+      "mode": "partial",
+      "domain": "milling",
+      "fraction": 1.0,
+      "metrics": {
+        "rmse": {
+          "mean": 0.049086114882100566,
+          "std": 0.007082672879982652
+        },
+        "mae": {
+          "mean": 0.041329964540354466,
+          "std": 0.00684968546111251
+        },
+        "r2": {
+          "mean": 0.9654327222045229,
+          "std": 0.009904540858889307
+        }
+      },
+      "source": "/path/to/CORD/code/experiments/A_main/suite/39_complete_adaptation_matrix/downstream/e37_joint/partial/milling/p100/results.json"
+    },
+    {
+      "model": "e37_joint",
+      "mode": "full",
+      "domain": "bearing",
+      "fraction": 0.1,
+      "metrics": {
+        "rmse": {
+          "mean": 0.12395311770603656,
+          "std": 0.025870012023069804
+        },
+        "mae": {
+          "mean": 0.09788558963384178,
+          "std": 0.021414211771480195
+        },
+        "r2": {
+          "mean": 0.817722907963164,
+          "std": 0.07681494203879492
+        }
+      },
+      "source": "/path/to/CORD/code/experiments/A_main/suite/37_bearing_sharing_followup/downstream/joint_bearingfloor_cagrad/bearing/p10/results.json"
+    },
+    {
+      "model": "e37_joint",
+      "mode": "full",
+      "domain": "bearing",
+      "fraction": 0.2,
+      "metrics": {
+        "rmse": {
+          "mean": 0.13287618463385925,
+          "std": 0.019103527405481772
+        },
+        "mae": {
+          "mean": 0.10443492053529702,
+          "std": 0.01273977021932643
+        },
+        "r2": {
+          "mean": 0.79512939534132,
+          "std": 0.06235282557515586
+        }
+      },
+      "source": "/path/to/CORD/code/experiments/A_main/suite/37_bearing_sharing_followup/downstream/joint_bearingfloor_cagrad/bearing/p20/results.json"
+    },
+    {
+      "model": "e37_joint",
+      "mode": "full",
+      "domain": "bearing",
+      "fraction": 1.0,
+      "metrics": {
+        "rmse": {
+          "mean": 0.09720441854399528,
+          "std": 0.006381176120037285
+        },
+        "mae": {
+          "mean": 0.07435065224968099,
+          "std": 0.006794914750321387
+        },
+        "r2": {
+          "mean": 0.8921202949192631,
+          "std": 0.01429428493657349
+        }
+      },
+      "source": "/path/to/CORD/code/experiments/A_main/suite/38_automatic_routing_and_confirmation/downstream/baseline/e37_joint/full/bearing/p100/results.json"
+    },
+    {
+      "model": "e37_joint",
+      "mode": "full",
+      "domain": "battery",
+      "fraction": 0.1,
+      "metrics": {
+        "rmse": {
+          "mean": 0.0673483838859638,
+          "std": 0.005704719999173674
+        },
+        "mae": {
+          "mean": 0.04872998495535526,
+          "std": 0.003973971223666961
+        },
+        "r2": {
+          "mean": 0.9449570278649221,
+          "std": 0.00941015562377347
+        }
+      },
+      "source": "/path/to/CORD/code/experiments/A_main/suite/37_bearing_sharing_followup/downstream/joint_bearingfloor_cagrad/battery/p10/results.json"
+    },
+    {
+      "model": "e37_joint",
+      "mode": "full",
+      "domain": "battery",
+      "fraction": 0.2,
+      "metrics": {
+        "rmse": {
+          "mean": 0.06832291315426575,
+          "std": 0.003878303767282002
+        },
+        "mae": {
+          "mean": 0.04840463527519029,
+          "std": 0.003115530497497058
+        },
+        "r2": {
+          "mean": 0.9435748768423814,
+          "std": 0.006441806485628781
+        }
+      },
+      "source": "/path/to/CORD/code/experiments/A_main/suite/37_bearing_sharing_followup/downstream/joint_bearingfloor_cagrad/battery/p20/results.json"
+    },
+    {
+      "model": "e37_joint",
+      "mode": "full",
+      "domain": "battery",
+      "fraction": 1.0,
+      "metrics": {
+        "rmse": {
+          "mean": 0.06323350533666368,
+          "std": 0.004986418244780229
+        },
+        "mae": {
+          "mean": 0.0457598946392218,
+          "std": 0.00447038533017436
+        },
+        "r2": {
+          "mean": 0.9515237036624751,
+          "std": 0.00765464562026575
+        }
+      },
+      "source": "/path/to/CORD/code/experiments/A_main/suite/38_automatic_routing_and_confirmation/downstream/baseline/e37_joint/full/battery/p100/results.json"
+    },
+    {
+      "model": "e37_joint",
+      "mode": "full",
+      "domain": "milling",
+      "fraction": 0.1,
+      "metrics": {
+        "rmse": {
+          "mean": 0.08706922443329682,
+          "std": 0.021909981877246715
+        },
+        "mae": {
+          "mean": 0.07613257177633373,
+          "std": 0.01846798764289198
+        },
+        "r2": {
+          "mean": 0.8867096494120101,
+          "std": 0.05704351726020711
+        }
+      },
+      "source": "/path/to/CORD/code/experiments/A_main/suite/37_bearing_sharing_followup/downstream/joint_bearingfloor_cagrad/milling/p10/results.json"
+    },
+    {
+      "model": "e37_joint",
+      "mode": "full",
+      "domain": "milling",
+      "fraction": 0.2,
+      "metrics": {
+        "rmse": {
+          "mean": 0.060853673415165566,
+          "std": 0.008598186636174399
+        },
+        "mae": {
+          "mean": 0.05292496870794934,
+          "std": 0.008102463678511092
+        },
+        "r2": {
+          "mean": 0.9469168040122782,
+          "std": 0.01358513559928721
+        }
+      },
+      "source": "/path/to/CORD/code/experiments/A_main/suite/37_bearing_sharing_followup/downstream/joint_bearingfloor_cagrad/milling/p20/results.json"
+    },
+    {
+      "model": "e37_joint",
+      "mode": "full",
+      "domain": "milling",
+      "fraction": 1.0,
+      "metrics": {
+        "rmse": {
+          "mean": 0.052953329520467794,
+          "std": 0.014737005329578348
+        },
+        "mae": {
+          "mean": 0.04359344521188709,
+          "std": 0.012129260911362254
+        },
+        "r2": {
+          "mean": 0.9575396869894262,
+          "std": 0.022363336737095597
+        }
+      },
+      "source": "/path/to/CORD/code/experiments/A_main/suite/38_automatic_routing_and_confirmation/downstream/baseline/e37_joint/full/milling/p100/results.json"
+    },
+    {
+      "model": "e37_single",
+      "mode": "frozen",
+      "domain": "bearing",
+      "fraction": 0.1,
+      "metrics": {
+        "rmse": {
+          "mean": 0.12285488607260091,
+          "std": 0.015761484108159363
+        },
+        "mae": {
+          "mean": 0.09841140106924483,
+          "std": 0.018539996703593704
+        },
+        "r2": {
+          "mean": 0.8255885537143068,
+          "std": 0.046429751951251846
+        }
+      },
+      "source": "/path/to/CORD/code/experiments/A_main/suite/39_complete_adaptation_matrix/downstream/e37_single/frozen/bearing/p10/results.json"
+    },
+    {
+      "model": "e37_single",
+      "mode": "frozen",
+      "domain": "bearing",
+      "fraction": 0.2,
+      "metrics": {
+        "rmse": {
+          "mean": 0.13945714157727637,
+          "std": 0.016549266704194678
+        },
+        "mae": {
+          "mean": 0.1141260510662923,
+          "std": 0.007673768479338654
+        },
+        "r2": {
+          "mean": 0.775790035621461,
+          "std": 0.05198379822199319
+        }
+      },
+      "source": "/path/to/CORD/code/experiments/A_main/suite/39_complete_adaptation_matrix/downstream/e37_single/frozen/bearing/p20/results.json"
+    },
+    {
+      "model": "e37_single",
+      "mode": "frozen",
+      "domain": "bearing",
+      "fraction": 1.0,
+      "metrics": {
+        "rmse": {
+          "mean": 0.12186215741322101,
+          "std": 0.009610931892076844
+        },
+        "mae": {
+          "mean": 0.09401995842722623,
+          "std": 0.007702333355089252
+        },
+        "r2": {
+          "mean": 0.830124462727845,
+          "std": 0.027580142953763803
+        }
+      },
+      "source": "/path/to/CORD/code/experiments/A_main/suite/39_complete_adaptation_matrix/downstream/e37_single/frozen/bearing/p100/results.json"
+    },
+    {
+      "model": "e37_single",
+      "mode": "frozen",
+      "domain": "battery",
+      "fraction": 0.1,
+      "metrics": {
+        "rmse": {
+          "mean": 0.0738663352185911,
+          "std": 0.005240733729687919
+        },
+        "mae": {
+          "mean": 0.054693612386447675,
+          "std": 0.003716042065918894
+        },
+        "r2": {
+          "mean": 0.9339281626166223,
+          "std": 0.009516149540192784
+        }
+      },
+      "source": "/path/to/CORD/code/experiments/A_main/suite/39_complete_adaptation_matrix/downstream/e37_single/frozen/battery/p10/results.json"
+    },
+    {
+      "model": "e37_single",
+      "mode": "frozen",
+      "domain": "battery",
+      "fraction": 0.2,
+      "metrics": {
+        "rmse": {
+          "mean": 0.07803563384795983,
+          "std": 0.003723324049304654
+        },
+        "mae": {
+          "mean": 0.0561217649746388,
+          "std": 0.0033896543493719686
+        },
+        "r2": {
+          "mean": 0.9264612698165001,
+          "std": 0.007130312315392241
+        }
+      },
+      "source": "/path/to/CORD/code/experiments/A_main/suite/39_complete_adaptation_matrix/downstream/e37_single/frozen/battery/p20/results.json"
+    },
+    {
+      "model": "e37_single",
+      "mode": "frozen",
+      "domain": "battery",
+      "fraction": 1.0,
+      "metrics": {
+        "rmse": {
+          "mean": 0.06570800348425725,
+          "std": 0.0062171710978606255
+        },
+        "mae": {
+          "mean": 0.04797890347328232,
+          "std": 0.004916768896343446
+        },
+        "r2": {
+          "mean": 0.9475132185873101,
+          "std": 0.010266743598213177
+        }
+      },
+      "source": "/path/to/CORD/code/experiments/A_main/suite/39_complete_adaptation_matrix/downstream/e37_single/frozen/battery/p100/results.json"
+    },
+    {
+      "model": "e37_single",
+      "mode": "frozen",
+      "domain": "milling",
+      "fraction": 0.1,
+      "metrics": {
+        "rmse": {
+          "mean": 0.12448091692853105,
+          "std": 0.014479310615854155
+        },
+        "mae": {
+          "mean": 0.10442560910243012,
+          "std": 0.013850133304931837
+        },
+        "r2": {
+          "mean": 0.7792804358565394,
+          "std": 0.052983145354407665
+        }
+      },
+      "source": "/path/to/CORD/code/experiments/A_main/suite/39_complete_adaptation_matrix/downstream/e37_single/frozen/milling/p10/results.json"
+    },
+    {
+      "model": "e37_single",
+      "mode": "frozen",
+      "domain": "milling",
+      "fraction": 0.2,
+      "metrics": {
+        "rmse": {
+          "mean": 0.11312894068599536,
+          "std": 0.014313918299394324
+        },
+        "mae": {
+          "mean": 0.0936769742986451,
+          "std": 0.013426799377957162
+        },
+        "r2": {
+          "mean": 0.8172556968841898,
+          "std": 0.047597140442282034
+        }
+      },
+      "source": "/path/to/CORD/code/experiments/A_main/suite/39_complete_adaptation_matrix/downstream/e37_single/frozen/milling/p20/results.json"
+    },
+    {
+      "model": "e37_single",
+      "mode": "frozen",
+      "domain": "milling",
+      "fraction": 1.0,
+      "metrics": {
+        "rmse": {
+          "mean": 0.11334627423708088,
+          "std": 0.005041582929978994
+        },
+        "mae": {
+          "mean": 0.09113533246888009,
+          "std": 0.005404268241793477
+        },
+        "r2": {
+          "mean": 0.8190862259007234,
+          "std": 0.01613131401372581
+        }
+      },
+      "source": "/path/to/CORD/code/experiments/A_main/suite/39_complete_adaptation_matrix/downstream/e37_single/frozen/milling/p100/results.json"
+    },
+    {
+      "model": "e37_single",
+      "mode": "partial",
+      "domain": "bearing",
+      "fraction": 0.1,
+      "metrics": {
+        "rmse": {
+          "mean": 0.1210564754305434,
+          "std": 0.02842340088912426
+        },
+        "mae": {
+          "mean": 0.09442463411471327,
+          "std": 0.02336615148253056
+        },
+        "r2": {
+          "mean": 0.8242151057779431,
+          "std": 0.08574894714005309
+        }
+      },
+      "source": "/path/to/CORD/code/experiments/A_main/suite/38_automatic_routing_and_confirmation/downstream/bearing10/e37_single/partial/bearing/p10/results.json"
+    },
+    {
+      "model": "e37_single",
+      "mode": "partial",
+      "domain": "bearing",
+      "fraction": 0.2,
+      "metrics": {
+        "rmse": {
+          "mean": 0.14179668228524944,
+          "std": 0.022581417066052597
+        },
+        "mae": {
+          "mean": 0.11269230143846694,
+          "std": 0.0188155923476231
+        },
+        "r2": {
+          "mean": 0.7656261334670957,
+          "std": 0.07864456013467103
+        }
+      },
+      "source": "/path/to/CORD/code/experiments/A_main/suite/39_complete_adaptation_matrix/downstream/e37_single/partial/bearing/p20/results.json"
+    },
+    {
+      "model": "e37_single",
+      "mode": "partial",
+      "domain": "bearing",
+      "fraction": 1.0,
+      "metrics": {
+        "rmse": {
+          "mean": 0.10344593749268594,
+          "std": 0.016235095801428664
+        },
+        "mae": {
+          "mean": 0.08016573898494243,
+          "std": 0.011699374196762874
+        },
+        "r2": {
+          "mean": 0.8753493507221325,
+          "std": 0.04073002833941574
+        }
+      },
+      "source": "/path/to/CORD/code/experiments/A_main/suite/39_complete_adaptation_matrix/downstream/e37_single/partial/bearing/p100/results.json"
+    },
+    {
+      "model": "e37_single",
+      "mode": "partial",
+      "domain": "battery",
+      "fraction": 0.1,
+      "metrics": {
+        "rmse": {
+          "mean": 0.07138644503063471,
+          "std": 0.002666920134757499
+        },
+        "mae": {
+          "mean": 0.05220208355377696,
+          "std": 0.0016598732825426157
+        },
+        "r2": {
+          "mean": 0.9385134871424479,
+          "std": 0.00459687441814421
+        }
+      },
+      "source": "/path/to/CORD/code/experiments/A_main/suite/39_complete_adaptation_matrix/downstream/e37_single/partial/battery/p10/results.json"
+    },
+    {
+      "model": "e37_single",
+      "mode": "partial",
+      "domain": "battery",
+      "fraction": 0.2,
+      "metrics": {
+        "rmse": {
+          "mean": 0.08176349215243409,
+          "std": 0.0050768858434808
+        },
+        "mae": {
+          "mean": 0.05941414998391029,
+          "std": 0.003416035892816014
+        },
+        "r2": {
+          "mean": 0.9191401959828767,
+          "std": 0.00973731317397241
+        }
+      },
+      "source": "/path/to/CORD/code/experiments/A_main/suite/39_complete_adaptation_matrix/downstream/e37_single/partial/battery/p20/results.json"
+    },
+    {
+      "model": "e37_single",
+      "mode": "partial",
+      "domain": "battery",
+      "fraction": 1.0,
+      "metrics": {
+        "rmse": {
+          "mean": 0.0693353307503314,
+          "std": 0.0011716809769469494
+        },
+        "mae": {
+          "mean": 0.050398139518128035,
+          "std": 0.0004358302129798271
+        },
+        "r2": {
+          "mean": 0.9420603560697165,
+          "std": 0.00195417703861513
+        }
+      },
+      "source": "/path/to/CORD/code/experiments/A_main/suite/39_complete_adaptation_matrix/downstream/e37_single/partial/battery/p100/results.json"
+    },
+    {
+      "model": "e37_single",
+      "mode": "partial",
+      "domain": "milling",
+      "fraction": 0.1,
+      "metrics": {
+        "rmse": {
+          "mean": 0.11935199314120634,
+          "std": 0.009380902635250146
+        },
+        "mae": {
+          "mean": 0.09960908308438106,
+          "std": 0.007896469963719892
+        },
+        "r2": {
+          "mean": 0.7985659779712693,
+          "std": 0.031128686174955476
+        }
+      },
+      "source": "/path/to/CORD/code/experiments/A_main/suite/39_complete_adaptation_matrix/downstream/e37_single/partial/milling/p10/results.json"
+    },
+    {
+      "model": "e37_single",
+      "mode": "partial",
+      "domain": "milling",
+      "fraction": 0.2,
+      "metrics": {
+        "rmse": {
+          "mean": 0.10880770947182836,
+          "std": 0.009511957455992188
+        },
+        "mae": {
+          "mean": 0.0902764825388517,
+          "std": 0.00975415568219577
+        },
+        "r2": {
+          "mean": 0.8323419291344585,
+          "std": 0.028792287985097646
+        }
+      },
+      "source": "/path/to/CORD/code/experiments/A_main/suite/39_complete_adaptation_matrix/downstream/e37_single/partial/milling/p20/results.json"
+    },
+    {
+      "model": "e37_single",
+      "mode": "partial",
+      "domain": "milling",
+      "fraction": 1.0,
+      "metrics": {
+        "rmse": {
+          "mean": 0.09195319393317772,
+          "std": 0.00690645589128095
+        },
+        "mae": {
+          "mean": 0.07452292517763158,
+          "std": 0.005811096787377213
+        },
+        "r2": {
+          "mean": 0.8804979127653974,
+          "std": 0.017826911540570606
+        }
+      },
+      "source": "/path/to/CORD/code/experiments/A_main/suite/39_complete_adaptation_matrix/downstream/e37_single/partial/milling/p100/results.json"
+    },
+    {
+      "model": "e37_single",
+      "mode": "full",
+      "domain": "bearing",
+      "fraction": 0.1,
+      "metrics": {
+        "rmse": {
+          "mean": 0.11208417398274476,
+          "std": 0.019999382553198396
+        },
+        "mae": {
+          "mean": 0.0832791737708691,
+          "std": 0.012683252290804838
+        },
+        "r2": {
+          "mean": 0.8526330051581213,
+          "std": 0.0556978582605933
+        }
+      },
+      "source": "/path/to/CORD/code/experiments/A_main/suite/35_lowlabel_conditional_sharing/downstream/single_bearing_conditional/bearing/p10/results.json"
+    },
+    {
+      "model": "e37_single",
+      "mode": "full",
+      "domain": "bearing",
+      "fraction": 0.2,
+      "metrics": {
+        "rmse": {
+          "mean": 0.14638192589439736,
+          "std": 0.012706471121453034
+        },
+        "mae": {
+          "mean": 0.11002788095659502,
+          "std": 0.011771423289831016
+        },
+        "r2": {
+          "mean": 0.7545657608791922,
+          "std": 0.0424264276439016
+        }
+      },
+      "source": "/path/to/CORD/code/experiments/A_main/suite/35_lowlabel_conditional_sharing/downstream/single_bearing_conditional/bearing/p20/results.json"
+    },
+    {
+      "model": "e37_single",
+      "mode": "full",
+      "domain": "bearing",
+      "fraction": 1.0,
+      "metrics": {
+        "rmse": {
+          "mean": 0.09880633633895425,
+          "std": 0.016428802857142686
+        },
+        "mae": {
+          "mean": 0.07175734644201961,
+          "std": 0.014503905617254915
+        },
+        "r2": {
+          "mean": 0.8859452041895368,
+          "std": 0.03899664740558279
+        }
+      },
+      "source": "/path/to/CORD/code/experiments/A_main/suite/38_automatic_routing_and_confirmation/downstream/baseline/e37_single/full/bearing/p100/results.json"
+    },
+    {
+      "model": "e37_single",
+      "mode": "full",
+      "domain": "battery",
+      "fraction": 0.1,
+      "metrics": {
+        "rmse": {
+          "mean": 0.06889493850650423,
+          "std": 0.0042706048838384155
+        },
+        "mae": {
+          "mean": 0.04919231812198316,
+          "std": 0.0031569347233899275
+        },
+        "r2": {
+          "mean": 0.9425906260609181,
+          "std": 0.00701569880940181
+        }
+      },
+      "source": "/path/to/CORD/code/experiments/A_main/suite/37_bearing_sharing_followup/downstream/single_battery_conditional/battery/p10/results.json"
+    },
+    {
+      "model": "e37_single",
+      "mode": "full",
+      "domain": "battery",
+      "fraction": 0.2,
+      "metrics": {
+        "rmse": {
+          "mean": 0.07352708194998891,
+          "std": 0.0044500395190815315
+        },
+        "mae": {
+          "mean": 0.05328250771662739,
+          "std": 0.003937716239402426
+        },
+        "r2": {
+          "mean": 0.9346229685108817,
+          "std": 0.00800390203131841
+        }
+      },
+      "source": "/path/to/CORD/code/experiments/A_main/suite/37_bearing_sharing_followup/downstream/single_battery_conditional/battery/p20/results.json"
+    },
+    {
+      "model": "e37_single",
+      "mode": "full",
+      "domain": "battery",
+      "fraction": 1.0,
+      "metrics": {
+        "rmse": {
+          "mean": 0.06522233148635448,
+          "std": 0.005738468779718464
+        },
+        "mae": {
+          "mean": 0.046417142661226755,
+          "std": 0.004812715522895914
+        },
+        "r2": {
+          "mean": 0.9483483474805589,
+          "std": 0.009176564589537414
+        }
+      },
+      "source": "/path/to/CORD/code/experiments/A_main/suite/38_automatic_routing_and_confirmation/downstream/baseline/e37_single/full/battery/p100/results.json"
+    },
+    {
+      "model": "e37_single",
+      "mode": "full",
+      "domain": "milling",
+      "fraction": 0.1,
+      "metrics": {
+        "rmse": {
+          "mean": 0.1082475329329167,
+          "std": 0.009825150444638468
+        },
+        "mae": {
+          "mean": 0.0923981676201366,
+          "std": 0.009613680676715796
+        },
+        "r2": {
+          "mean": 0.8339656256014416,
+          "std": 0.03023336039959828
+        }
+      },
+      "source": "/path/to/CORD/code/experiments/A_main/suite/34_shared_degradation_gradient_routing/downstream/single_milling_component/milling/p10/results.json"
+    },
+    {
+      "model": "e37_single",
+      "mode": "full",
+      "domain": "milling",
+      "fraction": 0.2,
+      "metrics": {
+        "rmse": {
+          "mean": 0.09295214669374223,
+          "std": 0.0020564007186405792
+        },
+        "mae": {
+          "mean": 0.07821415263785211,
+          "std": 0.004137553367481584
+        },
+        "r2": {
+          "mean": 0.8785129122225074,
+          "std": 0.005404836549671613
+        }
+      },
+      "source": "/path/to/CORD/code/experiments/A_main/suite/34_shared_degradation_gradient_routing/downstream/single_milling_component/milling/p20/results.json"
+    },
+    {
+      "model": "e37_single",
+      "mode": "full",
+      "domain": "milling",
+      "fraction": 1.0,
+      "metrics": {
+        "rmse": {
+          "mean": 0.07999799518791947,
+          "std": 0.019305575137793504
+        },
+        "mae": {
+          "mean": 0.06709147091852884,
+          "std": 0.017790601128351843
+        },
+        "r2": {
+          "mean": 0.9048211681110272,
+          "std": 0.038985074999298625
+        }
+      },
+      "source": "/path/to/CORD/code/experiments/A_main/suite/38_automatic_routing_and_confirmation/downstream/baseline/e37_single/full/milling/p100/results.json"
+    }
+  ],
+  "protocol": "matched inputs/splits/seeds; scratch full is in E38 baseline"
+}

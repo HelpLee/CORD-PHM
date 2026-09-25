@@ -1,0 +1,12 @@
+{
+  "signature": {
+    "store_manifest": "f2fba5dde8e266393be9915c620ec169b2d2e53d06ee059932ff6b31477dc2d2",
+    "source": "/path/to/CORD/code/data_phm/processed_health_tokens/bearing/kaist_bearing_health_tokens.npz",
+    "version": "row_scoped_v1"
+  },
+  "shape": [
+    3225,
+    2,
+    26
+  ]
+}

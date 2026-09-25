@@ -1,0 +1,17 @@
+{
+  "domain": "milling",
+  "train_units": [
+    "C1",
+    "C4"
+  ],
+  "source_relative": "code/data_phm/processed_health_tokens/milling/phm2010_milling_downstream_health_tokens.npz",
+  "source_sha256": "829a19999e35081021cdfa0c276e65707adc121b182141d4bf25b525a72ff704",
+  "files": {
+    "cache/x.npy": "df64d7722581b08f3313257c5a500b282d0813d9b11d102f1c0e5a278245c213",
+    "cache/arrays.npz": "2825000ad51c95ea4557ceaedfb09ff0036ac94a51e591d397a24544a783d276",
+    "cache/manifest.json": "1fa7d247ebaf2dfa7fab9448f442280432029e018ef80b1ce4b74535948a78d7",
+    "global.npy": "948e571b82a2c7520d25b83661b250de9e3c98b73871a97bbc14376782b10b37",
+    "feature_mask.npy": "bbff2cb4fe287aa03e63bb95247ff08cd7a0f0c7fdc04fa1d9893edd62b5c5c4",
+    "reference.npz": "f34d91fa14603ede7234f13503168e55070cdc3016ffd956b4f17521f506e2ba"
+  }
+}

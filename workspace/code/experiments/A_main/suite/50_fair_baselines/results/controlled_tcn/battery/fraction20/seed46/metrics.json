@@ -1,0 +1,23 @@
+{
+  "metrics": {
+    "rmse": 0.06724353207181524,
+    "mae": 0.04997360581043102,
+    "r2": 0.9455191733414461,
+    "bias": -0.03943010420054436,
+    "n": 937
+  },
+  "seconds": 142.14246201515198,
+  "best_epoch": 104,
+  "stopped_epoch": 120,
+  "updates": 1560,
+  "validation_rmse": 0.02928143052718794,
+  "parameter_count": 227863,
+  "trainable_parameter_count": 227863,
+  "model": "controlled_tcn",
+  "domain": "battery",
+  "fraction": 0.2,
+  "seed": 46,
+  "input_family": "controlled_healthtoken",
+  "split_sha256": "1dc14d5fca70698c9a54d043013f97c2a513feb2132e48205ccf7a302339e355",
+  "snapshot_sha256": "ea59a063c9be3acf3d1e764c958f9c2c287ec8970c9b1f757c192fba762bcd1a"
+}

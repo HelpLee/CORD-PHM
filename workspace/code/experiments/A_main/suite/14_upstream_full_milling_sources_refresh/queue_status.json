@@ -1,0 +1,6 @@
+{
+  "state": "paused_by_user",
+  "stage": "three_domain",
+  "resumable_checkpoint_epoch": 12,
+  "note": "Paused before the seven-channel Milling downstream transfer matrix. Restart queue.py to resume with --resume."
+}

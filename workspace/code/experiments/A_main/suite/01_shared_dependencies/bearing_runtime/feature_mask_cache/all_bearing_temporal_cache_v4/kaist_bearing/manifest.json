@@ -1,0 +1,15 @@
+{
+  "signature": {
+    "source": {
+      "path": "/path/to/CORD/code/data_phm/processed_health_tokens/bearing/kaist_bearing_health_tokens.npz",
+      "bytes": 35878827,
+      "mtime_ns": 1788123933367184200,
+      "version": 4,
+      "row_scoped_globals": true,
+      "selection": "all rows belonging to a genuine ordered sequence of length >=7",
+      "no_cross_boundary": true
+    },
+    "rows_sha256": "1b2715452c334373613b4aa1d4f46d3f0adaa902be4fd3694e98407bc8e1f3c7"
+  },
+  "explicit_source_mask": false
+}

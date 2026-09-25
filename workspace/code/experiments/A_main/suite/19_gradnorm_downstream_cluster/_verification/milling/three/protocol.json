@@ -1,0 +1,27 @@
+{
+  "seeds": [
+    42,
+    43,
+    44,
+    45,
+    46
+  ],
+  "fractions": [
+    0.1,
+    0.2,
+    1.0
+  ],
+  "arm": "frozen_probe",
+  "max_epochs": 200,
+  "patience": 15,
+  "validation_interval": 2,
+  "train": [
+    "C1",
+    "C4"
+  ],
+  "test": "C6",
+  "channels": 7,
+  "precision": "BF16",
+  "source_sha256": "20776652f6900db599cb046f2cbee6e43be49fe72ca03d78e26e95f60126a9a9",
+  "validation": "20% interval within selected source labels"
+}

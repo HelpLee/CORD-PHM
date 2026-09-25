@@ -1,0 +1,39 @@
+{
+  "purpose": "Representative predictor baselines under the immutable A_main downstream protocol",
+  "baseline_families": {
+    "native": "Raw waveform amplitudes, source-only normalization, model-native temporal processing; tree models receive waveform statistics only",
+    "controlled": "The same complete HealthToken local/global values and validity masks as TRACE; no upstream pretraining except disclosed external MOMENT"
+  },
+  "comparison_rule": "Same train/validation/test devices, label budgets, seeds, target, metrics and validation checkpoint rule; never mix legacy archived results with this protocol.",
+  "domains": {
+    "milling": {"train": ["C1", "C4"], "test": "C6", "history": 20, "loss_beta": 0.05},
+    "battery": {"train": ["CS2_35", "CS2_36", "CS2_37"], "test": "CS2_38", "history": 20, "loss_beta": 1.0},
+    "bearing": {"train": ["Bearing2_2", "Bearing2_3", "Bearing2_4", "Bearing2_5"], "test": "Bearing2_1", "history": 6, "loss_beta": 0.05}
+  },
+  "fractions": [0.1, 0.2, 1.0],
+  "seeds": [42, 43, 44, 45, 46],
+  "validation": "20% interval selection within independently selected source labels",
+  "nested_labels": false,
+  "test_usage": "metrics only; excluded from scaling, fitting, validation, stopping, and hyperparameter choice",
+  "metrics": ["rmse", "mae", "r2", "bias"],
+  "neural_training": {
+    "max_epochs": 200,
+    "validation_interval": 2,
+    "patience_epochs": 15,
+    "selection": "lowest validation RMSE",
+    "effective_batch": 32,
+    "optimizer": "AdamW",
+    "weight_decay": 0.0001,
+    "gradient_clip": 5.0,
+    "precision": "BF16 on CUDA"
+  },
+  "models": {
+    "svr_rbf": {"pretraining": "none", "input": "complete flattened HealthToken history and masks", "selection": "fixed prespecified hyperparameters; validation is reported but not used for test tuning"},
+    "cnn_lstm_attention": {"pretraining": "none", "input": "complete HealthToken history through native local-position CNN"},
+    "patchtst": {"pretraining": "none", "input": "complete HealthToken history through learned snapshot interface and temporal patches"},
+    "itransformer": {"pretraining": "none", "input": "same complete HealthToken snapshot interface as PatchTST; learned variate histories as attention tokens; scalar RUL head"},
+    "moment_frozen": {"pretraining": "AutonLab/MOMENT-1-base", "backbone": "frozen", "trainable": "HealthToken interface and RUL head"},
+    "moment_full": {"pretraining": "AutonLab/MOMENT-1-base", "backbone": "full fine-tune", "trainable": "all parameters"}
+  },
+  "external_pretraining_disclosure": "MOMENT results must be marked as external pretraining and must not be interpreted as architecture-only comparisons."
+}

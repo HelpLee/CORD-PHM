@@ -1,0 +1,8 @@
+{
+  "state": "paused_by_user",
+  "fraction": 0.2,
+  "next_seed": 43,
+  "completed_transfer_rows": 18,
+  "target_transfer_rows": 45,
+  "resume": "run queue.py again; completed rows are detected automatically"
+}

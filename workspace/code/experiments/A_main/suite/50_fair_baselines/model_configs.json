@@ -1,0 +1,95 @@
+{
+  "native_xgboost": {
+    "n_estimators": 400, "max_depth": 5, "learning_rate": 0.05,
+    "subsample": 0.9, "colsample_bytree": 0.9, "n_jobs": 4
+  },
+  "native_random_forest": {
+    "n_estimators": 400, "max_depth": 16, "min_samples_leaf": 2, "n_jobs": 1
+  },
+  "native_cnn_lstm_attention": {
+    "width": 64, "hidden": 96, "dropout": 0.05,
+    "learning_rate": 0.001, "microbatch": 8
+  },
+  "native_tcn": {
+    "width": 64, "hidden": 96, "dropout": 0.05,
+    "learning_rate": 0.001, "microbatch": 8
+  },
+  "native_patchtst": {
+    "width": 96, "heads": 4, "layers": 3, "patch_len": 32, "stride": 16,
+    "dropout": 0.05, "learning_rate": 0.001, "microbatch": 4
+  },
+  "native_itransformer": {
+    "width": 96, "heads": 4, "layers": 3,
+    "dropout": 0.05, "learning_rate": 0.001, "microbatch": 8
+  },
+  "native_moment_frozen": {
+    "model_id": "AutonLab/MOMENT-1-base", "revision": "main",
+    "interface_channels": 8, "interface_learning_rate": 0.001,
+    "backbone_learning_rate": 0.0, "microbatch": 2
+  },
+  "native_moment_full": {
+    "model_id": "AutonLab/MOMENT-1-base", "revision": "main",
+    "interface_channels": 8, "interface_learning_rate": 0.0003,
+    "backbone_learning_rate": 0.00001, "microbatch": 1
+  },
+  "controlled_mlp": {
+    "hidden": 128, "dropout": 0.05, "learning_rate": 0.001, "microbatch": 8
+  },
+  "controlled_tcn": {
+    "hidden": 96, "dropout": 0.05, "learning_rate": 0.001, "microbatch": 8
+  },
+  "controlled_cnn_lstm_attention": {
+    "snapshot_dim": 96,
+    "cnn_width": 64,
+    "lstm_hidden": 96,
+    "dropout": 0.05,
+    "learning_rate": 0.001,
+    "microbatch": 8
+  },
+  "controlled_patchtst": {
+    "interface_variables": 16,
+    "d_model": 96,
+    "n_heads": 4,
+    "n_layers": 3,
+    "d_ff": 192,
+    "patch_len_by_history": {
+      "6": 2,
+      "20": 4
+    },
+    "stride_by_history": {
+      "6": 1,
+      "20": 2
+    },
+    "dropout": 0.05,
+    "learning_rate": 0.001,
+    "microbatch": 8
+  },
+  "controlled_itransformer": {
+    "interface_variables": 16,
+    "d_model": 96,
+    "n_heads": 4,
+    "n_layers": 3,
+    "d_ff": 192,
+    "dropout": 0.05,
+    "learning_rate": 0.001,
+    "microbatch": 8
+  },
+  "controlled_moment_frozen": {
+    "model_id": "AutonLab/MOMENT-1-base",
+    "revision": "main",
+    "interface_channels": 8,
+    "sequence_length": 512,
+    "interface_learning_rate": 0.001,
+    "backbone_learning_rate": 0.0,
+    "microbatch": 2
+  },
+  "controlled_moment_full": {
+    "model_id": "AutonLab/MOMENT-1-base",
+    "revision": "main",
+    "interface_channels": 8,
+    "sequence_length": 512,
+    "interface_learning_rate": 0.0003,
+    "backbone_learning_rate": 0.00001,
+    "microbatch": 1
+  }
+}

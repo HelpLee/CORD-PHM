@@ -1,0 +1,1152 @@
+{
+  "complete": true,
+  "missing": [],
+  "summary": [
+    {
+      "model": "scratch",
+      "mode": "full",
+      "domain": "bearing",
+      "fraction": 0.1,
+      "metrics": {
+        "rmse": {
+          "mean": 0.14626469685709204,
+          "std": 0.03926449887696734
+        },
+        "mae": {
+          "mean": 0.11724519050000487,
+          "std": 0.029199237239157808
+        },
+        "r2": {
+          "mean": 0.7427698915219751,
+          "std": 0.14064521234002791
+        }
+      },
+      "source": "/path/to/CORD/code/experiments/A_main/suite/38_automatic_routing_and_confirmation/downstream/baseline/scratch/full/bearing/p10/results.json"
+    },
+    {
+      "model": "scratch",
+      "mode": "full",
+      "domain": "bearing",
+      "fraction": 0.2,
+      "metrics": {
+        "rmse": {
+          "mean": 0.14001314103054177,
+          "std": 0.014525543171932115
+        },
+        "mae": {
+          "mean": 0.10812724539758385,
+          "std": 0.011158272531205283
+        },
+        "r2": {
+          "mean": 0.7752182015412505,
+          "std": 0.0452686295969223
+        }
+      },
+      "source": "/path/to/CORD/code/experiments/A_main/suite/38_automatic_routing_and_confirmation/downstream/baseline/scratch/full/bearing/p20/results.json"
+    },
+    {
+      "model": "scratch",
+      "mode": "full",
+      "domain": "bearing",
+      "fraction": 1.0,
+      "metrics": {
+        "rmse": {
+          "mean": 0.11220918396166456,
+          "std": 0.023271778142675826
+        },
+        "mae": {
+          "mean": 0.08544354182038758,
+          "std": 0.01427287251112556
+        },
+        "r2": {
+          "mean": 0.8519358465993637,
+          "std": 0.0636961642678012
+        }
+      },
+      "source": "/path/to/CORD/code/experiments/A_main/suite/38_automatic_routing_and_confirmation/downstream/baseline/scratch/full/bearing/p100/results.json"
+    },
+    {
+      "model": "scratch",
+      "mode": "full",
+      "domain": "battery",
+      "fraction": 0.1,
+      "metrics": {
+        "rmse": {
+          "mean": 0.07106141628693724,
+          "std": 0.00906813414746034
+        },
+        "mae": {
+          "mean": 0.051628432399916324,
+          "std": 0.0065406993113441775
+        },
+        "r2": {
+          "mean": 0.9383644109537065,
+          "std": 0.014584313764308311
+        }
+      },
+      "source": "/path/to/CORD/code/experiments/A_main/suite/38_automatic_routing_and_confirmation/downstream/baseline/scratch/full/battery/p10/results.json"
+    },
+    {
+      "model": "scratch",
+      "mode": "full",
+      "domain": "battery",
+      "fraction": 0.2,
+      "metrics": {
+        "rmse": {
+          "mean": 0.06804357914305649,
+          "std": 0.006040856002235403
+        },
+        "mae": {
+          "mean": 0.04968217622892277,
+          "std": 0.005609797630217004
+        },
+        "r2": {
+          "mean": 0.9438633181559553,
+          "std": 0.01011625558791674
+        }
+      },
+      "source": "/path/to/CORD/code/experiments/A_main/suite/38_automatic_routing_and_confirmation/downstream/baseline/scratch/full/battery/p20/results.json"
+    },
+    {
+      "model": "scratch",
+      "mode": "full",
+      "domain": "battery",
+      "fraction": 1.0,
+      "metrics": {
+        "rmse": {
+          "mean": 0.0596916577591161,
+          "std": 0.00850399123485463
+        },
+        "mae": {
+          "mean": 0.043470715963865134,
+          "std": 0.007280504868644011
+        },
+        "r2": {
+          "mean": 0.9563720346320731,
+          "std": 0.01251216265408019
+        }
+      },
+      "source": "/path/to/CORD/code/experiments/A_main/suite/38_automatic_routing_and_confirmation/downstream/baseline/scratch/full/battery/p100/results.json"
+    },
+    {
+      "model": "scratch",
+      "mode": "full",
+      "domain": "milling",
+      "fraction": 0.1,
+      "metrics": {
+        "rmse": {
+          "mean": 0.11693250302751598,
+          "std": 0.005904764969911998
+        },
+        "mae": {
+          "mean": 0.09586865319253783,
+          "std": 0.00478154399542856
+        },
+        "r2": {
+          "mean": 0.8074452194968499,
+          "std": 0.01910165728282825
+        }
+      },
+      "source": "/path/to/CORD/code/experiments/A_main/suite/38_automatic_routing_and_confirmation/downstream/baseline/scratch/full/milling/p10/results.json"
+    },
+    {
+      "model": "scratch",
+      "mode": "full",
+      "domain": "milling",
+      "fraction": 0.2,
+      "metrics": {
+        "rmse": {
+          "mean": 0.10067713755673126,
+          "std": 0.011268752855820149
+        },
+        "mae": {
+          "mean": 0.08046857983163094,
+          "std": 0.011356773250313708
+        },
+        "r2": {
+          "mean": 0.8561229344859098,
+          "std": 0.03175279195739429
+        }
+      },
+      "source": "/path/to/CORD/code/experiments/A_main/suite/38_automatic_routing_and_confirmation/downstream/baseline/scratch/full/milling/p20/results.json"
+    },
+    {
+      "model": "scratch",
+      "mode": "full",
+      "domain": "milling",
+      "fraction": 1.0,
+      "metrics": {
+        "rmse": {
+          "mean": 0.07817009527707253,
+          "std": 0.024721924136587622
+        },
+        "mae": {
+          "mean": 0.06075014342473114,
+          "std": 0.01968257463935412
+        },
+        "r2": {
+          "mean": 0.9072508429173095,
+          "std": 0.053017536802963575
+        }
+      },
+      "source": "/path/to/CORD/code/experiments/A_main/suite/38_automatic_routing_and_confirmation/downstream/baseline/scratch/full/milling/p100/results.json"
+    },
+    {
+      "model": "e37_single",
+      "mode": "full",
+      "domain": "bearing",
+      "fraction": 0.1,
+      "metrics": {
+        "rmse": {
+          "mean": 0.11208417398274476,
+          "std": 0.02235998944848746
+        },
+        "mae": {
+          "mean": 0.0832791737708691,
+          "std": 0.014180307149009775
+        },
+        "r2": {
+          "mean": 0.8526330051581215,
+          "std": 0.06227209863591741
+        }
+      },
+      "source": "/path/to/CORD/code/experiments/A_main/suite/35_lowlabel_conditional_sharing/downstream/single_bearing_conditional/bearing/p10/results.json"
+    },
+    {
+      "model": "e37_single",
+      "mode": "full",
+      "domain": "bearing",
+      "fraction": 0.2,
+      "metrics": {
+        "rmse": {
+          "mean": 0.14638192589439736,
+          "std": 0.014206266590853483
+        },
+        "mae": {
+          "mean": 0.110027880956595,
+          "std": 0.013160851333993182
+        },
+        "r2": {
+          "mean": 0.7545657608791922,
+          "std": 0.047434188127120115
+        }
+      },
+      "source": "/path/to/CORD/code/experiments/A_main/suite/35_lowlabel_conditional_sharing/downstream/single_bearing_conditional/bearing/p20/results.json"
+    },
+    {
+      "model": "e37_single",
+      "mode": "full",
+      "domain": "bearing",
+      "fraction": 1.0,
+      "metrics": {
+        "rmse": {
+          "mean": 0.09880633633895425,
+          "std": 0.01836795998875691
+        },
+        "mae": {
+          "mean": 0.07175734644201961,
+          "std": 0.016215859449711517
+        },
+        "r2": {
+          "mean": 0.8859452041895368,
+          "std": 0.043599577246736965
+        }
+      },
+      "source": "/path/to/CORD/code/experiments/A_main/suite/38_automatic_routing_and_confirmation/downstream/baseline/e37_single/full/bearing/p100/results.json"
+    },
+    {
+      "model": "e37_single",
+      "mode": "full",
+      "domain": "battery",
+      "fraction": 0.1,
+      "metrics": {
+        "rmse": {
+          "mean": 0.06889493850650423,
+          "std": 0.004774681412652646
+        },
+        "mae": {
+          "mean": 0.04919231812198315,
+          "std": 0.0035295603210146863
+        },
+        "r2": {
+          "mean": 0.9425906260609183,
+          "std": 0.007843789723743394
+        }
+      },
+      "source": "/path/to/CORD/code/experiments/A_main/suite/37_bearing_sharing_followup/downstream/single_battery_conditional/battery/p10/results.json"
+    },
+    {
+      "model": "e37_single",
+      "mode": "full",
+      "domain": "battery",
+      "fraction": 0.2,
+      "metrics": {
+        "rmse": {
+          "mean": 0.07352708194998891,
+          "std": 0.0049752954336133885
+        },
+        "mae": {
+          "mean": 0.05328250771662739,
+          "std": 0.00440250059370433
+        },
+        "r2": {
+          "mean": 0.9346229685108818,
+          "std": 0.008948634513638308
+        }
+      },
+      "source": "/path/to/CORD/code/experiments/A_main/suite/37_bearing_sharing_followup/downstream/single_battery_conditional/battery/p20/results.json"
+    },
+    {
+      "model": "e37_single",
+      "mode": "full",
+      "domain": "battery",
+      "fraction": 1.0,
+      "metrics": {
+        "rmse": {
+          "mean": 0.06522233148635448,
+          "std": 0.006415803139105375
+        },
+        "mae": {
+          "mean": 0.046417142661226755,
+          "std": 0.005380779532781854
+        },
+        "r2": {
+          "mean": 0.9483483474805589,
+          "std": 0.010259711111061555
+        }
+      },
+      "source": "/path/to/CORD/code/experiments/A_main/suite/38_automatic_routing_and_confirmation/downstream/baseline/e37_single/full/battery/p100/results.json"
+    },
+    {
+      "model": "e37_single",
+      "mode": "full",
+      "domain": "milling",
+      "fraction": 0.1,
+      "metrics": {
+        "rmse": {
+          "mean": 0.10824753293291668,
+          "std": 0.01098485214168695
+        },
+        "mae": {
+          "mean": 0.09239816762013658,
+          "std": 0.01074842175355635
+        },
+        "r2": {
+          "mean": 0.8339656256014417,
+          "std": 0.033801924520875985
+        }
+      },
+      "source": "/path/to/CORD/code/experiments/A_main/suite/34_shared_degradation_gradient_routing/downstream/single_milling_component/milling/p10/results.json"
+    },
+    {
+      "model": "e37_single",
+      "mode": "full",
+      "domain": "milling",
+      "fraction": 0.2,
+      "metrics": {
+        "rmse": {
+          "mean": 0.09295214669374224,
+          "std": 0.002299125897929877
+        },
+        "mae": {
+          "mean": 0.07821415263785211,
+          "std": 0.004625925295110994
+        },
+        "r2": {
+          "mean": 0.8785129122225074,
+          "std": 0.006042790966170572
+        }
+      },
+      "source": "/path/to/CORD/code/experiments/A_main/suite/34_shared_degradation_gradient_routing/downstream/single_milling_component/milling/p20/results.json"
+    },
+    {
+      "model": "e37_single",
+      "mode": "full",
+      "domain": "milling",
+      "fraction": 1.0,
+      "metrics": {
+        "rmse": {
+          "mean": 0.07999799518791947,
+          "std": 0.021584289176418074
+        },
+        "mae": {
+          "mean": 0.06709147091852884,
+          "std": 0.019890496741789592
+        },
+        "r2": {
+          "mean": 0.9048211681110272,
+          "std": 0.043586638903179646
+        }
+      },
+      "source": "/path/to/CORD/code/experiments/A_main/suite/38_automatic_routing_and_confirmation/downstream/baseline/e37_single/full/milling/p100/results.json"
+    },
+    {
+      "model": "e37_joint",
+      "mode": "full",
+      "domain": "bearing",
+      "fraction": 0.1,
+      "metrics": {
+        "rmse": {
+          "mean": 0.12395311770603655,
+          "std": 0.02892355273116047
+        },
+        "mae": {
+          "mean": 0.09788558963384177,
+          "std": 0.023941816602802955
+        },
+        "r2": {
+          "mean": 0.817722907963164,
+          "std": 0.08588171604322586
+        }
+      },
+      "source": "/path/to/CORD/code/experiments/A_main/suite/37_bearing_sharing_followup/downstream/joint_bearingfloor_cagrad/bearing/p10/results.json"
+    },
+    {
+      "model": "e37_joint",
+      "mode": "full",
+      "domain": "bearing",
+      "fraction": 0.2,
+      "metrics": {
+        "rmse": {
+          "mean": 0.13287618463385922,
+          "std": 0.021358392944343715
+        },
+        "mae": {
+          "mean": 0.104434920535297,
+          "std": 0.014243496114070652
+        },
+        "r2": {
+          "mean": 0.79512939534132,
+          "std": 0.06971257828761797
+        }
+      },
+      "source": "/path/to/CORD/code/experiments/A_main/suite/37_bearing_sharing_followup/downstream/joint_bearingfloor_cagrad/bearing/p20/results.json"
+    },
+    {
+      "model": "e37_joint",
+      "mode": "full",
+      "domain": "bearing",
+      "fraction": 1.0,
+      "metrics": {
+        "rmse": {
+          "mean": 0.0972044185439953,
+          "std": 0.007134371790400864
+        },
+        "mae": {
+          "mean": 0.07435065224968099,
+          "std": 0.007596945641517316
+        },
+        "r2": {
+          "mean": 0.8921202949192631,
+          "std": 0.015981496403964797
+        }
+      },
+      "source": "/path/to/CORD/code/experiments/A_main/suite/38_automatic_routing_and_confirmation/downstream/baseline/e37_joint/full/bearing/p100/results.json"
+    },
+    {
+      "model": "e37_joint",
+      "mode": "full",
+      "domain": "battery",
+      "fraction": 0.1,
+      "metrics": {
+        "rmse": {
+          "mean": 0.0673483838859638,
+          "std": 0.0063780708553774395
+        },
+        "mae": {
+          "mean": 0.04872998495535526,
+          "std": 0.0044430348983736725
+        },
+        "r2": {
+          "mean": 0.944957027864922,
+          "std": 0.010520873826804708
+        }
+      },
+      "source": "/path/to/CORD/code/experiments/A_main/suite/37_bearing_sharing_followup/downstream/joint_bearingfloor_cagrad/battery/p10/results.json"
+    },
+    {
+      "model": "e37_joint",
+      "mode": "full",
+      "domain": "battery",
+      "fraction": 0.2,
+      "metrics": {
+        "rmse": {
+          "mean": 0.06832291315426575,
+          "std": 0.0043360754305180405
+        },
+        "mae": {
+          "mean": 0.048404635275190296,
+          "std": 0.0034832689891885803
+        },
+        "r2": {
+          "mean": 0.9435748768423814,
+          "std": 0.007202158599882488
+        }
+      },
+      "source": "/path/to/CORD/code/experiments/A_main/suite/37_bearing_sharing_followup/downstream/joint_bearingfloor_cagrad/battery/p20/results.json"
+    },
+    {
+      "model": "e37_joint",
+      "mode": "full",
+      "domain": "battery",
+      "fraction": 1.0,
+      "metrics": {
+        "rmse": {
+          "mean": 0.06323350533666368,
+          "std": 0.00557498507978689
+        },
+        "mae": {
+          "mean": 0.04575989463922181,
+          "std": 0.0049980427419438565
+        },
+        "r2": {
+          "mean": 0.951523703662475,
+          "std": 0.008558153975292629
+        }
+      },
+      "source": "/path/to/CORD/code/experiments/A_main/suite/38_automatic_routing_and_confirmation/downstream/baseline/e37_joint/full/battery/p100/results.json"
+    },
+    {
+      "model": "e37_joint",
+      "mode": "full",
+      "domain": "milling",
+      "fraction": 0.1,
+      "metrics": {
+        "rmse": {
+          "mean": 0.08706922443329682,
+          "std": 0.024496104431656056
+        },
+        "mae": {
+          "mean": 0.07613257177633373,
+          "std": 0.020647837888566292
+        },
+        "r2": {
+          "mean": 0.88670964941201,
+          "std": 0.06377659113475283
+        }
+      },
+      "source": "/path/to/CORD/code/experiments/A_main/suite/37_bearing_sharing_followup/downstream/joint_bearingfloor_cagrad/milling/p10/results.json"
+    },
+    {
+      "model": "e37_joint",
+      "mode": "full",
+      "domain": "milling",
+      "fraction": 0.2,
+      "metrics": {
+        "rmse": {
+          "mean": 0.06085367341516557,
+          "std": 0.009613064900858103
+        },
+        "mae": {
+          "mean": 0.052924968707949334,
+          "std": 0.0090588297851869
+        },
+        "r2": {
+          "mean": 0.9469168040122781,
+          "std": 0.015188643341779273
+        }
+      },
+      "source": "/path/to/CORD/code/experiments/A_main/suite/37_bearing_sharing_followup/downstream/joint_bearingfloor_cagrad/milling/p20/results.json"
+    },
+    {
+      "model": "e37_joint",
+      "mode": "full",
+      "domain": "milling",
+      "fraction": 1.0,
+      "metrics": {
+        "rmse": {
+          "mean": 0.0529533295204678,
+          "std": 0.01647647285085694
+        },
+        "mae": {
+          "mean": 0.043593445211887086,
+          "std": 0.013560925957318528
+        },
+        "r2": {
+          "mean": 0.957539686989426,
+          "std": 0.025002970573932047
+        }
+      },
+      "source": "/path/to/CORD/code/experiments/A_main/suite/38_automatic_routing_and_confirmation/downstream/baseline/e37_joint/full/milling/p100/results.json"
+    }
+  ],
+  "paired": [
+    {
+      "model": "e37_single",
+      "mode": "full",
+      "domain": "bearing",
+      "fraction": 0.1,
+      "reference": "scratch",
+      "deltas": {
+        "rmse": [
+          -0.026908241456119655,
+          -0.10971635234179615,
+          -0.05214606805800093,
+          -0.0019833379069658374,
+          0.019851385391146142
+        ],
+        "mae": [
+          -0.021803886705153694,
+          -0.08870728454879813,
+          -0.0456273567837638,
+          -0.011083728558308373,
+          -0.0026078270496548844
+        ],
+        "r2": [
+          0.06645959824137238,
+          0.37347985368997294,
+          0.167378395243019,
+          0.00483173781542412,
+          -0.06283401680905687
+        ]
+      },
+      "rmse_wins": 4,
+      "relative_rmse_change": -0.23368949315051313
+    },
+    {
+      "model": "e37_single",
+      "mode": "full",
+      "domain": "bearing",
+      "fraction": 0.2,
+      "reference": "scratch",
+      "deltas": {
+        "rmse": [
+          0.026589183876839326,
+          -0.0200650634132023,
+          0.022718739247328756,
+          -0.003825135569639204,
+          0.006426200177951286
+        ],
+        "mae": [
+          0.012801050032312813,
+          -0.02023650917249757,
+          0.02493812234417811,
+          -0.0043580723372665525,
+          -0.0036414130716710402
+        ],
+        "r2": [
+          -0.07955703111936152,
+          0.06418675699905363,
+          -0.07655563342437177,
+          0.011880103822462074,
+          -0.023216399588073755
+        ]
+      },
+      "rmse_wins": 2,
+      "relative_rmse_change": 0.04548705083665195
+    },
+    {
+      "model": "e37_single",
+      "mode": "full",
+      "domain": "bearing",
+      "fraction": 1.0,
+      "reference": "scratch",
+      "deltas": {
+        "rmse": [
+          -0.015971093790234633,
+          -0.06821798179430354,
+          0.02755745049425365,
+          -0.0018405940179303942,
+          -0.008542019005336646
+        ],
+        "mae": [
+          -0.016679872934882697,
+          -0.05177283488415382,
+          0.019931710451035894,
+          -0.005145550982372182,
+          -0.014764428541466992
+        ],
+        "r2": [
+          0.037182698463703145,
+          0.17867351413280141,
+          -0.07086332313944987,
+          0.0036195842863910865,
+          0.021434314207419702
+        ]
+      },
+      "rmse_wins": 4,
+      "relative_rmse_change": -0.1194451928933847
+    },
+    {
+      "model": "e37_single",
+      "mode": "full",
+      "domain": "battery",
+      "fraction": 0.1,
+      "reference": "scratch",
+      "deltas": {
+        "rmse": [
+          -0.004666501966263878,
+          -0.010281308508843845,
+          0.019310617982837563,
+          -0.009899086444553645,
+          -0.005296109965341245
+        ],
+        "mae": [
+          -0.0033528216067888403,
+          -0.008725138975500167,
+          0.011867339318278255,
+          -0.007785726946916753,
+          -0.0041842231787383374
+        ],
+        "r2": [
+          0.007973874555169291,
+          0.01844461133616715,
+          -0.03043460439857104,
+          0.015894686871223196,
+          0.009252507172070157
+        ]
+      },
+      "rmse_wins": 4,
+      "relative_rmse_change": -0.030487399402300674
+    },
+    {
+      "model": "e37_single",
+      "mode": "full",
+      "domain": "battery",
+      "fraction": 0.2,
+      "reference": "scratch",
+      "deltas": {
+        "rmse": [
+          0.011140769344534812,
+          0.0005956450600608093,
+          0.006719204943267637,
+          0.008547107029604838,
+          0.00041478765719400734
+        ],
+        "mae": [
+          0.007742787769964822,
+          -0.000942244330617889,
+          0.0061328732999977945,
+          0.006001522832151537,
+          -0.0009332821329731608
+        ],
+        "r2": [
+          -0.020026556326141143,
+          -0.0009927116091471566,
+          -0.01081507029000095,
+          -0.013594041825907621,
+          -0.0007733681741705078
+        ]
+      },
+      "rmse_wins": 0,
+      "relative_rmse_change": 0.08058810068476512
+    },
+    {
+      "model": "e37_single",
+      "mode": "full",
+      "domain": "battery",
+      "fraction": 1.0,
+      "reference": "scratch",
+      "deltas": {
+        "rmse": [
+          0.0005000567907876285,
+          -0.012319688984044147,
+          0.01599951398260107,
+          0.0003098584981216512,
+          0.0231636283487257
+        ],
+        "mae": [
+          -0.003061943485728573,
+          -0.01345779863459514,
+          0.013565318588378145,
+          0.0016201556488283156,
+          0.01606640136992537
+        ],
+        "r2": [
+          -0.0007794197424623173,
+          0.019404806133795582,
+          -0.023268196568938637,
+          -0.0004414740781956139,
+          -0.03503415150177003
+        ]
+      },
+      "rmse_wins": 1,
+      "relative_rmse_change": 0.092654048067441
+    },
+    {
+      "model": "e37_single",
+      "mode": "full",
+      "domain": "milling",
+      "fraction": 0.1,
+      "reference": "scratch",
+      "deltas": {
+        "rmse": [
+          0.00253370265200438,
+          -0.01684966582145353,
+          -0.0010227587967015506,
+          -0.012801611544916922,
+          -0.015284516961928896
+        ],
+        "mae": [
+          0.011397877104206172,
+          -0.008764520083388239,
+          -0.00030659016681043594,
+          -0.005584767692165288,
+          -0.014094427023848444
+        ],
+        "r2": [
+          -0.00870501503721366,
+          0.052138436926751575,
+          0.003284436277166791,
+          0.03648356318151269,
+          0.04940060917474176
+        ]
+      },
+      "rmse_wins": 4,
+      "relative_rmse_change": -0.0742733617235201
+    },
+    {
+      "model": "e37_single",
+      "mode": "full",
+      "domain": "milling",
+      "fraction": 0.2,
+      "reference": "scratch",
+      "deltas": {
+        "rmse": [
+          -0.011249806412131053,
+          -0.017728363056598653,
+          0.006304716162828544,
+          -0.01866619399658105,
+          0.002714692987537168
+        ],
+        "mae": [
+          -0.009768502897323533,
+          -0.01549322341811167,
+          0.015130005878944919,
+          -0.007453773017615489,
+          0.006313357485211599
+        ],
+        "r2": [
+          0.030658740036928256,
+          0.050044052917324056,
+          -0.016476137534993995,
+          0.05456837698139094,
+          -0.006845143717661428
+        ]
+      },
+      "rmse_wins": 3,
+      "relative_rmse_change": -0.0767303386892183
+    },
+    {
+      "model": "e37_single",
+      "mode": "full",
+      "domain": "milling",
+      "fraction": 1.0,
+      "reference": "scratch",
+      "deltas": {
+        "rmse": [
+          0.054085870769179714,
+          0.015064139742616889,
+          0.023210939633976857,
+          -0.059592355025613136,
+          -0.023629095565925573
+        ],
+        "mae": [
+          0.050823621128655995,
+          0.016928488431183705,
+          0.029662370222480326,
+          -0.046680408874399046,
+          -0.01902743343893251
+        ],
+        "r2": [
+          -0.10811611645837971,
+          -0.0322539980970713,
+          -0.05561348342064043,
+          0.1253593221775331,
+          0.058475901767146565
+        ]
+      },
+      "rmse_wins": 2,
+      "relative_rmse_change": 0.023383621375514398
+    },
+    {
+      "model": "e37_joint",
+      "mode": "full",
+      "domain": "bearing",
+      "fraction": 0.1,
+      "reference": "scratch",
+      "deltas": {
+        "rmse": [
+          -0.03432814991007049,
+          -0.08550164638081331,
+          0.0009712394126458468,
+          0.009334151904241555,
+          -0.002033490781281011
+        ],
+        "mae": [
+          -0.030492454767227173,
+          -0.06009175245826309,
+          -0.0031863084516009776,
+          0.0032237611106924052,
+          -0.006251249764416669
+        ],
+        "r2": [
+          0.08189006559285661,
+          0.31458895262624764,
+          -0.0037039758181497406,
+          -0.023940482027187127,
+          0.005930521832176905
+        ]
+      },
+      "rmse_wins": 3,
+      "relative_rmse_change": -0.1525424769645885
+    },
+    {
+      "model": "e37_joint",
+      "mode": "full",
+      "domain": "bearing",
+      "fraction": 0.2,
+      "reference": "scratch",
+      "deltas": {
+        "rmse": [
+          0.01613084955703202,
+          -0.032332277850458765,
+          0.03197080359460325,
+          -0.022434530783799214,
+          -0.029019626500790013
+        ],
+        "mae": [
+          0.01291183714528342,
+          -0.024077000549516156,
+          0.023263358989277394,
+          -0.009243224923675117,
+          -0.021316594972803776
+        ],
+        "r2": [
+          -0.04634695896060148,
+          0.0989197091395756,
+          -0.11109516866591185,
+          0.0649309157995801,
+          0.0931474716877051
+        ]
+      },
+      "rmse_wins": 3,
+      "relative_rmse_change": -0.050973475376327175
+    },
+    {
+      "model": "e37_joint",
+      "mode": "full",
+      "domain": "bearing",
+      "fraction": 1.0,
+      "reference": "scratch",
+      "deltas": {
+        "rmse": [
+          -0.02155334841494863,
+          -0.0518450663033158,
+          -0.000253350703177585,
+          0.020350007076866156,
+          -0.0217220687437705
+        ],
+        "mae": [
+          -0.018148660257055943,
+          -0.03316455797569172,
+          -0.002844795181944554,
+          0.015389741675273794,
+          -0.016696176114114558
+        ],
+        "r2": [
+          0.04881107738715462,
+          0.14544043951756025,
+          0.0005713846579592508,
+          -0.04515264873609748,
+          0.0512519887729207
+        ]
+      },
+      "rmse_wins": 4,
+      "relative_rmse_change": -0.13372136653979713
+    },
+    {
+      "model": "e37_joint",
+      "mode": "full",
+      "domain": "battery",
+      "fraction": 0.1,
+      "reference": "scratch",
+      "deltas": {
+        "rmse": [
+          -0.004256115567888449,
+          -0.012352264705017005,
+          0.003794260891303608,
+          -0.007392315356998344,
+          0.0016412727337329902
+        ],
+        "mae": [
+          -0.0039181874880096015,
+          -0.010542611538839057,
+          0.002174125378007187,
+          -0.0038801862449726124,
+          0.0016746226710087492
+        ],
+        "r2": [
+          0.007293672739833057,
+          0.02185167592691961,
+          -0.005270617098312114,
+          0.012092908304840444,
+          -0.003004555317203339
+        ]
+      },
+      "rmse_wins": 3,
+      "relative_rmse_change": -0.0522510329090638
+    },
+    {
+      "model": "e37_joint",
+      "mode": "full",
+      "domain": "battery",
+      "fraction": 0.2,
+      "reference": "scratch",
+      "deltas": {
+        "rmse": [
+          -0.00573500633415823,
+          -0.002211689480693807,
+          0.010795398039127505,
+          0.004554827656117179,
+          -0.006006859824346358
+        ],
+        "mae": [
+          -0.006921964120060173,
+          -0.003155494279753944,
+          0.008542975122576207,
+          0.003276632387059858,
+          -0.00812985387848434
+        ],
+        "r2": [
+          0.009143088677273203,
+          0.0036112269318685497,
+          -0.017906207937192775,
+          -0.007025286558711152,
+          0.010734972318892755
+        ]
+      },
+      "rmse_wins": 3,
+      "relative_rmse_change": 0.004105222193294373
+    },
+    {
+      "model": "e37_joint",
+      "mode": "full",
+      "domain": "battery",
+      "fraction": 1.0,
+      "reference": "scratch",
+      "deltas": {
+        "rmse": [
+          -0.00806086366278621,
+          -0.008917464261469887,
+          0.013977463733700436,
+          0.0010953298068318365,
+          0.01961477227146175
+        ],
+        "mae": [
+          -0.009623545334299703,
+          -0.009095071977960577,
+          0.012169842841352155,
+          0.003217976954800403,
+          0.014776690892891096
+        ],
+        "r2": [
+          0.011732699160993953,
+          0.014411494480898734,
+          -0.019986979886247203,
+          -0.0015709485530189804,
+          -0.028827920050617073
+        ]
+      },
+      "rmse_wins": 2,
+      "relative_rmse_change": 0.059335721447720646
+    },
+    {
+      "model": "e37_joint",
+      "mode": "full",
+      "domain": "milling",
+      "fraction": 0.1,
+      "reference": "scratch",
+      "deltas": {
+        "rmse": [
+          -0.021412102018510876,
+          -0.047821379555088805,
+          0.00787295757787887,
+          -0.026320288190159746,
+          -0.06163558078521533
+        ],
+        "mae": [
+          -0.01364988962945328,
+          -0.029926275213559478,
+          0.011405610874907615,
+          -0.017548588789217015,
+          -0.048961264323698336
+        ],
+        "r2": [
+          0.06635944138413685,
+          0.1271596948504531,
+          -0.026267098503381492,
+          0.07001008729991087,
+          0.15906002454468116
+        ]
+      },
+      "rmse_wins": 4,
+      "relative_rmse_change": -0.2553890306033379
+    },
+    {
+      "model": "e37_joint",
+      "mode": "full",
+      "domain": "milling",
+      "fraction": 0.2,
+      "reference": "scratch",
+      "deltas": {
+        "rmse": [
+          -0.032781656368331885,
+          -0.06470968166862825,
+          -0.02566198313669997,
+          -0.0487661220721199,
+          -0.027197877462048388
+        ],
+        "mae": [
+          -0.023149084657022395,
+          -0.05145433308667244,
+          -0.012087412892955632,
+          -0.034337244468600786,
+          -0.016689980513156823
+        ],
+        "r2": [
+          0.07941882197310945,
+          0.13993795992117708,
+          0.055533682361211145,
+          0.12193269996300893,
+          0.05714618341333488
+        ]
+      },
+      "rmse_wins": 5,
+      "relative_rmse_change": -0.3955561819497031
+    },
+    {
+      "model": "e37_joint",
+      "mode": "full",
+      "domain": "milling",
+      "fraction": 1.0,
+      "reference": "scratch",
+      "deltas": {
+        "rmse": [
+          -0.00024209268664285993,
+          -0.012895096978127851,
+          0.0019083637062398962,
+          -0.046546447815304,
+          -0.06830855500918882
+        ],
+        "mae": [
+          -0.0015149045412398907,
+          -0.009004324963784109,
+          0.011959779616360251,
+          -0.034693941635560235,
+          -0.05253009953999628
+        ],
+        "r2": [
+          0.000299093028123254,
+          0.022542862214951387,
+          -0.004001108777770823,
+          0.10644990365523754,
+          0.1261534702400412
+        ]
+      },
+      "rmse_wins": 4,
+      "relative_rmse_change": -0.32258839735610334
+    }
+  ],
+  "caveat": "Exploratory methods informed by previous test results. Five downstream seeds, one upstream seed. All cells reported; no automatic best-method selection."
+}

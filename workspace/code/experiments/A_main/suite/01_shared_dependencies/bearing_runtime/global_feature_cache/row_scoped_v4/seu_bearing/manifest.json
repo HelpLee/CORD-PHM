@@ -1,0 +1,12 @@
+{
+  "signature": {
+    "store_manifest": "016d273110698959205c20203928e1eda635925137675f9472e005d3840d20a3",
+    "source": "/path/to/CORD/code/data_phm/processed_health_tokens/bearing/seu_bearing_health_tokens.npz",
+    "version": "row_scoped_v1"
+  },
+  "shape": [
+    280,
+    8,
+    26
+  ]
+}

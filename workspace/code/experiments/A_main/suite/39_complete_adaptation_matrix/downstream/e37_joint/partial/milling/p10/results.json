@@ -1,0 +1,190 @@
+{
+  "complete": true,
+  "rows": [
+    {
+      "seed": 42,
+      "arm": "partial_finetune",
+      "train": [
+        "C1",
+        "C4"
+      ],
+      "held": "C6",
+      "best": {
+        "epoch": 42,
+        "stage": 2,
+        "metrics": {
+          "rmse": 0.06614024117698626,
+          "mae": 0.04201141744852066,
+          "r2": 0.9566457457464671,
+          "bias": -0.004268370568752289,
+          "n": 12
+        }
+      },
+      "optimizer_updates": 116,
+      "metrics": {
+        "rmse": 0.0756022327557478,
+        "mae": 0.065893790038243,
+        "r2": 0.9196718048794073,
+        "bias": -0.004024105439957691,
+        "n": 219
+      },
+      "initial_encoder_hash": "fe7a70dec05be371f609fb5a3a94ceef22a98452e716758beef2c2f5e8d3b43d",
+      "final_encoder_hash": "cf6f505ddfd26d7f7b920cc44f94926bf50b1ac83ae56815ba0f939f5ac5bc84",
+      "head_hash": "2b77b2c8126c973810f2bed6dd2c22c5e4ab2619bdb1a32aa86ccf1743401c18",
+      "sample_order_hash": "9034b314810be24309af380e028ecce51f579a341290d9e9e760ff08fa44da9d",
+      "seconds": 17.392338752746582,
+      "fraction": 0.1,
+      "model": "e37_joint",
+      "encoder_lr": 0.0003,
+      "head_lr": 0.001
+    },
+    {
+      "seed": 43,
+      "arm": "partial_finetune",
+      "train": [
+        "C1",
+        "C4"
+      ],
+      "held": "C6",
+      "best": {
+        "epoch": 22,
+        "stage": 2,
+        "metrics": {
+          "rmse": 0.06149101672272478,
+          "mae": 0.044281220994889736,
+          "r2": 0.962526563689338,
+          "bias": -0.006516325908402602,
+          "n": 12
+        }
+      },
+      "optimizer_updates": 76,
+      "metrics": {
+        "rmse": 0.06818544175996687,
+        "mae": 0.05947709354448672,
+        "r2": 0.9346595557777216,
+        "bias": -0.020220683330508398,
+        "n": 219
+      },
+      "initial_encoder_hash": "fe7a70dec05be371f609fb5a3a94ceef22a98452e716758beef2c2f5e8d3b43d",
+      "final_encoder_hash": "467be686fad6dab8b55eba5b5fd0383e6e09d78b8e1d6ac32627ce98c750d941",
+      "head_hash": "a07d6694c674f605ac56cb5b324b62aa34c0a5a6ea14084e6efa5605479efa9f",
+      "sample_order_hash": "5b91cfc4d115d7c9cf6c41abefd20e72181c020167e9cf7eb6497a376d25ed8f",
+      "seconds": 8.859129667282104,
+      "fraction": 0.1,
+      "model": "e37_joint",
+      "encoder_lr": 0.0003,
+      "head_lr": 0.001
+    },
+    {
+      "seed": 44,
+      "arm": "partial_finetune",
+      "train": [
+        "C1",
+        "C4"
+      ],
+      "held": "C6",
+      "best": {
+        "epoch": 36,
+        "stage": 2,
+        "metrics": {
+          "rmse": 0.06890253695806915,
+          "mae": 0.04520829953253269,
+          "r2": 0.9529488115901693,
+          "bias": -0.015386842812101046,
+          "n": 12
+        }
+      },
+      "optimizer_updates": 104,
+      "metrics": {
+        "rmse": 0.09563628072781129,
+        "mae": 0.08005012970281654,
+        "r2": 0.8714582755295972,
+        "bias": -0.01941305361092771,
+        "n": 219
+      },
+      "initial_encoder_hash": "fe7a70dec05be371f609fb5a3a94ceef22a98452e716758beef2c2f5e8d3b43d",
+      "final_encoder_hash": "787209c46cde315dcb23c9f84e2c78eb087449b0635d5eea2fb3eac1bbc1fb61",
+      "head_hash": "b17de1b8c6d3daaf36b7ef31bd4b0f065c83e2d17957ce2841fca56f2065112e",
+      "sample_order_hash": "f0c00875e6d6beb40a076a87ee342ad955a010c8749afbd9eac68f641a3c3566",
+      "seconds": 12.14157485961914,
+      "fraction": 0.1,
+      "model": "e37_joint",
+      "encoder_lr": 0.0003,
+      "head_lr": 0.001
+    },
+    {
+      "seed": 45,
+      "arm": "partial_finetune",
+      "train": [
+        "C1",
+        "C4"
+      ],
+      "held": "C6",
+      "best": {
+        "epoch": 44,
+        "stage": 2,
+        "metrics": {
+          "rmse": 0.06902067467955149,
+          "mae": 0.04812620704372724,
+          "r2": 0.9527873288450298,
+          "bias": -0.016719200958808262,
+          "n": 12
+        }
+      },
+      "optimizer_updates": 120,
+      "metrics": {
+        "rmse": 0.06990739882121594,
+        "mae": 0.05394829230034324,
+        "r2": 0.9313176650411913,
+        "bias": -0.04117274911623431,
+        "n": 219
+      },
+      "initial_encoder_hash": "fe7a70dec05be371f609fb5a3a94ceef22a98452e716758beef2c2f5e8d3b43d",
+      "final_encoder_hash": "4591be85711b193423c36e71a3ede791cb60234411f85d5dae7b248db53ba3a9",
+      "head_hash": "00c3e5d582c76e674337f5650817c185c4fa89b9db75511baf014f8432eb8f1a",
+      "sample_order_hash": "a309f9fa567c98ab8c76cf7ecaf855496b958a67e4b0d747e26b3ddb7d5e8aaf",
+      "seconds": 14.030632019042969,
+      "fraction": 0.1,
+      "model": "e37_joint",
+      "encoder_lr": 0.0003,
+      "head_lr": 0.001
+    },
+    {
+      "seed": 46,
+      "arm": "partial_finetune",
+      "train": [
+        "C1",
+        "C4"
+      ],
+      "held": "C6",
+      "best": {
+        "epoch": 20,
+        "stage": 2,
+        "metrics": {
+          "rmse": 0.06477789470697588,
+          "mae": 0.05236964672803879,
+          "r2": 0.9584133602462261,
+          "bias": 0.002496756613254547,
+          "n": 12
+        }
+      },
+      "optimizer_updates": 72,
+      "metrics": {
+        "rmse": 0.08625730592462177,
+        "mae": 0.07455367639609804,
+        "r2": 0.8954339879838797,
+        "bias": 0.0013825610390604903,
+        "n": 219
+      },
+      "initial_encoder_hash": "fe7a70dec05be371f609fb5a3a94ceef22a98452e716758beef2c2f5e8d3b43d",
+      "final_encoder_hash": "072fb38dde161af6c7812e22a02299452ac2e3802da5254fca27d7c6a5ba8819",
+      "head_hash": "032a6e3421eb9b1762e615ac3fef4f502595b273c0115555ae0f30d1cc0a7fe8",
+      "sample_order_hash": "b3004fcda3acf76cfc6b672cd26b1a3ee8077369d5b8fdcd9d4fcd3e6377fad0",
+      "seconds": 8.412172079086304,
+      "fraction": 0.1,
+      "model": "e37_joint",
+      "encoder_lr": 0.0003,
+      "head_lr": 0.001
+    }
+  ]
+}

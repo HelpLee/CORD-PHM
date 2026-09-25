@@ -1,0 +1,41 @@
+# Local environments and credentials
+.env
+.env.*
+.venv/
+venv/
+env/
+*.pem
+*.key
+
+# Python and test caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Editors and operating systems
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+*~
+*.swp
+
+# Runtime and scheduler artifacts
+*.log
+slurm-*.out
+*.tmp
+*.bak
+
+# Data arrays are external by design
+*.npz
+*.npy
+*.h5
+*.hdf5
+*.parquet
+
+# Never commit a nested repository or local staging directory
+.git/
+_staging/

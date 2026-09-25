@@ -1,0 +1,33 @@
+{
+  "dataset": "xjtu_downstream_bearing",
+  "output": "/path/to/CORD/code/data_phm/processed_raw_patches/bearing/xjtu_downstream_bearing_raw_patches.npz",
+  "samples": 9216,
+  "x_raw_local_shape": [
+    9216,
+    2,
+    64,
+    26
+  ],
+  "x_raw_global_shape": [
+    9216,
+    2,
+    26
+  ],
+  "paired_handcrafted_sha256": "af1ad3ae3f41e99aed49d35ecb1a5aa410fc0f78fef0f07c1e83c69eb68dffa8",
+  "output_sha256": "5b030e4fa202983f78952861c4cddcb7ae3fa05f672c7856241fdbc40324d83d",
+  "representation": "parameter_free_raw_waveform_26",
+  "paired_handcrafted_npz": "/path/to/CORD/code/data_phm/processed_health_tokens/bearing/xjtu_downstream_bearing_health_tokens.npz",
+  "sample_alignment": "exact row order, labels, token_mask and c_mask inherited from paired handcrafted NPZ",
+  "x_raw_local_semantics": "[N,C,64,26]; each inherited raw window is linearly resampled to 26 values",
+  "x_raw_global_semantics": "[N,C,26]; complete raw observation linearly resampled to 26 values",
+  "raw_signal_name": "vibration_amplitude",
+  "normalization": "none in preprocessing; downstream applies source-only channel/position median-IQR, asinh and clipping exactly like Handcrafted-26",
+  "raw_roots": [
+    "/path/to/CORD/code/data_phm/raw/Bearing/XJTU"
+  ],
+  "physical_channels": [
+    "horizontal_vibration",
+    "vertical_vibration"
+  ],
+  "window_alignment": "reference token_start_points and window_points; no re-derived split"
+}
