@@ -1,9 +1,0 @@
-{
-  "upstream": "14_upstream_full_milling_sources_refresh/three_domain",
-  "arms": [
-    "frozen_probe",
-    "partial_finetune",
-    "full_finetune"
-  ],
-  "shared_scratch": "40_downstream_bearing_scratch"
-}

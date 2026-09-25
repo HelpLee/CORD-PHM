@@ -1,0 +1,9 @@
+{
+  "upstream": "cutting_tool_source_pretraining/three_domain",
+  "arms": [
+    "frozen_probe",
+    "partial_finetune",
+    "full_finetune"
+  ],
+  "shared_scratch": "30_downstream_battery_scratch"
+}

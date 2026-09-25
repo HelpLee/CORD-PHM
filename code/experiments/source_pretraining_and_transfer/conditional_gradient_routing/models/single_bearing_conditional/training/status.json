@@ -1,0 +1,9 @@
+{
+  "state": "complete",
+  "arm": "single_bearing_conditional",
+  "epoch": 170,
+  "best_epoch": 140,
+  "best_validation": 0.3327088706435612,
+  "fingerprint": "0965a961beb10e4901001acf04c775183ab88968a71787da441ab4d571707f24",
+  "reason": "early_stopping"
+}

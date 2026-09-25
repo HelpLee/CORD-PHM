@@ -1,0 +1,65 @@
+[
+  {
+    "unit": "M1T1",
+    "status": "accepted_upstream_ssl",
+    "snapshots": 609,
+    "first_wear": 3.0,
+    "last_wear": 158.0
+  },
+  {
+    "unit": "M1T2",
+    "status": "accepted_upstream_ssl",
+    "snapshots": 609,
+    "first_wear": 3.0,
+    "last_wear": 145.0
+  },
+  {
+    "unit": "M1T3",
+    "status": "accepted_upstream_ssl",
+    "snapshots": 638,
+    "first_wear": 3.0,
+    "last_wear": 152.0
+  },
+  {
+    "unit": "M2T4",
+    "status": "accepted_upstream_ssl",
+    "snapshots": 928,
+    "first_wear": 3.0,
+    "last_wear": 149.0
+  },
+  {
+    "unit": "M2T5",
+    "status": "accepted_upstream_ssl",
+    "snapshots": 928,
+    "first_wear": 3.0,
+    "last_wear": 148.0
+  },
+  {
+    "unit": "M2T6",
+    "status": "accepted_upstream_ssl",
+    "snapshots": 928,
+    "first_wear": 3.0,
+    "last_wear": 147.0
+  },
+  {
+    "unit": "M3T7",
+    "status": "accepted_upstream_ssl",
+    "snapshots": 609,
+    "first_wear": 3.0,
+    "last_wear": 153.0
+  },
+  {
+    "unit": "M3T8",
+    "status": "excluded",
+    "snapshots": 560,
+    "first_wear": 34.0,
+    "last_wear": 150.0
+  },
+  {
+    "unit": "M3T9",
+    "status": "accepted_upstream_ssl",
+    "snapshots": 609,
+    "first_wear": 3.0,
+    "last_wear": 160.0
+  }
+]

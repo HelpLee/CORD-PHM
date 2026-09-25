@@ -1,0 +1,14 @@
+{
+  "signature": {
+    "source": {
+      "path": "/path/to/CORD/code/data_phm/processed_health_tokens/milling/luh_milling_health_tokens.npz",
+      "bytes": 52717634,
+      "mtime_ns": 1788555227506501700,
+      "upstream_cap_per_unit": null,
+      "downstream": false,
+      "version": 1
+    },
+    "rows_sha256": "2c0c1f05124f75d5ed236691e8f2578c661ecffa1fc6f7cf8a4f9dd7e10511fc"
+  },
+  "explicit_source_mask": false
+}

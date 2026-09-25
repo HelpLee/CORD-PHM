@@ -1,7 +1,0 @@
-{
-  "checkpoint": "/path/to/CORD/code/experiments/A_main/suite/16_update_matched_all7_fullchannels/three_domain/training/encoder_fixed_1000.pt",
-  "upstream": null,
-  "arms": [
-    "frozen_probe"
-  ]
-}

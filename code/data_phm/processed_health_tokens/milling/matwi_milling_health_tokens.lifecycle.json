@@ -1,0 +1,172 @@
+[
+  {
+    "unit": "Set1",
+    "status": "accepted_upstream_ssl",
+    "snapshots": 97,
+    "first_sensor_id": 0,
+    "last_sensor_id": 96,
+    "archive": "Set1.zip",
+    "archive_bytes": 1105412298,
+    "endpoint_evidence": "publisher states each set is one tool run to failure"
+  },
+  {
+    "unit": "Set2",
+    "status": "accepted_upstream_ssl",
+    "snapshots": 114,
+    "first_sensor_id": 0,
+    "last_sensor_id": 113,
+    "archive": "Set2.zip",
+    "archive_bytes": 1085681052,
+    "endpoint_evidence": "publisher states each set is one tool run to failure"
+  },
+  {
+    "unit": "Set3",
+    "status": "accepted_upstream_ssl",
+    "snapshots": 105,
+    "first_sensor_id": 0,
+    "last_sensor_id": 104,
+    "archive": "Set3.zip",
+    "archive_bytes": 1159612877,
+    "endpoint_evidence": "publisher states each set is one tool run to failure"
+  },
+  {
+    "unit": "Set4",
+    "status": "accepted_upstream_ssl",
+    "snapshots": 105,
+    "first_sensor_id": 0,
+    "last_sensor_id": 104,
+    "archive": "Set4.zip",
+    "archive_bytes": 1102899855,
+    "endpoint_evidence": "publisher states each set is one tool run to failure"
+  },
+  {
+    "unit": "Set5",
+    "status": "accepted_upstream_ssl",
+    "snapshots": 68,
+    "first_sensor_id": 0,
+    "last_sensor_id": 67,
+    "archive": "Set5.zip",
+    "archive_bytes": 792801868,
+    "endpoint_evidence": "publisher states each set is one tool run to failure"
+  },
+  {
+    "unit": "Set6",
+    "status": "accepted_upstream_ssl",
+    "snapshots": 213,
+    "first_sensor_id": 0,
+    "last_sensor_id": 212,
+    "archive": "Set6.zip",
+    "archive_bytes": 1970865899,
+    "endpoint_evidence": "publisher states each set is one tool run to failure"
+  },
+  {
+    "unit": "Set7",
+    "status": "accepted_upstream_ssl",
+    "snapshots": 102,
+    "first_sensor_id": 0,
+    "last_sensor_id": 101,
+    "archive": "Set7.zip",
+    "archive_bytes": 1124254738,
+    "endpoint_evidence": "publisher states each set is one tool run to failure"
+  },
+  {
+    "unit": "Set8",
+    "status": "accepted_upstream_ssl",
+    "snapshots": 101,
+    "first_sensor_id": 0,
+    "last_sensor_id": 100,
+    "archive": "Set8.zip",
+    "archive_bytes": 1078240636,
+    "endpoint_evidence": "publisher states each set is one tool run to failure"
+  },
+  {
+    "unit": "Set9",
+    "status": "accepted_upstream_ssl",
+    "snapshots": 102,
+    "first_sensor_id": 0,
+    "last_sensor_id": 101,
+    "archive": "Set9.zip",
+    "archive_bytes": 1081104108,
+    "endpoint_evidence": "publisher states each set is one tool run to failure"
+  },
+  {
+    "unit": "Set10",
+    "status": "accepted_upstream_ssl",
+    "snapshots": 102,
+    "first_sensor_id": 0,
+    "last_sensor_id": 101,
+    "archive": "Set10.zip",
+    "archive_bytes": 1049712317,
+    "endpoint_evidence": "publisher states each set is one tool run to failure"
+  },
+  {
+    "unit": "Set11",
+    "status": "accepted_upstream_ssl",
+    "snapshots": 102,
+    "first_sensor_id": 0,
+    "last_sensor_id": 101,
+    "archive": "Set11.zip",
+    "archive_bytes": 1144815047,
+    "endpoint_evidence": "publisher states each set is one tool run to failure"
+  },
+  {
+    "unit": "Set12",
+    "status": "accepted_upstream_ssl",
+    "snapshots": 53,
+    "first_sensor_id": 0,
+    "last_sensor_id": 52,
+    "archive": "Set12.zip",
+    "archive_bytes": 652592270,
+    "endpoint_evidence": "publisher states each set is one tool run to failure"
+  },
+  {
+    "unit": "Set13",
+    "status": "accepted_upstream_ssl",
+    "snapshots": 51,
+    "first_sensor_id": 0,
+    "last_sensor_id": 50,
+    "archive": "Set13.zip",
+    "archive_bytes": 577984112,
+    "endpoint_evidence": "publisher states each set is one tool run to failure"
+  },
+  {
+    "unit": "Set14",
+    "status": "accepted_upstream_ssl",
+    "snapshots": 158,
+    "first_sensor_id": 0,
+    "last_sensor_id": 157,
+    "archive": "Set14.zip",
+    "archive_bytes": 1737876457,
+    "endpoint_evidence": "publisher states each set is one tool run to failure"
+  },
+  {
+    "unit": "Set15",
+    "status": "accepted_upstream_ssl",
+    "snapshots": 51,
+    "first_sensor_id": 0,
+    "last_sensor_id": 50,
+    "archive": "Set15.zip",
+    "archive_bytes": 572787459,
+    "endpoint_evidence": "publisher states each set is one tool run to failure"
+  },
+  {
+    "unit": "Set16",
+    "status": "accepted_upstream_ssl",
+    "snapshots": 101,
+    "first_sensor_id": 0,
+    "last_sensor_id": 100,
+    "archive": "Set16.zip",
+    "archive_bytes": 1617750491,
+    "endpoint_evidence": "publisher states each set is one tool run to failure"
+  },
+  {
+    "unit": "Set17",
+    "status": "accepted_upstream_ssl",
+    "snapshots": 75,
+    "first_sensor_id": 0,
+    "last_sensor_id": 74,
+    "archive": "Set17.zip",
+    "archive_bytes": 1193429136,
+    "endpoint_evidence": "publisher states each set is one tool run to failure"
+  }
+]

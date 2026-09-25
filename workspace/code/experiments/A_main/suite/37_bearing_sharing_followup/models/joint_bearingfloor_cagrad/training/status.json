@@ -1,9 +1,0 @@
-{
-  "state": "complete",
-  "arm": "joint_bearingfloor_cagrad",
-  "epoch": 575,
-  "best_epoch": 545,
-  "best_validation": 0.26848273758724805,
-  "fingerprint": "6fd4a273e4d4f60cf3b38b4d1501713b2d6a74f069079891d1dc1e28e5d71db6",
-  "reason": "early_stopping"
-}

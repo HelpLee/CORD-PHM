@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "flights": 648,
+  "engines": 9,
+  "reproduced_channel_windows": 108,
+  "all_source_flights_and_labels_verified": true,
+  "npz_sha256": "1a6f04edbf548f663113dc094cf9927824eae1fa1213be5d6850cf26e83c20a9"
+}

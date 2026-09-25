@@ -1,0 +1,21 @@
+{
+  "source_npz": "/path/to/CORD/code/data_phm/processed_health_tokens/milling/phm2010_milling_downstream_health_tokens.npz",
+  "source_sha256": "829a19999e35081021cdfa0c276e65707adc121b182141d4bf25b525a72ff704",
+  "sensor_selection": "all",
+  "sensor_channels": [
+    "force_x",
+    "force_y",
+    "force_z",
+    "vibration_x",
+    "vibration_y",
+    "vibration_z",
+    "ae_rms"
+  ],
+  "channel_count": 7,
+  "train_units": [
+    "C1",
+    "C4"
+  ],
+  "test_unit": "C6",
+  "control": "canonical scratch is identical except force-only Fx/Fy/Fz selection"
+}

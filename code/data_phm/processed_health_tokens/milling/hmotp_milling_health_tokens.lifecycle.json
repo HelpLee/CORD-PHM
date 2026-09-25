@@ -1,0 +1,53 @@
+[
+  {
+    "unit": "T01",
+    "status": "accepted_upstream_ssl",
+    "snapshots": 100,
+    "raw_channels": [
+      "F_x",
+      "F_y",
+      "F_z",
+      "M_z",
+      "A_x",
+      "A_y",
+      "A_z"
+    ],
+    "source_sampling_hz": 50000.0,
+    "label_column": "Mean",
+    "endpoint_evidence": "not supplied; measured wear is audit metadata only"
+  },
+  {
+    "unit": "T02",
+    "status": "accepted_upstream_ssl",
+    "snapshots": 100,
+    "raw_channels": [
+      "F_x",
+      "F_y",
+      "F_z",
+      "M_z",
+      "A_x",
+      "A_y",
+      "A_z"
+    ],
+    "source_sampling_hz": 50000.0,
+    "label_column": "Mean",
+    "endpoint_evidence": "not supplied; measured wear is audit metadata only"
+  },
+  {
+    "unit": "T03",
+    "status": "accepted_upstream_ssl",
+    "snapshots": 100,
+    "raw_channels": [
+      "F_x",
+      "F_y",
+      "F_z",
+      "M_z",
+      "A_x",
+      "A_y",
+      "A_z"
+    ],
+    "source_sampling_hz": 50000.0,
+    "label_column": "Mean",
+    "endpoint_evidence": "not supplied; measured wear is audit metadata only"
+  }
+]

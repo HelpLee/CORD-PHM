@@ -1,0 +1,14 @@
+{
+  "signature": {
+    "source": {
+      "path": "/path/to/CORD/code/data_phm/processed_health_tokens/milling/nonastreda_milling_snapshot_health_tokens.npz",
+      "bytes": 3184604,
+      "mtime_ns": 1789124638071519100,
+      "upstream_cap_per_unit": null,
+      "downstream": false,
+      "version": 1
+    },
+    "rows_sha256": "5738153ec97595b1c1e4dc027f7b7fb4534f19ed2ce9f9ee712e6d34a384cde7"
+  },
+  "explicit_source_mask": false
+}

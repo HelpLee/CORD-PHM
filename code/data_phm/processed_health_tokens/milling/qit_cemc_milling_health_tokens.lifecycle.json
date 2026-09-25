@@ -1,0 +1,614 @@
+[
+  {
+    "cycle": 1,
+    "force_member": "Force and torque data/01-26-1.txt",
+    "vibration_member": "Vibration and sound data/01-26-01.csv",
+    "vibration_present": true,
+    "vibration_error": null,
+    "mean_side_vb_mm": 0.0398,
+    "status": "accepted_upstream_ssl"
+  },
+  {
+    "cycle": 2,
+    "force_member": "Force and torque data/01-26-2.txt",
+    "vibration_member": "Vibration and sound data/01-26-02.csv",
+    "vibration_present": false,
+    "vibration_error": null,
+    "mean_side_vb_mm": 0.091375,
+    "status": "accepted_upstream_ssl"
+  },
+  {
+    "cycle": 3,
+    "force_member": "Force and torque data/01-26-3.txt",
+    "vibration_member": "Vibration and sound data/01-26-03.csv",
+    "vibration_present": true,
+    "vibration_error": null,
+    "mean_side_vb_mm": 0.0995,
+    "status": "accepted_upstream_ssl"
+  },
+  {
+    "cycle": 4,
+    "force_member": "Force and torque data/01-26-4.txt",
+    "vibration_member": "Vibration and sound data/01-26-04.csv",
+    "vibration_present": true,
+    "vibration_error": null,
+    "mean_side_vb_mm": 0.110125,
+    "status": "accepted_upstream_ssl"
+  },
+  {
+    "cycle": 5,
+    "force_member": "Force and torque data/01-27-1.txt",
+    "vibration_member": "Vibration and sound data/01-27-01.csv",
+    "vibration_present": true,
+    "vibration_error": null,
+    "mean_side_vb_mm": 0.11365,
+    "status": "accepted_upstream_ssl"
+  },
+  {
+    "cycle": 6,
+    "force_member": "Force and torque data/01-27-2.txt",
+    "vibration_member": "Vibration and sound data/01-27-02.csv",
+    "vibration_present": true,
+    "vibration_error": null,
+    "mean_side_vb_mm": 0.1189,
+    "status": "accepted_upstream_ssl"
+  },
+  {
+    "cycle": 7,
+    "force_member": "Force and torque data/01-27-3.txt",
+    "vibration_member": "Vibration and sound data/01-27-03.csv",
+    "vibration_present": true,
+    "vibration_error": null,
+    "mean_side_vb_mm": 0.12505,
+    "status": "accepted_upstream_ssl"
+  },
+  {
+    "cycle": 8,
+    "force_member": "Force and torque data/01-28-1.txt",
+    "vibration_member": "Vibration and sound data/01-28-01.csv",
+    "vibration_present": true,
+    "vibration_error": null,
+    "mean_side_vb_mm": 0.131525,
+    "status": "accepted_upstream_ssl"
+  },
+  {
+    "cycle": 9,
+    "force_member": "Force and torque data/01-28-2.txt",
+    "vibration_member": "Vibration and sound data/01-28-02.csv",
+    "vibration_present": true,
+    "vibration_error": null,
+    "mean_side_vb_mm": 0.13495000000000001,
+    "status": "accepted_upstream_ssl"
+  },
+  {
+    "cycle": 10,
+    "force_member": "Force and torque data/01-28-3.txt",
+    "vibration_member": "Vibration and sound data/01-28-03.csv",
+    "vibration_present": true,
+    "vibration_error": null,
+    "mean_side_vb_mm": 0.14335,
+    "status": "accepted_upstream_ssl"
+  },
+  {
+    "cycle": 11,
+    "force_member": "Force and torque data/01-29-1.txt",
+    "vibration_member": "Vibration and sound data/01-29-01.csv",
+    "vibration_present": true,
+    "vibration_error": null,
+    "mean_side_vb_mm": 0.17254999999999998,
+    "status": "accepted_upstream_ssl"
+  },
+  {
+    "cycle": 12,
+    "force_member": "Force and torque data/01-29-2.txt",
+    "vibration_member": "Vibration and sound data/01-29-02.csv",
+    "vibration_present": true,
+    "vibration_error": null,
+    "mean_side_vb_mm": 0.18507500000000002,
+    "status": "accepted_upstream_ssl"
+  },
+  {
+    "cycle": 13,
+    "force_member": "Force and torque data/01-29-3.txt",
+    "vibration_member": "Vibration and sound data/01-29-03.csv",
+    "vibration_present": true,
+    "vibration_error": null,
+    "mean_side_vb_mm": 0.19699999999999998,
+    "status": "accepted_upstream_ssl"
+  },
+  {
+    "cycle": 14,
+    "force_member": "Force and torque data/01-30-1.txt",
+    "vibration_member": "Vibration and sound data/01-30-01.csv",
+    "vibration_present": true,
+    "vibration_error": null,
+    "mean_side_vb_mm": 0.201075,
+    "status": "accepted_upstream_ssl"
+  },
+  {
+    "cycle": 15,
+    "force_member": "Force and torque data/01-30-2.txt",
+    "vibration_member": "Vibration and sound data/01-30-02.csv",
+    "vibration_present": true,
+    "vibration_error": null,
+    "mean_side_vb_mm": 0.21607500000000002,
+    "status": "accepted_upstream_ssl"
+  },
+  {
+    "cycle": 16,
+    "force_member": "Force and torque data/01-30-3.txt",
+    "vibration_member": "Vibration and sound data/01-30-03.csv",
+    "vibration_present": true,
+    "vibration_error": null,
+    "mean_side_vb_mm": 0.222325,
+    "status": "accepted_upstream_ssl"
+  },
+  {
+    "cycle": 17,
+    "force_member": "Force and torque data/01-30-4.txt",
+    "vibration_member": "Vibration and sound data/01-30-04.csv",
+    "vibration_present": true,
+    "vibration_error": null,
+    "mean_side_vb_mm": 0.223175,
+    "status": "accepted_upstream_ssl"
+  },
+  {
+    "cycle": 18,
+    "force_member": "Force and torque data/01-31-1.txt",
+    "vibration_member": "Vibration and sound data/01-31-01.csv",
+    "vibration_present": true,
+    "vibration_error": null,
+    "mean_side_vb_mm": 0.228375,
+    "status": "accepted_upstream_ssl"
+  },
+  {
+    "cycle": 19,
+    "force_member": "Force and torque data/01-31-2.txt",
+    "vibration_member": "Vibration and sound data/01-31-02.csv",
+    "vibration_present": true,
+    "vibration_error": null,
+    "mean_side_vb_mm": 0.23359999999999997,
+    "status": "accepted_upstream_ssl"
+  },
+  {
+    "cycle": 20,
+    "force_member": "Force and torque data/01-31-3.txt",
+    "vibration_member": "Vibration and sound data/01-31-03.csv",
+    "vibration_present": true,
+    "vibration_error": null,
+    "mean_side_vb_mm": 0.257275,
+    "status": "accepted_upstream_ssl"
+  },
+  {
+    "cycle": 21,
+    "force_member": "Force and torque data/02-01-01.txt",
+    "vibration_member": "Vibration and sound data/02-01-01.xlsx",
+    "vibration_present": false,
+    "vibration_error": "ParserError: Error tokenizing data. C error: Buffer overflow caught - possible malformed input file.\n",
+    "mean_side_vb_mm": 0.226425,
+    "status": "accepted_upstream_ssl"
+  },
+  {
+    "cycle": 22,
+    "force_member": "Force and torque data/02-01-02.txt",
+    "vibration_member": "Vibration and sound data/02-01-02.xlsx",
+    "vibration_present": false,
+    "vibration_error": "ParserError: Error tokenizing data. C error: Buffer overflow caught - possible malformed input file.\n",
+    "mean_side_vb_mm": 0.215875,
+    "status": "accepted_upstream_ssl"
+  },
+  {
+    "cycle": 23,
+    "force_member": "Force and torque data/02-01-03.txt",
+    "vibration_member": "Vibration and sound data/02-01-03.csv",
+    "vibration_present": true,
+    "vibration_error": null,
+    "mean_side_vb_mm": 0.2233,
+    "status": "accepted_upstream_ssl"
+  },
+  {
+    "cycle": 24,
+    "force_member": "Force and torque data/02-01-04.txt",
+    "vibration_member": "Vibration and sound data/02-01-04.csv",
+    "vibration_present": true,
+    "vibration_error": null,
+    "mean_side_vb_mm": 0.23677499999999999,
+    "status": "accepted_upstream_ssl"
+  },
+  {
+    "cycle": 25,
+    "force_member": "Force and torque data/02-01-05.txt",
+    "vibration_member": "Vibration and sound data/02-01-05.csv",
+    "vibration_present": true,
+    "vibration_error": null,
+    "mean_side_vb_mm": 0.21005000000000001,
+    "status": "accepted_upstream_ssl"
+  },
+  {
+    "cycle": 26,
+    "force_member": "Force and torque data/02-01-06.txt",
+    "vibration_member": "Vibration and sound data/02-01-06.csv",
+    "vibration_present": true,
+    "vibration_error": null,
+    "mean_side_vb_mm": 0.21715,
+    "status": "accepted_upstream_ssl"
+  },
+  {
+    "cycle": 27,
+    "force_member": "Force and torque data/02-02-01.txt",
+    "vibration_member": "Vibration and sound data/02-02-01.csv",
+    "vibration_present": true,
+    "vibration_error": null,
+    "mean_side_vb_mm": 0.22745000000000004,
+    "status": "accepted_upstream_ssl"
+  },
+  {
+    "cycle": 28,
+    "force_member": "Force and torque data/02-02-02.txt",
+    "vibration_member": "Vibration and sound data/02-02-02.csv",
+    "vibration_present": true,
+    "vibration_error": null,
+    "mean_side_vb_mm": 0.2345,
+    "status": "accepted_upstream_ssl"
+  },
+  {
+    "cycle": 29,
+    "force_member": "Force and torque data/02-02-03.txt",
+    "vibration_member": "Vibration and sound data/02-02-03.csv",
+    "vibration_present": true,
+    "vibration_error": null,
+    "mean_side_vb_mm": 0.24570000000000003,
+    "status": "accepted_upstream_ssl"
+  },
+  {
+    "cycle": 30,
+    "force_member": "Force and torque data/02-02-04.txt",
+    "vibration_member": "Vibration and sound data/02-02-04.csv",
+    "vibration_present": true,
+    "vibration_error": null,
+    "mean_side_vb_mm": 0.258875,
+    "status": "accepted_upstream_ssl"
+  },
+  {
+    "cycle": 31,
+    "force_member": "Force and torque data/02-04-01.txt",
+    "vibration_member": "Vibration and sound data/02-04-01.csv",
+    "vibration_present": true,
+    "vibration_error": null,
+    "mean_side_vb_mm": 0.24025000000000002,
+    "status": "accepted_upstream_ssl"
+  },
+  {
+    "cycle": 32,
+    "force_member": "Force and torque data/02-04-02.txt",
+    "vibration_member": "Vibration and sound data/02-04-02.csv",
+    "vibration_present": true,
+    "vibration_error": null,
+    "mean_side_vb_mm": 0.17905,
+    "status": "accepted_upstream_ssl"
+  },
+  {
+    "cycle": 33,
+    "force_member": "Force and torque data/02-04-03.txt",
+    "vibration_member": "Vibration and sound data/02-04-03.csv",
+    "vibration_present": true,
+    "vibration_error": null,
+    "mean_side_vb_mm": 0.24605,
+    "status": "accepted_upstream_ssl"
+  },
+  {
+    "cycle": 34,
+    "force_member": "Force and torque data/02-05-01.txt",
+    "vibration_member": "Vibration and sound data/02-05-01.csv",
+    "vibration_present": true,
+    "vibration_error": null,
+    "mean_side_vb_mm": 0.210575,
+    "status": "accepted_upstream_ssl"
+  },
+  {
+    "cycle": 35,
+    "force_member": "Force and torque data/02-05-02.txt",
+    "vibration_member": "Vibration and sound data/02-05-02.csv",
+    "vibration_present": true,
+    "vibration_error": null,
+    "mean_side_vb_mm": 0.177375,
+    "status": "accepted_upstream_ssl"
+  },
+  {
+    "cycle": 36,
+    "force_member": "Force and torque data/02-05-03.txt",
+    "vibration_member": "Vibration and sound data/02-05-03.csv",
+    "vibration_present": true,
+    "vibration_error": null,
+    "mean_side_vb_mm": 0.186275,
+    "status": "accepted_upstream_ssl"
+  },
+  {
+    "cycle": 37,
+    "force_member": "Force and torque data/02-05-04.txt",
+    "vibration_member": "Vibration and sound data/02-05-04.csv",
+    "vibration_present": true,
+    "vibration_error": null,
+    "mean_side_vb_mm": 0.161825,
+    "status": "accepted_upstream_ssl"
+  },
+  {
+    "cycle": 38,
+    "force_member": "Force and torque data/02-05-05.txt",
+    "vibration_member": "Vibration and sound data/02-05-05.csv",
+    "vibration_present": true,
+    "vibration_error": null,
+    "mean_side_vb_mm": 0.1854,
+    "status": "accepted_upstream_ssl"
+  },
+  {
+    "cycle": 39,
+    "force_member": "Force and torque data/02-16-01.txt",
+    "vibration_member": "Vibration and sound data/02-16-01.csv",
+    "vibration_present": false,
+    "vibration_error": "ParserError: Error tokenizing data. C error: Expected 5 fields in line 760273, saw 7\n",
+    "mean_side_vb_mm": 0.1475,
+    "status": "accepted_upstream_ssl"
+  },
+  {
+    "cycle": 40,
+    "force_member": "Force and torque data/02-16-02.txt",
+    "vibration_member": "Vibration and sound data/02-16-02.csv",
+    "vibration_present": true,
+    "vibration_error": null,
+    "mean_side_vb_mm": 0.1655,
+    "status": "accepted_upstream_ssl"
+  },
+  {
+    "cycle": 41,
+    "force_member": "Force and torque data/02-16-03.txt",
+    "vibration_member": "Vibration and sound data/02-16-03.csv",
+    "vibration_present": true,
+    "vibration_error": null,
+    "mean_side_vb_mm": 0.277775,
+    "status": "accepted_upstream_ssl"
+  },
+  {
+    "cycle": 42,
+    "force_member": "Force and torque data/02-16-04.txt",
+    "vibration_member": "Vibration and sound data/02-16-04.csv",
+    "vibration_present": true,
+    "vibration_error": null,
+    "mean_side_vb_mm": 0.240475,
+    "status": "accepted_upstream_ssl"
+  },
+  {
+    "cycle": 43,
+    "force_member": "Force and torque data/02-17-01.txt",
+    "vibration_member": "Vibration and sound data/02-17-01.csv",
+    "vibration_present": true,
+    "vibration_error": null,
+    "mean_side_vb_mm": 0.26294999999999996,
+    "status": "accepted_upstream_ssl"
+  },
+  {
+    "cycle": 44,
+    "force_member": "Force and torque data/02-17-02.txt",
+    "vibration_member": "Vibration and sound data/02-17-02.csv",
+    "vibration_present": true,
+    "vibration_error": null,
+    "mean_side_vb_mm": 0.22247499999999998,
+    "status": "accepted_upstream_ssl"
+  },
+  {
+    "cycle": 45,
+    "force_member": "Force and torque data/02-17-03.txt",
+    "vibration_member": "Vibration and sound data/02-17-03.csv",
+    "vibration_present": false,
+    "vibration_error": "ValueError: QIT nonfinite stream: Vibration and sound data/02-17-03.csv",
+    "mean_side_vb_mm": 0.2701,
+    "status": "accepted_upstream_ssl"
+  },
+  {
+    "cycle": 46,
+    "force_member": "Force and torque data/02-18-01.txt",
+    "vibration_member": "Vibration and sound data/02-18-01.csv",
+    "vibration_present": true,
+    "vibration_error": null,
+    "mean_side_vb_mm": 0.275325,
+    "status": "accepted_upstream_ssl"
+  },
+  {
+    "cycle": 47,
+    "force_member": "Force and torque data/02-18-02.txt",
+    "vibration_member": "Vibration and sound data/02-18-02.csv",
+    "vibration_present": true,
+    "vibration_error": null,
+    "mean_side_vb_mm": 0.23142500000000002,
+    "status": "accepted_upstream_ssl"
+  },
+  {
+    "cycle": 48,
+    "force_member": "Force and torque data/02-18-03.txt",
+    "vibration_member": "Vibration and sound data/02-18-03.csv",
+    "vibration_present": true,
+    "vibration_error": null,
+    "mean_side_vb_mm": 0.21190000000000003,
+    "status": "accepted_upstream_ssl"
+  },
+  {
+    "cycle": 49,
+    "force_member": "Force and torque data/02-18-04.txt",
+    "vibration_member": "Vibration and sound data/02-18-04.csv",
+    "vibration_present": true,
+    "vibration_error": null,
+    "mean_side_vb_mm": 0.223925,
+    "status": "accepted_upstream_ssl"
+  },
+  {
+    "cycle": 50,
+    "force_member": "Force and torque data/02-19-01.txt",
+    "vibration_member": "Vibration and sound data/02-19-01.csv",
+    "vibration_present": true,
+    "vibration_error": null,
+    "mean_side_vb_mm": 0.23129999999999998,
+    "status": "accepted_upstream_ssl"
+  },
+  {
+    "cycle": 51,
+    "force_member": "Force and torque data/02-19-02.txt",
+    "vibration_member": "Vibration and sound data/02-19-02.csv",
+    "vibration_present": true,
+    "vibration_error": null,
+    "mean_side_vb_mm": 0.22717500000000002,
+    "status": "accepted_upstream_ssl"
+  },
+  {
+    "cycle": 52,
+    "force_member": "Force and torque data/02-19-03.txt",
+    "vibration_member": "Vibration and sound data/02-19-03.csv",
+    "vibration_present": true,
+    "vibration_error": null,
+    "mean_side_vb_mm": 0.20907499999999998,
+    "status": "accepted_upstream_ssl"
+  },
+  {
+    "cycle": 53,
+    "force_member": "Force and torque data/02-20-01.txt",
+    "vibration_member": "Vibration and sound data/02-20-01.csv",
+    "vibration_present": true,
+    "vibration_error": null,
+    "mean_side_vb_mm": 0.32064999999999994,
+    "status": "accepted_upstream_ssl"
+  },
+  {
+    "cycle": 54,
+    "force_member": "Force and torque data/02-20-02.txt",
+    "vibration_member": "Vibration and sound data/02-20-02.xlsx",
+    "vibration_present": false,
+    "vibration_error": "ParserError: Error tokenizing data. C error: Expected 2 fields in line 7, saw 6\n",
+    "mean_side_vb_mm": 0.319,
+    "status": "accepted_upstream_ssl"
+  },
+  {
+    "cycle": 55,
+    "force_member": "Force and torque data/02-20-03.txt",
+    "vibration_member": "Vibration and sound data/02-20-03.csv",
+    "vibration_present": true,
+    "vibration_error": null,
+    "mean_side_vb_mm": 0.2385,
+    "status": "accepted_upstream_ssl"
+  },
+  {
+    "cycle": 56,
+    "force_member": "Force and torque data/02-20-04.txt",
+    "vibration_member": "Vibration and sound data/02-20-04.csv",
+    "vibration_present": true,
+    "vibration_error": null,
+    "mean_side_vb_mm": 0.292675,
+    "status": "accepted_upstream_ssl"
+  },
+  {
+    "cycle": 57,
+    "force_member": "Force and torque data/02-20-05.txt",
+    "vibration_member": "Vibration and sound data/02-20-05.csv",
+    "vibration_present": true,
+    "vibration_error": null,
+    "mean_side_vb_mm": 0.31537499999999996,
+    "status": "accepted_upstream_ssl"
+  },
+  {
+    "cycle": 58,
+    "force_member": "Force and torque data/02-21-01.txt",
+    "vibration_member": "Vibration and sound data/02-21-01.csv",
+    "vibration_present": true,
+    "vibration_error": null,
+    "mean_side_vb_mm": 0.29707500000000003,
+    "status": "accepted_upstream_ssl"
+  },
+  {
+    "cycle": 59,
+    "force_member": "Force and torque data/02-21-02.txt",
+    "vibration_member": "Vibration and sound data/02-21-02.csv",
+    "vibration_present": true,
+    "vibration_error": null,
+    "mean_side_vb_mm": 0.28725,
+    "status": "accepted_upstream_ssl"
+  },
+  {
+    "cycle": 60,
+    "force_member": "Force and torque data/02-21-03.txt",
+    "vibration_member": "Vibration and sound data/02-21-03.csv",
+    "vibration_present": true,
+    "vibration_error": null,
+    "mean_side_vb_mm": 0.32317500000000005,
+    "status": "accepted_upstream_ssl"
+  },
+  {
+    "cycle": 61,
+    "force_member": "Force and torque data/02-22-01.txt",
+    "vibration_member": "Vibration and sound data/02-22-01.csv",
+    "vibration_present": true,
+    "vibration_error": null,
+    "mean_side_vb_mm": 0.403975,
+    "status": "accepted_upstream_ssl"
+  },
+  {
+    "cycle": 62,
+    "force_member": "Force and torque data/02-22-02.txt",
+    "vibration_member": "Vibration and sound data/02-22-02.csv",
+    "vibration_present": true,
+    "vibration_error": null,
+    "mean_side_vb_mm": 0.41052500000000003,
+    "status": "accepted_upstream_ssl"
+  },
+  {
+    "cycle": 63,
+    "force_member": "Force and torque data/02-27-01.txt",
+    "vibration_member": "Vibration and sound data/02-27-01.csv",
+    "vibration_present": true,
+    "vibration_error": null,
+    "mean_side_vb_mm": 0.419925,
+    "status": "accepted_upstream_ssl"
+  },
+  {
+    "cycle": 64,
+    "force_member": "Force and torque data/02-27-02.txt",
+    "vibration_member": "Vibration and sound data/02-27-02.csv",
+    "vibration_present": true,
+    "vibration_error": null,
+    "mean_side_vb_mm": 0.44975000000000004,
+    "status": "accepted_upstream_ssl"
+  },
+  {
+    "cycle": 65,
+    "force_member": "Force and torque data/03-02-01.txt",
+    "vibration_member": "Vibration and sound data/03-02-01.csv",
+    "vibration_present": false,
+    "vibration_error": "ValueError: Unexpected QIT stream schema: Vibration and sound data/03-02-01.csv/['AI1-01[mV]', 'AI1-02[mV]', 'AI1-03[mV]', 'AI1-04[mV]', 'AI1-05[mV]', 'AI1-06[mV]', 'AI1-07[mV]', 'AI1-08[mV]']",
+    "mean_side_vb_mm": 0.444675,
+    "status": "accepted_upstream_ssl"
+  },
+  {
+    "cycle": 66,
+    "force_member": "Force and torque data/03-02-02.txt",
+    "vibration_member": "Vibration and sound data/03-02-02.csv",
+    "vibration_present": false,
+    "vibration_error": "ValueError: Unexpected QIT stream schema: Vibration and sound data/03-02-02.csv/['AI1-01[mV]', 'AI1-02[mV]', 'AI1-03[mV]', 'AI1-04[mV]', 'AI1-05[mV]', 'AI1-06[mV]', 'AI1-07[mV]', 'AI1-08[mV]']",
+    "mean_side_vb_mm": 0.39239999999999997,
+    "status": "accepted_upstream_ssl"
+  },
+  {
+    "cycle": 67,
+    "force_member": "Force and torque data/03-04-01.txt",
+    "vibration_member": "Vibration and sound data/03-04-01.csv",
+    "vibration_present": false,
+    "vibration_error": "ValueError: Unexpected QIT stream schema: Vibration and sound data/03-04-01.csv/['AI1-01[mV]', 'AI1-02[mV]', 'AI1-03[mV]', 'AI1-04[mV]', 'AI1-05[mV]', 'AI1-06[mV]', 'AI1-07[mV]', 'AI1-08[mV]']",
+    "mean_side_vb_mm": 0.386625,
+    "status": "accepted_upstream_ssl"
+  },
+  {
+    "cycle": 68,
+    "force_member": "Force and torque data/03-04-02.txt",
+    "vibration_member": "Vibration and sound data/03-04-02.csv",
+    "vibration_present": false,
+    "vibration_error": "ValueError: Unexpected QIT stream schema: Vibration and sound data/03-04-02.csv/['AI1-01[mV]', 'AI1-02[mV]', 'AI1-03[mV]', 'AI1-04[mV]', 'AI1-05[mV]', 'AI1-06[mV]', 'AI1-07[mV]', 'AI1-08[mV]']",
+    "mean_side_vb_mm": 0.428275,
+    "status": "accepted_upstream_ssl"
+  }
+]

@@ -1,0 +1,9 @@
+{
+  "state": "complete",
+  "arm": "single_battery_conditional",
+  "epoch": 674,
+  "best_epoch": 644,
+  "best_validation": 0.1380856405832006,
+  "fingerprint": "f9e49898965a10ba5b1f7af3f0132eb25e55e6bca28aea79cea2e1416327e5b5",
+  "reason": "early_stopping"
+}

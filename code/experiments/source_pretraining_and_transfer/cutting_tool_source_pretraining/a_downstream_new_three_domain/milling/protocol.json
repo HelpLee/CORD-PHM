@@ -1,0 +1,41 @@
+{
+  "comparison": "seven-channel Scratch vs refreshed three-domain upstream",
+  "source_checkpoint": "/path/to/CORD/code/experiments/source_pretraining_and_transfer/cutting_tool_source_pretraining/three_domain/training/encoder.pt",
+  "source_checkpoint_sha256": "5e1dd53474fa8092ffe0000674d23bff1d546b59d1ff9711c1a16f4e9e723bda",
+  "train": [
+    "C1",
+    "C4"
+  ],
+  "test": "C6",
+  "channels": 7,
+  "fractions": [
+    0.1,
+    0.2,
+    1.0
+  ],
+  "seeds": [
+    42,
+    43,
+    44,
+    45,
+    46
+  ],
+  "arms": [
+    "frozen_probe",
+    "partial_finetune",
+    "full_finetune"
+  ],
+  "max_epochs": 200,
+  "patience": 15,
+  "validation_interval": 2,
+  "validation": "20% uniform interval subset of independently selected labels per source unit",
+  "batch": 32,
+  "microbatch": 8,
+  "dropout": 0.05,
+  "head_lr": 0.001,
+  "encoder_lr": 0.0001,
+  "weight_decay": 0.0001,
+  "loss": "SmoothL1 beta=0.05",
+  "conv1d_stem": false,
+  "partial": "Block2 + FinalNorm + Adapter2 + downstream head from epoch 1"
+}

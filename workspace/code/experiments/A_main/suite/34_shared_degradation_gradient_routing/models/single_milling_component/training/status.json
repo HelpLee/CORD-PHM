@@ -1,9 +1,0 @@
-{
-  "state": "complete",
-  "arm": "single_milling_component",
-  "epoch": 361,
-  "best_epoch": 331,
-  "best_validation": 0.31362443606607715,
-  "fingerprint": "4d0e2bfe65928cb6976895638e2b47a0ad256fa04fd863d82996ab9a598623b2",
-  "reason": "early_stopping"
-}

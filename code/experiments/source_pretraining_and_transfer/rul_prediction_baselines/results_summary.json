@@ -1,0 +1,1366 @@
+{
+  "complete": false,
+  "rows": [
+    {
+      "model": "native_xgboost",
+      "domain": "bearing",
+      "fraction": 0.1,
+      "n": 5,
+      "metrics": {
+        "rmse": {
+          "mean": 0.14937415739588195,
+          "std": 0.0038697828714992495
+        },
+        "mae": {
+          "mean": 0.13605170822828203,
+          "std": 0.005367668581535395
+        },
+        "r2": {
+          "mean": 0.746204327611222,
+          "std": 0.013086617100009525
+        },
+        "bias": {
+          "mean": 0.09883520886100627,
+          "std": 0.007875702461132087
+        }
+      }
+    },
+    {
+      "model": "native_xgboost",
+      "domain": "bearing",
+      "fraction": 0.2,
+      "n": 5,
+      "metrics": {
+        "rmse": {
+          "mean": 0.1823602171858405,
+          "std": 0.004271010680644221
+        },
+        "mae": {
+          "mean": 0.1548143709934241,
+          "std": 0.006007249989594973
+        },
+        "r2": {
+          "mean": 0.6217744230018536,
+          "std": 0.017635062566145752
+        },
+        "bias": {
+          "mean": 0.13109320830050353,
+          "std": 0.0066732856108744736
+        }
+      }
+    },
+    {
+      "model": "native_xgboost",
+      "domain": "bearing",
+      "fraction": 1.0,
+      "n": 5,
+      "metrics": {
+        "rmse": {
+          "mean": 0.18460069935426415,
+          "std": 0.0030849081210255675
+        },
+        "mae": {
+          "mean": 0.16188020070863735,
+          "std": 0.003249868517383875
+        },
+        "r2": {
+          "mean": 0.6125070055268901,
+          "std": 0.012994716330058127
+        },
+        "bias": {
+          "mean": 0.15848814032569122,
+          "std": 0.0036852395855261604
+        }
+      }
+    },
+    {
+      "model": "native_xgboost",
+      "domain": "battery",
+      "fraction": 0.1,
+      "n": 5,
+      "metrics": {
+        "rmse": {
+          "mean": 0.10362916808734413,
+          "std": 0.002981575698411068
+        },
+        "mae": {
+          "mean": 0.07159878870516045,
+          "std": 0.002056952737188245
+        },
+        "r2": {
+          "mean": 0.8705225341034286,
+          "std": 0.007407454993090191
+        },
+        "bias": {
+          "mean": -0.061268983366566235,
+          "std": 0.0019810805761929936
+        }
+      }
+    },
+    {
+      "model": "native_xgboost",
+      "domain": "battery",
+      "fraction": 0.2,
+      "n": 5,
+      "metrics": {
+        "rmse": {
+          "mean": 0.10515635640463543,
+          "std": 0.0009005404036355611
+        },
+        "mae": {
+          "mean": 0.07220913056997838,
+          "std": 0.0004920442663873377
+        },
+        "r2": {
+          "mean": 0.8667585981915623,
+          "std": 0.002283733671995836
+        },
+        "bias": {
+          "mean": -0.06646654826589923,
+          "std": 0.0005879497683850281
+        }
+      }
+    },
+    {
+      "model": "native_xgboost",
+      "domain": "battery",
+      "fraction": 1.0,
+      "n": 5,
+      "metrics": {
+        "rmse": {
+          "mean": 0.0991900439449813,
+          "std": 0.0013104933224270922
+        },
+        "mae": {
+          "mean": 0.06964803743916648,
+          "std": 0.001081620618359532
+        },
+        "r2": {
+          "mean": 0.8814396529696455,
+          "std": 0.003135272714727901
+        },
+        "bias": {
+          "mean": -0.06457208734872406,
+          "std": 0.0009565582730371915
+        }
+      }
+    },
+    {
+      "model": "native_xgboost",
+      "domain": "milling",
+      "fraction": 0.1,
+      "n": 5,
+      "metrics": {
+        "rmse": {
+          "mean": 0.12580869486369303,
+          "std": 0.0022844574604080196
+        },
+        "mae": {
+          "mean": 0.1020649849934733,
+          "std": 0.002146078365630225
+        },
+        "r2": {
+          "mean": 0.7774976404352442,
+          "std": 0.008116720762404274
+        },
+        "bias": {
+          "mean": 0.10089677314797085,
+          "std": 0.0021137408968258517
+        }
+      }
+    },
+    {
+      "model": "native_xgboost",
+      "domain": "milling",
+      "fraction": 0.2,
+      "n": 5,
+      "metrics": {
+        "rmse": {
+          "mean": 0.1204230550349965,
+          "std": 0.0011919614540774567
+        },
+        "mae": {
+          "mean": 0.1009925192732313,
+          "std": 0.0018273619388351845
+        },
+        "r2": {
+          "mean": 0.7961775184150113,
+          "std": 0.004042168961883759
+        },
+        "bias": {
+          "mean": 0.1000846428796649,
+          "std": 0.002250676667410292
+        }
+      }
+    },
+    {
+      "model": "native_xgboost",
+      "domain": "milling",
+      "fraction": 1.0,
+      "n": 5,
+      "metrics": {
+        "rmse": {
+          "mean": 0.12144954319796208,
+          "std": 0.0016378476768513547
+        },
+        "mae": {
+          "mean": 0.09924939820228237,
+          "std": 0.0010767226815690265
+        },
+        "r2": {
+          "mean": 0.7926740234860622,
+          "std": 0.005597082581752379
+        },
+        "bias": {
+          "mean": 0.07038169428110803,
+          "std": 0.006638259351732932
+        }
+      }
+    },
+    {
+      "model": "native_random_forest",
+      "domain": "bearing",
+      "fraction": 0.1,
+      "n": 5,
+      "metrics": {
+        "rmse": {
+          "mean": 0.18404659221787947,
+          "std": 0.003453310137922808
+        },
+        "mae": {
+          "mean": 0.169829864804454,
+          "std": 0.0032121203931205237
+        },
+        "r2": {
+          "mean": 0.6148073275755055,
+          "std": 0.0144663677476346
+        },
+        "bias": {
+          "mean": 0.1412723090456215,
+          "std": 0.0031277986246394576
+        }
+      }
+    },
+    {
+      "model": "native_random_forest",
+      "domain": "bearing",
+      "fraction": 0.2,
+      "n": 5,
+      "metrics": {
+        "rmse": {
+          "mean": 0.1909937016973113,
+          "std": 0.002236791973242139
+        },
+        "mae": {
+          "mean": 0.16638953861491182,
+          "std": 0.0016669039830780957
+        },
+        "r2": {
+          "mean": 0.5852504750850785,
+          "std": 0.009646392859608138
+        },
+        "bias": {
+          "mean": 0.1536386355067802,
+          "std": 0.002389565432428925
+        }
+      }
+    },
+    {
+      "model": "native_random_forest",
+      "domain": "bearing",
+      "fraction": 1.0,
+      "n": 5,
+      "metrics": {
+        "rmse": {
+          "mean": 0.18534111505204023,
+          "std": 0.0009499503650099706
+        },
+        "mae": {
+          "mean": 0.15695851006608308,
+          "std": 0.0009177741941313887
+        },
+        "r2": {
+          "mean": 0.6094714173793714,
+          "std": 0.0040061135874474504
+        },
+        "bias": {
+          "mean": 0.15314523794912455,
+          "std": 0.0011478128520188472
+        }
+      }
+    },
+    {
+      "model": "native_random_forest",
+      "domain": "battery",
+      "fraction": 0.1,
+      "n": 5,
+      "metrics": {
+        "rmse": {
+          "mean": 0.10852185943768108,
+          "std": 0.0005673572913143057
+        },
+        "mae": {
+          "mean": 0.07226815808579787,
+          "std": 0.00033178387314138113
+        },
+        "r2": {
+          "mean": 0.8580986252295405,
+          "std": 0.0014821051333573853
+        },
+        "bias": {
+          "mean": -0.057816471251687915,
+          "std": 0.00035114963114294475
+        }
+      }
+    },
+    {
+      "model": "native_random_forest",
+      "domain": "battery",
+      "fraction": 0.2,
+      "n": 5,
+      "metrics": {
+        "rmse": {
+          "mean": 0.11096452534424503,
+          "std": 0.0011181355376125828
+        },
+        "mae": {
+          "mean": 0.07303014037923476,
+          "std": 0.0006115059844429634
+        },
+        "r2": {
+          "mean": 0.8516299478501471,
+          "std": 0.0029922497094809885
+        },
+        "bias": {
+          "mean": -0.060819724758423434,
+          "std": 0.0005359692614006396
+        }
+      }
+    },
+    {
+      "model": "native_random_forest",
+      "domain": "battery",
+      "fraction": 1.0,
+      "n": 5,
+      "metrics": {
+        "rmse": {
+          "mean": 0.10538688920276318,
+          "std": 0.00018179708810597418
+        },
+        "mae": {
+          "mean": 0.07122270521691292,
+          "std": 8.559580399169921e-05
+        },
+        "r2": {
+          "mean": 0.8661812840443476,
+          "std": 0.0004617493043230263
+        },
+        "bias": {
+          "mean": -0.06158792150776774,
+          "std": 0.0001516180516918005
+        }
+      }
+    },
+    {
+      "model": "native_random_forest",
+      "domain": "milling",
+      "fraction": 0.1,
+      "n": 5,
+      "metrics": {
+        "rmse": {
+          "mean": 0.11172669839584007,
+          "std": 0.0033860314239030844
+        },
+        "mae": {
+          "mean": 0.09221333335913019,
+          "std": 0.004518147738232463
+        },
+        "r2": {
+          "mean": 0.8244375267619626,
+          "std": 0.01069895312849417
+        },
+        "bias": {
+          "mean": 0.028124147688640327,
+          "std": 0.004216278775055676
+        }
+      }
+    },
+    {
+      "model": "native_random_forest",
+      "domain": "milling",
+      "fraction": 0.2,
+      "n": 5,
+      "metrics": {
+        "rmse": {
+          "mean": 0.12021588185856702,
+          "std": 0.0023515362160551976
+        },
+        "mae": {
+          "mean": 0.09988669348399869,
+          "std": 0.002184241813682004
+        },
+        "r2": {
+          "mean": 0.796831966052945,
+          "std": 0.007944239430292557
+        },
+        "bias": {
+          "mean": 0.04438716467022673,
+          "std": 0.0012429542894591486
+        }
+      }
+    },
+    {
+      "model": "native_random_forest",
+      "domain": "milling",
+      "fraction": 1.0,
+      "n": 5,
+      "metrics": {
+        "rmse": {
+          "mean": 0.12297518392680021,
+          "std": 0.0014476465647288762
+        },
+        "mae": {
+          "mean": 0.10143094362483426,
+          "std": 0.002182493927634677
+        },
+        "r2": {
+          "mean": 0.7874398386879808,
+          "std": 0.005023038708590717
+        },
+        "bias": {
+          "mean": 0.05689448708615717,
+          "std": 0.0024066130378138646
+        }
+      }
+    },
+    {
+      "model": "controlled_mlp",
+      "domain": "bearing",
+      "fraction": 0.1,
+      "n": 5,
+      "metrics": {
+        "rmse": {
+          "mean": 0.21018634141548956,
+          "std": 0.005602976473083525
+        },
+        "mae": {
+          "mean": 0.1602482452082473,
+          "std": 0.007914257348199217
+        },
+        "r2": {
+          "mean": 0.4974769856062693,
+          "std": 0.026893004717885048
+        },
+        "bias": {
+          "mean": 0.152925979235285,
+          "std": 0.009941500930930373
+        }
+      }
+    },
+    {
+      "model": "controlled_mlp",
+      "domain": "bearing",
+      "fraction": 0.2,
+      "n": 5,
+      "metrics": {
+        "rmse": {
+          "mean": 0.2038295161595845,
+          "std": 0.005585543969996268
+        },
+        "mae": {
+          "mean": 0.15294285167914792,
+          "std": 0.008203317408042952
+        },
+        "r2": {
+          "mean": 0.5273984711562913,
+          "std": 0.025797599555484562
+        },
+        "bias": {
+          "mean": 0.14356761905993967,
+          "std": 0.013636030056124326
+        }
+      }
+    },
+    {
+      "model": "controlled_mlp",
+      "domain": "bearing",
+      "fraction": 1.0,
+      "n": 5,
+      "metrics": {
+        "rmse": {
+          "mean": 0.13800282779463932,
+          "std": 0.010919250454205347
+        },
+        "mae": {
+          "mean": 0.1098875896250074,
+          "std": 0.009773579796889288
+        },
+        "r2": {
+          "mean": 0.7824065483985356,
+          "std": 0.03442196166590609
+        },
+        "bias": {
+          "mean": 0.09366484525034557,
+          "std": 0.009963046162793233
+        }
+      }
+    },
+    {
+      "model": "controlled_mlp",
+      "domain": "battery",
+      "fraction": 0.1,
+      "n": 5,
+      "metrics": {
+        "rmse": {
+          "mean": 0.07520676730011236,
+          "std": 0.0030787035183710877
+        },
+        "mae": {
+          "mean": 0.056523793527166674,
+          "std": 0.0027454139167400297
+        },
+        "r2": {
+          "mean": 0.9317601067526414,
+          "std": 0.0056454186619904765
+        },
+        "bias": {
+          "mean": -0.05091898215958489,
+          "std": 0.0031302518884581748
+        }
+      }
+    },
+    {
+      "model": "controlled_mlp",
+      "domain": "battery",
+      "fraction": 0.2,
+      "n": 5,
+      "metrics": {
+        "rmse": {
+          "mean": 0.06911434934926786,
+          "std": 0.003166159638583194
+        },
+        "mae": {
+          "mean": 0.05173872421518477,
+          "std": 0.002692175892856341
+        },
+        "r2": {
+          "mean": 0.942348897394852,
+          "std": 0.0051326995258461836
+        },
+        "bias": {
+          "mean": -0.04490702561268796,
+          "std": 0.0028369811383609344
+        }
+      }
+    },
+    {
+      "model": "controlled_mlp",
+      "domain": "battery",
+      "fraction": 1.0,
+      "n": 5,
+      "metrics": {
+        "rmse": {
+          "mean": 0.06605262097783192,
+          "std": 0.005163373602428035
+        },
+        "mae": {
+          "mean": 0.049771872343219184,
+          "std": 0.004455724491814808
+        },
+        "r2": {
+          "mean": 0.9471748611776489,
+          "std": 0.008134894712314782
+        },
+        "bias": {
+          "mean": -0.041997116215411766,
+          "std": 0.005440558834073738
+        }
+      }
+    },
+    {
+      "model": "controlled_mlp",
+      "domain": "milling",
+      "fraction": 0.1,
+      "n": 5,
+      "metrics": {
+        "rmse": {
+          "mean": 0.1327604045497976,
+          "std": 0.004386807996740437
+        },
+        "mae": {
+          "mean": 0.11589664736311864,
+          "std": 0.003915803507003095
+        },
+        "r2": {
+          "mean": 0.7520779927891713,
+          "std": 0.016524875948708
+        },
+        "bias": {
+          "mean": 0.11589664736311864,
+          "std": 0.003915803507003095
+        }
+      }
+    },
+    {
+      "model": "controlled_mlp",
+      "domain": "milling",
+      "fraction": 0.2,
+      "n": 5,
+      "metrics": {
+        "rmse": {
+          "mean": 0.12073751312322559,
+          "std": 0.006299605784141226
+        },
+        "mae": {
+          "mean": 0.1057140438226328,
+          "std": 0.005891916087011029
+        },
+        "r2": {
+          "mean": 0.7946815261923527,
+          "std": 0.021133109160131554
+        },
+        "bias": {
+          "mean": 0.1057140438226328,
+          "std": 0.005891916087011029
+        }
+      }
+    },
+    {
+      "model": "controlled_mlp",
+      "domain": "milling",
+      "fraction": 1.0,
+      "n": 5,
+      "metrics": {
+        "rmse": {
+          "mean": 0.11990365681033463,
+          "std": 0.0037145053992110725
+        },
+        "mae": {
+          "mean": 0.10671825305256806,
+          "std": 0.0033600109833380435
+        },
+        "r2": {
+          "mean": 0.797792653729105,
+          "std": 0.012691150801107148
+        },
+        "bias": {
+          "mean": 0.10671825305256806,
+          "std": 0.0033600109833380435
+        }
+      }
+    },
+    {
+      "model": "controlled_tcn",
+      "domain": "bearing",
+      "fraction": 0.1,
+      "n": 5,
+      "metrics": {
+        "rmse": {
+          "mean": 0.19126165384861377,
+          "std": 0.019376091956703725
+        },
+        "mae": {
+          "mean": 0.15200851790204242,
+          "std": 0.015766305169199836
+        },
+        "r2": {
+          "mean": 0.5807170908404649,
+          "std": 0.08227973516093044
+        },
+        "bias": {
+          "mean": 0.12524403145385754,
+          "std": 0.014740646828879043
+        }
+      }
+    },
+    {
+      "model": "controlled_tcn",
+      "domain": "bearing",
+      "fraction": 0.2,
+      "n": 5,
+      "metrics": {
+        "rmse": {
+          "mean": 0.16637969472212671,
+          "std": 0.020659126992462692
+        },
+        "mae": {
+          "mean": 0.13753297921974916,
+          "std": 0.014790121931477001
+        },
+        "r2": {
+          "mean": 0.6814154296628094,
+          "std": 0.07665754197500073
+        },
+        "bias": {
+          "mean": 0.11812856468195851,
+          "std": 0.01641195940485559
+        }
+      }
+    },
+    {
+      "model": "controlled_tcn",
+      "domain": "bearing",
+      "fraction": 1.0,
+      "n": 5,
+      "metrics": {
+        "rmse": {
+          "mean": 0.12219587479148455,
+          "std": 0.01746189368540756
+        },
+        "mae": {
+          "mean": 0.10002910171610277,
+          "std": 0.010517493882080304
+        },
+        "r2": {
+          "mean": 0.8274755003177882,
+          "std": 0.04996933693338604
+        },
+        "bias": {
+          "mean": 0.09614631081553729,
+          "std": 0.01300801784489698
+        }
+      }
+    },
+    {
+      "model": "controlled_tcn",
+      "domain": "battery",
+      "fraction": 0.1,
+      "n": 5,
+      "metrics": {
+        "rmse": {
+          "mean": 0.06440336160193874,
+          "std": 0.004972743054112578
+        },
+        "mae": {
+          "mean": 0.04801996759364626,
+          "std": 0.0035617028781159575
+        },
+        "r2": {
+          "mean": 0.9497858480126904,
+          "std": 0.007738217116935674
+        },
+        "bias": {
+          "mean": -0.034721839771752146,
+          "std": 0.005154433854239418
+        }
+      }
+    },
+    {
+      "model": "controlled_tcn",
+      "domain": "battery",
+      "fraction": 0.2,
+      "n": 5,
+      "metrics": {
+        "rmse": {
+          "mean": 0.06403786136028163,
+          "std": 0.0029917254594708505
+        },
+        "mae": {
+          "mean": 0.04752022870542957,
+          "std": 0.002217349605781762
+        },
+        "r2": {
+          "mean": 0.9505035630181681,
+          "std": 0.004587594790764311
+        },
+        "bias": {
+          "mean": -0.03509963688628476,
+          "std": 0.0038371964042149044
+        }
+      }
+    },
+    {
+      "model": "controlled_tcn",
+      "domain": "battery",
+      "fraction": 1.0,
+      "n": 5,
+      "metrics": {
+        "rmse": {
+          "mean": 0.06562761010295885,
+          "std": 0.0022148049873122844
+        },
+        "mae": {
+          "mean": 0.04917981640575901,
+          "std": 0.0016451366331630575
+        },
+        "r2": {
+          "mean": 0.9480588742841206,
+          "std": 0.00347532939164787
+        },
+        "bias": {
+          "mean": -0.03917170517164479,
+          "std": 0.0022954622151465267
+        }
+      }
+    },
+    {
+      "model": "controlled_tcn",
+      "domain": "milling",
+      "fraction": 0.1,
+      "n": 5,
+      "metrics": {
+        "rmse": {
+          "mean": 0.1297936208710435,
+          "std": 0.010880817693000356
+        },
+        "mae": {
+          "mean": 0.11099691485994619,
+          "std": 0.010085117100110336
+        },
+        "r2": {
+          "mean": 0.761910460748415,
+          "std": 0.03906079897912493
+        },
+        "bias": {
+          "mean": 0.11052100143765342,
+          "std": 0.010548130966816492
+        }
+      }
+    },
+    {
+      "model": "controlled_tcn",
+      "domain": "milling",
+      "fraction": 0.2,
+      "n": 5,
+      "metrics": {
+        "rmse": {
+          "mean": 0.11931267217910495,
+          "std": 0.004254787401639446
+        },
+        "mae": {
+          "mean": 0.1050548886301923,
+          "std": 0.003761623362892443
+        },
+        "r2": {
+          "mean": 0.799731097575265,
+          "std": 0.014264631688971914
+        },
+        "bias": {
+          "mean": 0.10480594436072459,
+          "std": 0.003820341955380391
+        }
+      }
+    },
+    {
+      "model": "controlled_tcn",
+      "domain": "milling",
+      "fraction": 1.0,
+      "n": 5,
+      "metrics": {
+        "rmse": {
+          "mean": 0.10693125808103714,
+          "std": 0.002948159207063956
+        },
+        "mae": {
+          "mean": 0.09530922077579176,
+          "std": 0.0017327583241536731
+        },
+        "r2": {
+          "mean": 0.8392051490930396,
+          "std": 0.008844096488488454
+        },
+        "bias": {
+          "mean": 0.09485688978151234,
+          "std": 0.0019710007539713104
+        }
+      }
+    }
+  ],
+  "missing": [
+    "results\\native_cnn_lstm_attention\\bearing\\fraction10\\seed42\\metrics.json",
+    "results\\native_cnn_lstm_attention\\bearing\\fraction10\\seed43\\metrics.json",
+    "results\\native_cnn_lstm_attention\\bearing\\fraction10\\seed44\\metrics.json",
+    "results\\native_cnn_lstm_attention\\bearing\\fraction10\\seed45\\metrics.json",
+    "results\\native_cnn_lstm_attention\\bearing\\fraction10\\seed46\\metrics.json",
+    "results\\native_cnn_lstm_attention\\bearing\\fraction20\\seed42\\metrics.json",
+    "results\\native_cnn_lstm_attention\\bearing\\fraction20\\seed43\\metrics.json",
+    "results\\native_cnn_lstm_attention\\bearing\\fraction20\\seed44\\metrics.json",
+    "results\\native_cnn_lstm_attention\\bearing\\fraction20\\seed45\\metrics.json",
+    "results\\native_cnn_lstm_attention\\bearing\\fraction20\\seed46\\metrics.json",
+    "results\\native_cnn_lstm_attention\\bearing\\fraction100\\seed42\\metrics.json",
+    "results\\native_cnn_lstm_attention\\bearing\\fraction100\\seed43\\metrics.json",
+    "results\\native_cnn_lstm_attention\\bearing\\fraction100\\seed44\\metrics.json",
+    "results\\native_cnn_lstm_attention\\bearing\\fraction100\\seed45\\metrics.json",
+    "results\\native_cnn_lstm_attention\\bearing\\fraction100\\seed46\\metrics.json",
+    "results\\native_cnn_lstm_attention\\battery\\fraction10\\seed42\\metrics.json",
+    "results\\native_cnn_lstm_attention\\battery\\fraction10\\seed43\\metrics.json",
+    "results\\native_cnn_lstm_attention\\battery\\fraction10\\seed44\\metrics.json",
+    "results\\native_cnn_lstm_attention\\battery\\fraction10\\seed45\\metrics.json",
+    "results\\native_cnn_lstm_attention\\battery\\fraction10\\seed46\\metrics.json",
+    "results\\native_cnn_lstm_attention\\battery\\fraction20\\seed42\\metrics.json",
+    "results\\native_cnn_lstm_attention\\battery\\fraction20\\seed43\\metrics.json",
+    "results\\native_cnn_lstm_attention\\battery\\fraction20\\seed44\\metrics.json",
+    "results\\native_cnn_lstm_attention\\battery\\fraction20\\seed45\\metrics.json",
+    "results\\native_cnn_lstm_attention\\battery\\fraction20\\seed46\\metrics.json",
+    "results\\native_cnn_lstm_attention\\battery\\fraction100\\seed42\\metrics.json",
+    "results\\native_cnn_lstm_attention\\battery\\fraction100\\seed43\\metrics.json",
+    "results\\native_cnn_lstm_attention\\battery\\fraction100\\seed44\\metrics.json",
+    "results\\native_cnn_lstm_attention\\battery\\fraction100\\seed45\\metrics.json",
+    "results\\native_cnn_lstm_attention\\battery\\fraction100\\seed46\\metrics.json",
+    "results\\native_cnn_lstm_attention\\milling\\fraction10\\seed42\\metrics.json",
+    "results\\native_cnn_lstm_attention\\milling\\fraction10\\seed43\\metrics.json",
+    "results\\native_cnn_lstm_attention\\milling\\fraction10\\seed44\\metrics.json",
+    "results\\native_cnn_lstm_attention\\milling\\fraction10\\seed45\\metrics.json",
+    "results\\native_cnn_lstm_attention\\milling\\fraction10\\seed46\\metrics.json",
+    "results\\native_cnn_lstm_attention\\milling\\fraction20\\seed42\\metrics.json",
+    "results\\native_cnn_lstm_attention\\milling\\fraction20\\seed43\\metrics.json",
+    "results\\native_cnn_lstm_attention\\milling\\fraction20\\seed44\\metrics.json",
+    "results\\native_cnn_lstm_attention\\milling\\fraction20\\seed45\\metrics.json",
+    "results\\native_cnn_lstm_attention\\milling\\fraction20\\seed46\\metrics.json",
+    "results\\native_cnn_lstm_attention\\milling\\fraction100\\seed42\\metrics.json",
+    "results\\native_cnn_lstm_attention\\milling\\fraction100\\seed43\\metrics.json",
+    "results\\native_cnn_lstm_attention\\milling\\fraction100\\seed44\\metrics.json",
+    "results\\native_cnn_lstm_attention\\milling\\fraction100\\seed45\\metrics.json",
+    "results\\native_cnn_lstm_attention\\milling\\fraction100\\seed46\\metrics.json",
+    "results\\native_tcn\\bearing\\fraction10\\seed42\\metrics.json",
+    "results\\native_tcn\\bearing\\fraction10\\seed43\\metrics.json",
+    "results\\native_tcn\\bearing\\fraction10\\seed44\\metrics.json",
+    "results\\native_tcn\\bearing\\fraction10\\seed45\\metrics.json",
+    "results\\native_tcn\\bearing\\fraction10\\seed46\\metrics.json",
+    "results\\native_tcn\\bearing\\fraction20\\seed42\\metrics.json",
+    "results\\native_tcn\\bearing\\fraction20\\seed43\\metrics.json",
+    "results\\native_tcn\\bearing\\fraction20\\seed44\\metrics.json",
+    "results\\native_tcn\\bearing\\fraction20\\seed45\\metrics.json",
+    "results\\native_tcn\\bearing\\fraction20\\seed46\\metrics.json",
+    "results\\native_tcn\\bearing\\fraction100\\seed42\\metrics.json",
+    "results\\native_tcn\\bearing\\fraction100\\seed43\\metrics.json",
+    "results\\native_tcn\\bearing\\fraction100\\seed44\\metrics.json",
+    "results\\native_tcn\\bearing\\fraction100\\seed45\\metrics.json",
+    "results\\native_tcn\\bearing\\fraction100\\seed46\\metrics.json",
+    "results\\native_tcn\\battery\\fraction10\\seed42\\metrics.json",
+    "results\\native_tcn\\battery\\fraction10\\seed43\\metrics.json",
+    "results\\native_tcn\\battery\\fraction10\\seed44\\metrics.json",
+    "results\\native_tcn\\battery\\fraction10\\seed45\\metrics.json",
+    "results\\native_tcn\\battery\\fraction10\\seed46\\metrics.json",
+    "results\\native_tcn\\battery\\fraction20\\seed42\\metrics.json",
+    "results\\native_tcn\\battery\\fraction20\\seed43\\metrics.json",
+    "results\\native_tcn\\battery\\fraction20\\seed44\\metrics.json",
+    "results\\native_tcn\\battery\\fraction20\\seed45\\metrics.json",
+    "results\\native_tcn\\battery\\fraction20\\seed46\\metrics.json",
+    "results\\native_tcn\\battery\\fraction100\\seed42\\metrics.json",
+    "results\\native_tcn\\battery\\fraction100\\seed43\\metrics.json",
+    "results\\native_tcn\\battery\\fraction100\\seed44\\metrics.json",
+    "results\\native_tcn\\battery\\fraction100\\seed45\\metrics.json",
+    "results\\native_tcn\\battery\\fraction100\\seed46\\metrics.json",
+    "results\\native_tcn\\milling\\fraction10\\seed42\\metrics.json",
+    "results\\native_tcn\\milling\\fraction10\\seed43\\metrics.json",
+    "results\\native_tcn\\milling\\fraction10\\seed44\\metrics.json",
+    "results\\native_tcn\\milling\\fraction10\\seed45\\metrics.json",
+    "results\\native_tcn\\milling\\fraction10\\seed46\\metrics.json",
+    "results\\native_tcn\\milling\\fraction20\\seed42\\metrics.json",
+    "results\\native_tcn\\milling\\fraction20\\seed43\\metrics.json",
+    "results\\native_tcn\\milling\\fraction20\\seed44\\metrics.json",
+    "results\\native_tcn\\milling\\fraction20\\seed45\\metrics.json",
+    "results\\native_tcn\\milling\\fraction20\\seed46\\metrics.json",
+    "results\\native_tcn\\milling\\fraction100\\seed42\\metrics.json",
+    "results\\native_tcn\\milling\\fraction100\\seed43\\metrics.json",
+    "results\\native_tcn\\milling\\fraction100\\seed44\\metrics.json",
+    "results\\native_tcn\\milling\\fraction100\\seed45\\metrics.json",
+    "results\\native_tcn\\milling\\fraction100\\seed46\\metrics.json",
+    "results\\native_patchtst\\bearing\\fraction10\\seed42\\metrics.json",
+    "results\\native_patchtst\\bearing\\fraction10\\seed43\\metrics.json",
+    "results\\native_patchtst\\bearing\\fraction10\\seed44\\metrics.json",
+    "results\\native_patchtst\\bearing\\fraction10\\seed45\\metrics.json",
+    "results\\native_patchtst\\bearing\\fraction10\\seed46\\metrics.json",
+    "results\\native_patchtst\\bearing\\fraction20\\seed42\\metrics.json",
+    "results\\native_patchtst\\bearing\\fraction20\\seed43\\metrics.json",
+    "results\\native_patchtst\\bearing\\fraction20\\seed44\\metrics.json",
+    "results\\native_patchtst\\bearing\\fraction20\\seed45\\metrics.json",
+    "results\\native_patchtst\\bearing\\fraction20\\seed46\\metrics.json",
+    "results\\native_patchtst\\bearing\\fraction100\\seed42\\metrics.json",
+    "results\\native_patchtst\\bearing\\fraction100\\seed43\\metrics.json",
+    "results\\native_patchtst\\bearing\\fraction100\\seed44\\metrics.json",
+    "results\\native_patchtst\\bearing\\fraction100\\seed45\\metrics.json",
+    "results\\native_patchtst\\bearing\\fraction100\\seed46\\metrics.json",
+    "results\\native_patchtst\\battery\\fraction10\\seed42\\metrics.json",
+    "results\\native_patchtst\\battery\\fraction10\\seed43\\metrics.json",
+    "results\\native_patchtst\\battery\\fraction10\\seed44\\metrics.json",
+    "results\\native_patchtst\\battery\\fraction10\\seed45\\metrics.json",
+    "results\\native_patchtst\\battery\\fraction10\\seed46\\metrics.json",
+    "results\\native_patchtst\\battery\\fraction20\\seed42\\metrics.json",
+    "results\\native_patchtst\\battery\\fraction20\\seed43\\metrics.json",
+    "results\\native_patchtst\\battery\\fraction20\\seed44\\metrics.json",
+    "results\\native_patchtst\\battery\\fraction20\\seed45\\metrics.json",
+    "results\\native_patchtst\\battery\\fraction20\\seed46\\metrics.json",
+    "results\\native_patchtst\\battery\\fraction100\\seed42\\metrics.json",
+    "results\\native_patchtst\\battery\\fraction100\\seed43\\metrics.json",
+    "results\\native_patchtst\\battery\\fraction100\\seed44\\metrics.json",
+    "results\\native_patchtst\\battery\\fraction100\\seed45\\metrics.json",
+    "results\\native_patchtst\\battery\\fraction100\\seed46\\metrics.json",
+    "results\\native_patchtst\\milling\\fraction10\\seed42\\metrics.json",
+    "results\\native_patchtst\\milling\\fraction10\\seed43\\metrics.json",
+    "results\\native_patchtst\\milling\\fraction10\\seed44\\metrics.json",
+    "results\\native_patchtst\\milling\\fraction10\\seed45\\metrics.json",
+    "results\\native_patchtst\\milling\\fraction10\\seed46\\metrics.json",
+    "results\\native_patchtst\\milling\\fraction20\\seed42\\metrics.json",
+    "results\\native_patchtst\\milling\\fraction20\\seed43\\metrics.json",
+    "results\\native_patchtst\\milling\\fraction20\\seed44\\metrics.json",
+    "results\\native_patchtst\\milling\\fraction20\\seed45\\metrics.json",
+    "results\\native_patchtst\\milling\\fraction20\\seed46\\metrics.json",
+    "results\\native_patchtst\\milling\\fraction100\\seed42\\metrics.json",
+    "results\\native_patchtst\\milling\\fraction100\\seed43\\metrics.json",
+    "results\\native_patchtst\\milling\\fraction100\\seed44\\metrics.json",
+    "results\\native_patchtst\\milling\\fraction100\\seed45\\metrics.json",
+    "results\\native_patchtst\\milling\\fraction100\\seed46\\metrics.json",
+    "results\\native_itransformer\\bearing\\fraction10\\seed42\\metrics.json",
+    "results\\native_itransformer\\bearing\\fraction10\\seed43\\metrics.json",
+    "results\\native_itransformer\\bearing\\fraction10\\seed44\\metrics.json",
+    "results\\native_itransformer\\bearing\\fraction10\\seed45\\metrics.json",
+    "results\\native_itransformer\\bearing\\fraction10\\seed46\\metrics.json",
+    "results\\native_itransformer\\bearing\\fraction20\\seed42\\metrics.json",
+    "results\\native_itransformer\\bearing\\fraction20\\seed43\\metrics.json",
+    "results\\native_itransformer\\bearing\\fraction20\\seed44\\metrics.json",
+    "results\\native_itransformer\\bearing\\fraction20\\seed45\\metrics.json",
+    "results\\native_itransformer\\bearing\\fraction20\\seed46\\metrics.json",
+    "results\\native_itransformer\\bearing\\fraction100\\seed42\\metrics.json",
+    "results\\native_itransformer\\bearing\\fraction100\\seed43\\metrics.json",
+    "results\\native_itransformer\\bearing\\fraction100\\seed44\\metrics.json",
+    "results\\native_itransformer\\bearing\\fraction100\\seed45\\metrics.json",
+    "results\\native_itransformer\\bearing\\fraction100\\seed46\\metrics.json",
+    "results\\native_itransformer\\battery\\fraction10\\seed42\\metrics.json",
+    "results\\native_itransformer\\battery\\fraction10\\seed43\\metrics.json",
+    "results\\native_itransformer\\battery\\fraction10\\seed44\\metrics.json",
+    "results\\native_itransformer\\battery\\fraction10\\seed45\\metrics.json",
+    "results\\native_itransformer\\battery\\fraction10\\seed46\\metrics.json",
+    "results\\native_itransformer\\battery\\fraction20\\seed42\\metrics.json",
+    "results\\native_itransformer\\battery\\fraction20\\seed43\\metrics.json",
+    "results\\native_itransformer\\battery\\fraction20\\seed44\\metrics.json",
+    "results\\native_itransformer\\battery\\fraction20\\seed45\\metrics.json",
+    "results\\native_itransformer\\battery\\fraction20\\seed46\\metrics.json",
+    "results\\native_itransformer\\battery\\fraction100\\seed42\\metrics.json",
+    "results\\native_itransformer\\battery\\fraction100\\seed43\\metrics.json",
+    "results\\native_itransformer\\battery\\fraction100\\seed44\\metrics.json",
+    "results\\native_itransformer\\battery\\fraction100\\seed45\\metrics.json",
+    "results\\native_itransformer\\battery\\fraction100\\seed46\\metrics.json",
+    "results\\native_itransformer\\milling\\fraction10\\seed42\\metrics.json",
+    "results\\native_itransformer\\milling\\fraction10\\seed43\\metrics.json",
+    "results\\native_itransformer\\milling\\fraction10\\seed44\\metrics.json",
+    "results\\native_itransformer\\milling\\fraction10\\seed45\\metrics.json",
+    "results\\native_itransformer\\milling\\fraction10\\seed46\\metrics.json",
+    "results\\native_itransformer\\milling\\fraction20\\seed42\\metrics.json",
+    "results\\native_itransformer\\milling\\fraction20\\seed43\\metrics.json",
+    "results\\native_itransformer\\milling\\fraction20\\seed44\\metrics.json",
+    "results\\native_itransformer\\milling\\fraction20\\seed45\\metrics.json",
+    "results\\native_itransformer\\milling\\fraction20\\seed46\\metrics.json",
+    "results\\native_itransformer\\milling\\fraction100\\seed42\\metrics.json",
+    "results\\native_itransformer\\milling\\fraction100\\seed43\\metrics.json",
+    "results\\native_itransformer\\milling\\fraction100\\seed44\\metrics.json",
+    "results\\native_itransformer\\milling\\fraction100\\seed45\\metrics.json",
+    "results\\native_itransformer\\milling\\fraction100\\seed46\\metrics.json",
+    "results\\native_moment_frozen\\bearing\\fraction10\\seed42\\metrics.json",
+    "results\\native_moment_frozen\\bearing\\fraction10\\seed43\\metrics.json",
+    "results\\native_moment_frozen\\bearing\\fraction10\\seed44\\metrics.json",
+    "results\\native_moment_frozen\\bearing\\fraction10\\seed45\\metrics.json",
+    "results\\native_moment_frozen\\bearing\\fraction10\\seed46\\metrics.json",
+    "results\\native_moment_frozen\\bearing\\fraction20\\seed42\\metrics.json",
+    "results\\native_moment_frozen\\bearing\\fraction20\\seed43\\metrics.json",
+    "results\\native_moment_frozen\\bearing\\fraction20\\seed44\\metrics.json",
+    "results\\native_moment_frozen\\bearing\\fraction20\\seed45\\metrics.json",
+    "results\\native_moment_frozen\\bearing\\fraction20\\seed46\\metrics.json",
+    "results\\native_moment_frozen\\bearing\\fraction100\\seed42\\metrics.json",
+    "results\\native_moment_frozen\\bearing\\fraction100\\seed43\\metrics.json",
+    "results\\native_moment_frozen\\bearing\\fraction100\\seed44\\metrics.json",
+    "results\\native_moment_frozen\\bearing\\fraction100\\seed45\\metrics.json",
+    "results\\native_moment_frozen\\bearing\\fraction100\\seed46\\metrics.json",
+    "results\\native_moment_frozen\\battery\\fraction10\\seed42\\metrics.json",
+    "results\\native_moment_frozen\\battery\\fraction10\\seed43\\metrics.json",
+    "results\\native_moment_frozen\\battery\\fraction10\\seed44\\metrics.json",
+    "results\\native_moment_frozen\\battery\\fraction10\\seed45\\metrics.json",
+    "results\\native_moment_frozen\\battery\\fraction10\\seed46\\metrics.json",
+    "results\\native_moment_frozen\\battery\\fraction20\\seed42\\metrics.json",
+    "results\\native_moment_frozen\\battery\\fraction20\\seed43\\metrics.json",
+    "results\\native_moment_frozen\\battery\\fraction20\\seed44\\metrics.json",
+    "results\\native_moment_frozen\\battery\\fraction20\\seed45\\metrics.json",
+    "results\\native_moment_frozen\\battery\\fraction20\\seed46\\metrics.json",
+    "results\\native_moment_frozen\\battery\\fraction100\\seed42\\metrics.json",
+    "results\\native_moment_frozen\\battery\\fraction100\\seed43\\metrics.json",
+    "results\\native_moment_frozen\\battery\\fraction100\\seed44\\metrics.json",
+    "results\\native_moment_frozen\\battery\\fraction100\\seed45\\metrics.json",
+    "results\\native_moment_frozen\\battery\\fraction100\\seed46\\metrics.json",
+    "results\\native_moment_frozen\\milling\\fraction10\\seed42\\metrics.json",
+    "results\\native_moment_frozen\\milling\\fraction10\\seed43\\metrics.json",
+    "results\\native_moment_frozen\\milling\\fraction10\\seed44\\metrics.json",
+    "results\\native_moment_frozen\\milling\\fraction10\\seed45\\metrics.json",
+    "results\\native_moment_frozen\\milling\\fraction10\\seed46\\metrics.json",
+    "results\\native_moment_frozen\\milling\\fraction20\\seed42\\metrics.json",
+    "results\\native_moment_frozen\\milling\\fraction20\\seed43\\metrics.json",
+    "results\\native_moment_frozen\\milling\\fraction20\\seed44\\metrics.json",
+    "results\\native_moment_frozen\\milling\\fraction20\\seed45\\metrics.json",
+    "results\\native_moment_frozen\\milling\\fraction20\\seed46\\metrics.json",
+    "results\\native_moment_frozen\\milling\\fraction100\\seed42\\metrics.json",
+    "results\\native_moment_frozen\\milling\\fraction100\\seed43\\metrics.json",
+    "results\\native_moment_frozen\\milling\\fraction100\\seed44\\metrics.json",
+    "results\\native_moment_frozen\\milling\\fraction100\\seed45\\metrics.json",
+    "results\\native_moment_frozen\\milling\\fraction100\\seed46\\metrics.json",
+    "results\\native_moment_full\\bearing\\fraction10\\seed42\\metrics.json",
+    "results\\native_moment_full\\bearing\\fraction10\\seed43\\metrics.json",
+    "results\\native_moment_full\\bearing\\fraction10\\seed44\\metrics.json",
+    "results\\native_moment_full\\bearing\\fraction10\\seed45\\metrics.json",
+    "results\\native_moment_full\\bearing\\fraction10\\seed46\\metrics.json",
+    "results\\native_moment_full\\bearing\\fraction20\\seed42\\metrics.json",
+    "results\\native_moment_full\\bearing\\fraction20\\seed43\\metrics.json",
+    "results\\native_moment_full\\bearing\\fraction20\\seed44\\metrics.json",
+    "results\\native_moment_full\\bearing\\fraction20\\seed45\\metrics.json",
+    "results\\native_moment_full\\bearing\\fraction20\\seed46\\metrics.json",
+    "results\\native_moment_full\\bearing\\fraction100\\seed42\\metrics.json",
+    "results\\native_moment_full\\bearing\\fraction100\\seed43\\metrics.json",
+    "results\\native_moment_full\\bearing\\fraction100\\seed44\\metrics.json",
+    "results\\native_moment_full\\bearing\\fraction100\\seed45\\metrics.json",
+    "results\\native_moment_full\\bearing\\fraction100\\seed46\\metrics.json",
+    "results\\native_moment_full\\battery\\fraction10\\seed42\\metrics.json",
+    "results\\native_moment_full\\battery\\fraction10\\seed43\\metrics.json",
+    "results\\native_moment_full\\battery\\fraction10\\seed44\\metrics.json",
+    "results\\native_moment_full\\battery\\fraction10\\seed45\\metrics.json",
+    "results\\native_moment_full\\battery\\fraction10\\seed46\\metrics.json",
+    "results\\native_moment_full\\battery\\fraction20\\seed42\\metrics.json",
+    "results\\native_moment_full\\battery\\fraction20\\seed43\\metrics.json",
+    "results\\native_moment_full\\battery\\fraction20\\seed44\\metrics.json",
+    "results\\native_moment_full\\battery\\fraction20\\seed45\\metrics.json",
+    "results\\native_moment_full\\battery\\fraction20\\seed46\\metrics.json",
+    "results\\native_moment_full\\battery\\fraction100\\seed42\\metrics.json",
+    "results\\native_moment_full\\battery\\fraction100\\seed43\\metrics.json",
+    "results\\native_moment_full\\battery\\fraction100\\seed44\\metrics.json",
+    "results\\native_moment_full\\battery\\fraction100\\seed45\\metrics.json",
+    "results\\native_moment_full\\battery\\fraction100\\seed46\\metrics.json",
+    "results\\native_moment_full\\milling\\fraction10\\seed42\\metrics.json",
+    "results\\native_moment_full\\milling\\fraction10\\seed43\\metrics.json",
+    "results\\native_moment_full\\milling\\fraction10\\seed44\\metrics.json",
+    "results\\native_moment_full\\milling\\fraction10\\seed45\\metrics.json",
+    "results\\native_moment_full\\milling\\fraction10\\seed46\\metrics.json",
+    "results\\native_moment_full\\milling\\fraction20\\seed42\\metrics.json",
+    "results\\native_moment_full\\milling\\fraction20\\seed43\\metrics.json",
+    "results\\native_moment_full\\milling\\fraction20\\seed44\\metrics.json",
+    "results\\native_moment_full\\milling\\fraction20\\seed45\\metrics.json",
+    "results\\native_moment_full\\milling\\fraction20\\seed46\\metrics.json",
+    "results\\native_moment_full\\milling\\fraction100\\seed42\\metrics.json",
+    "results\\native_moment_full\\milling\\fraction100\\seed43\\metrics.json",
+    "results\\native_moment_full\\milling\\fraction100\\seed44\\metrics.json",
+    "results\\native_moment_full\\milling\\fraction100\\seed45\\metrics.json",
+    "results\\native_moment_full\\milling\\fraction100\\seed46\\metrics.json",
+    "results\\controlled_cnn_lstm_attention\\bearing\\fraction10\\seed42\\metrics.json",
+    "results\\controlled_cnn_lstm_attention\\bearing\\fraction10\\seed43\\metrics.json",
+    "results\\controlled_cnn_lstm_attention\\bearing\\fraction10\\seed44\\metrics.json",
+    "results\\controlled_cnn_lstm_attention\\bearing\\fraction10\\seed45\\metrics.json",
+    "results\\controlled_cnn_lstm_attention\\bearing\\fraction10\\seed46\\metrics.json",
+    "results\\controlled_cnn_lstm_attention\\bearing\\fraction20\\seed42\\metrics.json",
+    "results\\controlled_cnn_lstm_attention\\bearing\\fraction20\\seed43\\metrics.json",
+    "results\\controlled_cnn_lstm_attention\\bearing\\fraction20\\seed44\\metrics.json",
+    "results\\controlled_cnn_lstm_attention\\bearing\\fraction20\\seed45\\metrics.json",
+    "results\\controlled_cnn_lstm_attention\\bearing\\fraction20\\seed46\\metrics.json",
+    "results\\controlled_cnn_lstm_attention\\bearing\\fraction100\\seed42\\metrics.json",
+    "results\\controlled_cnn_lstm_attention\\bearing\\fraction100\\seed43\\metrics.json",
+    "results\\controlled_cnn_lstm_attention\\bearing\\fraction100\\seed44\\metrics.json",
+    "results\\controlled_cnn_lstm_attention\\bearing\\fraction100\\seed45\\metrics.json",
+    "results\\controlled_cnn_lstm_attention\\bearing\\fraction100\\seed46\\metrics.json",
+    "results\\controlled_cnn_lstm_attention\\battery\\fraction10\\seed42\\metrics.json",
+    "results\\controlled_cnn_lstm_attention\\battery\\fraction10\\seed43\\metrics.json",
+    "results\\controlled_cnn_lstm_attention\\battery\\fraction10\\seed44\\metrics.json",
+    "results\\controlled_cnn_lstm_attention\\battery\\fraction10\\seed45\\metrics.json",
+    "results\\controlled_cnn_lstm_attention\\battery\\fraction10\\seed46\\metrics.json",
+    "results\\controlled_cnn_lstm_attention\\battery\\fraction20\\seed42\\metrics.json",
+    "results\\controlled_cnn_lstm_attention\\battery\\fraction20\\seed43\\metrics.json",
+    "results\\controlled_cnn_lstm_attention\\battery\\fraction20\\seed44\\metrics.json",
+    "results\\controlled_cnn_lstm_attention\\battery\\fraction20\\seed45\\metrics.json",
+    "results\\controlled_cnn_lstm_attention\\battery\\fraction20\\seed46\\metrics.json",
+    "results\\controlled_cnn_lstm_attention\\battery\\fraction100\\seed42\\metrics.json",
+    "results\\controlled_cnn_lstm_attention\\battery\\fraction100\\seed43\\metrics.json",
+    "results\\controlled_cnn_lstm_attention\\battery\\fraction100\\seed44\\metrics.json",
+    "results\\controlled_cnn_lstm_attention\\battery\\fraction100\\seed45\\metrics.json",
+    "results\\controlled_cnn_lstm_attention\\battery\\fraction100\\seed46\\metrics.json",
+    "results\\controlled_cnn_lstm_attention\\milling\\fraction10\\seed42\\metrics.json",
+    "results\\controlled_cnn_lstm_attention\\milling\\fraction10\\seed43\\metrics.json",
+    "results\\controlled_cnn_lstm_attention\\milling\\fraction10\\seed44\\metrics.json",
+    "results\\controlled_cnn_lstm_attention\\milling\\fraction10\\seed45\\metrics.json",
+    "results\\controlled_cnn_lstm_attention\\milling\\fraction10\\seed46\\metrics.json",
+    "results\\controlled_cnn_lstm_attention\\milling\\fraction20\\seed42\\metrics.json",
+    "results\\controlled_cnn_lstm_attention\\milling\\fraction20\\seed43\\metrics.json",
+    "results\\controlled_cnn_lstm_attention\\milling\\fraction20\\seed44\\metrics.json",
+    "results\\controlled_cnn_lstm_attention\\milling\\fraction20\\seed45\\metrics.json",
+    "results\\controlled_cnn_lstm_attention\\milling\\fraction20\\seed46\\metrics.json",
+    "results\\controlled_cnn_lstm_attention\\milling\\fraction100\\seed42\\metrics.json",
+    "results\\controlled_cnn_lstm_attention\\milling\\fraction100\\seed43\\metrics.json",
+    "results\\controlled_cnn_lstm_attention\\milling\\fraction100\\seed44\\metrics.json",
+    "results\\controlled_cnn_lstm_attention\\milling\\fraction100\\seed45\\metrics.json",
+    "results\\controlled_cnn_lstm_attention\\milling\\fraction100\\seed46\\metrics.json",
+    "results\\controlled_patchtst\\bearing\\fraction10\\seed42\\metrics.json",
+    "results\\controlled_patchtst\\bearing\\fraction10\\seed43\\metrics.json",
+    "results\\controlled_patchtst\\bearing\\fraction10\\seed44\\metrics.json",
+    "results\\controlled_patchtst\\bearing\\fraction10\\seed45\\metrics.json",
+    "results\\controlled_patchtst\\bearing\\fraction10\\seed46\\metrics.json",
+    "results\\controlled_patchtst\\bearing\\fraction20\\seed42\\metrics.json",
+    "results\\controlled_patchtst\\bearing\\fraction20\\seed43\\metrics.json",
+    "results\\controlled_patchtst\\bearing\\fraction20\\seed44\\metrics.json",
+    "results\\controlled_patchtst\\bearing\\fraction20\\seed45\\metrics.json",
+    "results\\controlled_patchtst\\bearing\\fraction20\\seed46\\metrics.json",
+    "results\\controlled_patchtst\\bearing\\fraction100\\seed42\\metrics.json",
+    "results\\controlled_patchtst\\bearing\\fraction100\\seed43\\metrics.json",
+    "results\\controlled_patchtst\\bearing\\fraction100\\seed44\\metrics.json",
+    "results\\controlled_patchtst\\bearing\\fraction100\\seed45\\metrics.json",
+    "results\\controlled_patchtst\\bearing\\fraction100\\seed46\\metrics.json",
+    "results\\controlled_patchtst\\battery\\fraction10\\seed42\\metrics.json",
+    "results\\controlled_patchtst\\battery\\fraction10\\seed43\\metrics.json",
+    "results\\controlled_patchtst\\battery\\fraction10\\seed44\\metrics.json",
+    "results\\controlled_patchtst\\battery\\fraction10\\seed45\\metrics.json",
+    "results\\controlled_patchtst\\battery\\fraction10\\seed46\\metrics.json",
+    "results\\controlled_patchtst\\battery\\fraction20\\seed42\\metrics.json",
+    "results\\controlled_patchtst\\battery\\fraction20\\seed43\\metrics.json",
+    "results\\controlled_patchtst\\battery\\fraction20\\seed44\\metrics.json",
+    "results\\controlled_patchtst\\battery\\fraction20\\seed45\\metrics.json",
+    "results\\controlled_patchtst\\battery\\fraction20\\seed46\\metrics.json",
+    "results\\controlled_patchtst\\battery\\fraction100\\seed42\\metrics.json",
+    "results\\controlled_patchtst\\battery\\fraction100\\seed43\\metrics.json",
+    "results\\controlled_patchtst\\battery\\fraction100\\seed44\\metrics.json",
+    "results\\controlled_patchtst\\battery\\fraction100\\seed45\\metrics.json",
+    "results\\controlled_patchtst\\battery\\fraction100\\seed46\\metrics.json",
+    "results\\controlled_patchtst\\milling\\fraction10\\seed42\\metrics.json",
+    "results\\controlled_patchtst\\milling\\fraction10\\seed43\\metrics.json",
+    "results\\controlled_patchtst\\milling\\fraction10\\seed44\\metrics.json",
+    "results\\controlled_patchtst\\milling\\fraction10\\seed45\\metrics.json",
+    "results\\controlled_patchtst\\milling\\fraction10\\seed46\\metrics.json",
+    "results\\controlled_patchtst\\milling\\fraction20\\seed42\\metrics.json",
+    "results\\controlled_patchtst\\milling\\fraction20\\seed43\\metrics.json",
+    "results\\controlled_patchtst\\milling\\fraction20\\seed44\\metrics.json",
+    "results\\controlled_patchtst\\milling\\fraction20\\seed45\\metrics.json",
+    "results\\controlled_patchtst\\milling\\fraction20\\seed46\\metrics.json",
+    "results\\controlled_patchtst\\milling\\fraction100\\seed42\\metrics.json",
+    "results\\controlled_patchtst\\milling\\fraction100\\seed43\\metrics.json",
+    "results\\controlled_patchtst\\milling\\fraction100\\seed44\\metrics.json",
+    "results\\controlled_patchtst\\milling\\fraction100\\seed45\\metrics.json",
+    "results\\controlled_patchtst\\milling\\fraction100\\seed46\\metrics.json",
+    "results\\controlled_itransformer\\bearing\\fraction10\\seed42\\metrics.json",
+    "results\\controlled_itransformer\\bearing\\fraction10\\seed43\\metrics.json",
+    "results\\controlled_itransformer\\bearing\\fraction10\\seed44\\metrics.json",
+    "results\\controlled_itransformer\\bearing\\fraction10\\seed45\\metrics.json",
+    "results\\controlled_itransformer\\bearing\\fraction10\\seed46\\metrics.json",
+    "results\\controlled_itransformer\\bearing\\fraction20\\seed42\\metrics.json",
+    "results\\controlled_itransformer\\bearing\\fraction20\\seed43\\metrics.json",
+    "results\\controlled_itransformer\\bearing\\fraction20\\seed44\\metrics.json",
+    "results\\controlled_itransformer\\bearing\\fraction20\\seed45\\metrics.json",
+    "results\\controlled_itransformer\\bearing\\fraction20\\seed46\\metrics.json",
+    "results\\controlled_itransformer\\bearing\\fraction100\\seed42\\metrics.json",
+    "results\\controlled_itransformer\\bearing\\fraction100\\seed43\\metrics.json",
+    "results\\controlled_itransformer\\bearing\\fraction100\\seed44\\metrics.json",
+    "results\\controlled_itransformer\\bearing\\fraction100\\seed45\\metrics.json",
+    "results\\controlled_itransformer\\bearing\\fraction100\\seed46\\metrics.json",
+    "results\\controlled_itransformer\\battery\\fraction10\\seed42\\metrics.json",
+    "results\\controlled_itransformer\\battery\\fraction10\\seed43\\metrics.json",
+    "results\\controlled_itransformer\\battery\\fraction10\\seed44\\metrics.json",
+    "results\\controlled_itransformer\\battery\\fraction10\\seed45\\metrics.json",
+    "results\\controlled_itransformer\\battery\\fraction10\\seed46\\metrics.json",
+    "results\\controlled_itransformer\\battery\\fraction20\\seed42\\metrics.json",
+    "results\\controlled_itransformer\\battery\\fraction20\\seed43\\metrics.json",
+    "results\\controlled_itransformer\\battery\\fraction20\\seed44\\metrics.json",
+    "results\\controlled_itransformer\\battery\\fraction20\\seed45\\metrics.json",
+    "results\\controlled_itransformer\\battery\\fraction20\\seed46\\metrics.json",
+    "results\\controlled_itransformer\\battery\\fraction100\\seed42\\metrics.json",
+    "results\\controlled_itransformer\\battery\\fraction100\\seed43\\metrics.json",
+    "results\\controlled_itransformer\\battery\\fraction100\\seed44\\metrics.json",
+    "results\\controlled_itransformer\\battery\\fraction100\\seed45\\metrics.json",
+    "results\\controlled_itransformer\\battery\\fraction100\\seed46\\metrics.json",
+    "results\\controlled_itransformer\\milling\\fraction10\\seed42\\metrics.json",
+    "results\\controlled_itransformer\\milling\\fraction10\\seed43\\metrics.json",
+    "results\\controlled_itransformer\\milling\\fraction10\\seed44\\metrics.json",
+    "results\\controlled_itransformer\\milling\\fraction10\\seed45\\metrics.json",
+    "results\\controlled_itransformer\\milling\\fraction10\\seed46\\metrics.json",
+    "results\\controlled_itransformer\\milling\\fraction20\\seed42\\metrics.json",
+    "results\\controlled_itransformer\\milling\\fraction20\\seed43\\metrics.json",
+    "results\\controlled_itransformer\\milling\\fraction20\\seed44\\metrics.json",
+    "results\\controlled_itransformer\\milling\\fraction20\\seed45\\metrics.json",
+    "results\\controlled_itransformer\\milling\\fraction20\\seed46\\metrics.json",
+    "results\\controlled_itransformer\\milling\\fraction100\\seed42\\metrics.json",
+    "results\\controlled_itransformer\\milling\\fraction100\\seed43\\metrics.json",
+    "results\\controlled_itransformer\\milling\\fraction100\\seed44\\metrics.json",
+    "results\\controlled_itransformer\\milling\\fraction100\\seed45\\metrics.json",
+    "results\\controlled_itransformer\\milling\\fraction100\\seed46\\metrics.json",
+    "results\\controlled_moment_frozen\\bearing\\fraction10\\seed42\\metrics.json",
+    "results\\controlled_moment_frozen\\bearing\\fraction10\\seed43\\metrics.json",
+    "results\\controlled_moment_frozen\\bearing\\fraction10\\seed44\\metrics.json",
+    "results\\controlled_moment_frozen\\bearing\\fraction10\\seed45\\metrics.json",
+    "results\\controlled_moment_frozen\\bearing\\fraction10\\seed46\\metrics.json",
+    "results\\controlled_moment_frozen\\bearing\\fraction20\\seed42\\metrics.json",
+    "results\\controlled_moment_frozen\\bearing\\fraction20\\seed43\\metrics.json",
+    "results\\controlled_moment_frozen\\bearing\\fraction20\\seed44\\metrics.json",
+    "results\\controlled_moment_frozen\\bearing\\fraction20\\seed45\\metrics.json",
+    "results\\controlled_moment_frozen\\bearing\\fraction20\\seed46\\metrics.json",
+    "results\\controlled_moment_frozen\\bearing\\fraction100\\seed42\\metrics.json",
+    "results\\controlled_moment_frozen\\bearing\\fraction100\\seed43\\metrics.json",
+    "results\\controlled_moment_frozen\\bearing\\fraction100\\seed44\\metrics.json",
+    "results\\controlled_moment_frozen\\bearing\\fraction100\\seed45\\metrics.json",
+    "results\\controlled_moment_frozen\\bearing\\fraction100\\seed46\\metrics.json",
+    "results\\controlled_moment_frozen\\battery\\fraction10\\seed42\\metrics.json",
+    "results\\controlled_moment_frozen\\battery\\fraction10\\seed43\\metrics.json",
+    "results\\controlled_moment_frozen\\battery\\fraction10\\seed44\\metrics.json",
+    "results\\controlled_moment_frozen\\battery\\fraction10\\seed45\\metrics.json",
+    "results\\controlled_moment_frozen\\battery\\fraction10\\seed46\\metrics.json",
+    "results\\controlled_moment_frozen\\battery\\fraction20\\seed42\\metrics.json",
+    "results\\controlled_moment_frozen\\battery\\fraction20\\seed43\\metrics.json",
+    "results\\controlled_moment_frozen\\battery\\fraction20\\seed44\\metrics.json",
+    "results\\controlled_moment_frozen\\battery\\fraction20\\seed45\\metrics.json",
+    "results\\controlled_moment_frozen\\battery\\fraction20\\seed46\\metrics.json",
+    "results\\controlled_moment_frozen\\battery\\fraction100\\seed42\\metrics.json",
+    "results\\controlled_moment_frozen\\battery\\fraction100\\seed43\\metrics.json",
+    "results\\controlled_moment_frozen\\battery\\fraction100\\seed44\\metrics.json",
+    "results\\controlled_moment_frozen\\battery\\fraction100\\seed45\\metrics.json",
+    "results\\controlled_moment_frozen\\battery\\fraction100\\seed46\\metrics.json",
+    "results\\controlled_moment_frozen\\milling\\fraction10\\seed42\\metrics.json",
+    "results\\controlled_moment_frozen\\milling\\fraction10\\seed43\\metrics.json",
+    "results\\controlled_moment_frozen\\milling\\fraction10\\seed44\\metrics.json",
+    "results\\controlled_moment_frozen\\milling\\fraction10\\seed45\\metrics.json",
+    "results\\controlled_moment_frozen\\milling\\fraction10\\seed46\\metrics.json",
+    "results\\controlled_moment_frozen\\milling\\fraction20\\seed42\\metrics.json",
+    "results\\controlled_moment_frozen\\milling\\fraction20\\seed43\\metrics.json",
+    "results\\controlled_moment_frozen\\milling\\fraction20\\seed44\\metrics.json",
+    "results\\controlled_moment_frozen\\milling\\fraction20\\seed45\\metrics.json",
+    "results\\controlled_moment_frozen\\milling\\fraction20\\seed46\\metrics.json",
+    "results\\controlled_moment_frozen\\milling\\fraction100\\seed42\\metrics.json",
+    "results\\controlled_moment_frozen\\milling\\fraction100\\seed43\\metrics.json",
+    "results\\controlled_moment_frozen\\milling\\fraction100\\seed44\\metrics.json",
+    "results\\controlled_moment_frozen\\milling\\fraction100\\seed45\\metrics.json",
+    "results\\controlled_moment_frozen\\milling\\fraction100\\seed46\\metrics.json",
+    "results\\controlled_moment_full\\bearing\\fraction10\\seed42\\metrics.json",
+    "results\\controlled_moment_full\\bearing\\fraction10\\seed43\\metrics.json",
+    "results\\controlled_moment_full\\bearing\\fraction10\\seed44\\metrics.json",
+    "results\\controlled_moment_full\\bearing\\fraction10\\seed45\\metrics.json",
+    "results\\controlled_moment_full\\bearing\\fraction10\\seed46\\metrics.json",
+    "results\\controlled_moment_full\\bearing\\fraction20\\seed42\\metrics.json",
+    "results\\controlled_moment_full\\bearing\\fraction20\\seed43\\metrics.json",
+    "results\\controlled_moment_full\\bearing\\fraction20\\seed44\\metrics.json",
+    "results\\controlled_moment_full\\bearing\\fraction20\\seed45\\metrics.json",
+    "results\\controlled_moment_full\\bearing\\fraction20\\seed46\\metrics.json",
+    "results\\controlled_moment_full\\bearing\\fraction100\\seed42\\metrics.json",
+    "results\\controlled_moment_full\\bearing\\fraction100\\seed43\\metrics.json",
+    "results\\controlled_moment_full\\bearing\\fraction100\\seed44\\metrics.json",
+    "results\\controlled_moment_full\\bearing\\fraction100\\seed45\\metrics.json",
+    "results\\controlled_moment_full\\bearing\\fraction100\\seed46\\metrics.json",
+    "results\\controlled_moment_full\\battery\\fraction10\\seed42\\metrics.json",
+    "results\\controlled_moment_full\\battery\\fraction10\\seed43\\metrics.json",
+    "results\\controlled_moment_full\\battery\\fraction10\\seed44\\metrics.json",
+    "results\\controlled_moment_full\\battery\\fraction10\\seed45\\metrics.json",
+    "results\\controlled_moment_full\\battery\\fraction10\\seed46\\metrics.json",
+    "results\\controlled_moment_full\\battery\\fraction20\\seed42\\metrics.json",
+    "results\\controlled_moment_full\\battery\\fraction20\\seed43\\metrics.json",
+    "results\\controlled_moment_full\\battery\\fraction20\\seed44\\metrics.json",
+    "results\\controlled_moment_full\\battery\\fraction20\\seed45\\metrics.json",
+    "results\\controlled_moment_full\\battery\\fraction20\\seed46\\metrics.json",
+    "results\\controlled_moment_full\\battery\\fraction100\\seed42\\metrics.json",
+    "results\\controlled_moment_full\\battery\\fraction100\\seed43\\metrics.json",
+    "results\\controlled_moment_full\\battery\\fraction100\\seed44\\metrics.json",
+    "results\\controlled_moment_full\\battery\\fraction100\\seed45\\metrics.json",
+    "results\\controlled_moment_full\\battery\\fraction100\\seed46\\metrics.json",
+    "results\\controlled_moment_full\\milling\\fraction10\\seed42\\metrics.json",
+    "results\\controlled_moment_full\\milling\\fraction10\\seed43\\metrics.json",
+    "results\\controlled_moment_full\\milling\\fraction10\\seed44\\metrics.json",
+    "results\\controlled_moment_full\\milling\\fraction10\\seed45\\metrics.json",
+    "results\\controlled_moment_full\\milling\\fraction10\\seed46\\metrics.json",
+    "results\\controlled_moment_full\\milling\\fraction20\\seed42\\metrics.json",
+    "results\\controlled_moment_full\\milling\\fraction20\\seed43\\metrics.json",
+    "results\\controlled_moment_full\\milling\\fraction20\\seed44\\metrics.json",
+    "results\\controlled_moment_full\\milling\\fraction20\\seed45\\metrics.json",
+    "results\\controlled_moment_full\\milling\\fraction20\\seed46\\metrics.json",
+    "results\\controlled_moment_full\\milling\\fraction100\\seed42\\metrics.json",
+    "results\\controlled_moment_full\\milling\\fraction100\\seed43\\metrics.json",
+    "results\\controlled_moment_full\\milling\\fraction100\\seed44\\metrics.json",
+    "results\\controlled_moment_full\\milling\\fraction100\\seed45\\metrics.json",
+    "results\\controlled_moment_full\\milling\\fraction100\\seed46\\metrics.json"
+  ]
+}

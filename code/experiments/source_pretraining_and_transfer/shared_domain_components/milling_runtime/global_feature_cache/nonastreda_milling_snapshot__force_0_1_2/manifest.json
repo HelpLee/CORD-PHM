@@ -1,0 +1,29 @@
+{
+  "signature": {
+    "store_manifest": "53d3a09d2967d5b0e5d47d01f40395e714c510311c1f3165a84a5a60d54ef7a3",
+    "source": "/path/to/CORD/code/data_phm/processed_health_tokens/milling/nonastreda_milling_snapshot_health_tokens.npz",
+    "source_rows_sha": "5738153ec97595b1c1e4dc027f7b7fb4534f19ed2ce9f9ee712e6d34a384cde7",
+    "version": 1,
+    "sensor_selection": {
+      "mode": "force",
+      "indices": [
+        0,
+        1,
+        2
+      ],
+      "channels": [
+        "force_x",
+        "force_y",
+        "force_z"
+      ]
+    },
+    "domain": "milling",
+    "extraction": "observed local-token mean; exact full-cycle duration/capacity replacement for battery when available"
+  },
+  "shape": [
+    512,
+    3,
+    26
+  ],
+  "extraction": "One 26D whole-snapshot summary per channel from observed local windows; battery additionally uses exact cycle duration/capacity."
+}

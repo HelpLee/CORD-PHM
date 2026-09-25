@@ -1,9 +1,0 @@
-{
-  "schema_version": 1,
-  "A_main": "selected_main_results_and_three_completed_fair_baselines_code_and_results; incomplete_moment_code_only_rerun_required",
-  "B_ablation_study": "Mask-only_code_only; selected_Full+Adapter_checkpoint_and_results_reused_from_A",
-  "C_transfer_label_efficiency": "complete_E39_matrix_54_cells_270_seed_runs_with_code_and_hashed_results",
-  "D_cross_domain_transfer_analysis": "code_only_rerun_required",
-  "E_representation_analysis": "code_only_rerun_required",
-  "F_generalization_efficiency": "code_only_rerun_required"
-}

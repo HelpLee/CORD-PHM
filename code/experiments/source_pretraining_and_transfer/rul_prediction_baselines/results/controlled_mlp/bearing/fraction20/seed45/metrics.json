@@ -1,0 +1,23 @@
+{
+  "metrics": {
+    "rmse": 0.19903623394112885,
+    "mae": 0.1398845554102917,
+    "r2": 0.5496351925465492,
+    "bias": 0.11976199833726561,
+    "n": 37
+  },
+  "seconds": 2.6917049884796143,
+  "best_epoch": 36,
+  "stopped_epoch": 52,
+  "updates": 156,
+  "validation_rmse": 0.0689090557682359,
+  "parameter_count": 456813,
+  "trainable_parameter_count": 456813,
+  "model": "controlled_mlp",
+  "domain": "bearing",
+  "fraction": 0.2,
+  "seed": 45,
+  "input_family": "controlled_healthtoken",
+  "split_sha256": "65ab6f0a114baeaac548247f55f6e5f87c68d8793ebef8464f70aedb77e3752a",
+  "snapshot_sha256": "0a86e96f716949a82cc77924c841390a8ae6dfa74fdacc7b6c88fb11a8ea2668"
+}

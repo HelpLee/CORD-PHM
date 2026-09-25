@@ -1,0 +1,28 @@
+{
+  "schema_version": 2,
+  "main_and_appendix_c": {
+    "status": "complete",
+    "description": "Represented-system Frozen, Partial FT, and Full FT matrix for three system types, three label budgets, and five seeds.",
+    "entry_point": "code/experiments/source_pretraining_and_transfer/included_type_adaptation_matrix"
+  },
+  "appendix_d": {
+    "status": "code_and_protocol",
+    "description": "N-CMAPSS engine adaptation for the pretraining-excluded system type.",
+    "entry_point": "code/experiments/appendix_d_engine_adaptation"
+  },
+  "appendix_e": {
+    "status": "code_and_retained_analysis_records",
+    "description": "Frozen-representation retrieval and lifecycle diagnostics.",
+    "entry_point": "code/experiments/appendix_e_frozen_representation"
+  },
+  "appendix_f": {
+    "status": "code_and_processed_metadata",
+    "description": "Structured Descriptors versus parameter-free Raw-Resampled Inputs.",
+    "entry_point": "code/preprocess_health_tokens/raw_patch_ablation"
+  },
+  "appendix_g": {
+    "status": "code_and_protocol",
+    "description": "Efficiency and shared-deployment measurements.",
+    "entry_point": "code/experiments/appendix_g_efficiency"
+  }
+}

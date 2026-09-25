@@ -1,0 +1,10 @@
+{
+  "schema_version": 2,
+  "package_name": "CORD double-blind reproducibility package",
+  "source_revision": "withheld_for_double_blind_review",
+  "double_blind_anonymized": true,
+  "dataset_arrays_bundled": false,
+  "selected_model_directory": "code/experiments/source_pretraining_and_transfer/selected_bearing_floor_cagrad",
+  "represented_system_evaluation_directory": "code/experiments/source_pretraining_and_transfer/included_type_adaptation_matrix",
+  "paper_code_map": "PAPER_CODE_MAP.md"
+}

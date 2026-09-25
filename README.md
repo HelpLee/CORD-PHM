@@ -1,49 +1,59 @@
 # CORD double-blind reproducibility package
 
-This directory contains the exact source closure used by the selected E37 model
-and E39 downstream matrix, the selected checkpoints, synchronized completed
-results, split/scaler metadata, Slurm launchers, and cryptographic manifests.
-Dataset arrays are deliberately not bundled.
+This repository contains the anonymized code, selected checkpoints, protocol
+records, and retained results used in the CORD manuscript. Dataset arrays are
+not redistributed. The required processed files are identified by relative
+path, byte count, and SHA256 in `external_data_manifest.json`.
 
-Results follow `reuse_policy.json`: the complete E39 C matrix includes all
-54 validated cells and the exact code used to produce them. Other groups that
-still require a final locked-protocol rerun remain code/protocol only.
+## Start here
 
-## Layout
+1. Read `PAPER_CODE_MAP.md` for the direct mapping from manuscript sections and
+   Appendices A--G to code and results.
+2. Run `python validate_package.py` to verify all bundled files.
+3. Run `python prepare_external_data.py /path/to/data_phm` to stage the external
+   processed datasets as symbolic links.
+4. Reproduce the represented-system adaptation matrix with
+   `bash run_included_type_adaptation.sh`, or use the appendix-specific entry
+   points listed in `PAPER_CODE_MAP.md`.
 
-- `workspace/code`: isolated source tree preserving the original relative paths.
-- `data_manifest.json`: external NPZ paths, sizes, required flags, and SHA256.
-- `package_manifest.json`: SHA256 for every bundled non-NPZ file.
-- `build_metadata.json`: anonymized snapshot metadata, copied suites, and file counts.
-- `verify_package.py`: validates the bundle and optional external datasets.
-- `stage_external_data.py`: links external NPZ files into the isolated workspace.
-- `run_e39.sh`: E39 Slurm submission entry point; downstream jobs queue directly.
+## Repository layout
 
-## Reproduce
+- `code/preprocess_health_tokens/`: observation construction and dataset
+  preprocessing.
+- `code/experiments/source_pretraining_and_transfer/`: source pretraining,
+  selected CORD checkpoints, matched single-domain controls, downstream
+  adaptation, and RUL baselines.
+- `code/experiments/appendix_c_included_type_generalization/`: Appendix C
+  aggregation and label-efficiency analysis.
+- `code/experiments/appendix_d_engine_adaptation/`: engine adaptation code and
+  protocol records used for pretraining-excluded-system evaluation.
+- `code/experiments/appendix_e_frozen_representation/`: frozen-representation
+  diagnostics.
+- `code/experiments/appendix_g_efficiency/`: compute and shared-deployment
+  measurements.
+- `results_availability.json`: machine-readable inventory of bundled evidence.
+- `file_checksums.json`: SHA256 inventory for every bundled file other than the
+  checksum inventory itself.
+- `package_metadata.json`: anonymized package metadata.
 
-From the root of this extracted package:
+## Main represented-system evaluation
 
 ```bash
-python verify_package.py
-python verify_package.py --data-root /path/to/code/data_phm
-python stage_external_data.py /path/to/code/data_phm
-cd workspace/code/experiments/A_main/suite/39_complete_adaptation_matrix
+python validate_package.py
+python prepare_external_data.py /path/to/data_phm
+cd code/experiments/source_pretraining_and_transfer/included_type_adaptation_matrix
 python summarize.py
 python submit.py
 ```
 
-On a Slurm cluster, use the supplied `run_gpu.sh`/`submit.py` scripts after activating the
-environment described by
-`workspace/code/experiments/A_main/suite/01_shared_dependencies/requirements-lock.txt`.
-The four selected encoder checkpoints are materialized at the exact locations
-expected by `config.py`; completed result files are likewise restored to their
-original paths. Therefore `summarize.py` can reuse completed cells and schedules
-only missing cells.
-
-The package intentionally contains no `.npz` file. Raw datasets are also not
-redistributed; the external canonical processed NPZs are the experiment inputs.
+`submit.py` schedules only missing cells. Completed cells, split/scaler
+metadata, and the four selected encoder checkpoints are retained at the paths
+expected by the code. The environment lock is
+`code/experiments/source_pretraining_and_transfer/shared_domain_components/requirements-lock.txt`.
 
 ## Double-blind configuration
 
-This review archive intentionally omits author names, affiliations, repository remotes, Git history, workstation paths, cluster account names, scheduler logs, and raw datasets. Paths such as `/path/to/CORD` and `/home/anonymous` are neutral placeholders; set them for the local environment before launching cluster jobs. The released checkpoints, aggregate results, split metadata, and external-data hashes are retained.
-
+The repository omits author names, affiliations, workstation paths, cluster
+accounts, scheduler logs, Git history from the development repository, and raw
+datasets. Neutral placeholders such as `/path/to/CORD` and `/home/anonymous`
+must be adapted to the execution environment.

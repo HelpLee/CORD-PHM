@@ -1,8 +1,0 @@
-[
-  {
-    "dataset": "hmotp_milling_downstream_wear",
-    "out_path": "/path/to/CORD/code/data_phm/processed_health_tokens/milling/hmotp_milling_downstream_wear_health_tokens.npz",
-    "num_samples": 300,
-    "units": 3
-  }
-]

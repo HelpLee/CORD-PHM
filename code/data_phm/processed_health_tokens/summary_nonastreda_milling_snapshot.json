@@ -1,0 +1,8 @@
+[
+  {
+    "dataset": "nonastreda_milling_snapshot",
+    "out_path": "data_phm\\processed_health_tokens\\milling\\nonastreda_milling_snapshot_health_tokens.npz",
+    "num_samples": 512,
+    "units": 10
+  }
+]

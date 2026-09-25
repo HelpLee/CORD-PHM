@@ -1,0 +1,135 @@
+{
+  "complete": true,
+  "rows": [
+    {
+      "seed": 42,
+      "fraction": 1.0,
+      "arm": "partial_finetune",
+      "metrics": {
+        "rmse": 0.08828867450751052,
+        "mae": 0.068159577260549,
+        "r2": 0.9113844068738934,
+        "bias": 0.02147014585097094,
+        "n": 37
+      },
+      "head_hash": "7c43d17405a3cb0c4bdf70b5dc1c5f686f2005c7d40cb0431fb9e2489665e75f",
+      "epochs": 92,
+      "best_epoch": 76,
+      "validation_rmse": 0.0333560975462445,
+      "optimizer_updates": 1288,
+      "unfrozen_updates": 1288,
+      "partial_reached_stage2": true,
+      "sample_order_hash": "0081594d834e10da72a6351db9f3d4c8644b669d6c81c056f4f6f9544754e173",
+      "seconds": 81.02800822257996
+    },
+    {
+      "seed": 43,
+      "fraction": 1.0,
+      "arm": "partial_finetune",
+      "metrics": {
+        "rmse": 0.1008491245769046,
+        "mae": 0.081305496444976,
+        "r2": 0.884376950224173,
+        "bias": 0.028271488090221945,
+        "n": 37
+      },
+      "head_hash": "06e22bc78c319eafe9177f2f11dc52a1b3c9a0cd66e73b657d2b3de6d263685c",
+      "epochs": 60,
+      "best_epoch": 44,
+      "validation_rmse": 0.03157264351599939,
+      "optimizer_updates": 840,
+      "unfrozen_updates": 840,
+      "partial_reached_stage2": true,
+      "sample_order_hash": "9a3704f9327ed0ae7048e31258e8b848eded10eec21099cce84efea32b9c564c",
+      "seconds": 52.56005096435547
+    },
+    {
+      "seed": 44,
+      "fraction": 1.0,
+      "arm": "partial_finetune",
+      "metrics": {
+        "rmse": 0.13611596012825825,
+        "mae": 0.10472484360876921,
+        "r2": 0.7893709557864497,
+        "bias": 0.07910748656738449,
+        "n": 37
+      },
+      "head_hash": "cc964eefb9c6b17e4290c497e88a101ca9b1f65ed90af87fcd834c5d96157295",
+      "epochs": 88,
+      "best_epoch": 72,
+      "validation_rmse": 0.030012862707167968,
+      "optimizer_updates": 1232,
+      "unfrozen_updates": 1232,
+      "partial_reached_stage2": true,
+      "sample_order_hash": "d2f83c9adfbefeabcc08356863e00d0a561cb869786e16a3e634d4ffc6aff945",
+      "seconds": 74.86490201950073
+    },
+    {
+      "seed": 45,
+      "fraction": 1.0,
+      "arm": "partial_finetune",
+      "metrics": {
+        "rmse": 0.09369042475700343,
+        "mae": 0.07773435906179853,
+        "r2": 0.9002091846773308,
+        "bias": 0.03637783012881472,
+        "n": 37
+      },
+      "head_hash": "f756c29ceed4215828ecb7cc14d5dfd051e249a09094d7f7c8683ac2c62072c7",
+      "epochs": 98,
+      "best_epoch": 82,
+      "validation_rmse": 0.017609014989469464,
+      "optimizer_updates": 1372,
+      "unfrozen_updates": 1372,
+      "partial_reached_stage2": true,
+      "sample_order_hash": "0c3205b733e5a2535f8af611c6e11253c4cf1685d9da182ce83572f15fd4aa94",
+      "seconds": 83.54576754570007
+    },
+    {
+      "seed": 46,
+      "fraction": 1.0,
+      "arm": "partial_finetune",
+      "metrics": {
+        "rmse": 0.11264942922010533,
+        "mae": 0.0892401315976639,
+        "r2": 0.855735941328509,
+        "bias": 0.03292114977296945,
+        "n": 37
+      },
+      "head_hash": "efa585f7e52ca3258998ea5f4f2bbbdf49fb0d9f0ccb991c78eeb212a1184d3b",
+      "epochs": 62,
+      "best_epoch": 46,
+      "validation_rmse": 0.029796342465812514,
+      "optimizer_updates": 868,
+      "unfrozen_updates": 868,
+      "partial_reached_stage2": true,
+      "sample_order_hash": "c40257103d728d9b7f76648c58654c57cbc6f142d2c74f68478d68da185b567b",
+      "seconds": 53.00383639335632
+    }
+  ],
+  "summary": [
+    {
+      "fraction": 1.0,
+      "arm": "partial_finetune",
+      "n": 5,
+      "metrics": {
+        "rmse": {
+          "mean": 0.10631872263795643,
+          "std": 0.018989643583993694
+        },
+        "mae": {
+          "mean": 0.08423288159475133,
+          "std": 0.013730846213197565
+        },
+        "r2": {
+          "mean": 0.8682154877780711,
+          "std": 0.048786638514414754
+        },
+        "bias": {
+          "mean": 0.03962962008207231,
+          "std": 0.022764299466020724
+        }
+      }
+    }
+  ]
+}

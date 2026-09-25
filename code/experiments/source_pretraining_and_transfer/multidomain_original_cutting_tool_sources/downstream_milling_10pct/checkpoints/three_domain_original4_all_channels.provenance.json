@@ -1,0 +1,17 @@
+{
+  "source": "/path/to/CORD/code/experiments/source_pretraining_and_transfer/multidomain_original_cutting_tool_sources/three_domain/training/encoder.pt",
+  "source_sha256": "2a5dafcf6bac654355895a5fb1e41e68a66e7ec9d0139c305ac329db122e9ef5",
+  "converted": "/path/to/CORD/code/experiments/source_pretraining_and_transfer/multidomain_original_cutting_tool_sources/downstream_milling_10pct/checkpoints/three_domain_original4_all_channels.pt",
+  "converted_sha256": "719841250e1641836868b3bbc5afe5fbe68932f5306d0bfdf1f86203cf0b95e1",
+  "strict_load": true,
+  "mapping": {
+    "local_norm.weight": "stems.milling.local.0.weight",
+    "local_norm.bias": "stems.milling.local.0.bias",
+    "local_proj.weight": "stems.milling.local.1.weight",
+    "local_proj.bias": "stems.milling.local.1.bias",
+    "global_norm.weight": "stems.milling.global.0.weight",
+    "global_norm.bias": "stems.milling.global.0.bias",
+    "global_proj.weight": "stems.milling.global.1.weight",
+    "global_proj.bias": "stems.milling.global.1.bias"
+  }
+}

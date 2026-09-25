@@ -1,0 +1,147 @@
+{
+  "signature": {
+    "path": "/path/to/CORD/code/data_phm/processed_health_tokens/milling/phm2010_milling_downstream_health_tokens.npz",
+    "bytes": 17292800,
+    "mtime_ns": 1788775942232954500,
+    "upstream_cap_per_unit": 24,
+    "downstream": true,
+    "version": 1
+  },
+  "domain": "milling",
+  "downstream": true,
+  "shape": [
+    822,
+    7,
+    64,
+    26
+  ],
+  "counts": {
+    "C1": 306,
+    "C4": 278,
+    "C6": 238
+  },
+  "excluded": {},
+  "features": [
+    "mean",
+    "abs_mean",
+    "std",
+    "var",
+    "rms",
+    "energy",
+    "peak",
+    "ptp",
+    "min",
+    "max",
+    "skewness",
+    "kurtosis",
+    "crest_factor",
+    "shape_factor",
+    "impulse_factor",
+    "clearance_factor",
+    "root_amplitude",
+    "zero_crossing_rate",
+    "spectral_centroid",
+    "spectral_bandwidth",
+    "spectral_entropy",
+    "dominant_frequency",
+    "band_energy_low",
+    "band_energy_mid",
+    "band_energy_high",
+    "band_energy_high_low_ratio"
+  ],
+  "metadata": {
+    "dataset": "phm2010_milling_downstream",
+    "dataset_role": "downstream_only",
+    "source": "PHM Society 2010 Data Challenge; Kaggle public mirror rabahba/phm-data-challenge-2010",
+    "official_url": "https://phmsociety.org/phm_competition/2010-phm-society-conference-data-challenge/",
+    "mirror_url": "https://www.kaggle.com/datasets/rabahba/phm-data-challenge-2010",
+    "rul_protocol_reference": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12251633/",
+    "labelled_cutters_only": [
+      "C1",
+      "C4",
+      "C6"
+    ],
+    "one_npz_row": "one complete published cut acquisition at or before the final usable cut",
+    "sensor_channels": [
+      "force_x",
+      "force_y",
+      "force_z",
+      "vibration_x",
+      "vibration_y",
+      "vibration_z",
+      "ae_rms"
+    ],
+    "sampling_hz": 50000,
+    "window_definition": "32 contiguous equal-sample windows covering the complete cut; no overlap or resampling",
+    "target": "remaining cut acquisitions to the final usable cut immediately before the 0.16 mm crossing",
+    "failure_definition": "RUL zero is the cut immediately before mean three-flute wear first reaches 160 um",
+    "eol_cuts": {
+      "C1": 306,
+      "C4": 278,
+      "C6": 238
+    },
+    "target_caveat": "The 0.16 mm rule and pre-crossing RUL-zero convention are a published PHM2010 protocol, not official labels in the archive.",
+    "wear_is_model_input": false,
+    "scaling_deferred_to_downstream_train_fold": true,
+    "debug_partial": false,
+    "source_audit": [
+      {
+        "unit": "C1",
+        "cuts": 315,
+        "wear_rows": 315,
+        "eol_cut": 306,
+        "threshold_crossing_cut": 307,
+        "failure_threshold_um": 160.0,
+        "root": "/path/to/CORD/code/data_phm/raw/Milling/phm2010/c1",
+        "wear_first_um": [
+          32.31711196899414,
+          48.892616271972656,
+          37.7208251953125
+        ],
+        "wear_at_eol_um": [
+          168.77549743652344,
+          158.4571533203125,
+          152.52410888671875
+        ]
+      },
+      {
+        "unit": "C4",
+        "cuts": 315,
+        "wear_rows": 315,
+        "eol_cut": 278,
+        "threshold_crossing_cut": 279,
+        "failure_threshold_um": 160.0,
+        "root": "/path/to/CORD/code/data_phm/raw/Milling/phm2010/c4",
+        "wear_first_um": [
+          31.41635513305664,
+          19.483692169189453,
+          21.748062133789062
+        ],
+        "wear_at_eol_um": [
+          151.7872772216797,
+          165.72412109375,
+          162.20941162109375
+        ]
+      },
+      {
+        "unit": "C6",
+        "cuts": 315,
+        "wear_rows": 315,
+        "eol_cut": 238,
+        "threshold_crossing_cut": 239,
+        "failure_threshold_um": 160.0,
+        "root": "/path/to/CORD/code/data_phm/raw/Milling/phm2010/c6",
+        "wear_first_um": [
+          62.78864669799805,
+          9.89664077758789,
+          14.620908737182617
+        ],
+        "wear_at_eol_um": [
+          144.87161254882812,
+          162.73486328125,
+          170.40672302246094
+        ]
+      }
+    ]
+  }
+}

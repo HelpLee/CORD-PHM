@@ -1,0 +1,2530 @@
+{
+  "complete": true,
+  "rows": [
+    {
+      "seed": 42,
+      "arm": "scratch",
+      "train": [
+        "C1",
+        "C4"
+      ],
+      "held": "C6",
+      "best": {
+        "epoch": 14,
+        "stage": 1,
+        "metrics": {
+          "rmse": 0.09276133262972909,
+          "mae": 0.0763894555469354,
+          "r2": 0.914722564780116,
+          "bias": -0.010165585825840632,
+          "n": 12
+        }
+      },
+      "optimizer_updates": 60,
+      "metrics": {
+        "rmse": 0.11531089943459093,
+        "mae": 0.09421819642815552,
+        "r2": 0.8131300432846594,
+        "bias": 0.027188412713303686,
+        "n": 219
+      },
+      "initial_encoder_hash": "8ea143209e073e182a7571a18675864ab03a02ba71050fea7dda1d1924262b83",
+      "final_encoder_hash": "a6538f224d66356247ec319821d9839e76b265e2e8f5e05c88ee6746e58b91ed",
+      "head_hash": "168c9a46d7254f1e28351ba71254b7117ae225880708295c08b5180daa14f199",
+      "sample_order_hash": "cebe5a976433ecc3fe7d94fbd3d650ec23c0cbc1f1a0c2a67dfc523e96cd932f",
+      "seconds": 18.337790489196777,
+      "fraction": 0.1,
+      "initialization": "scratch",
+      "imported": true,
+      "source_package": "/path/to/CORD/outputs/milling_all_7channel_scratch_ablation",
+      "comparison_source": "/path/to/CORD/outputs/milling_all_7channel_complete_transfer_matrix/results.json"
+    },
+    {
+      "seed": 43,
+      "arm": "scratch",
+      "train": [
+        "C1",
+        "C4"
+      ],
+      "held": "C6",
+      "best": {
+        "epoch": 26,
+        "stage": 1,
+        "metrics": {
+          "rmse": 0.0921288623744437,
+          "mae": 0.056639851381381355,
+          "r2": 0.915881486648782,
+          "bias": -0.0070324478050072985,
+          "n": 12
+        }
+      },
+      "optimizer_updates": 84,
+      "metrics": {
+        "rmse": 0.15084009874357532,
+        "mae": 0.12928874311398833,
+        "r2": 0.6802339282955403,
+        "bias": 0.028530628752116472,
+        "n": 219
+      },
+      "initial_encoder_hash": "3c6812effcb972cedaab626f6fa5a192e44d71c484710a1f4407f1668c9a073d",
+      "final_encoder_hash": "71dfc27256a0ca6d807d12a104575517a70a62cefbea84287f41b1a1b8063438",
+      "head_hash": "c6579725cc54d13a8bc2d3189d5234898d22bdd371fac76e2245e9eaa86d799b",
+      "sample_order_hash": "0ee341576846ed5434971109431149028c30bcf5da8831a548dd57da9b8c3c4b",
+      "seconds": 26.067551136016846,
+      "fraction": 0.1,
+      "initialization": "scratch",
+      "imported": true,
+      "source_package": "/path/to/CORD/outputs/milling_all_7channel_scratch_ablation",
+      "comparison_source": "/path/to/CORD/outputs/milling_all_7channel_complete_transfer_matrix/results.json"
+    },
+    {
+      "seed": 42,
+      "arm": "scratch",
+      "train": [
+        "C1",
+        "C4"
+      ],
+      "held": "C6",
+      "best": {
+        "epoch": 26,
+        "stage": 1,
+        "metrics": {
+          "rmse": 0.05599414150796785,
+          "mae": 0.03373190177523572,
+          "r2": 0.9641781273425685,
+          "bias": 0.003063085286513619,
+          "n": 23
+        }
+      },
+      "optimizer_updates": 126,
+      "metrics": {
+        "rmse": 0.06906024500017857,
+        "mae": 0.056405378841544125,
+        "r2": 0.9329721953750315,
+        "bias": -0.013626548759299055,
+        "n": 219
+      },
+      "initial_encoder_hash": "8ea143209e073e182a7571a18675864ab03a02ba71050fea7dda1d1924262b83",
+      "final_encoder_hash": "8fb287963532453212d50756a48585d08b516cf45df03740831c7838de10a787",
+      "head_hash": "168c9a46d7254f1e28351ba71254b7117ae225880708295c08b5180daa14f199",
+      "sample_order_hash": "52fc3b00e28b16aa63cd7d4a7668cf8d295ae3f3b9aabd2d791df202fe4eee9d",
+      "seconds": 48.646390438079834,
+      "fraction": 0.2,
+      "initialization": "scratch",
+      "imported": true,
+      "source_package": "/path/to/CORD/outputs/milling_all_7channel_scratch_ablation",
+      "comparison_source": "/path/to/CORD/outputs/milling_all_7channel_complete_transfer_matrix/results.json"
+    },
+    {
+      "seed": 43,
+      "arm": "scratch",
+      "train": [
+        "C1",
+        "C4"
+      ],
+      "held": "C6",
+      "best": {
+        "epoch": 18,
+        "stage": 1,
+        "metrics": {
+          "rmse": 0.05872872335806849,
+          "mae": 0.034123091594032616,
+          "r2": 0.9605938301230759,
+          "bias": -0.0053438440613124685,
+          "n": 23
+        }
+      },
+      "optimizer_updates": 102,
+      "metrics": {
+        "rmse": 0.09712780941747948,
+        "mae": 0.0790041190142569,
+        "r2": 0.867417576439359,
+        "bias": 0.03496523919732195,
+        "n": 219
+      },
+      "initial_encoder_hash": "3c6812effcb972cedaab626f6fa5a192e44d71c484710a1f4407f1668c9a073d",
+      "final_encoder_hash": "e06f6f28b07c559f10b0a4ace7ababd5b733aaf7784e71f41f63ed6ecc62688a",
+      "head_hash": "c6579725cc54d13a8bc2d3189d5234898d22bdd371fac76e2245e9eaa86d799b",
+      "sample_order_hash": "06c531f54a2222671ad4e3c1a4e76873ba0fd6c30fc40312dbf3bd273805e0b3",
+      "seconds": 51.54207491874695,
+      "fraction": 0.2,
+      "initialization": "scratch",
+      "imported": true,
+      "source_package": "/path/to/CORD/outputs/milling_all_7channel_scratch_ablation",
+      "comparison_source": "/path/to/CORD/outputs/milling_all_7channel_complete_transfer_matrix/results.json"
+    },
+    {
+      "seed": 44,
+      "arm": "scratch",
+      "train": [
+        "C1",
+        "C4"
+      ],
+      "held": "C6",
+      "best": {
+        "epoch": 36,
+        "stage": 1,
+        "metrics": {
+          "rmse": 0.0864709005317713,
+          "mae": 0.05368755136926969,
+          "r2": 0.9258962585941787,
+          "bias": -0.023857805877923965,
+          "n": 12
+        }
+      },
+      "optimizer_updates": 104,
+      "metrics": {
+        "rmse": 0.1236787684217825,
+        "mae": 0.10186256342843923,
+        "r2": 0.7850244496130583,
+        "bias": 0.01609394924298405,
+        "n": 219
+      },
+      "initial_encoder_hash": "029568f4e857bc41afcb3a3caabf17922729313925e77d89c32b1e90e2effb91",
+      "final_encoder_hash": "318a2db7b0df34efbd19b414fd4f27e0149de352673ccb879e4110421f1c0e80",
+      "head_hash": "2c729d43061decec138f0f8e4fb2ed528019f980657aaa2fbbb6d17193b12e5c",
+      "sample_order_hash": "a58f98244d7bcff75003f8d8efc32e454254f09fef1281b222c8e1af88bfdfbe",
+      "seconds": 18.939457893371582,
+      "fraction": 0.1,
+      "initialization": "scratch",
+      "imported": true,
+      "source_package": "/path/to/CORD/outputs/milling_all_7channel_scratch_ablation",
+      "comparison_source": "/path/to/CORD/outputs/milling_all_7channel_complete_transfer_matrix/results.json"
+    },
+    {
+      "seed": 45,
+      "arm": "scratch",
+      "train": [
+        "C1",
+        "C4"
+      ],
+      "held": "C6",
+      "best": {
+        "epoch": 22,
+        "stage": 1,
+        "metrics": {
+          "rmse": 0.08196865914850118,
+          "mae": 0.05862207834919294,
+          "r2": 0.9334120210420438,
+          "bias": 0.004360781361659368,
+          "n": 12
+        }
+      },
+      "optimizer_updates": 76,
+      "metrics": {
+        "rmse": 0.12433083533227132,
+        "mae": 0.10585331267434848,
+        "r2": 0.7827516590035402,
+        "bias": 0.03890270352380597,
+        "n": 219
+      },
+      "initial_encoder_hash": "b5d1f336e04fdc1283a7dcfdc28fbe885a6838f383f149be1f30ed4ff8b853e5",
+      "final_encoder_hash": "852a384c903a308ca9954d09a98826d6888951ea066842501c800f6edfec477b",
+      "head_hash": "0e7fbfb2485ca2960b580d1369d5ac411ad12bca9af1e08331078e76554f6434",
+      "sample_order_hash": "a54e1f007c4ce4e46966aeaf716da5a9dfa4fc580c7e4a9a76d63a0821e4c02c",
+      "seconds": 15.406099081039429,
+      "fraction": 0.1,
+      "initialization": "scratch",
+      "imported": true,
+      "source_package": "/path/to/CORD/outputs/milling_all_7channel_scratch_ablation",
+      "comparison_source": "/path/to/CORD/outputs/milling_all_7channel_complete_transfer_matrix/results.json"
+    },
+    {
+      "seed": 46,
+      "arm": "scratch",
+      "train": [
+        "C1",
+        "C4"
+      ],
+      "held": "C6",
+      "best": {
+        "epoch": 30,
+        "stage": 1,
+        "metrics": {
+          "rmse": 0.10069663588240943,
+          "mae": 0.06090499088168144,
+          "r2": 0.8995083226719447,
+          "bias": -0.010613176971673965,
+          "n": 12
+        }
+      },
+      "optimizer_updates": 92,
+      "metrics": {
+        "rmse": 0.14911581508124125,
+        "mae": 0.1192548708122683,
+        "r2": 0.6875027649191323,
+        "bias": 0.027554066252116472,
+        "n": 219
+      },
+      "initial_encoder_hash": "ce339a4d66697d927134f493a94fd34ac44f6f11ca8d077943732f78f7c5964e",
+      "final_encoder_hash": "f8631582289a8bf9c2dcce9af3fcabd4bcb25df9d0a0be805a43ae0017c1221d",
+      "head_hash": "fd029b366a89f92bf26f9736feb5a24f4abe08cfac946a1674bebefe2f8e4c93",
+      "sample_order_hash": "6618c4ff6863060f51fbaa906b022fe234fc26f7bbef47eb4d4725fffb64a8c4",
+      "seconds": 26.597728490829468,
+      "fraction": 0.1,
+      "initialization": "scratch",
+      "imported": true,
+      "source_package": "/path/to/CORD/outputs/milling_all_7channel_scratch_ablation",
+      "comparison_source": "/path/to/CORD/outputs/milling_all_7channel_complete_transfer_matrix/results.json"
+    },
+    {
+      "seed": 44,
+      "arm": "scratch",
+      "train": [
+        "C1",
+        "C4"
+      ],
+      "held": "C6",
+      "best": {
+        "epoch": 44,
+        "stage": 1,
+        "metrics": {
+          "rmse": 0.05852585181231464,
+          "mae": 0.026070933627045673,
+          "r2": 0.9608656079616696,
+          "bias": -0.012275314849355946,
+          "n": 23
+        }
+      },
+      "optimizer_updates": 180,
+      "metrics": {
+        "rmse": 0.11027717140172999,
+        "mae": 0.08638629715753608,
+        "r2": 0.8290890053824718,
+        "bias": -0.01058538152185613,
+        "n": 219
+      },
+      "initial_encoder_hash": "029568f4e857bc41afcb3a3caabf17922729313925e77d89c32b1e90e2effb91",
+      "final_encoder_hash": "d537252f22107f2e8af4f8db52f1418f3fbf756706059fb9a6e5a300e962eb72",
+      "head_hash": "2c729d43061decec138f0f8e4fb2ed528019f980657aaa2fbbb6d17193b12e5c",
+      "sample_order_hash": "ec57a079bd0f09bbf9d42b736332d412ac50954333381f5c876dfe64942e0334",
+      "seconds": 69.53654432296753,
+      "fraction": 0.2,
+      "initialization": "scratch",
+      "imported": true,
+      "source_package": "/path/to/CORD/outputs/milling_all_7channel_scratch_ablation",
+      "comparison_source": "/path/to/CORD/outputs/milling_all_7channel_complete_transfer_matrix/results.json"
+    },
+    {
+      "seed": 45,
+      "arm": "scratch",
+      "train": [
+        "C1",
+        "C4"
+      ],
+      "held": "C6",
+      "best": {
+        "epoch": 30,
+        "stage": 1,
+        "metrics": {
+          "rmse": 0.050612952980385435,
+          "mae": 0.027346901919530785,
+          "r2": 0.9707324439975957,
+          "bias": -0.0014906681102255116,
+          "n": 23
+        }
+      },
+      "optimizer_updates": 138,
+      "metrics": {
+        "rmse": 0.10609002115327165,
+        "mae": 0.08639032387315002,
+        "r2": 0.8418213598451263,
+        "bias": 0.02870007795302971,
+        "n": 219
+      },
+      "initial_encoder_hash": "b5d1f336e04fdc1283a7dcfdc28fbe885a6838f383f149be1f30ed4ff8b853e5",
+      "final_encoder_hash": "8fc20889d545a5efc8ea6918a0b7650b9907ce221a4d09a9316c7d0a57c862d0",
+      "head_hash": "0e7fbfb2485ca2960b580d1369d5ac411ad12bca9af1e08331078e76554f6434",
+      "sample_order_hash": "02b2190906249236fe6514d9d9f718b6669b50259d8ca1f23582727ae4337108",
+      "seconds": 58.884339332580566,
+      "fraction": 0.2,
+      "initialization": "scratch",
+      "imported": true,
+      "source_package": "/path/to/CORD/outputs/milling_all_7channel_scratch_ablation",
+      "comparison_source": "/path/to/CORD/outputs/milling_all_7channel_complete_transfer_matrix/results.json"
+    },
+    {
+      "seed": 46,
+      "arm": "scratch",
+      "train": [
+        "C1",
+        "C4"
+      ],
+      "held": "C6",
+      "best": {
+        "epoch": 32,
+        "stage": 1,
+        "metrics": {
+          "rmse": 0.051302330404981264,
+          "mae": 0.03146669916484667,
+          "r2": 0.9699297325097902,
+          "bias": -0.00500417014826899,
+          "n": 23
+        }
+      },
+      "optimizer_updates": 144,
+      "metrics": {
+        "rmse": 0.08589207235002899,
+        "mae": 0.0669298558857411,
+        "r2": 0.8963176270703628,
+        "bias": 0.0020965534096507176,
+        "n": 219
+      },
+      "initial_encoder_hash": "ce339a4d66697d927134f493a94fd34ac44f6f11ca8d077943732f78f7c5964e",
+      "final_encoder_hash": "c5710a02e940ec55ba70670a621f0e6c76300aa5af1769a3ef576b0bc5fd75c1",
+      "head_hash": "fd029b366a89f92bf26f9736feb5a24f4abe08cfac946a1674bebefe2f8e4c93",
+      "sample_order_hash": "6ddef80583feebdd64eac6586975fb518c3f8284c037570843bd9e15d4dfd74f",
+      "seconds": 75.58404016494751,
+      "fraction": 0.2,
+      "initialization": "scratch",
+      "imported": true,
+      "source_package": "/path/to/CORD/outputs/milling_all_7channel_scratch_ablation",
+      "comparison_source": "/path/to/CORD/outputs/milling_all_7channel_complete_transfer_matrix/results.json"
+    },
+    {
+      "seed": 42,
+      "arm": "scratch",
+      "train": [
+        "C1",
+        "C4"
+      ],
+      "held": "C6",
+      "best": {
+        "epoch": 48,
+        "stage": 1,
+        "metrics": {
+          "rmse": 0.007711244231215488,
+          "mae": 0.005183845368975943,
+          "r2": 0.999214339125323,
+          "bias": -0.0011176317083564672,
+          "n": 110
+        }
+      },
+      "optimizer_updates": 896,
+      "metrics": {
+        "rmse": 0.031024424955139036,
+        "mae": 0.025688068103470487,
+        "r2": 0.9864728518451453,
+        "bias": -0.018220628739321884,
+        "n": 219
+      },
+      "initial_encoder_hash": "8ea143209e073e182a7571a18675864ab03a02ba71050fea7dda1d1924262b83",
+      "final_encoder_hash": "2adc6b1450927e347d393c54ada53bf72fbe0e5ab095770adfbca9976c73298b",
+      "head_hash": "168c9a46d7254f1e28351ba71254b7117ae225880708295c08b5180daa14f199",
+      "sample_order_hash": "0ba02c62127905a8e29c99a907f248999dd006be284ae08db200bca289a94ac6",
+      "seconds": 350.3854994773865,
+      "initialization": "scratch",
+      "fraction": 1.0,
+      "imported": true,
+      "source_checkpoint": null,
+      "comparison_source": "/path/to/CORD/outputs/milling_all_7channel_complete_transfer_matrix/results.json"
+    },
+    {
+      "seed": 43,
+      "arm": "scratch",
+      "train": [
+        "C1",
+        "C4"
+      ],
+      "held": "C6",
+      "best": {
+        "epoch": 18,
+        "stage": 1,
+        "metrics": {
+          "rmse": 0.020458861687063325,
+          "mae": 0.00876949918879704,
+          "r2": 0.9944696942561753,
+          "bias": -0.003576793640174649,
+          "n": 110
+        }
+      },
+      "optimizer_updates": 476,
+      "metrics": {
+        "rmse": 0.09161899316135501,
+        "mae": 0.07650828011521058,
+        "r2": 0.882030484634353,
+        "bias": 0.01853535549298405,
+        "n": 219
+      },
+      "initial_encoder_hash": "3c6812effcb972cedaab626f6fa5a192e44d71c484710a1f4407f1668c9a073d",
+      "final_encoder_hash": "6d1ab6451ce0db4d551adb9ed60fc52e8a3aa3e0cb5bfca243caaa1a58ddc5c4",
+      "head_hash": "c6579725cc54d13a8bc2d3189d5234898d22bdd371fac76e2245e9eaa86d799b",
+      "sample_order_hash": "e4f36d32aef1785c04e27568fca082acd24d1e8dc713481cf0bd55f31e138a9d",
+      "seconds": 188.84308695793152,
+      "initialization": "scratch",
+      "fraction": 1.0,
+      "imported": true,
+      "source_checkpoint": null,
+      "comparison_source": "/path/to/CORD/outputs/milling_all_7channel_complete_transfer_matrix/results.json"
+    },
+    {
+      "seed": 44,
+      "arm": "scratch",
+      "train": [
+        "C1",
+        "C4"
+      ],
+      "held": "C6",
+      "best": {
+        "epoch": 28,
+        "stage": 1,
+        "metrics": {
+          "rmse": 0.02128180634131787,
+          "mae": 0.011508722552521663,
+          "r2": 0.9940158401873902,
+          "bias": -2.3437816311012614e-05,
+          "n": 110
+        }
+      },
+      "optimizer_updates": 616,
+      "metrics": {
+        "rmse": 0.06719383971762749,
+        "mae": 0.046454819612477195,
+        "r2": 0.9365461929322456,
+        "bias": -0.02875434913030362,
+        "n": 219
+      },
+      "initial_encoder_hash": "029568f4e857bc41afcb3a3caabf17922729313925e77d89c32b1e90e2effb91",
+      "final_encoder_hash": "19d64cf36515c336b1eeb4681b87cfaabe142886bcadb161cce9458b9a414b24",
+      "head_hash": "2c729d43061decec138f0f8e4fb2ed528019f980657aaa2fbbb6d17193b12e5c",
+      "sample_order_hash": "31be683e4e1764e86eac07b43ea08374e0879ce545b221e2d34a89d7e000e0b0",
+      "seconds": 270.55402302742004,
+      "initialization": "scratch",
+      "fraction": 1.0,
+      "imported": true,
+      "source_checkpoint": null,
+      "comparison_source": "/path/to/CORD/outputs/milling_all_7channel_complete_transfer_matrix/results.json"
+    },
+    {
+      "seed": 45,
+      "arm": "scratch",
+      "train": [
+        "C1",
+        "C4"
+      ],
+      "held": "C6",
+      "best": {
+        "epoch": 32,
+        "stage": 1,
+        "metrics": {
+          "rmse": 0.006875052959056776,
+          "mae": 0.004887455583296039,
+          "r2": 0.9993754915697932,
+          "bias": 0.001452503234825351,
+          "n": 110
+        }
+      },
+      "optimizer_updates": 672,
+      "metrics": {
+        "rmse": 0.08338920661674515,
+        "mae": 0.07462109336586983,
+        "r2": 0.9022721263853276,
+        "bias": 0.030898458375404142,
+        "n": 219
+      },
+      "initial_encoder_hash": "b5d1f336e04fdc1283a7dcfdc28fbe885a6838f383f149be1f30ed4ff8b853e5",
+      "final_encoder_hash": "463e400ff9635c05690fc2abb9d4f018d94573ec09c51806a70f39de530f6298",
+      "head_hash": "0e7fbfb2485ca2960b580d1369d5ac411ad12bca9af1e08331078e76554f6434",
+      "sample_order_hash": "332e35e7239093090785a3db6b54f787922d82429b9296904956cc7d6f2b792e",
+      "seconds": 315.111967086792,
+      "initialization": "scratch",
+      "fraction": 1.0,
+      "imported": true,
+      "source_checkpoint": null,
+      "comparison_source": "/path/to/CORD/outputs/milling_all_7channel_complete_transfer_matrix/results.json"
+    },
+    {
+      "seed": 46,
+      "arm": "scratch",
+      "train": [
+        "C1",
+        "C4"
+      ],
+      "held": "C6",
+      "best": {
+        "epoch": 34,
+        "stage": 1,
+        "metrics": {
+          "rmse": 0.01387540700685658,
+          "mae": 0.00857242482968352,
+          "r2": 0.9974562309926315,
+          "bias": 0.0028130323541435327,
+          "n": 110
+        }
+      },
+      "optimizer_updates": 700,
+      "metrics": {
+        "rmse": 0.07978460339249589,
+        "mae": 0.06872290186158735,
+        "r2": 0.9105383411904391,
+        "bias": -0.024952890083499966,
+        "n": 219
+      },
+      "initial_encoder_hash": "ce339a4d66697d927134f493a94fd34ac44f6f11ca8d077943732f78f7c5964e",
+      "final_encoder_hash": "c47efc9a708cb918cb4309abca207d5c4341e5fa6d9e1c7026cf24b43ddf8ee2",
+      "head_hash": "fd029b366a89f92bf26f9736feb5a24f4abe08cfac946a1674bebefe2f8e4c93",
+      "sample_order_hash": "0401a4a449ce7b6f5be36536bbb0d4048c67ab199a5665a954ba644b2ac5399b",
+      "seconds": 272.12590980529785,
+      "initialization": "scratch",
+      "fraction": 1.0,
+      "imported": true,
+      "source_checkpoint": null,
+      "comparison_source": "/path/to/CORD/outputs/milling_all_7channel_complete_transfer_matrix/results.json"
+    },
+    {
+      "seed": 42,
+      "arm": "frozen_probe",
+      "train": [
+        "C1",
+        "C4"
+      ],
+      "held": "C6",
+      "best": {
+        "epoch": 20,
+        "stage": 1,
+        "metrics": {
+          "rmse": 0.08237985970669397,
+          "mae": 0.05945423369606336,
+          "r2": 0.9327422603401234,
+          "bias": -0.00027789051334063214,
+          "n": 12
+        }
+      },
+      "optimizer_updates": 72,
+      "metrics": {
+        "rmse": 0.10198682291943673,
+        "mae": 0.08801999760017684,
+        "r2": 0.8538203588410185,
+        "bias": 0.019652382462162134,
+        "n": 219
+      },
+      "initial_encoder_hash": "c5e5797e36aba019831733b62eb07ba9f15fcd0dff43818d26a685e29c133c3b",
+      "final_encoder_hash": "c5e5797e36aba019831733b62eb07ba9f15fcd0dff43818d26a685e29c133c3b",
+      "head_hash": "168c9a46d7254f1e28351ba71254b7117ae225880708295c08b5180daa14f199",
+      "sample_order_hash": "82e516a82dca1da3155956f35f95d8ea34379a07086d6fc84526b5fbb7ca9589",
+      "seconds": 13.544789791107178,
+      "initialization": "milling_only_refreshed",
+      "fraction": 0.1,
+      "imported": false,
+      "source_checkpoint": "/path/to/CORD/code/experiments/source_pretraining_and_transfer/cutting_tool_source_pretraining/milling_only/training/encoder.pt"
+    },
+    {
+      "seed": 42,
+      "arm": "partial_finetune",
+      "train": [
+        "C1",
+        "C4"
+      ],
+      "held": "C6",
+      "best": {
+        "epoch": 8,
+        "stage": 2,
+        "metrics": {
+          "rmse": 0.0853440340977956,
+          "mae": 0.07248070711890857,
+          "r2": 0.9278150754538882,
+          "bias": 0.014858828236659368,
+          "n": 12
+        }
+      },
+      "optimizer_updates": 48,
+      "metrics": {
+        "rmse": 0.10364026939549605,
+        "mae": 0.09243585588197865,
+        "r2": 0.8490421047435903,
+        "bias": 0.028557383889102773,
+        "n": 219
+      },
+      "initial_encoder_hash": "c5e5797e36aba019831733b62eb07ba9f15fcd0dff43818d26a685e29c133c3b",
+      "final_encoder_hash": "74cd2f772dcac4b428cfac27549fce356d7d60f602214ccedf354869875fd372",
+      "head_hash": "168c9a46d7254f1e28351ba71254b7117ae225880708295c08b5180daa14f199",
+      "sample_order_hash": "d5ac63708c1dd59de8150001b08d1352b052be6d8166ac8496fb8df851557a26",
+      "seconds": 8.572627305984497,
+      "initialization": "milling_only_refreshed",
+      "fraction": 0.1,
+      "imported": false,
+      "source_checkpoint": "/path/to/CORD/code/experiments/source_pretraining_and_transfer/cutting_tool_source_pretraining/milling_only/training/encoder.pt"
+    },
+    {
+      "seed": 42,
+      "arm": "full_finetune",
+      "train": [
+        "C1",
+        "C4"
+      ],
+      "held": "C6",
+      "best": {
+        "epoch": 26,
+        "stage": 2,
+        "metrics": {
+          "rmse": 0.09023471402483857,
+          "mae": 0.05596552168329557,
+          "r2": 0.9193048442096287,
+          "bias": -0.025668515513340633,
+          "n": 12
+        }
+      },
+      "optimizer_updates": 84,
+      "metrics": {
+        "rmse": 0.1007260668800412,
+        "mae": 0.08544362085067654,
+        "r2": 0.857412150914475,
+        "bias": 0.014448508318326517,
+        "n": 219
+      },
+      "initial_encoder_hash": "c5e5797e36aba019831733b62eb07ba9f15fcd0dff43818d26a685e29c133c3b",
+      "final_encoder_hash": "55eb5a5f0c3ea5bef771fe1ca084496cc7a07182746640d25fa55e6ee242a644",
+      "head_hash": "168c9a46d7254f1e28351ba71254b7117ae225880708295c08b5180daa14f199",
+      "sample_order_hash": "649e5ec08f2afae5b4c6485b9abe26325e8bb5919f6a1bb3cc9d4b8ef2c0cfa9",
+      "seconds": 17.395426750183105,
+      "initialization": "milling_only_refreshed",
+      "fraction": 0.1,
+      "imported": false,
+      "source_checkpoint": "/path/to/CORD/code/experiments/source_pretraining_and_transfer/cutting_tool_source_pretraining/milling_only/training/encoder.pt"
+    },
+    {
+      "seed": 43,
+      "arm": "frozen_probe",
+      "train": [
+        "C1",
+        "C4"
+      ],
+      "held": "C6",
+      "best": {
+        "epoch": 34,
+        "stage": 1,
+        "metrics": {
+          "rmse": 0.08407973647721811,
+          "mae": 0.055254120379686356,
+          "r2": 0.9299379475828157,
+          "bias": -0.015129778534173965,
+          "n": 12
+        }
+      },
+      "optimizer_updates": 100,
+      "metrics": {
+        "rmse": 0.07929546383623186,
+        "mae": 0.06356964131485518,
+        "r2": 0.9116319130261642,
+        "bias": -0.01924958671592006,
+        "n": 219
+      },
+      "initial_encoder_hash": "c5e5797e36aba019831733b62eb07ba9f15fcd0dff43818d26a685e29c133c3b",
+      "final_encoder_hash": "c5e5797e36aba019831733b62eb07ba9f15fcd0dff43818d26a685e29c133c3b",
+      "head_hash": "c6579725cc54d13a8bc2d3189d5234898d22bdd371fac76e2245e9eaa86d799b",
+      "sample_order_hash": "0238c4d3f5732a97caf7e3a592a3419422845935e478de20911bd3814313abfc",
+      "seconds": 15.249571561813354,
+      "initialization": "milling_only_refreshed",
+      "fraction": 0.1,
+      "imported": false,
+      "source_checkpoint": "/path/to/CORD/code/experiments/source_pretraining_and_transfer/cutting_tool_source_pretraining/milling_only/training/encoder.pt"
+    },
+    {
+      "seed": 43,
+      "arm": "partial_finetune",
+      "train": [
+        "C1",
+        "C4"
+      ],
+      "held": "C6",
+      "best": {
+        "epoch": 30,
+        "stage": 2,
+        "metrics": {
+          "rmse": 0.08507907022529929,
+          "mae": 0.05055065328876177,
+          "r2": 0.928262598398007,
+          "bias": -0.020378801971673965,
+          "n": 12
+        }
+      },
+      "optimizer_updates": 92,
+      "metrics": {
+        "rmse": 0.08898374421496347,
+        "mae": 0.07353537434873651,
+        "r2": 0.8887192312244163,
+        "bias": -0.022890514940805903,
+        "n": 219
+      },
+      "initial_encoder_hash": "c5e5797e36aba019831733b62eb07ba9f15fcd0dff43818d26a685e29c133c3b",
+      "final_encoder_hash": "002d03db352ff8ba2ca36d20f257da6927cf9f0c37df5486a5cf107f37dd979f",
+      "head_hash": "c6579725cc54d13a8bc2d3189d5234898d22bdd371fac76e2245e9eaa86d799b",
+      "sample_order_hash": "7a238e4c6c5221ae0da68ab1e6ca7258990da4a7998837ba1cb2c99a27eeadc2",
+      "seconds": 23.701409101486206,
+      "initialization": "milling_only_refreshed",
+      "fraction": 0.1,
+      "imported": false,
+      "source_checkpoint": "/path/to/CORD/code/experiments/source_pretraining_and_transfer/cutting_tool_source_pretraining/milling_only/training/encoder.pt"
+    },
+    {
+      "seed": 43,
+      "arm": "full_finetune",
+      "train": [
+        "C1",
+        "C4"
+      ],
+      "held": "C6",
+      "best": {
+        "epoch": 22,
+        "stage": 2,
+        "metrics": {
+          "rmse": 0.07814445562473586,
+          "mae": 0.04664998625715574,
+          "r2": 0.9394803354668959,
+          "bias": -0.020460182180007298,
+          "n": 12
+        }
+      },
+      "optimizer_updates": 76,
+      "metrics": {
+        "rmse": 0.08253517839163452,
+        "mae": 0.06375571395181222,
+        "r2": 0.9042636304921925,
+        "bias": 0.0008145364290571104,
+        "n": 219
+      },
+      "initial_encoder_hash": "c5e5797e36aba019831733b62eb07ba9f15fcd0dff43818d26a685e29c133c3b",
+      "final_encoder_hash": "8eb2d01935fb64cf6d0a25f923bca18a60cd069655d226b14e92458a36eadbc8",
+      "head_hash": "c6579725cc54d13a8bc2d3189d5234898d22bdd371fac76e2245e9eaa86d799b",
+      "sample_order_hash": "5b91cfc4d115d7c9cf6c41abefd20e72181c020167e9cf7eb6497a376d25ed8f",
+      "seconds": 19.050139665603638,
+      "initialization": "milling_only_refreshed",
+      "fraction": 0.1,
+      "imported": false,
+      "source_checkpoint": "/path/to/CORD/code/experiments/source_pretraining_and_transfer/cutting_tool_source_pretraining/milling_only/training/encoder.pt"
+    },
+    {
+      "seed": 44,
+      "arm": "frozen_probe",
+      "train": [
+        "C1",
+        "C4"
+      ],
+      "held": "C6",
+      "best": {
+        "epoch": 46,
+        "stage": 1,
+        "metrics": {
+          "rmse": 0.07467131108991591,
+          "mae": 0.04419485852122307,
+          "r2": 0.9447404014660921,
+          "bias": -0.020745012909173965,
+          "n": 12
+        }
+      },
+      "optimizer_updates": 124,
+      "metrics": {
+        "rmse": 0.10124714139458206,
+        "mae": 0.08785433996230636,
+        "r2": 0.8559330685381231,
+        "bias": -0.0326026296668333,
+        "n": 219
+      },
+      "initial_encoder_hash": "c5e5797e36aba019831733b62eb07ba9f15fcd0dff43818d26a685e29c133c3b",
+      "final_encoder_hash": "c5e5797e36aba019831733b62eb07ba9f15fcd0dff43818d26a685e29c133c3b",
+      "head_hash": "2c729d43061decec138f0f8e4fb2ed528019f980657aaa2fbbb6d17193b12e5c",
+      "sample_order_hash": "e3cbebc5ba62f48314b242f38b67ce1c761dcabe073a6b999054bfd1f6c62d3b",
+      "seconds": 19.57829737663269,
+      "initialization": "milling_only_refreshed",
+      "fraction": 0.1,
+      "imported": false,
+      "source_checkpoint": "/path/to/CORD/code/experiments/source_pretraining_and_transfer/cutting_tool_source_pretraining/milling_only/training/encoder.pt"
+    },
+    {
+      "seed": 44,
+      "arm": "partial_finetune",
+      "train": [
+        "C1",
+        "C4"
+      ],
+      "held": "C6",
+      "best": {
+        "epoch": 22,
+        "stage": 2,
+        "metrics": {
+          "rmse": 0.07644001948470504,
+          "mae": 0.04900942618648211,
+          "r2": 0.942091575417781,
+          "bias": -0.018913958221673965,
+          "n": 12
+        }
+      },
+      "optimizer_updates": 76,
+      "metrics": {
+        "rmse": 0.08187285307013567,
+        "mae": 0.06898640800845814,
+        "r2": 0.9057939889001896,
+        "bias": 0.004482219790929256,
+        "n": 219
+      },
+      "initial_encoder_hash": "c5e5797e36aba019831733b62eb07ba9f15fcd0dff43818d26a685e29c133c3b",
+      "final_encoder_hash": "4f0ffeb9d9264796ec45f07737d2720d726df70bed64f00d950f87548085a67d",
+      "head_hash": "2c729d43061decec138f0f8e4fb2ed528019f980657aaa2fbbb6d17193b12e5c",
+      "sample_order_hash": "954f11d3c362a062f26b932c33a74ee05664af9b219f6e3c64b023337fbca5ff",
+      "seconds": 13.250578880310059,
+      "initialization": "milling_only_refreshed",
+      "fraction": 0.1,
+      "imported": false,
+      "source_checkpoint": "/path/to/CORD/code/experiments/source_pretraining_and_transfer/cutting_tool_source_pretraining/milling_only/training/encoder.pt"
+    },
+    {
+      "seed": 44,
+      "arm": "full_finetune",
+      "train": [
+        "C1",
+        "C4"
+      ],
+      "held": "C6",
+      "best": {
+        "epoch": 30,
+        "stage": 2,
+        "metrics": {
+          "rmse": 0.07445820047360685,
+          "mae": 0.05162952716151873,
+          "r2": 0.9450553712208459,
+          "bias": -0.013278378794590632,
+          "n": 12
+        }
+      },
+      "optimizer_updates": 92,
+      "metrics": {
+        "rmse": 0.08413224221966789,
+        "mae": 0.07235012373984813,
+        "r2": 0.9005227679248385,
+        "bias": 0.021984538569468068,
+        "n": 219
+      },
+      "initial_encoder_hash": "c5e5797e36aba019831733b62eb07ba9f15fcd0dff43818d26a685e29c133c3b",
+      "final_encoder_hash": "11aafb53ad95b9e4193dace3df1b00968fc01c99793c01599672ddf446c7a3b1",
+      "head_hash": "2c729d43061decec138f0f8e4fb2ed528019f980657aaa2fbbb6d17193b12e5c",
+      "sample_order_hash": "d75e50342d51b52166175434b99cb89933232b65f4a8d3806c1b5dac93fb1a6f",
+      "seconds": 30.431567668914795,
+      "initialization": "milling_only_refreshed",
+      "fraction": 0.1,
+      "imported": false,
+      "source_checkpoint": "/path/to/CORD/code/experiments/source_pretraining_and_transfer/cutting_tool_source_pretraining/milling_only/training/encoder.pt"
+    },
+    {
+      "seed": 45,
+      "arm": "frozen_probe",
+      "train": [
+        "C1",
+        "C4"
+      ],
+      "held": "C6",
+      "best": {
+        "epoch": 34,
+        "stage": 1,
+        "metrics": {
+          "rmse": 0.08794675611597731,
+          "mae": 0.05206897978981336,
+          "r2": 0.9233451174794672,
+          "bias": -0.017266009002923965,
+          "n": 12
+        }
+      },
+      "optimizer_updates": 100,
+      "metrics": {
+        "rmse": 0.09540098372924817,
+        "mae": 0.08298317350226042,
+        "r2": 0.8720900080638422,
+        "bias": -0.03647320615085157,
+        "n": 219
+      },
+      "initial_encoder_hash": "c5e5797e36aba019831733b62eb07ba9f15fcd0dff43818d26a685e29c133c3b",
+      "final_encoder_hash": "c5e5797e36aba019831733b62eb07ba9f15fcd0dff43818d26a685e29c133c3b",
+      "head_hash": "0e7fbfb2485ca2960b580d1369d5ac411ad12bca9af1e08331078e76554f6434",
+      "sample_order_hash": "f61e644719d322bd72926a5112837194650adbd5cee1d8f2a697cadcba5b65ec",
+      "seconds": 14.917589902877808,
+      "initialization": "milling_only_refreshed",
+      "fraction": 0.1,
+      "imported": false,
+      "source_checkpoint": "/path/to/CORD/code/experiments/source_pretraining_and_transfer/cutting_tool_source_pretraining/milling_only/training/encoder.pt"
+    },
+    {
+      "seed": 45,
+      "arm": "partial_finetune",
+      "train": [
+        "C1",
+        "C4"
+      ],
+      "held": "C6",
+      "best": {
+        "epoch": 24,
+        "stage": 2,
+        "metrics": {
+          "rmse": 0.09038535145643378,
+          "mae": 0.054714422672986984,
+          "r2": 0.9190351950510548,
+          "bias": -0.0123425063987573,
+          "n": 12
+        }
+      },
+      "optimizer_updates": 80,
+      "metrics": {
+        "rmse": 0.09343010732326128,
+        "mae": 0.07908171228639203,
+        "r2": 0.8773203689867252,
+        "bias": -0.01817046285747257,
+        "n": 219
+      },
+      "initial_encoder_hash": "c5e5797e36aba019831733b62eb07ba9f15fcd0dff43818d26a685e29c133c3b",
+      "final_encoder_hash": "da929fa8d516575aaeb4980d5d72249f4bd19ce5d654d36cee72ad2f5a10f3f9",
+      "head_hash": "0e7fbfb2485ca2960b580d1369d5ac411ad12bca9af1e08331078e76554f6434",
+      "sample_order_hash": "7e1c5cb3e4fb534450a2b3d89acefd0b59b9ea1334f2f1f427132378c973511c",
+      "seconds": 20.017725706100464,
+      "initialization": "milling_only_refreshed",
+      "fraction": 0.1,
+      "imported": false,
+      "source_checkpoint": "/path/to/CORD/code/experiments/source_pretraining_and_transfer/cutting_tool_source_pretraining/milling_only/training/encoder.pt"
+    },
+    {
+      "seed": 45,
+      "arm": "full_finetune",
+      "train": [
+        "C1",
+        "C4"
+      ],
+      "held": "C6",
+      "best": {
+        "epoch": 30,
+        "stage": 2,
+        "metrics": {
+          "rmse": 0.0826660680268162,
+          "mae": 0.05154873306552569,
+          "r2": 0.9322741079557729,
+          "bias": -0.0065238215029239655,
+          "n": 12
+        }
+      },
+      "optimizer_updates": 92,
+      "metrics": {
+        "rmse": 0.1145476187069208,
+        "mae": 0.09940841049381179,
+        "r2": 0.8155957627578755,
+        "bias": -0.008623338142860698,
+        "n": 219
+      },
+      "initial_encoder_hash": "c5e5797e36aba019831733b62eb07ba9f15fcd0dff43818d26a685e29c133c3b",
+      "final_encoder_hash": "16d69142fb78072f86df8fd10d0350319e562be8e398292c6b3cab8187307269",
+      "head_hash": "0e7fbfb2485ca2960b580d1369d5ac411ad12bca9af1e08331078e76554f6434",
+      "sample_order_hash": "6effe1fd3326a496bc333091ef8a39a35437e777f4cdb433583d5cdc62e5c1c5",
+      "seconds": 19.101375102996826,
+      "initialization": "milling_only_refreshed",
+      "fraction": 0.1,
+      "imported": false,
+      "source_checkpoint": "/path/to/CORD/code/experiments/source_pretraining_and_transfer/cutting_tool_source_pretraining/milling_only/training/encoder.pt"
+    },
+    {
+      "seed": 46,
+      "arm": "frozen_probe",
+      "train": [
+        "C1",
+        "C4"
+      ],
+      "held": "C6",
+      "best": {
+        "epoch": 48,
+        "stage": 1,
+        "metrics": {
+          "rmse": 0.07955577990455592,
+          "mae": 0.04556611552834511,
+          "r2": 0.9372745700326266,
+          "bias": -0.020968808482090633,
+          "n": 12
+        }
+      },
+      "optimizer_updates": 128,
+      "metrics": {
+        "rmse": 0.11528391769826633,
+        "mae": 0.0952408363124075,
+        "r2": 0.8132174849059302,
+        "bias": -0.018134789341490834,
+        "n": 219
+      },
+      "initial_encoder_hash": "c5e5797e36aba019831733b62eb07ba9f15fcd0dff43818d26a685e29c133c3b",
+      "final_encoder_hash": "c5e5797e36aba019831733b62eb07ba9f15fcd0dff43818d26a685e29c133c3b",
+      "head_hash": "fd029b366a89f92bf26f9736feb5a24f4abe08cfac946a1674bebefe2f8e4c93",
+      "sample_order_hash": "95790a26473cb06a650b20f3557b0a1681f61f77d13fae8f6178e74dd95ef59d",
+      "seconds": 29.232850313186646,
+      "initialization": "milling_only_refreshed",
+      "fraction": 0.1,
+      "imported": false,
+      "source_checkpoint": "/path/to/CORD/code/experiments/source_pretraining_and_transfer/cutting_tool_source_pretraining/milling_only/training/encoder.pt"
+    },
+    {
+      "seed": 46,
+      "arm": "partial_finetune",
+      "train": [
+        "C1",
+        "C4"
+      ],
+      "held": "C6",
+      "best": {
+        "epoch": 38,
+        "stage": 2,
+        "metrics": {
+          "rmse": 0.0922822612683634,
+          "mae": 0.05287116145094236,
+          "r2": 0.9156011308689199,
+          "bias": -0.023756080617507298,
+          "n": 12
+        }
+      },
+      "optimizer_updates": 108,
+      "metrics": {
+        "rmse": 0.11369508504116278,
+        "mae": 0.09449758163342874,
+        "r2": 0.8183304471176197,
+        "bias": -0.01916486211546344,
+        "n": 219
+      },
+      "initial_encoder_hash": "c5e5797e36aba019831733b62eb07ba9f15fcd0dff43818d26a685e29c133c3b",
+      "final_encoder_hash": "eced2fe43054105c7e55e8391ea56fa47b4029e9cb0aadb26e1638904265be2b",
+      "head_hash": "fd029b366a89f92bf26f9736feb5a24f4abe08cfac946a1674bebefe2f8e4c93",
+      "sample_order_hash": "307310e94666c7a2ae42df1db9ac4f9df7819797d1b96bac37efee6ff7eacff2",
+      "seconds": 16.30747675895691,
+      "initialization": "milling_only_refreshed",
+      "fraction": 0.1,
+      "imported": false,
+      "source_checkpoint": "/path/to/CORD/code/experiments/source_pretraining_and_transfer/cutting_tool_source_pretraining/milling_only/training/encoder.pt"
+    },
+    {
+      "seed": 46,
+      "arm": "full_finetune",
+      "train": [
+        "C1",
+        "C4"
+      ],
+      "held": "C6",
+      "best": {
+        "epoch": 44,
+        "stage": 2,
+        "metrics": {
+          "rmse": 0.07677755721865812,
+          "mae": 0.04602958386143049,
+          "r2": 0.941579031491445,
+          "bias": -0.015618059784173965,
+          "n": 12
+        }
+      },
+      "optimizer_updates": 120,
+      "metrics": {
+        "rmse": 0.08716626793396805,
+        "mae": 0.06990051382225534,
+        "r2": 0.8932185855454282,
+        "bias": 0.008734056977002316,
+        "n": 219
+      },
+      "initial_encoder_hash": "c5e5797e36aba019831733b62eb07ba9f15fcd0dff43818d26a685e29c133c3b",
+      "final_encoder_hash": "42afbc4d32a45a8a0a24f9c651b41b68ef5aa6a11fc0e46f673eaf4e0e2fd42e",
+      "head_hash": "fd029b366a89f92bf26f9736feb5a24f4abe08cfac946a1674bebefe2f8e4c93",
+      "sample_order_hash": "01dfb0124a7903109c553998e77613b8fcb45daea59f9e6926d44dca23a9c386",
+      "seconds": 32.58244037628174,
+      "initialization": "milling_only_refreshed",
+      "fraction": 0.1,
+      "imported": false,
+      "source_checkpoint": "/path/to/CORD/code/experiments/source_pretraining_and_transfer/cutting_tool_source_pretraining/milling_only/training/encoder.pt"
+    },
+    {
+      "seed": 42,
+      "arm": "frozen_probe",
+      "train": [
+        "C1",
+        "C4"
+      ],
+      "held": "C6",
+      "best": {
+        "epoch": 70,
+        "stage": 1,
+        "metrics": {
+          "rmse": 0.046578524670060524,
+          "mae": 0.02296600587989973,
+          "r2": 0.9752123952910787,
+          "bias": -0.0048767924308776855,
+          "n": 23
+        }
+      },
+      "optimizer_updates": 258,
+      "metrics": {
+        "rmse": 0.08877018650827363,
+        "mae": 0.07402387169959475,
+        "r2": 0.8892527297546656,
+        "bias": -0.00439825609377394,
+        "n": 219
+      },
+      "initial_encoder_hash": "c5e5797e36aba019831733b62eb07ba9f15fcd0dff43818d26a685e29c133c3b",
+      "final_encoder_hash": "c5e5797e36aba019831733b62eb07ba9f15fcd0dff43818d26a685e29c133c3b",
+      "head_hash": "168c9a46d7254f1e28351ba71254b7117ae225880708295c08b5180daa14f199",
+      "sample_order_hash": "cff6b734170e3f930296302cf88e23828770f86ce02158d7accd261ac4325689",
+      "seconds": 75.41775798797607,
+      "initialization": "milling_only_refreshed",
+      "fraction": 0.2,
+      "imported": false,
+      "source_checkpoint": "/path/to/CORD/code/experiments/source_pretraining_and_transfer/cutting_tool_source_pretraining/milling_only/training/encoder.pt"
+    },
+    {
+      "seed": 42,
+      "arm": "partial_finetune",
+      "train": [
+        "C1",
+        "C4"
+      ],
+      "held": "C6",
+      "best": {
+        "epoch": 28,
+        "stage": 2,
+        "metrics": {
+          "rmse": 0.04371345763914983,
+          "mae": 0.028243842332259468,
+          "r2": 0.9781680049668167,
+          "bias": -0.0067343841428342075,
+          "n": 23
+        }
+      },
+      "optimizer_updates": 132,
+      "metrics": {
+        "rmse": 0.08779917350440415,
+        "mae": 0.07650631370626765,
+        "r2": 0.8916622975749307,
+        "bias": 0.012049464368554827,
+        "n": 219
+      },
+      "initial_encoder_hash": "c5e5797e36aba019831733b62eb07ba9f15fcd0dff43818d26a685e29c133c3b",
+      "final_encoder_hash": "3f3cbe758fde51c029051cb99da0e137b170966159c2369738840c75a49850a4",
+      "head_hash": "168c9a46d7254f1e28351ba71254b7117ae225880708295c08b5180daa14f199",
+      "sample_order_hash": "1985acc67f71645bd0dc055b0ccff7e1765b0c182209492013dc4e869d2b486d",
+      "seconds": 48.282649517059326,
+      "initialization": "milling_only_refreshed",
+      "fraction": 0.2,
+      "imported": false,
+      "source_checkpoint": "/path/to/CORD/code/experiments/source_pretraining_and_transfer/cutting_tool_source_pretraining/milling_only/training/encoder.pt"
+    },
+    {
+      "seed": 42,
+      "arm": "full_finetune",
+      "train": [
+        "C1",
+        "C4"
+      ],
+      "held": "C6",
+      "best": {
+        "epoch": 26,
+        "stage": 2,
+        "metrics": {
+          "rmse": 0.04042938729129918,
+          "mae": 0.024050543489663498,
+          "r2": 0.9813251370233954,
+          "bias": 0.002298818982165793,
+          "n": 23
+        }
+      },
+      "optimizer_updates": 126,
+      "metrics": {
+        "rmse": 0.08214115347616094,
+        "mae": 0.0671013757356838,
+        "r2": 0.9051755439705969,
+        "bias": 0.01565248948271008,
+        "n": 219
+      },
+      "initial_encoder_hash": "c5e5797e36aba019831733b62eb07ba9f15fcd0dff43818d26a685e29c133c3b",
+      "final_encoder_hash": "51908e4283d3f7286609fbc329632f6ca465a7c3f2e7478109a80ef97ddf5979",
+      "head_hash": "168c9a46d7254f1e28351ba71254b7117ae225880708295c08b5180daa14f199",
+      "sample_order_hash": "8df271a23d7ec95d5adbd8a19b335f7602d64fb41ba694770a24b0df9dc36014",
+      "seconds": 53.312201261520386,
+      "initialization": "milling_only_refreshed",
+      "fraction": 0.2,
+      "imported": false,
+      "source_checkpoint": "/path/to/CORD/code/experiments/source_pretraining_and_transfer/cutting_tool_source_pretraining/milling_only/training/encoder.pt"
+    },
+    {
+      "seed": 43,
+      "arm": "frozen_probe",
+      "train": [
+        "C1",
+        "C4"
+      ],
+      "held": "C6",
+      "best": {
+        "epoch": 42,
+        "stage": 1,
+        "metrics": {
+          "rmse": 0.058311057792117836,
+          "mae": 0.028068838560062905,
+          "r2": 0.9611523328236641,
+          "bias": -0.005948888218921164,
+          "n": 23
+        }
+      },
+      "optimizer_updates": 174,
+      "metrics": {
+        "rmse": 0.0886534412811096,
+        "mae": 0.07462201438010692,
+        "r2": 0.8895438345470845,
+        "bias": -0.020074536772997684,
+        "n": 219
+      },
+      "initial_encoder_hash": "c5e5797e36aba019831733b62eb07ba9f15fcd0dff43818d26a685e29c133c3b",
+      "final_encoder_hash": "c5e5797e36aba019831733b62eb07ba9f15fcd0dff43818d26a685e29c133c3b",
+      "head_hash": "c6579725cc54d13a8bc2d3189d5234898d22bdd371fac76e2245e9eaa86d799b",
+      "sample_order_hash": "e3cd384bca0d8471ca2d0d55abb15a9c38d8765980441e259c0744bfe3682cc6",
+      "seconds": 49.22136878967285,
+      "initialization": "milling_only_refreshed",
+      "fraction": 0.2,
+      "imported": false,
+      "source_checkpoint": "/path/to/CORD/code/experiments/source_pretraining_and_transfer/cutting_tool_source_pretraining/milling_only/training/encoder.pt"
+    },
+    {
+      "seed": 43,
+      "arm": "partial_finetune",
+      "train": [
+        "C1",
+        "C4"
+      ],
+      "held": "C6",
+      "best": {
+        "epoch": 30,
+        "stage": 2,
+        "metrics": {
+          "rmse": 0.061202928657699315,
+          "mae": 0.02893615546433822,
+          "r2": 0.9572035728724847,
+          "bias": -0.0070103691971820335,
+          "n": 23
+        }
+      },
+      "optimizer_updates": 138,
+      "metrics": {
+        "rmse": 0.07946282763870782,
+        "mae": 0.06515189097369234,
+        "r2": 0.9112584937640025,
+        "bias": -0.02463405803441321,
+        "n": 219
+      },
+      "initial_encoder_hash": "c5e5797e36aba019831733b62eb07ba9f15fcd0dff43818d26a685e29c133c3b",
+      "final_encoder_hash": "30aee8e24b5d328220ecd681f79a4cf48054bcfda9141db62df0a6bed53bb03b",
+      "head_hash": "c6579725cc54d13a8bc2d3189d5234898d22bdd371fac76e2245e9eaa86d799b",
+      "sample_order_hash": "2d2b9704e10eb11778a2a603e7ed2708b2f6b1796e29aedecab58842980d7b60",
+      "seconds": 45.252811908721924,
+      "initialization": "milling_only_refreshed",
+      "fraction": 0.2,
+      "imported": false,
+      "source_checkpoint": "/path/to/CORD/code/experiments/source_pretraining_and_transfer/cutting_tool_source_pretraining/milling_only/training/encoder.pt"
+    },
+    {
+      "seed": 43,
+      "arm": "full_finetune",
+      "train": [
+        "C1",
+        "C4"
+      ],
+      "held": "C6",
+      "best": {
+        "epoch": 38,
+        "stage": 2,
+        "metrics": {
+          "rmse": 0.05560245568589316,
+          "mae": 0.026190909354583077,
+          "r2": 0.9646775312183974,
+          "bias": -0.0043513593466385555,
+          "n": 23
+        }
+      },
+      "optimizer_updates": 162,
+      "metrics": {
+        "rmse": 0.08817152309075171,
+        "mae": 0.07314806445565535,
+        "r2": 0.8907414452380317,
+        "bias": -0.004630133947655218,
+        "n": 219
+      },
+      "initial_encoder_hash": "c5e5797e36aba019831733b62eb07ba9f15fcd0dff43818d26a685e29c133c3b",
+      "final_encoder_hash": "f01a18975c26f78221a00f00fd7d4680aab15108cd93aea40744a46808195ae4",
+      "head_hash": "c6579725cc54d13a8bc2d3189d5234898d22bdd371fac76e2245e9eaa86d799b",
+      "sample_order_hash": "00367562a6f11ef2cd18c5e4366d1e6889e5c155dddffeb7a4f2a266985c3b12",
+      "seconds": 58.86335897445679,
+      "initialization": "milling_only_refreshed",
+      "fraction": 0.2,
+      "imported": false,
+      "source_checkpoint": "/path/to/CORD/code/experiments/source_pretraining_and_transfer/cutting_tool_source_pretraining/milling_only/training/encoder.pt"
+    },
+    {
+      "seed": 44,
+      "arm": "frozen_probe",
+      "train": [
+        "C1",
+        "C4"
+      ],
+      "held": "C6",
+      "best": {
+        "epoch": 20,
+        "stage": 1,
+        "metrics": {
+          "rmse": 0.04670702593394069,
+          "mae": 0.027772998032362564,
+          "r2": 0.9750754380864877,
+          "bias": -0.0012889867243559463,
+          "n": 23
+        }
+      },
+      "optimizer_updates": 108,
+      "metrics": {
+        "rmse": 0.09163463803317487,
+        "mae": 0.08056374394747357,
+        "r2": 0.8819901922132765,
+        "bias": -0.013960987971627821,
+        "n": 219
+      },
+      "initial_encoder_hash": "c5e5797e36aba019831733b62eb07ba9f15fcd0dff43818d26a685e29c133c3b",
+      "final_encoder_hash": "c5e5797e36aba019831733b62eb07ba9f15fcd0dff43818d26a685e29c133c3b",
+      "head_hash": "2c729d43061decec138f0f8e4fb2ed528019f980657aaa2fbbb6d17193b12e5c",
+      "sample_order_hash": "ae53e8f88d2facbf85903ef476d73dc8f1721f23173ea8cf02d29f71d9dc2d7a",
+      "seconds": 29.324352979660034,
+      "initialization": "milling_only_refreshed",
+      "fraction": 0.2,
+      "imported": false,
+      "source_checkpoint": "/path/to/CORD/code/experiments/source_pretraining_and_transfer/cutting_tool_source_pretraining/milling_only/training/encoder.pt"
+    },
+    {
+      "seed": 44,
+      "arm": "partial_finetune",
+      "train": [
+        "C1",
+        "C4"
+      ],
+      "held": "C6",
+      "best": {
+        "epoch": 48,
+        "stage": 2,
+        "metrics": {
+          "rmse": 0.04903331258743181,
+          "mae": 0.02365970870722895,
+          "r2": 0.9725308277181042,
+          "bias": -0.01257252952326899,
+          "n": 23
+        }
+      },
+      "optimizer_updates": 192,
+      "metrics": {
+        "rmse": 0.08578852970273021,
+        "mae": 0.07594347738801208,
+        "r2": 0.8965674540041413,
+        "bias": -0.024096725699938322,
+        "n": 219
+      },
+      "initial_encoder_hash": "c5e5797e36aba019831733b62eb07ba9f15fcd0dff43818d26a685e29c133c3b",
+      "final_encoder_hash": "6f0c66348f6c5847ea4b6165a3e845ca5786368ddb397876c8c1d0c4b77a36ed",
+      "head_hash": "2c729d43061decec138f0f8e4fb2ed528019f980657aaa2fbbb6d17193b12e5c",
+      "sample_order_hash": "c65e417a136ba16e3cabb2309f059cf7a8cd5ed256e52577d52e812ecf78c65d",
+      "seconds": 66.865731716156,
+      "initialization": "milling_only_refreshed",
+      "fraction": 0.2,
+      "imported": false,
+      "source_checkpoint": "/path/to/CORD/code/experiments/source_pretraining_and_transfer/cutting_tool_source_pretraining/milling_only/training/encoder.pt"
+    },
+    {
+      "seed": 44,
+      "arm": "full_finetune",
+      "train": [
+        "C1",
+        "C4"
+      ],
+      "held": "C6",
+      "best": {
+        "epoch": 42,
+        "stage": 2,
+        "metrics": {
+          "rmse": 0.046404343026942844,
+          "mae": 0.02648570356161698,
+          "r2": 0.9753974364858625,
+          "bias": 0.003657514634339706,
+          "n": 23
+        }
+      },
+      "optimizer_updates": 174,
+      "metrics": {
+        "rmse": 0.08748052183324079,
+        "mae": 0.07454099697082146,
+        "r2": 0.8924472558565276,
+        "bias": -0.0013370225035912915,
+        "n": 219
+      },
+      "initial_encoder_hash": "c5e5797e36aba019831733b62eb07ba9f15fcd0dff43818d26a685e29c133c3b",
+      "final_encoder_hash": "a19ceafa964fad27b32426b3e01d13ec342f9a2cf686703346aada2032c444ea",
+      "head_hash": "2c729d43061decec138f0f8e4fb2ed528019f980657aaa2fbbb6d17193b12e5c",
+      "sample_order_hash": "0ed0db38ab9ed9f70c62671112e3a0a63673112de6172d3af7319fee0ec2f799",
+      "seconds": 71.66064286231995,
+      "initialization": "milling_only_refreshed",
+      "fraction": 0.2,
+      "imported": false,
+      "source_checkpoint": "/path/to/CORD/code/experiments/source_pretraining_and_transfer/cutting_tool_source_pretraining/milling_only/training/encoder.pt"
+    },
+    {
+      "seed": 45,
+      "arm": "frozen_probe",
+      "train": [
+        "C1",
+        "C4"
+      ],
+      "held": "C6",
+      "best": {
+        "epoch": 76,
+        "stage": 1,
+        "metrics": {
+          "rmse": 0.049936227429823954,
+          "mae": 0.022707734418951946,
+          "r2": 0.9715098613206518,
+          "bias": -0.0106300193330516,
+          "n": 23
+        }
+      },
+      "optimizer_updates": 276,
+      "metrics": {
+        "rmse": 0.10328018224010102,
+        "mae": 0.0883945742809133,
+        "r2": 0.8500892569527507,
+        "bias": -0.07468065656466435,
+        "n": 219
+      },
+      "initial_encoder_hash": "c5e5797e36aba019831733b62eb07ba9f15fcd0dff43818d26a685e29c133c3b",
+      "final_encoder_hash": "c5e5797e36aba019831733b62eb07ba9f15fcd0dff43818d26a685e29c133c3b",
+      "head_hash": "0e7fbfb2485ca2960b580d1369d5ac411ad12bca9af1e08331078e76554f6434",
+      "sample_order_hash": "159d9633309484c7f7e2af98c87ee4dca4102d74e9c0e76bb461d82962e4cc15",
+      "seconds": 76.36928868293762,
+      "initialization": "milling_only_refreshed",
+      "fraction": 0.2,
+      "imported": false,
+      "source_checkpoint": "/path/to/CORD/code/experiments/source_pretraining_and_transfer/cutting_tool_source_pretraining/milling_only/training/encoder.pt"
+    },
+    {
+      "seed": 45,
+      "arm": "partial_finetune",
+      "train": [
+        "C1",
+        "C4"
+      ],
+      "held": "C6",
+      "best": {
+        "epoch": 44,
+        "stage": 2,
+        "metrics": {
+          "rmse": 0.0488229871281527,
+          "mae": 0.02550872188547383,
+          "r2": 0.9727659770451274,
+          "bias": -0.001973641955334207,
+          "n": 23
+        }
+      },
+      "optimizer_updates": 180,
+      "metrics": {
+        "rmse": 0.08525508510957659,
+        "mae": 0.07602441124192792,
+        "r2": 0.8978497696744248,
+        "bias": -0.029218104838066177,
+        "n": 219
+      },
+      "initial_encoder_hash": "c5e5797e36aba019831733b62eb07ba9f15fcd0dff43818d26a685e29c133c3b",
+      "final_encoder_hash": "d57c9e88a51caf2044da391a31d2db47dfa84d83d950fa4eaa4b2d947c7aa538",
+      "head_hash": "0e7fbfb2485ca2960b580d1369d5ac411ad12bca9af1e08331078e76554f6434",
+      "sample_order_hash": "ba7f60c94721b881a08c2ea0a2fd6171404470a051600de96fa2ed69f5c40990",
+      "seconds": 54.497087717056274,
+      "initialization": "milling_only_refreshed",
+      "fraction": 0.2,
+      "imported": false,
+      "source_checkpoint": "/path/to/CORD/code/experiments/source_pretraining_and_transfer/cutting_tool_source_pretraining/milling_only/training/encoder.pt"
+    },
+    {
+      "seed": 45,
+      "arm": "full_finetune",
+      "train": [
+        "C1",
+        "C4"
+      ],
+      "held": "C6",
+      "best": {
+        "epoch": 52,
+        "stage": 2,
+        "metrics": {
+          "rmse": 0.04751623220786407,
+          "mae": 0.02058613041172857,
+          "r2": 0.9742043131145107,
+          "bias": -0.0075304948765298595,
+          "n": 23
+        }
+      },
+      "optimizer_updates": 204,
+      "metrics": {
+        "rmse": 0.0791815215683301,
+        "mae": 0.0703800462535051,
+        "r2": 0.9118856886046007,
+        "bias": -0.027597189455646084,
+        "n": 219
+      },
+      "initial_encoder_hash": "c5e5797e36aba019831733b62eb07ba9f15fcd0dff43818d26a685e29c133c3b",
+      "final_encoder_hash": "cfcc19046a742d4c0cdaea624560f7c41d84cf510cb5bbdab8d20dae132845ed",
+      "head_hash": "0e7fbfb2485ca2960b580d1369d5ac411ad12bca9af1e08331078e76554f6434",
+      "sample_order_hash": "2eb0d87bccee3b4ab626261b6b1bed754be018de604b90595e8bff4f18288e42",
+      "seconds": 75.75887107849121,
+      "initialization": "milling_only_refreshed",
+      "fraction": 0.2,
+      "imported": false,
+      "source_checkpoint": "/path/to/CORD/code/experiments/source_pretraining_and_transfer/cutting_tool_source_pretraining/milling_only/training/encoder.pt"
+    },
+    {
+      "seed": 46,
+      "arm": "frozen_probe",
+      "train": [
+        "C1",
+        "C4"
+      ],
+      "held": "C6",
+      "best": {
+        "epoch": 24,
+        "stage": 1,
+        "metrics": {
+          "rmse": 0.05047355124731847,
+          "mae": 0.03177207190057506,
+          "r2": 0.9708934434710672,
+          "bias": -0.00207448264826899,
+          "n": 23
+        }
+      },
+      "optimizer_updates": 120,
+      "metrics": {
+        "rmse": 0.0932165250608502,
+        "mae": 0.08195554696822956,
+        "r2": 0.877880621878244,
+        "bias": -0.030466677897426908,
+        "n": 219
+      },
+      "initial_encoder_hash": "c5e5797e36aba019831733b62eb07ba9f15fcd0dff43818d26a685e29c133c3b",
+      "final_encoder_hash": "c5e5797e36aba019831733b62eb07ba9f15fcd0dff43818d26a685e29c133c3b",
+      "head_hash": "fd029b366a89f92bf26f9736feb5a24f4abe08cfac946a1674bebefe2f8e4c93",
+      "sample_order_hash": "0ce64ff9177cdd44185644d09af851baf96547e24153ef2bb8e77b9f7346a0cb",
+      "seconds": 31.60473608970642,
+      "initialization": "milling_only_refreshed",
+      "fraction": 0.2,
+      "imported": false,
+      "source_checkpoint": "/path/to/CORD/code/experiments/source_pretraining_and_transfer/cutting_tool_source_pretraining/milling_only/training/encoder.pt"
+    },
+    {
+      "seed": 46,
+      "arm": "partial_finetune",
+      "train": [
+        "C1",
+        "C4"
+      ],
+      "held": "C6",
+      "best": {
+        "epoch": 54,
+        "stage": 2,
+        "metrics": {
+          "rmse": 0.04625931052038274,
+          "mae": 0.022097439221713856,
+          "r2": 0.9755509822630897,
+          "bias": -0.005476529183595077,
+          "n": 23
+        }
+      },
+      "optimizer_updates": 210,
+      "metrics": {
+        "rmse": 0.07862681033906564,
+        "mae": 0.06533565835338341,
+        "r2": 0.9131159450596386,
+        "bias": -0.010351274073225995,
+        "n": 219
+      },
+      "initial_encoder_hash": "c5e5797e36aba019831733b62eb07ba9f15fcd0dff43818d26a685e29c133c3b",
+      "final_encoder_hash": "d4d7184a1b18e63850149c9cc2db1ba06407f41c55683cf4af6492ec804a6030",
+      "head_hash": "fd029b366a89f92bf26f9736feb5a24f4abe08cfac946a1674bebefe2f8e4c93",
+      "sample_order_hash": "2d98210fcf83db3899a34ee81e702e5328b2a93ec1b2e0ae570f4fc70edf16d5",
+      "seconds": 56.81202054023743,
+      "initialization": "milling_only_refreshed",
+      "fraction": 0.2,
+      "imported": false,
+      "source_checkpoint": "/path/to/CORD/code/experiments/source_pretraining_and_transfer/cutting_tool_source_pretraining/milling_only/training/encoder.pt"
+    },
+    {
+      "seed": 46,
+      "arm": "full_finetune",
+      "train": [
+        "C1",
+        "C4"
+      ],
+      "held": "C6",
+      "best": {
+        "epoch": 48,
+        "stage": 2,
+        "metrics": {
+          "rmse": 0.051214356702932104,
+          "mae": 0.024420914442642876,
+          "r2": 0.970032773621572,
+          "bias": -0.009441160637399425,
+          "n": 23
+        }
+      },
+      "optimizer_updates": 192,
+      "metrics": {
+        "rmse": 0.08535095090947371,
+        "mae": 0.06864981431956296,
+        "r2": 0.8976199131379627,
+        "bias": -0.01190753120792919,
+        "n": 219
+      },
+      "initial_encoder_hash": "c5e5797e36aba019831733b62eb07ba9f15fcd0dff43818d26a685e29c133c3b",
+      "final_encoder_hash": "49746c40bd59ec9253b8cf794a4f309558d0b50a03866b6ab0d197de6f49cb32",
+      "head_hash": "fd029b366a89f92bf26f9736feb5a24f4abe08cfac946a1674bebefe2f8e4c93",
+      "sample_order_hash": "446d9f6a89aa53fab702d701423931aaa9e1c9e29c8221521159c532ebb577a6",
+      "seconds": 64.54604363441467,
+      "initialization": "milling_only_refreshed",
+      "fraction": 0.2,
+      "imported": false,
+      "source_checkpoint": "/path/to/CORD/code/experiments/source_pretraining_and_transfer/cutting_tool_source_pretraining/milling_only/training/encoder.pt"
+    },
+    {
+      "seed": 42,
+      "arm": "frozen_probe",
+      "train": [
+        "C1",
+        "C4"
+      ],
+      "held": "C6",
+      "best": {
+        "epoch": 50,
+        "stage": 1,
+        "metrics": {
+          "rmse": 0.004810354113170055,
+          "mae": 0.0034368875521150503,
+          "r2": 0.9996942684166209,
+          "bias": -0.0009517270563678308,
+          "n": 110
+        }
+      },
+      "optimizer_updates": 924,
+      "metrics": {
+        "rmse": 0.054647550972084645,
+        "mae": 0.04390294506686599,
+        "r2": 0.9580298836382038,
+        "bias": -0.0011530809368104696,
+        "n": 219
+      },
+      "initial_encoder_hash": "c5e5797e36aba019831733b62eb07ba9f15fcd0dff43818d26a685e29c133c3b",
+      "final_encoder_hash": "c5e5797e36aba019831733b62eb07ba9f15fcd0dff43818d26a685e29c133c3b",
+      "head_hash": "168c9a46d7254f1e28351ba71254b7117ae225880708295c08b5180daa14f199",
+      "sample_order_hash": "5c8f3a963549b3e56db13ece06198174d38c75dca1428d303c4efef1bab1a158",
+      "seconds": 236.8842432498932,
+      "initialization": "milling_only_refreshed",
+      "fraction": 1.0,
+      "imported": false,
+      "source_checkpoint": "/path/to/CORD/code/experiments/source_pretraining_and_transfer/cutting_tool_source_pretraining/milling_only/training/encoder.pt"
+    },
+    {
+      "seed": 42,
+      "arm": "partial_finetune",
+      "train": [
+        "C1",
+        "C4"
+      ],
+      "held": "C6",
+      "best": {
+        "epoch": 22,
+        "stage": 2,
+        "metrics": {
+          "rmse": 0.007006050620071478,
+          "mae": 0.005491537414491177,
+          "r2": 0.9993514659972673,
+          "bias": 0.002740899896757169,
+          "n": 110
+        }
+      },
+      "optimizer_updates": 532,
+      "metrics": {
+        "rmse": 0.06504401583407314,
+        "mae": 0.054303900874538784,
+        "r2": 0.940541567003592,
+        "bias": 0.0072524912663858776,
+        "n": 219
+      },
+      "initial_encoder_hash": "c5e5797e36aba019831733b62eb07ba9f15fcd0dff43818d26a685e29c133c3b",
+      "final_encoder_hash": "0ed9e2ab3a5943c5f2fe58a88d4a562802a0146e9ed0d502d90527463a1d8068",
+      "head_hash": "168c9a46d7254f1e28351ba71254b7117ae225880708295c08b5180daa14f199",
+      "sample_order_hash": "f4fb1a8cdc449e88d8a37d62e7fe04cd85799dbc5d85b006ed2153c0928b4101",
+      "seconds": 145.1451666355133,
+      "initialization": "milling_only_refreshed",
+      "fraction": 1.0,
+      "imported": false,
+      "source_checkpoint": "/path/to/CORD/code/experiments/source_pretraining_and_transfer/cutting_tool_source_pretraining/milling_only/training/encoder.pt"
+    },
+    {
+      "seed": 42,
+      "arm": "full_finetune",
+      "train": [
+        "C1",
+        "C4"
+      ],
+      "held": "C6",
+      "best": {
+        "epoch": 26,
+        "stage": 2,
+        "metrics": {
+          "rmse": 0.0070090057712969495,
+          "mae": 0.005499469844455069,
+          "r2": 0.99935091877877,
+          "bias": -0.00024094491858373988,
+          "n": 110
+        }
+      },
+      "optimizer_updates": 588,
+      "metrics": {
+        "rmse": 0.06957758136288465,
+        "mae": 0.05582165776339432,
+        "r2": 0.931964211669535,
+        "bias": 0.03342681882060962,
+        "n": 219
+      },
+      "initial_encoder_hash": "c5e5797e36aba019831733b62eb07ba9f15fcd0dff43818d26a685e29c133c3b",
+      "final_encoder_hash": "61d28d81996745511a2038193e6b568532651db7c0ac2cf1d2fab7675ccc0f59",
+      "head_hash": "168c9a46d7254f1e28351ba71254b7117ae225880708295c08b5180daa14f199",
+      "sample_order_hash": "3531c7bb83ca51ba6d7655abb124164c89b374b9770350cbc69dfdd460d73d69",
+      "seconds": 203.13038611412048,
+      "initialization": "milling_only_refreshed",
+      "fraction": 1.0,
+      "imported": false,
+      "source_checkpoint": "/path/to/CORD/code/experiments/source_pretraining_and_transfer/cutting_tool_source_pretraining/milling_only/training/encoder.pt"
+    },
+    {
+      "seed": 43,
+      "arm": "frozen_probe",
+      "train": [
+        "C1",
+        "C4"
+      ],
+      "held": "C6",
+      "best": {
+        "epoch": 60,
+        "stage": 1,
+        "metrics": {
+          "rmse": 0.006093270024328025,
+          "mae": 0.004632663303478198,
+          "r2": 0.9995094457324294,
+          "bias": 0.002708717723461715,
+          "n": 110
+        }
+      },
+      "optimizer_updates": 1064,
+      "metrics": {
+        "rmse": 0.07462010188823795,
+        "mae": 0.05282783020525898,
+        "r2": 0.9217452981659222,
+        "bias": 0.011833193677915558,
+        "n": 219
+      },
+      "initial_encoder_hash": "c5e5797e36aba019831733b62eb07ba9f15fcd0dff43818d26a685e29c133c3b",
+      "final_encoder_hash": "c5e5797e36aba019831733b62eb07ba9f15fcd0dff43818d26a685e29c133c3b",
+      "head_hash": "c6579725cc54d13a8bc2d3189d5234898d22bdd371fac76e2245e9eaa86d799b",
+      "sample_order_hash": "fa73419b88cd032cd3c911d9ea661d4ed835e11b08bfdfd314b4f65e9c0c562a",
+      "seconds": 253.77110052108765,
+      "initialization": "milling_only_refreshed",
+      "fraction": 1.0,
+      "imported": false,
+      "source_checkpoint": "/path/to/CORD/code/experiments/source_pretraining_and_transfer/cutting_tool_source_pretraining/milling_only/training/encoder.pt"
+    },
+    {
+      "seed": 43,
+      "arm": "partial_finetune",
+      "train": [
+        "C1",
+        "C4"
+      ],
+      "held": "C6",
+      "best": {
+        "epoch": 32,
+        "stage": 2,
+        "metrics": {
+          "rmse": 0.006360945600772964,
+          "mae": 0.004872007278556173,
+          "r2": 0.999465399239308,
+          "bias": 0.0014602713456208056,
+          "n": 110
+        }
+      },
+      "optimizer_updates": 672,
+      "metrics": {
+        "rmse": 0.05816667028927314,
+        "mae": 0.04523614719595131,
+        "r2": 0.9524503666077434,
+        "bias": 0.015530419170210079,
+        "n": 219
+      },
+      "initial_encoder_hash": "c5e5797e36aba019831733b62eb07ba9f15fcd0dff43818d26a685e29c133c3b",
+      "final_encoder_hash": "e1dfd31199d2cc0ee84b1325329339e9e32b0c41f38f83dca224f64cac1226c6",
+      "head_hash": "c6579725cc54d13a8bc2d3189d5234898d22bdd371fac76e2245e9eaa86d799b",
+      "sample_order_hash": "89b044f2904c1332f53a7a4d326daeba0a680de99be5faa9770793c8806f95be",
+      "seconds": 192.74677395820618,
+      "initialization": "milling_only_refreshed",
+      "fraction": 1.0,
+      "imported": false,
+      "source_checkpoint": "/path/to/CORD/code/experiments/source_pretraining_and_transfer/cutting_tool_source_pretraining/milling_only/training/encoder.pt"
+    },
+    {
+      "seed": 43,
+      "arm": "full_finetune",
+      "train": [
+        "C1",
+        "C4"
+      ],
+      "held": "C6",
+      "best": {
+        "epoch": 66,
+        "stage": 2,
+        "metrics": {
+          "rmse": 0.00732280826320684,
+          "mae": 0.004897964694960551,
+          "r2": 0.9992914972581078,
+          "bias": -0.0015371096913110126,
+          "n": 110
+        }
+      },
+      "optimizer_updates": 1148,
+      "metrics": {
+        "rmse": 0.061946412262669205,
+        "mae": 0.04066048258464766,
+        "r2": 0.946069917751974,
+        "bias": -0.02712730236232417,
+        "n": 219
+      },
+      "initial_encoder_hash": "c5e5797e36aba019831733b62eb07ba9f15fcd0dff43818d26a685e29c133c3b",
+      "final_encoder_hash": "813c8a2c6051ec869245051f5faf6e4d3426c4efd5769234e055005049060db3",
+      "head_hash": "c6579725cc54d13a8bc2d3189d5234898d22bdd371fac76e2245e9eaa86d799b",
+      "sample_order_hash": "b94b22cb9934ca538d83734f7ed7cef8d341bbe47502abf638fa5f54c2c56e07",
+      "seconds": 387.3182134628296,
+      "initialization": "milling_only_refreshed",
+      "fraction": 1.0,
+      "imported": false,
+      "source_checkpoint": "/path/to/CORD/code/experiments/source_pretraining_and_transfer/cutting_tool_source_pretraining/milling_only/training/encoder.pt"
+    },
+    {
+      "seed": 44,
+      "arm": "frozen_probe",
+      "train": [
+        "C1",
+        "C4"
+      ],
+      "held": "C6",
+      "best": {
+        "epoch": 14,
+        "stage": 1,
+        "metrics": {
+          "rmse": 0.007192776992379216,
+          "mae": 0.005160066095942801,
+          "r2": 0.9993164356570067,
+          "bias": 0.00036163853312080554,
+          "n": 110
+        }
+      },
+      "optimizer_updates": 420,
+      "metrics": {
+        "rmse": 0.0584536667724489,
+        "mae": 0.048843106216661734,
+        "r2": 0.9519799857573776,
+        "bias": -0.014044597774710012,
+        "n": 219
+      },
+      "initial_encoder_hash": "c5e5797e36aba019831733b62eb07ba9f15fcd0dff43818d26a685e29c133c3b",
+      "final_encoder_hash": "c5e5797e36aba019831733b62eb07ba9f15fcd0dff43818d26a685e29c133c3b",
+      "head_hash": "2c729d43061decec138f0f8e4fb2ed528019f980657aaa2fbbb6d17193b12e5c",
+      "sample_order_hash": "831b1b3fb271dad3abacca7972bec6b25235837acae54a6a947f47700867c1a0",
+      "seconds": 110.33824610710144,
+      "initialization": "milling_only_refreshed",
+      "fraction": 1.0,
+      "imported": false,
+      "source_checkpoint": "/path/to/CORD/code/experiments/source_pretraining_and_transfer/cutting_tool_source_pretraining/milling_only/training/encoder.pt"
+    },
+    {
+      "seed": 44,
+      "arm": "partial_finetune",
+      "train": [
+        "C1",
+        "C4"
+      ],
+      "held": "C6",
+      "best": {
+        "epoch": 24,
+        "stage": 2,
+        "metrics": {
+          "rmse": 0.007167852391875678,
+          "mae": 0.005602566779337146,
+          "r2": 0.99932116485928,
+          "bias": -0.0013129442083564672,
+          "n": 110
+        }
+      },
+      "optimizer_updates": 560,
+      "metrics": {
+        "rmse": 0.0904045978233208,
+        "mae": 0.07074600985894601,
+        "r2": 0.8851370931966471,
+        "bias": -0.06746345836260956,
+        "n": 219
+      },
+      "initial_encoder_hash": "c5e5797e36aba019831733b62eb07ba9f15fcd0dff43818d26a685e29c133c3b",
+      "final_encoder_hash": "e15e635f9dc018604f8f1359021b1c1061b026383fc1bb1b3a1162e8aa498234",
+      "head_hash": "2c729d43061decec138f0f8e4fb2ed528019f980657aaa2fbbb6d17193b12e5c",
+      "sample_order_hash": "61b4ded84a15ab5161f191243684b944e4ba33d25785dfdc41502885595ca32d",
+      "seconds": 159.66607022285461,
+      "initialization": "milling_only_refreshed",
+      "fraction": 1.0,
+      "imported": false,
+      "source_checkpoint": "/path/to/CORD/code/experiments/source_pretraining_and_transfer/cutting_tool_source_pretraining/milling_only/training/encoder.pt"
+    },
+    {
+      "seed": 44,
+      "arm": "full_finetune",
+      "train": [
+        "C1",
+        "C4"
+      ],
+      "held": "C6",
+      "best": {
+        "epoch": 16,
+        "stage": 2,
+        "metrics": {
+          "rmse": 0.006799016304132008,
+          "mae": 0.00524485031650825,
+          "r2": 0.9993892290470856,
+          "bias": -0.001330699890174649,
+          "n": 110
+        }
+      },
+      "optimizer_updates": 448,
+      "metrics": {
+        "rmse": 0.05215899945584013,
+        "mae": 0.04417039314922813,
+        "r2": 0.9617653367547817,
+        "bias": -0.020245100771285357,
+        "n": 219
+      },
+      "initial_encoder_hash": "c5e5797e36aba019831733b62eb07ba9f15fcd0dff43818d26a685e29c133c3b",
+      "final_encoder_hash": "f19b315be98a64c3951eee982c36cf8bcdb8e65ca07d711f17ece0999d4edb72",
+      "head_hash": "2c729d43061decec138f0f8e4fb2ed528019f980657aaa2fbbb6d17193b12e5c",
+      "sample_order_hash": "cb9ac332410d98fb177ab412e2ee8eab5d80d35247378fbdbbf8be421e0a2131",
+      "seconds": 152.27549529075623,
+      "initialization": "milling_only_refreshed",
+      "fraction": 1.0,
+      "imported": false,
+      "source_checkpoint": "/path/to/CORD/code/experiments/source_pretraining_and_transfer/cutting_tool_source_pretraining/milling_only/training/encoder.pt"
+    },
+    {
+      "seed": 45,
+      "arm": "frozen_probe",
+      "train": [
+        "C1",
+        "C4"
+      ],
+      "held": "C6",
+      "best": {
+        "epoch": 40,
+        "stage": 1,
+        "metrics": {
+          "rmse": 0.005535884231117362,
+          "mae": 0.004205534149977294,
+          "r2": 0.9995950884098046,
+          "bias": 0.0018364698541435329,
+          "n": 110
+        }
+      },
+      "optimizer_updates": 784,
+      "metrics": {
+        "rmse": 0.12130796903713854,
+        "mae": 0.09014253342549687,
+        "r2": 0.7931871930350312,
+        "bias": -0.07800944152471001,
+        "n": 219
+      },
+      "initial_encoder_hash": "c5e5797e36aba019831733b62eb07ba9f15fcd0dff43818d26a685e29c133c3b",
+      "final_encoder_hash": "c5e5797e36aba019831733b62eb07ba9f15fcd0dff43818d26a685e29c133c3b",
+      "head_hash": "0e7fbfb2485ca2960b580d1369d5ac411ad12bca9af1e08331078e76554f6434",
+      "sample_order_hash": "be7d9fa90885b227e4a8115fbbf9a04964f700d479572d8dee149204e4bf8b5d",
+      "seconds": 200.42046570777893,
+      "initialization": "milling_only_refreshed",
+      "fraction": 1.0,
+      "imported": false,
+      "source_checkpoint": "/path/to/CORD/code/experiments/source_pretraining_and_transfer/cutting_tool_source_pretraining/milling_only/training/encoder.pt"
+    },
+    {
+      "seed": 45,
+      "arm": "partial_finetune",
+      "train": [
+        "C1",
+        "C4"
+      ],
+      "held": "C6",
+      "best": {
+        "epoch": 70,
+        "stage": 2,
+        "metrics": {
+          "rmse": 0.005717869643652364,
+          "mae": 0.004249652966179631,
+          "r2": 0.9995680288828831,
+          "bias": 0.0024418276311321692,
+          "n": 110
+        }
+      },
+      "optimizer_updates": 1204,
+      "metrics": {
+        "rmse": 0.10830758929713331,
+        "mae": 0.0802037951719339,
+        "r2": 0.835139525869431,
+        "bias": -0.055029008448225995,
+        "n": 219
+      },
+      "initial_encoder_hash": "c5e5797e36aba019831733b62eb07ba9f15fcd0dff43818d26a685e29c133c3b",
+      "final_encoder_hash": "beddc60d5e3da7fb753b67a6360aa9a0914d2d55e8a08373c26fa9ddc5e9ad7e",
+      "head_hash": "0e7fbfb2485ca2960b580d1369d5ac411ad12bca9af1e08331078e76554f6434",
+      "sample_order_hash": "469724ba04e5efe2219360eb5875332fb5c6e604c4c40c2caf76c2363cbcf005",
+      "seconds": 352.67819380760193,
+      "initialization": "milling_only_refreshed",
+      "fraction": 1.0,
+      "imported": false,
+      "source_checkpoint": "/path/to/CORD/code/experiments/source_pretraining_and_transfer/cutting_tool_source_pretraining/milling_only/training/encoder.pt"
+    },
+    {
+      "seed": 45,
+      "arm": "full_finetune",
+      "train": [
+        "C1",
+        "C4"
+      ],
+      "held": "C6",
+      "best": {
+        "epoch": 26,
+        "stage": 2,
+        "metrics": {
+          "rmse": 0.0065899592820655,
+          "mae": 0.005087340572340922,
+          "r2": 0.999426211721903,
+          "bias": -7.115621119737625e-05,
+          "n": 110
+        }
+      },
+      "optimizer_updates": 588,
+      "metrics": {
+        "rmse": 0.1214934697277626,
+        "mae": 0.08863700515076042,
+        "r2": 0.7925542049249783,
+        "bias": -0.07596323094394518,
+        "n": 219
+      },
+      "initial_encoder_hash": "c5e5797e36aba019831733b62eb07ba9f15fcd0dff43818d26a685e29c133c3b",
+      "final_encoder_hash": "6ebd3b1c5c414c3106cf520acee369dda66363291aa77579a6832afef85ac053",
+      "head_hash": "0e7fbfb2485ca2960b580d1369d5ac411ad12bca9af1e08331078e76554f6434",
+      "sample_order_hash": "f1ecc4f6775f8a923d3625bf905ef806efdccbe4134859c7c7993d9740446ce7",
+      "seconds": 214.34996581077576,
+      "initialization": "milling_only_refreshed",
+      "fraction": 1.0,
+      "imported": false,
+      "source_checkpoint": "/path/to/CORD/code/experiments/source_pretraining_and_transfer/cutting_tool_source_pretraining/milling_only/training/encoder.pt"
+    },
+    {
+      "seed": 46,
+      "arm": "frozen_probe",
+      "train": [
+        "C1",
+        "C4"
+      ],
+      "held": "C6",
+      "best": {
+        "epoch": 22,
+        "stage": 1,
+        "metrics": {
+          "rmse": 0.007821065747440027,
+          "mae": 0.005799355848946355,
+          "r2": 0.9991918014201164,
+          "bias": 0.0024468214166435327,
+          "n": 110
+        }
+      },
+      "optimizer_updates": 532,
+      "metrics": {
+        "rmse": 0.046443057448073324,
+        "mae": 0.03649692261617069,
+        "r2": 0.96968620071225,
+        "bias": 0.0030775750991484346,
+        "n": 219
+      },
+      "initial_encoder_hash": "c5e5797e36aba019831733b62eb07ba9f15fcd0dff43818d26a685e29c133c3b",
+      "final_encoder_hash": "c5e5797e36aba019831733b62eb07ba9f15fcd0dff43818d26a685e29c133c3b",
+      "head_hash": "fd029b366a89f92bf26f9736feb5a24f4abe08cfac946a1674bebefe2f8e4c93",
+      "sample_order_hash": "c050536bc3bab442a3dfe330b6e7244681be44988781b9325417314065ffffe0",
+      "seconds": 202.85064911842346,
+      "initialization": "milling_only_refreshed",
+      "fraction": 1.0,
+      "imported": false,
+      "source_checkpoint": "/path/to/CORD/code/experiments/source_pretraining_and_transfer/cutting_tool_source_pretraining/milling_only/training/encoder.pt"
+    },
+    {
+      "seed": 46,
+      "arm": "partial_finetune",
+      "train": [
+        "C1",
+        "C4"
+      ],
+      "held": "C6",
+      "best": {
+        "epoch": 54,
+        "stage": 2,
+        "metrics": {
+          "rmse": 0.00658736239916155,
+          "mae": 0.004887533170933074,
+          "r2": 0.9994266638544017,
+          "bias": 0.001546830294484442,
+          "n": 110
+        }
+      },
+      "optimizer_updates": 980,
+      "metrics": {
+        "rmse": 0.040079210520659346,
+        "mae": 0.03350982529676804,
+        "r2": 0.977424515372829,
+        "bias": -0.00011353238515521837,
+        "n": 219
+      },
+      "initial_encoder_hash": "c5e5797e36aba019831733b62eb07ba9f15fcd0dff43818d26a685e29c133c3b",
+      "final_encoder_hash": "9611ffbb1ee919d28be8a52e1974d654da29488884ebeed9bc51cb7d1ac14b63",
+      "head_hash": "fd029b366a89f92bf26f9736feb5a24f4abe08cfac946a1674bebefe2f8e4c93",
+      "sample_order_hash": "a84af49a4400ee3afb99ce45e375d2fa5bd559d796c89262633e35bce83ad06f",
+      "seconds": 377.84401059150696,
+      "initialization": "milling_only_refreshed",
+      "fraction": 1.0,
+      "imported": false,
+      "source_checkpoint": "/path/to/CORD/code/experiments/source_pretraining_and_transfer/cutting_tool_source_pretraining/milling_only/training/encoder.pt"
+    },
+    {
+      "seed": 46,
+      "arm": "full_finetune",
+      "train": [
+        "C1",
+        "C4"
+      ],
+      "held": "C6",
+      "best": {
+        "epoch": 20,
+        "stage": 2,
+        "metrics": {
+          "rmse": 0.008949276189995815,
+          "mae": 0.006217725727368485,
+          "r2": 0.9989418139495257,
+          "bias": -0.0003652346913110126,
+          "n": 110
+        }
+      },
+      "optimizer_updates": 504,
+      "metrics": {
+        "rmse": 0.06330097159523256,
+        "mae": 0.04817352886630656,
+        "r2": 0.943685592701669,
+        "bias": 0.03531751516764158,
+        "n": 219
+      },
+      "initial_encoder_hash": "c5e5797e36aba019831733b62eb07ba9f15fcd0dff43818d26a685e29c133c3b",
+      "final_encoder_hash": "c18551b1be589d208c1ec266efc1a5d909ca675e894163ed29a4e2d3254dde62",
+      "head_hash": "fd029b366a89f92bf26f9736feb5a24f4abe08cfac946a1674bebefe2f8e4c93",
+      "sample_order_hash": "ed5d00c3126397e2f3749d1f9c71ce4b279d1e7d3cccada57db8782114c6c770",
+      "seconds": 206.36350798606873,
+      "initialization": "milling_only_refreshed",
+      "fraction": 1.0,
+      "imported": false,
+      "source_checkpoint": "/path/to/CORD/code/experiments/source_pretraining_and_transfer/cutting_tool_source_pretraining/milling_only/training/encoder.pt"
+    }
+  ],
+  "summary": [
+    {
+      "initialization": "scratch",
+      "arm": "scratch",
+      "fraction": 0.1,
+      "n": 5,
+      "metrics": {
+        "rmse": {
+          "mean": 0.13265528340269225,
+          "std": 0.016219883817671855
+        },
+        "mae": {
+          "mean": 0.11009553729143998,
+          "std": 0.014054721817881227
+        },
+        "r2": {
+          "mean": 0.7497285690231862,
+          "std": 0.061354760172406306
+        },
+        "bias": {
+          "mean": 0.02765395209686533,
+          "std": 0.008080274449304505
+        }
+      }
+    },
+    {
+      "initialization": "scratch",
+      "arm": "scratch",
+      "fraction": 0.2,
+      "n": 5,
+      "metrics": {
+        "rmse": {
+          "mean": 0.09368946386453773,
+          "std": 0.016644412116766615
+        },
+        "mae": {
+          "mean": 0.07502319495444565,
+          "std": 0.01309870873404267
+        },
+        "r2": {
+          "mean": 0.8735235528224703,
+          "std": 0.04204298965202754
+        },
+        "bias": {
+          "mean": 0.008309988055769438,
+          "std": 0.022378067323012358
+        }
+      }
+    },
+    {
+      "initialization": "scratch",
+      "arm": "scratch",
+      "fraction": 1.0,
+      "n": 5,
+      "metrics": {
+        "rmse": {
+          "mean": 0.07060221356867251,
+          "std": 0.023809382931848193
+        },
+        "mae": {
+          "mean": 0.05839903261172309,
+          "std": 0.021853797151602763
+        },
+        "r2": {
+          "mean": 0.9235719993975021,
+          "std": 0.040230912312323355
+        },
+        "bias": {
+          "mean": -0.004498810816947456,
+          "std": 0.027287947286656084
+        }
+      }
+    },
+    {
+      "initialization": "milling_only_refreshed",
+      "arm": "frozen_probe",
+      "fraction": 0.1,
+      "n": 5,
+      "metrics": {
+        "rmse": {
+          "mean": 0.09864286591555303,
+          "std": 0.013035726590587906
+        },
+        "mae": {
+          "mean": 0.08353359773840126,
+          "std": 0.011986644182535557
+        },
+        "r2": {
+          "mean": 0.8613385666750156,
+          "std": 0.03551899333069596
+        },
+        "bias": {
+          "mean": -0.017361565882586725,
+          "std": 0.02220213778147992
+        }
+      }
+    },
+    {
+      "initialization": "milling_only_refreshed",
+      "arm": "frozen_probe",
+      "fraction": 0.2,
+      "n": 5,
+      "metrics": {
+        "rmse": {
+          "mean": 0.09311099462470188,
+          "std": 0.006006570134654766
+        },
+        "mae": {
+          "mean": 0.07991195025526363,
+          "std": 0.005899341563767445
+        },
+        "r2": {
+          "mean": 0.8777513270692042,
+          "std": 0.01623668927409361
+        },
+        "bias": {
+          "mean": -0.028716223060098144,
+          "std": 0.027384085073766554
+        }
+      }
+    },
+    {
+      "initialization": "milling_only_refreshed",
+      "arm": "frozen_probe",
+      "fraction": 1.0,
+      "n": 5,
+      "metrics": {
+        "rmse": {
+          "mean": 0.07109446922359666,
+          "std": 0.029882305626899964
+        },
+        "mae": {
+          "mean": 0.05444266750609086,
+          "std": 0.020866113207517793
+        },
+        "r2": {
+          "mean": 0.9189257122617569,
+          "std": 0.07248529796637232
+        },
+        "bias": {
+          "mean": -0.0156592702918333,
+          "std": 0.03608145472415113
+        }
+      }
+    },
+    {
+      "initialization": "milling_only_refreshed",
+      "arm": "partial_finetune",
+      "fraction": 0.1,
+      "n": 5,
+      "metrics": {
+        "rmse": {
+          "mean": 0.09632441180900383,
+          "std": 0.012513712577904486
+        },
+        "mae": {
+          "mean": 0.08170738643179883,
+          "std": 0.01133786122125677
+        },
+        "r2": {
+          "mean": 0.8678412281945083,
+          "std": 0.034535784525708504
+        },
+        "bias": {
+          "mean": -0.005437247246741977,
+          "std": 0.021847365489616494
+        }
+      }
+    },
+    {
+      "initialization": "milling_only_refreshed",
+      "arm": "partial_finetune",
+      "fraction": 0.2,
+      "n": 5,
+      "metrics": {
+        "rmse": {
+          "mean": 0.08338648525889689,
+          "std": 0.004086040104033703
+        },
+        "mae": {
+          "mean": 0.07179235033265667,
+          "std": 0.005982228219286269
+        },
+        "r2": {
+          "mean": 0.9020907920154275,
+          "std": 0.009524281922780034
+        },
+        "bias": {
+          "mean": -0.015250139655417777,
+          "std": 0.016812876939926998
+        }
+      }
+    },
+    {
+      "initialization": "milling_only_refreshed",
+      "arm": "partial_finetune",
+      "fraction": 1.0,
+      "n": 5,
+      "metrics": {
+        "rmse": {
+          "mean": 0.07240041675289194,
+          "std": 0.026994685223735247
+        },
+        "mae": {
+          "mean": 0.056799935679627614,
+          "std": 0.018872031287330133
+        },
+        "r2": {
+          "mean": 0.9181386136100486,
+          "std": 0.05738457061293795
+        },
+        "bias": {
+          "mean": -0.01996461775187896,
+          "std": 0.03834183620381003
+        }
+      }
+    },
+    {
+      "initialization": "milling_only_refreshed",
+      "arm": "full_finetune",
+      "fraction": 0.1,
+      "n": 5,
+      "metrics": {
+        "rmse": {
+          "mean": 0.0938214748264465,
+          "std": 0.013627178046876486
+        },
+        "mae": {
+          "mean": 0.07817167657168081,
+          "std": 0.014265365664214134
+        },
+        "r2": {
+          "mean": 0.8742025795269619,
+          "std": 0.03766531910167677
+        },
+        "bias": {
+          "mean": 0.007471660430198664,
+          "std": 0.011877078369848554
+        }
+      }
+    },
+    {
+      "initialization": "milling_only_refreshed",
+      "arm": "full_finetune",
+      "fraction": 0.2,
+      "n": 5,
+      "metrics": {
+        "rmse": {
+          "mean": 0.08446513417559146,
+          "std": 0.0037726648829868696
+        },
+        "mae": {
+          "mean": 0.07076405954704573,
+          "std": 0.003081456129046574
+        },
+        "r2": {
+          "mean": 0.8995739693615439,
+          "std": 0.008882256643451675
+        },
+        "bias": {
+          "mean": -0.005963877526422341,
+          "std": 0.01576214758624671
+        }
+      }
+    },
+    {
+      "initialization": "milling_only_refreshed",
+      "arm": "full_finetune",
+      "fraction": 1.0,
+      "n": 5,
+      "metrics": {
+        "rmse": {
+          "mean": 0.07369548688087783,
+          "std": 0.027438619239598974
+        },
+        "mae": {
+          "mean": 0.05549261350286742,
+          "std": 0.019367580831527596
+        },
+        "r2": {
+          "mean": 0.9152078527605877,
+          "std": 0.06938252830291856
+        },
+        "bias": {
+          "mean": -0.0109182600178607,
+          "std": 0.0465961483900064
+        }
+      }
+    }
+  ]
+}

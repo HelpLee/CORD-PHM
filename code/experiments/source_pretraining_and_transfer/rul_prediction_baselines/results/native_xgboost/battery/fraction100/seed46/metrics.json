@@ -1,0 +1,31 @@
+{
+  "metrics": {
+    "rmse": 0.10020004051412683,
+    "mae": 0.07070143399124004,
+    "r2": 0.8790297862017333,
+    "bias": -0.06562076053028507,
+    "n": 937
+  },
+  "seconds": 2.8019700050354004,
+  "validation_rmse": 0.010336967185669475,
+  "feature_count": 108,
+  "model": "native_xgboost",
+  "domain": "battery",
+  "fraction": 1.0,
+  "seed": 46,
+  "input_family": "native_raw",
+  "split_sha256": "eb6f10974f119bcb3fe600609a15687f9365597516539551e867d057b94d4417",
+  "snapshot_sha256": "ea59a063c9be3acf3d1e764c958f9c2c287ec8970c9b1f757c192fba762bcd1a",
+  "raw_sha256": "364136857bc674614a333ae7a33da091b8785525b7cc8fe63c4653205b71a864",
+  "raw_signal_name": "voltage_v",
+  "native_view": "source_scaled",
+  "normalization": {
+    "source_rows": 2524,
+    "center": [
+      3.6178810596466064
+    ],
+    "iqr": [
+      0.2199995517730713
+    ]
+  }
+}

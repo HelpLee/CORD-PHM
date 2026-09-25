@@ -1,0 +1,31 @@
+{
+  "metrics": {
+    "rmse": 0.10769474753488721,
+    "mae": 0.07202654083891474,
+    "r2": 0.8602564734240565,
+    "bias": -0.0572622637325866,
+    "n": 937
+  },
+  "seconds": 2.316803216934204,
+  "validation_rmse": 0.03870101255653928,
+  "feature_count": 108,
+  "model": "native_random_forest",
+  "domain": "battery",
+  "fraction": 0.1,
+  "seed": 42,
+  "input_family": "native_raw",
+  "split_sha256": "e65ef0864a07c9b264085c901f933c5686beafe7485cff25987cb94e6d931d23",
+  "snapshot_sha256": "ea59a063c9be3acf3d1e764c958f9c2c287ec8970c9b1f757c192fba762bcd1a",
+  "raw_sha256": "364136857bc674614a333ae7a33da091b8785525b7cc8fe63c4653205b71a864",
+  "raw_signal_name": "voltage_v",
+  "native_view": "source_scaled",
+  "normalization": {
+    "source_rows": 2494,
+    "center": [
+      3.6189846992492676
+    ],
+    "iqr": [
+      0.2195432186126709
+    ]
+  }
+}

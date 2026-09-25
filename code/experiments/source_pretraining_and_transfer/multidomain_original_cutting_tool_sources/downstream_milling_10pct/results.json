@@ -1,0 +1,1067 @@
+{
+  "complete": true,
+  "rows": [
+    {
+      "seed": 42,
+      "arm": "scratch",
+      "train": [
+        "C1",
+        "C4"
+      ],
+      "held": "C6",
+      "best": {
+        "epoch": 14,
+        "stage": 1,
+        "metrics": {
+          "rmse": 0.09276133262972909,
+          "mae": 0.0763894555469354,
+          "r2": 0.914722564780116,
+          "bias": -0.010165585825840632,
+          "n": 12
+        }
+      },
+      "optimizer_updates": 60,
+      "metrics": {
+        "rmse": 0.11531089943459093,
+        "mae": 0.09421819642815552,
+        "r2": 0.8131300432846594,
+        "bias": 0.027188412713303686,
+        "n": 219
+      },
+      "initial_encoder_hash": "8ea143209e073e182a7571a18675864ab03a02ba71050fea7dda1d1924262b83",
+      "final_encoder_hash": "a6538f224d66356247ec319821d9839e76b265e2e8f5e05c88ee6746e58b91ed",
+      "head_hash": "168c9a46d7254f1e28351ba71254b7117ae225880708295c08b5180daa14f199",
+      "sample_order_hash": "cebe5a976433ecc3fe7d94fbd3d650ec23c0cbc1f1a0c2a67dfc523e96cd932f",
+      "seconds": 18.337790489196777,
+      "fraction": 0.1,
+      "initialization": "scratch",
+      "imported": true,
+      "source_package": "/path/to/CORD/outputs/milling_all_7channel_scratch_ablation",
+      "comparison_source": "/path/to/CORD/outputs/milling_all_7channel_complete_transfer_matrix/results.json"
+    },
+    {
+      "seed": 43,
+      "arm": "scratch",
+      "train": [
+        "C1",
+        "C4"
+      ],
+      "held": "C6",
+      "best": {
+        "epoch": 26,
+        "stage": 1,
+        "metrics": {
+          "rmse": 0.0921288623744437,
+          "mae": 0.056639851381381355,
+          "r2": 0.915881486648782,
+          "bias": -0.0070324478050072985,
+          "n": 12
+        }
+      },
+      "optimizer_updates": 84,
+      "metrics": {
+        "rmse": 0.15084009874357532,
+        "mae": 0.12928874311398833,
+        "r2": 0.6802339282955403,
+        "bias": 0.028530628752116472,
+        "n": 219
+      },
+      "initial_encoder_hash": "3c6812effcb972cedaab626f6fa5a192e44d71c484710a1f4407f1668c9a073d",
+      "final_encoder_hash": "71dfc27256a0ca6d807d12a104575517a70a62cefbea84287f41b1a1b8063438",
+      "head_hash": "c6579725cc54d13a8bc2d3189d5234898d22bdd371fac76e2245e9eaa86d799b",
+      "sample_order_hash": "0ee341576846ed5434971109431149028c30bcf5da8831a548dd57da9b8c3c4b",
+      "seconds": 26.067551136016846,
+      "fraction": 0.1,
+      "initialization": "scratch",
+      "imported": true,
+      "source_package": "/path/to/CORD/outputs/milling_all_7channel_scratch_ablation",
+      "comparison_source": "/path/to/CORD/outputs/milling_all_7channel_complete_transfer_matrix/results.json"
+    },
+    {
+      "seed": 44,
+      "arm": "scratch",
+      "train": [
+        "C1",
+        "C4"
+      ],
+      "held": "C6",
+      "best": {
+        "epoch": 36,
+        "stage": 1,
+        "metrics": {
+          "rmse": 0.0864709005317713,
+          "mae": 0.05368755136926969,
+          "r2": 0.9258962585941787,
+          "bias": -0.023857805877923965,
+          "n": 12
+        }
+      },
+      "optimizer_updates": 104,
+      "metrics": {
+        "rmse": 0.1236787684217825,
+        "mae": 0.10186256342843923,
+        "r2": 0.7850244496130583,
+        "bias": 0.01609394924298405,
+        "n": 219
+      },
+      "initial_encoder_hash": "029568f4e857bc41afcb3a3caabf17922729313925e77d89c32b1e90e2effb91",
+      "final_encoder_hash": "318a2db7b0df34efbd19b414fd4f27e0149de352673ccb879e4110421f1c0e80",
+      "head_hash": "2c729d43061decec138f0f8e4fb2ed528019f980657aaa2fbbb6d17193b12e5c",
+      "sample_order_hash": "a58f98244d7bcff75003f8d8efc32e454254f09fef1281b222c8e1af88bfdfbe",
+      "seconds": 18.939457893371582,
+      "fraction": 0.1,
+      "initialization": "scratch",
+      "imported": true,
+      "source_package": "/path/to/CORD/outputs/milling_all_7channel_scratch_ablation",
+      "comparison_source": "/path/to/CORD/outputs/milling_all_7channel_complete_transfer_matrix/results.json"
+    },
+    {
+      "seed": 45,
+      "arm": "scratch",
+      "train": [
+        "C1",
+        "C4"
+      ],
+      "held": "C6",
+      "best": {
+        "epoch": 22,
+        "stage": 1,
+        "metrics": {
+          "rmse": 0.08196865914850118,
+          "mae": 0.05862207834919294,
+          "r2": 0.9334120210420438,
+          "bias": 0.004360781361659368,
+          "n": 12
+        }
+      },
+      "optimizer_updates": 76,
+      "metrics": {
+        "rmse": 0.12433083533227132,
+        "mae": 0.10585331267434848,
+        "r2": 0.7827516590035402,
+        "bias": 0.03890270352380597,
+        "n": 219
+      },
+      "initial_encoder_hash": "b5d1f336e04fdc1283a7dcfdc28fbe885a6838f383f149be1f30ed4ff8b853e5",
+      "final_encoder_hash": "852a384c903a308ca9954d09a98826d6888951ea066842501c800f6edfec477b",
+      "head_hash": "0e7fbfb2485ca2960b580d1369d5ac411ad12bca9af1e08331078e76554f6434",
+      "sample_order_hash": "a54e1f007c4ce4e46966aeaf716da5a9dfa4fc580c7e4a9a76d63a0821e4c02c",
+      "seconds": 15.406099081039429,
+      "fraction": 0.1,
+      "initialization": "scratch",
+      "imported": true,
+      "source_package": "/path/to/CORD/outputs/milling_all_7channel_scratch_ablation",
+      "comparison_source": "/path/to/CORD/outputs/milling_all_7channel_complete_transfer_matrix/results.json"
+    },
+    {
+      "seed": 46,
+      "arm": "scratch",
+      "train": [
+        "C1",
+        "C4"
+      ],
+      "held": "C6",
+      "best": {
+        "epoch": 30,
+        "stage": 1,
+        "metrics": {
+          "rmse": 0.10069663588240943,
+          "mae": 0.06090499088168144,
+          "r2": 0.8995083226719447,
+          "bias": -0.010613176971673965,
+          "n": 12
+        }
+      },
+      "optimizer_updates": 92,
+      "metrics": {
+        "rmse": 0.14911581508124125,
+        "mae": 0.1192548708122683,
+        "r2": 0.6875027649191323,
+        "bias": 0.027554066252116472,
+        "n": 219
+      },
+      "initial_encoder_hash": "ce339a4d66697d927134f493a94fd34ac44f6f11ca8d077943732f78f7c5964e",
+      "final_encoder_hash": "f8631582289a8bf9c2dcce9af3fcabd4bcb25df9d0a0be805a43ae0017c1221d",
+      "head_hash": "fd029b366a89f92bf26f9736feb5a24f4abe08cfac946a1674bebefe2f8e4c93",
+      "sample_order_hash": "6618c4ff6863060f51fbaa906b022fe234fc26f7bbef47eb4d4725fffb64a8c4",
+      "seconds": 26.597728490829468,
+      "fraction": 0.1,
+      "initialization": "scratch",
+      "imported": true,
+      "source_package": "/path/to/CORD/outputs/milling_all_7channel_scratch_ablation",
+      "comparison_source": "/path/to/CORD/outputs/milling_all_7channel_complete_transfer_matrix/results.json"
+    },
+    {
+      "seed": 42,
+      "arm": "frozen_probe",
+      "train": [
+        "C1",
+        "C4"
+      ],
+      "held": "C6",
+      "best": {
+        "epoch": 112,
+        "stage": 1,
+        "metrics": {
+          "rmse": 0.026794327199029907,
+          "mae": 0.02319359655181567,
+          "r2": 0.9928848201087915,
+          "bias": -0.003858619680007299,
+          "n": 12
+        }
+      },
+      "optimizer_updates": 256,
+      "metrics": {
+        "rmse": 0.143670034501796,
+        "mae": 0.11492622065778872,
+        "r2": 0.7099110689252186,
+        "bias": 0.11467771065850917,
+        "n": 219
+      },
+      "initial_encoder_hash": "0c916ddc29e6b33c62e47566bcec0903a6489269606bd55d17c97f6ca2dfb5eb",
+      "final_encoder_hash": "0c916ddc29e6b33c62e47566bcec0903a6489269606bd55d17c97f6ca2dfb5eb",
+      "head_hash": "168c9a46d7254f1e28351ba71254b7117ae225880708295c08b5180daa14f199",
+      "sample_order_hash": "bef24039eca8b6d555f6d621b80559e98c89f0fbc276ef31669fe6935ad4f1a9",
+      "seconds": 99.95291781425476,
+      "fraction": 0.1,
+      "initialization": "milling_only_original4_3channel",
+      "imported": true,
+      "comparison_source": "/path/to/CORD/outputs/reproduction_final/milling_only_upstream500_adapter_seed42/downstream_milling/results.json",
+      "input_channels": 3
+    },
+    {
+      "seed": 43,
+      "arm": "frozen_probe",
+      "train": [
+        "C1",
+        "C4"
+      ],
+      "held": "C6",
+      "best": {
+        "epoch": 94,
+        "stage": 1,
+        "metrics": {
+          "rmse": 0.02718587812921209,
+          "mae": 0.022542554885149002,
+          "r2": 0.9926753495631396,
+          "bias": -0.006625546763340632,
+          "n": 12
+        }
+      },
+      "optimizer_updates": 220,
+      "metrics": {
+        "rmse": 0.13094270713260162,
+        "mae": 0.10749056898312617,
+        "r2": 0.7590308773936152,
+        "bias": 0.10633456710828086,
+        "n": 219
+      },
+      "initial_encoder_hash": "0c916ddc29e6b33c62e47566bcec0903a6489269606bd55d17c97f6ca2dfb5eb",
+      "final_encoder_hash": "0c916ddc29e6b33c62e47566bcec0903a6489269606bd55d17c97f6ca2dfb5eb",
+      "head_hash": "c6579725cc54d13a8bc2d3189d5234898d22bdd371fac76e2245e9eaa86d799b",
+      "sample_order_hash": "69800068f367af4a719489a5d2cf985fce05887743fdcfa459d81b3b331069d1",
+      "seconds": 73.8794641494751,
+      "fraction": 0.1,
+      "initialization": "milling_only_original4_3channel",
+      "imported": true,
+      "comparison_source": "/path/to/CORD/outputs/reproduction_final/milling_only_upstream500_adapter_seed42/downstream_milling/results.json",
+      "input_channels": 3
+    },
+    {
+      "seed": 44,
+      "arm": "frozen_probe",
+      "train": [
+        "C1",
+        "C4"
+      ],
+      "held": "C6",
+      "best": {
+        "epoch": 36,
+        "stage": 1,
+        "metrics": {
+          "rmse": 0.037199830423906066,
+          "mae": 0.029256422072649002,
+          "r2": 0.9862854332653167,
+          "bias": -0.002027564992507299,
+          "n": 12
+        }
+      },
+      "optimizer_updates": 104,
+      "metrics": {
+        "rmse": 0.15453491407793776,
+        "mae": 0.12429744253981195,
+        "r2": 0.6643767831581218,
+        "bias": 0.12311449718818954,
+        "n": 219
+      },
+      "initial_encoder_hash": "0c916ddc29e6b33c62e47566bcec0903a6489269606bd55d17c97f6ca2dfb5eb",
+      "final_encoder_hash": "0c916ddc29e6b33c62e47566bcec0903a6489269606bd55d17c97f6ca2dfb5eb",
+      "head_hash": "2c729d43061decec138f0f8e4fb2ed528019f980657aaa2fbbb6d17193b12e5c",
+      "sample_order_hash": "f0c00875e6d6beb40a076a87ee342ad955a010c8749afbd9eac68f641a3c3566",
+      "seconds": 30.057525634765625,
+      "fraction": 0.1,
+      "initialization": "milling_only_original4_3channel",
+      "imported": true,
+      "comparison_source": "/path/to/CORD/outputs/reproduction_final/milling_only_upstream500_adapter_seed42/downstream_milling/results.json",
+      "input_channels": 3
+    },
+    {
+      "seed": 45,
+      "arm": "frozen_probe",
+      "train": [
+        "C1",
+        "C4"
+      ],
+      "held": "C6",
+      "best": {
+        "epoch": 18,
+        "stage": 1,
+        "metrics": {
+          "rmse": 0.04034463240189376,
+          "mae": 0.031880933791399,
+          "r2": 0.9838686134801854,
+          "bias": -0.0052624282737572985,
+          "n": 12
+        }
+      },
+      "optimizer_updates": 68,
+      "metrics": {
+        "rmse": 0.16529099703214012,
+        "mae": 0.14504140374340016,
+        "r2": 0.6160301144874307,
+        "bias": 0.14342164616079228,
+        "n": 219
+      },
+      "initial_encoder_hash": "0c916ddc29e6b33c62e47566bcec0903a6489269606bd55d17c97f6ca2dfb5eb",
+      "final_encoder_hash": "0c916ddc29e6b33c62e47566bcec0903a6489269606bd55d17c97f6ca2dfb5eb",
+      "head_hash": "0e7fbfb2485ca2960b580d1369d5ac411ad12bca9af1e08331078e76554f6434",
+      "sample_order_hash": "3fbffc472d9ca616729d9e62b30f22d93dd8e46ef34cfcd4315402e5b16f0474",
+      "seconds": 17.718640327453613,
+      "fraction": 0.1,
+      "initialization": "milling_only_original4_3channel",
+      "imported": true,
+      "comparison_source": "/path/to/CORD/outputs/reproduction_final/milling_only_upstream500_adapter_seed42/downstream_milling/results.json",
+      "input_channels": 3
+    },
+    {
+      "seed": 46,
+      "arm": "frozen_probe",
+      "train": [
+        "C1",
+        "C4"
+      ],
+      "held": "C6",
+      "best": {
+        "epoch": 46,
+        "stage": 1,
+        "metrics": {
+          "rmse": 0.03389995092093008,
+          "mae": 0.02728295202056567,
+          "r2": 0.9886106664831911,
+          "bias": -0.002536191294590632,
+          "n": 12
+        }
+      },
+      "optimizer_updates": 124,
+      "metrics": {
+        "rmse": 0.12689829433463268,
+        "mae": 0.10117601916687266,
+        "r2": 0.7736865657333042,
+        "bias": 0.09969037475668269,
+        "n": 219
+      },
+      "initial_encoder_hash": "0c916ddc29e6b33c62e47566bcec0903a6489269606bd55d17c97f6ca2dfb5eb",
+      "final_encoder_hash": "0c916ddc29e6b33c62e47566bcec0903a6489269606bd55d17c97f6ca2dfb5eb",
+      "head_hash": "fd029b366a89f92bf26f9736feb5a24f4abe08cfac946a1674bebefe2f8e4c93",
+      "sample_order_hash": "1ec9c67d55c56df9125d878138404174061d90db7571dd74c7f277bec6fc699e",
+      "seconds": 34.56074261665344,
+      "fraction": 0.1,
+      "initialization": "milling_only_original4_3channel",
+      "imported": true,
+      "comparison_source": "/path/to/CORD/outputs/reproduction_final/milling_only_upstream500_adapter_seed42/downstream_milling/results.json",
+      "input_channels": 3
+    },
+    {
+      "seed": 42,
+      "arm": "frozen_probe",
+      "train": [
+        "C1",
+        "C4"
+      ],
+      "held": "C6",
+      "best": {
+        "epoch": 56,
+        "stage": 1,
+        "metrics": {
+          "rmse": 0.03144175459674362,
+          "mae": 0.02524726465344429,
+          "r2": 0.9902025350336907,
+          "bias": 0.0050728581845760345,
+          "n": 12
+        }
+      },
+      "optimizer_updates": 144,
+      "metrics": {
+        "rmse": 0.12851986173408136,
+        "mae": 0.10135350138646419,
+        "r2": 0.7678657274264273,
+        "bias": 0.09803601545302972,
+        "n": 219
+      },
+      "initial_encoder_hash": "860384502f02b1da2c2eaa8730c20075b7a18e52d0720d8b3a97f6c439746973",
+      "final_encoder_hash": "860384502f02b1da2c2eaa8730c20075b7a18e52d0720d8b3a97f6c439746973",
+      "head_hash": "168c9a46d7254f1e28351ba71254b7117ae225880708295c08b5180daa14f199",
+      "sample_order_hash": "906588836c30f2cbeb90ec2f5a826637be7d1b4be889ce374b981e0372b23346",
+      "seconds": 36.219438314437866,
+      "fraction": 0.1,
+      "initialization": "three_domain_original4_3channel",
+      "imported": true,
+      "comparison_source": "/path/to/CORD/outputs/reproduction_final/joint_upstream500_adapter_seed42/downstream_milling/results.json",
+      "input_channels": 3
+    },
+    {
+      "seed": 43,
+      "arm": "frozen_probe",
+      "train": [
+        "C1",
+        "C4"
+      ],
+      "held": "C6",
+      "best": {
+        "epoch": 66,
+        "stage": 1,
+        "metrics": {
+          "rmse": 0.027660046243121787,
+          "mae": 0.023173251499732334,
+          "r2": 0.9924176124984286,
+          "bias": 0.0005155665179093679,
+          "n": 12
+        }
+      },
+      "optimizer_updates": 164,
+      "metrics": {
+        "rmse": 0.13342075355593647,
+        "mae": 0.11056884024802545,
+        "r2": 0.7498240578235793,
+        "bias": 0.1084303861722078,
+        "n": 219
+      },
+      "initial_encoder_hash": "860384502f02b1da2c2eaa8730c20075b7a18e52d0720d8b3a97f6c439746973",
+      "final_encoder_hash": "860384502f02b1da2c2eaa8730c20075b7a18e52d0720d8b3a97f6c439746973",
+      "head_hash": "c6579725cc54d13a8bc2d3189d5234898d22bdd371fac76e2245e9eaa86d799b",
+      "sample_order_hash": "38a4d9327e642544303577298ee7c6c883cfab68ddd22b4692989a48436fb1af",
+      "seconds": 27.273218631744385,
+      "fraction": 0.1,
+      "initialization": "three_domain_original4_3channel",
+      "imported": true,
+      "comparison_source": "/path/to/CORD/outputs/reproduction_final/joint_upstream500_adapter_seed42/downstream_milling/results.json",
+      "input_channels": 3
+    },
+    {
+      "seed": 44,
+      "arm": "frozen_probe",
+      "train": [
+        "C1",
+        "C4"
+      ],
+      "held": "C6",
+      "best": {
+        "epoch": 78,
+        "stage": 1,
+        "metrics": {
+          "rmse": 0.031114987340835273,
+          "mae": 0.025181689610083897,
+          "r2": 0.9904051226174548,
+          "bias": 0.002672142038742701,
+          "n": 12
+        }
+      },
+      "optimizer_updates": 188,
+      "metrics": {
+        "rmse": 0.15680222296963847,
+        "mae": 0.11879743727936184,
+        "r2": 0.6544561273038705,
+        "bias": 0.11591736533887446,
+        "n": 219
+      },
+      "initial_encoder_hash": "860384502f02b1da2c2eaa8730c20075b7a18e52d0720d8b3a97f6c439746973",
+      "final_encoder_hash": "860384502f02b1da2c2eaa8730c20075b7a18e52d0720d8b3a97f6c439746973",
+      "head_hash": "2c729d43061decec138f0f8e4fb2ed528019f980657aaa2fbbb6d17193b12e5c",
+      "sample_order_hash": "8bee4e5188f4dac4d58a56dc9ad84b7a6b7c97b984ea261ced25b0f92be04278",
+      "seconds": 38.76088070869446,
+      "fraction": 0.1,
+      "initialization": "three_domain_original4_3channel",
+      "imported": true,
+      "comparison_source": "/path/to/CORD/outputs/reproduction_final/joint_upstream500_adapter_seed42/downstream_milling/results.json",
+      "input_channels": 3
+    },
+    {
+      "seed": 45,
+      "arm": "frozen_probe",
+      "train": [
+        "C1",
+        "C4"
+      ],
+      "held": "C6",
+      "best": {
+        "epoch": 54,
+        "stage": 1,
+        "metrics": {
+          "rmse": 0.03397006514226086,
+          "mae": 0.02925136809547742,
+          "r2": 0.9885635053492168,
+          "bias": 0.0007393620908260345,
+          "n": 12
+        }
+      },
+      "optimizer_updates": 140,
+      "metrics": {
+        "rmse": 0.14405768484349135,
+        "mae": 0.11965089142067384,
+        "r2": 0.7083435216767213,
+        "bias": 0.11891394068134022,
+        "n": 219
+      },
+      "initial_encoder_hash": "860384502f02b1da2c2eaa8730c20075b7a18e52d0720d8b3a97f6c439746973",
+      "final_encoder_hash": "860384502f02b1da2c2eaa8730c20075b7a18e52d0720d8b3a97f6c439746973",
+      "head_hash": "0e7fbfb2485ca2960b580d1369d5ac411ad12bca9af1e08331078e76554f6434",
+      "sample_order_hash": "ae0a617cf5452db07fb84e166141e3509d58dfe962cd543709f39598e913c272",
+      "seconds": 20.503133058547974,
+      "fraction": 0.1,
+      "initialization": "three_domain_original4_3channel",
+      "imported": true,
+      "comparison_source": "/path/to/CORD/outputs/reproduction_final/joint_upstream500_adapter_seed42/downstream_milling/results.json",
+      "input_channels": 3
+    },
+    {
+      "seed": 46,
+      "arm": "frozen_probe",
+      "train": [
+        "C1",
+        "C4"
+      ],
+      "held": "C6",
+      "best": {
+        "epoch": 52,
+        "stage": 1,
+        "metrics": {
+          "rmse": 0.03890211520116188,
+          "mae": 0.03104560449719429,
+          "r2": 0.9850015422863682,
+          "bias": -0.0016613540550072987,
+          "n": 12
+        }
+      },
+      "optimizer_updates": 136,
+      "metrics": {
+        "rmse": 0.140544803240967,
+        "mae": 0.11409592741173288,
+        "r2": 0.7223943190479041,
+        "bias": 0.11005353114937674,
+        "n": 219
+      },
+      "initial_encoder_hash": "860384502f02b1da2c2eaa8730c20075b7a18e52d0720d8b3a97f6c439746973",
+      "final_encoder_hash": "860384502f02b1da2c2eaa8730c20075b7a18e52d0720d8b3a97f6c439746973",
+      "head_hash": "fd029b366a89f92bf26f9736feb5a24f4abe08cfac946a1674bebefe2f8e4c93",
+      "sample_order_hash": "c31891072acda3e795470e0b839b02c2f346f79036a0bf39d935114c4340dce8",
+      "seconds": 17.72428798675537,
+      "fraction": 0.1,
+      "initialization": "three_domain_original4_3channel",
+      "imported": true,
+      "comparison_source": "/path/to/CORD/outputs/reproduction_final/joint_upstream500_adapter_seed42/downstream_milling/results.json",
+      "input_channels": 3
+    },
+    {
+      "seed": 42,
+      "arm": "frozen_probe",
+      "train": [
+        "C1",
+        "C4"
+      ],
+      "held": "C6",
+      "best": {
+        "epoch": 60,
+        "stage": 1,
+        "metrics": {
+          "rmse": 0.09415702527996486,
+          "mae": 0.05688825870553652,
+          "r2": 0.9121370803882345,
+          "bias": -0.0074393488466739655,
+          "n": 12
+        }
+      },
+      "optimizer_updates": 152,
+      "metrics": {
+        "rmse": 0.1469647705348683,
+        "mae": 0.13072522267376044,
+        "r2": 0.6964534875881399,
+        "bias": 0.0018423796082808546,
+        "n": 219
+      },
+      "initial_encoder_hash": "3f54fd7c5db5a7fbebea9267a830e71bdc8d346d55e0b53e096d348877f47057",
+      "final_encoder_hash": "3f54fd7c5db5a7fbebea9267a830e71bdc8d346d55e0b53e096d348877f47057",
+      "head_hash": "168c9a46d7254f1e28351ba71254b7117ae225880708295c08b5180daa14f199",
+      "sample_order_hash": "96df88eab4c817c00db03c39be4d5ed7169ec95e25caa109f2b9423a991136e3",
+      "seconds": 28.568589448928833,
+      "initialization": "milling_only_original4_all_channels",
+      "fraction": 0.1,
+      "imported": false,
+      "source_checkpoint": "/path/to/CORD/code/experiments/source_pretraining_and_transfer/multidomain_original_cutting_tool_sources/milling_only/training/encoder.pt"
+    },
+    {
+      "seed": 43,
+      "arm": "frozen_probe",
+      "train": [
+        "C1",
+        "C4"
+      ],
+      "held": "C6",
+      "best": {
+        "epoch": 38,
+        "stage": 1,
+        "metrics": {
+          "rmse": 0.08816097862280343,
+          "mae": 0.04511969660719236,
+          "r2": 0.9229712276086225,
+          "bias": -0.019788795461257298,
+          "n": 12
+        }
+      },
+      "optimizer_updates": 108,
+      "metrics": {
+        "rmse": 0.09446296979518648,
+        "mae": 0.08010538749515875,
+        "r2": 0.8745929488502097,
+        "bias": -0.02766407729811184,
+        "n": 219
+      },
+      "initial_encoder_hash": "3f54fd7c5db5a7fbebea9267a830e71bdc8d346d55e0b53e096d348877f47057",
+      "final_encoder_hash": "3f54fd7c5db5a7fbebea9267a830e71bdc8d346d55e0b53e096d348877f47057",
+      "head_hash": "c6579725cc54d13a8bc2d3189d5234898d22bdd371fac76e2245e9eaa86d799b",
+      "sample_order_hash": "88afa6795bf35b04d8cc81b0652048538b3c1ec365090d9e66066e2026c1571e",
+      "seconds": 17.09283447265625,
+      "initialization": "milling_only_original4_all_channels",
+      "fraction": 0.1,
+      "imported": false,
+      "source_checkpoint": "/path/to/CORD/code/experiments/source_pretraining_and_transfer/multidomain_original_cutting_tool_sources/milling_only/training/encoder.pt"
+    },
+    {
+      "seed": 44,
+      "arm": "frozen_probe",
+      "train": [
+        "C1",
+        "C4"
+      ],
+      "held": "C6",
+      "best": {
+        "epoch": 66,
+        "stage": 1,
+        "metrics": {
+          "rmse": 0.08474125600001595,
+          "mae": 0.047159288078546524,
+          "r2": 0.9288311472360496,
+          "bias": -0.023674700409173965,
+          "n": 12
+        }
+      },
+      "optimizer_updates": 164,
+      "metrics": {
+        "rmse": 0.14030238488604496,
+        "mae": 0.12430575834034377,
+        "r2": 0.7233511480826198,
+        "bias": -0.006086059318659785,
+        "n": 219
+      },
+      "initial_encoder_hash": "3f54fd7c5db5a7fbebea9267a830e71bdc8d346d55e0b53e096d348877f47057",
+      "final_encoder_hash": "3f54fd7c5db5a7fbebea9267a830e71bdc8d346d55e0b53e096d348877f47057",
+      "head_hash": "2c729d43061decec138f0f8e4fb2ed528019f980657aaa2fbbb6d17193b12e5c",
+      "sample_order_hash": "041f563b2fcb8374148983bbcbc0a03115452b28e9ce617a0abb12fa9bc70ed5",
+      "seconds": 29.9503071308136,
+      "initialization": "milling_only_original4_all_channels",
+      "fraction": 0.1,
+      "imported": false,
+      "source_checkpoint": "/path/to/CORD/code/experiments/source_pretraining_and_transfer/multidomain_original_cutting_tool_sources/milling_only/training/encoder.pt"
+    },
+    {
+      "seed": 45,
+      "arm": "frozen_probe",
+      "train": [
+        "C1",
+        "C4"
+      ],
+      "held": "C6",
+      "best": {
+        "epoch": 32,
+        "stage": 1,
+        "metrics": {
+          "rmse": 0.0873504517030355,
+          "mae": 0.054220933467149734,
+          "r2": 0.9243810779727103,
+          "bias": -0.03219927723209063,
+          "n": 12
+        }
+      },
+      "optimizer_updates": 96,
+      "metrics": {
+        "rmse": 0.11265675301267142,
+        "mae": 0.10322540104134034,
+        "r2": 0.8216335267316414,
+        "bias": 0.0016149609438972931,
+        "n": 219
+      },
+      "initial_encoder_hash": "3f54fd7c5db5a7fbebea9267a830e71bdc8d346d55e0b53e096d348877f47057",
+      "final_encoder_hash": "3f54fd7c5db5a7fbebea9267a830e71bdc8d346d55e0b53e096d348877f47057",
+      "head_hash": "0e7fbfb2485ca2960b580d1369d5ac411ad12bca9af1e08331078e76554f6434",
+      "sample_order_hash": "31e224304168c14723f11821e61dbfbca3b5a78c32794ff9b74368180501ab73",
+      "seconds": 26.668030977249146,
+      "initialization": "milling_only_original4_all_channels",
+      "fraction": 0.1,
+      "imported": false,
+      "source_checkpoint": "/path/to/CORD/code/experiments/source_pretraining_and_transfer/multidomain_original_cutting_tool_sources/milling_only/training/encoder.pt"
+    },
+    {
+      "seed": 46,
+      "arm": "frozen_probe",
+      "train": [
+        "C1",
+        "C4"
+      ],
+      "held": "C6",
+      "best": {
+        "epoch": 24,
+        "stage": 1,
+        "metrics": {
+          "rmse": 0.09878853483138311,
+          "mae": 0.06340931231776874,
+          "r2": 0.9032806742298317,
+          "bias": -0.0148449478050073,
+          "n": 12
+        }
+      },
+      "optimizer_updates": 80,
+      "metrics": {
+        "rmse": 0.12449846007238619,
+        "mae": 0.10910295137548692,
+        "r2": 0.7821654690203371,
+        "bias": 0.004718556834308252,
+        "n": 219
+      },
+      "initial_encoder_hash": "3f54fd7c5db5a7fbebea9267a830e71bdc8d346d55e0b53e096d348877f47057",
+      "final_encoder_hash": "3f54fd7c5db5a7fbebea9267a830e71bdc8d346d55e0b53e096d348877f47057",
+      "head_hash": "fd029b366a89f92bf26f9736feb5a24f4abe08cfac946a1674bebefe2f8e4c93",
+      "sample_order_hash": "b038a670e0818de5340eb069071731ea85bda876266fdd3b8bb152cc2b47206f",
+      "seconds": 17.943121433258057,
+      "initialization": "milling_only_original4_all_channels",
+      "fraction": 0.1,
+      "imported": false,
+      "source_checkpoint": "/path/to/CORD/code/experiments/source_pretraining_and_transfer/multidomain_original_cutting_tool_sources/milling_only/training/encoder.pt"
+    },
+    {
+      "seed": 42,
+      "arm": "frozen_probe",
+      "train": [
+        "C1",
+        "C4"
+      ],
+      "held": "C6",
+      "best": {
+        "epoch": 34,
+        "stage": 1,
+        "metrics": {
+          "rmse": 0.1052920039895073,
+          "mae": 0.06924646223584811,
+          "r2": 0.8901270070470173,
+          "bias": -0.0110607681175073,
+          "n": 12
+        }
+      },
+      "optimizer_updates": 100,
+      "metrics": {
+        "rmse": 0.13498515144499404,
+        "mae": 0.11764726631734605,
+        "r2": 0.7439228888131173,
+        "bias": 0.005570262028372179,
+        "n": 219
+      },
+      "initial_encoder_hash": "0d9acba58545928032bbaf0ee80a27625a2b0473878cc857f09993837790cb66",
+      "final_encoder_hash": "0d9acba58545928032bbaf0ee80a27625a2b0473878cc857f09993837790cb66",
+      "head_hash": "168c9a46d7254f1e28351ba71254b7117ae225880708295c08b5180daa14f199",
+      "sample_order_hash": "67aa7e8c10a4a89d472c41253536cc5dae106bbd95f4561e910a587c2eff3fc0",
+      "seconds": 24.01045322418213,
+      "initialization": "three_domain_original4_all_channels",
+      "fraction": 0.1,
+      "imported": false,
+      "source_checkpoint": "/path/to/CORD/code/experiments/source_pretraining_and_transfer/multidomain_original_cutting_tool_sources/three_domain/training/encoder.pt"
+    },
+    {
+      "seed": 43,
+      "arm": "frozen_probe",
+      "train": [
+        "C1",
+        "C4"
+      ],
+      "held": "C6",
+      "best": {
+        "epoch": 34,
+        "stage": 1,
+        "metrics": {
+          "rmse": 0.11231050187058884,
+          "mae": 0.06570833548903465,
+          "r2": 0.8749911074842655,
+          "bias": -0.030836158742507298,
+          "n": 12
+        }
+      },
+      "optimizer_updates": 100,
+      "metrics": {
+        "rmse": 0.10132906913690574,
+        "mae": 0.0788541428413089,
+        "r2": 0.8556998203946818,
+        "bias": -0.037946968279847,
+        "n": 219
+      },
+      "initial_encoder_hash": "0d9acba58545928032bbaf0ee80a27625a2b0473878cc857f09993837790cb66",
+      "final_encoder_hash": "0d9acba58545928032bbaf0ee80a27625a2b0473878cc857f09993837790cb66",
+      "head_hash": "c6579725cc54d13a8bc2d3189d5234898d22bdd371fac76e2245e9eaa86d799b",
+      "sample_order_hash": "0238c4d3f5732a97caf7e3a592a3419422845935e478de20911bd3814313abfc",
+      "seconds": 30.37676978111267,
+      "initialization": "three_domain_original4_all_channels",
+      "fraction": 0.1,
+      "imported": false,
+      "source_checkpoint": "/path/to/CORD/code/experiments/source_pretraining_and_transfer/multidomain_original_cutting_tool_sources/three_domain/training/encoder.pt"
+    },
+    {
+      "seed": 44,
+      "arm": "frozen_probe",
+      "train": [
+        "C1",
+        "C4"
+      ],
+      "held": "C6",
+      "best": {
+        "epoch": 60,
+        "stage": 1,
+        "metrics": {
+          "rmse": 0.09758907685281057,
+          "mae": 0.057277899235486984,
+          "r2": 0.9056150844898595,
+          "bias": -0.015312884002923965,
+          "n": 12
+        }
+      },
+      "optimizer_updates": 152,
+      "metrics": {
+        "rmse": 0.13628798454503294,
+        "mae": 0.12158696023857893,
+        "r2": 0.7389558867840025,
+        "bias": 0.0015904354016598502,
+        "n": 219
+      },
+      "initial_encoder_hash": "0d9acba58545928032bbaf0ee80a27625a2b0473878cc857f09993837790cb66",
+      "final_encoder_hash": "0d9acba58545928032bbaf0ee80a27625a2b0473878cc857f09993837790cb66",
+      "head_hash": "2c729d43061decec138f0f8e4fb2ed528019f980657aaa2fbbb6d17193b12e5c",
+      "sample_order_hash": "d7516f1b211ebe5a3d8e5e9986ea9141e14ad94826ee94e00abf054bb13a00fd",
+      "seconds": 39.4812273979187,
+      "initialization": "three_domain_original4_all_channels",
+      "fraction": 0.1,
+      "imported": false,
+      "source_checkpoint": "/path/to/CORD/code/experiments/source_pretraining_and_transfer/multidomain_original_cutting_tool_sources/three_domain/training/encoder.pt"
+    },
+    {
+      "seed": 45,
+      "arm": "frozen_probe",
+      "train": [
+        "C1",
+        "C4"
+      ],
+      "held": "C6",
+      "best": {
+        "epoch": 20,
+        "stage": 1,
+        "metrics": {
+          "rmse": 0.11068687803014221,
+          "mae": 0.06946717326839764,
+          "r2": 0.8785793794476422,
+          "bias": -0.025363339732090633,
+          "n": 12
+        }
+      },
+      "optimizer_updates": 72,
+      "metrics": {
+        "rmse": 0.11510606944620647,
+        "mae": 0.10001235741475538,
+        "r2": 0.8137933383482998,
+        "bias": -0.015334418336924624,
+        "n": 219
+      },
+      "initial_encoder_hash": "0d9acba58545928032bbaf0ee80a27625a2b0473878cc857f09993837790cb66",
+      "final_encoder_hash": "0d9acba58545928032bbaf0ee80a27625a2b0473878cc857f09993837790cb66",
+      "head_hash": "0e7fbfb2485ca2960b580d1369d5ac411ad12bca9af1e08331078e76554f6434",
+      "sample_order_hash": "21755ffb8906216110da7c51a88208c9a99cdec306791ac018df7391cc938e59",
+      "seconds": 11.284692525863647,
+      "initialization": "three_domain_original4_all_channels",
+      "fraction": 0.1,
+      "imported": false,
+      "source_checkpoint": "/path/to/CORD/code/experiments/source_pretraining_and_transfer/multidomain_original_cutting_tool_sources/three_domain/training/encoder.pt"
+    },
+    {
+      "seed": 46,
+      "arm": "frozen_probe",
+      "train": [
+        "C1",
+        "C4"
+      ],
+      "held": "C6",
+      "best": {
+        "epoch": 20,
+        "stage": 1,
+        "metrics": {
+          "rmse": 0.12078347699696299,
+          "mae": 0.07457686588168144,
+          "r2": 0.8554176675015345,
+          "bias": -0.024936093638340633,
+          "n": 12
+        }
+      },
+      "optimizer_updates": 72,
+      "metrics": {
+        "rmse": 0.1403614458772141,
+        "mae": 0.11849056126881544,
+        "r2": 0.7231181856217472,
+        "bias": -0.006808448017289921,
+        "n": 219
+      },
+      "initial_encoder_hash": "0d9acba58545928032bbaf0ee80a27625a2b0473878cc857f09993837790cb66",
+      "final_encoder_hash": "0d9acba58545928032bbaf0ee80a27625a2b0473878cc857f09993837790cb66",
+      "head_hash": "fd029b366a89f92bf26f9736feb5a24f4abe08cfac946a1674bebefe2f8e4c93",
+      "sample_order_hash": "b3004fcda3acf76cfc6b672cd26b1a3ee8077369d5b8fdcd9d4fcd3e6377fad0",
+      "seconds": 22.708860158920288,
+      "initialization": "three_domain_original4_all_channels",
+      "fraction": 0.1,
+      "imported": false,
+      "source_checkpoint": "/path/to/CORD/code/experiments/source_pretraining_and_transfer/multidomain_original_cutting_tool_sources/three_domain/training/encoder.pt"
+    }
+  ],
+  "summary": [
+    {
+      "initialization": "scratch",
+      "arm": "scratch",
+      "fraction": 0.1,
+      "n": 5,
+      "metrics": {
+        "rmse": {
+          "mean": 0.13265528340269225,
+          "std": 0.016219883817671855
+        },
+        "mae": {
+          "mean": 0.11009553729143998,
+          "std": 0.014054721817881227
+        },
+        "r2": {
+          "mean": 0.7497285690231862,
+          "std": 0.061354760172406306
+        },
+        "bias": {
+          "mean": 0.02765395209686533,
+          "std": 0.008080274449304505
+        }
+      }
+    },
+    {
+      "initialization": "milling_only_original4_3channel",
+      "arm": "frozen_probe",
+      "fraction": 0.1,
+      "n": 5,
+      "metrics": {
+        "rmse": {
+          "mean": 0.14426738941582165,
+          "std": 0.01602344840127694
+        },
+        "mae": {
+          "mean": 0.11858633101819993,
+          "std": 0.017118111530319016
+        },
+        "r2": {
+          "mean": 0.704607081939538,
+          "std": 0.06562471518764558
+        },
+        "bias": {
+          "mean": 0.1174477591744909,
+          "std": 0.016979808839738434
+        }
+      }
+    },
+    {
+      "initialization": "three_domain_original4_3channel",
+      "arm": "frozen_probe",
+      "fraction": 0.1,
+      "n": 5,
+      "metrics": {
+        "rmse": {
+          "mean": 0.14066906526882292,
+          "std": 0.010861838360615121
+        },
+        "mae": {
+          "mean": 0.11289331954925166,
+          "std": 0.007425298928180737
+        },
+        "r2": {
+          "mean": 0.7205767506557006,
+          "std": 0.043636408477158266
+        },
+        "bias": {
+          "mean": 0.1102702477589658,
+          "std": 0.008057789106829005
+        }
+      }
+    },
+    {
+      "initialization": "milling_only_original4_all_channels",
+      "arm": "frozen_probe",
+      "fraction": 0.1,
+      "n": 5,
+      "metrics": {
+        "rmse": {
+          "mean": 0.12377706766023147,
+          "std": 0.021179316635167304
+        },
+        "mae": {
+          "mean": 0.10949294418521807,
+          "std": 0.019832371218999334
+        },
+        "r2": {
+          "mean": 0.7796393160545896,
+          "std": 0.07223975268432663
+        },
+        "bias": {
+          "mean": -0.005114847846057045,
+          "std": 0.013226868378555261
+        }
+      }
+    },
+    {
+      "initialization": "three_domain_original4_all_channels",
+      "arm": "frozen_probe",
+      "fraction": 0.1,
+      "n": 5,
+      "metrics": {
+        "rmse": {
+          "mean": 0.12561394409007065,
+          "std": 0.016728822858370528
+        },
+        "mae": {
+          "mean": 0.10731825761616094,
+          "std": 0.018018647783977305
+        },
+        "r2": {
+          "mean": 0.7750980239923698,
+          "std": 0.05695178590012162
+        },
+        "bias": {
+          "mean": -0.010585827440805903,
+          "std": 0.017282435755461706
+        }
+      }
+    }
+  ]
+}

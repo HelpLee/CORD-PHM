@@ -1,0 +1,5927 @@
+{
+  "complete": false,
+  "missing": [
+    "downstream/joint_norm/battery/p20/results.json",
+    "downstream/joint_norm/milling/p10/results.json",
+    "downstream/joint_norm/milling/p20/results.json",
+    "downstream/joint_norm/milling/p100/results.json",
+    "downstream/joint_pcgrad/bearing/p20/results.json",
+    "downstream/joint_pcgrad/bearing/p100/results.json",
+    "downstream/joint_pcgrad/battery/p100/results.json",
+    "downstream/joint_pcgrad/milling/p10/results.json",
+    "downstream/joint_cagrad/bearing/p10/results.json",
+    "downstream/joint_cagrad/bearing/p20/results.json",
+    "downstream/joint_cagrad/battery/p20/results.json",
+    "downstream/joint_cagrad/battery/p100/results.json",
+    "downstream/joint_cagrad/milling/p100/results.json",
+    "downstream/single_bearing_raw/bearing/p10/results.json",
+    "downstream/single_bearing_norm/bearing/p10/results.json",
+    "downstream/single_bearing_norm/bearing/p20/results.json",
+    "downstream/single_battery_raw/battery/p20/results.json",
+    "downstream/single_battery_raw/battery/p100/results.json",
+    "downstream/single_battery_norm/battery/p100/results.json",
+    "downstream/single_milling_raw/milling/p10/results.json",
+    "downstream/single_milling_norm/milling/p10/results.json",
+    "downstream/single_milling_norm/milling/p20/results.json",
+    "downstream/joint_selection/bearing/p20/results.json",
+    "downstream/joint_selection/bearing/p100/results.json",
+    "downstream/joint_selection/battery/p100/results.json",
+    "downstream/joint_selection/milling/p10/results.json"
+  ],
+  "summary": [
+    {
+      "model": "joint_raw",
+      "domain": "bearing",
+      "fraction": 0.1,
+      "n": 5,
+      "metrics": {
+        "rmse": {
+          "mean": 0.12178049522601919,
+          "std": 0.02872153460262162
+        },
+        "mae": {
+          "mean": 0.09334369243399518,
+          "std": 0.020833400520620736
+        },
+        "r2": {
+          "mean": 0.8238982645182718,
+          "std": 0.08036893522079677
+        }
+      }
+    },
+    {
+      "model": "joint_raw",
+      "domain": "bearing",
+      "fraction": 0.2,
+      "n": 5,
+      "metrics": {
+        "rmse": {
+          "mean": 0.15944344109552622,
+          "std": 0.016154987504846396
+        },
+        "mae": {
+          "mean": 0.12602057006914874,
+          "std": 0.011476014675234633
+        },
+        "r2": {
+          "mean": 0.7086160215922122,
+          "std": 0.06005233314463313
+        }
+      }
+    },
+    {
+      "model": "joint_raw",
+      "domain": "bearing",
+      "fraction": 1.0,
+      "n": 5,
+      "metrics": {
+        "rmse": {
+          "mean": 0.10364070544712414,
+          "std": 0.008103126610901604
+        },
+        "mae": {
+          "mean": 0.07922534319395955,
+          "std": 0.00527354795952549
+        },
+        "r2": {
+          "mean": 0.8772901217166866,
+          "std": 0.01959145965335231
+        }
+      }
+    },
+    {
+      "model": "joint_raw",
+      "domain": "battery",
+      "fraction": 0.1,
+      "n": 5,
+      "metrics": {
+        "rmse": {
+          "mean": 0.06996245020722468,
+          "std": 0.006624423728314557
+        },
+        "mae": {
+          "mean": 0.04972204922120958,
+          "std": 0.004830088333057025
+        },
+        "r2": {
+          "mean": 0.9406013719278803,
+          "std": 0.011341202294968501
+        }
+      }
+    },
+    {
+      "model": "joint_raw",
+      "domain": "battery",
+      "fraction": 0.2,
+      "n": 5,
+      "metrics": {
+        "rmse": {
+          "mean": 0.06880222000958582,
+          "std": 0.0019001996724739279
+        },
+        "mae": {
+          "mean": 0.04915334861974054,
+          "std": 0.002229743586069815
+        },
+        "r2": {
+          "mean": 0.942929395634323,
+          "std": 0.0031705474759494163
+        }
+      }
+    },
+    {
+      "model": "joint_raw",
+      "domain": "battery",
+      "fraction": 1.0,
+      "n": 5,
+      "metrics": {
+        "rmse": {
+          "mean": 0.0657711132859357,
+          "std": 0.0026391657296291567
+        },
+        "mae": {
+          "mean": 0.046920505440679626,
+          "std": 0.0030433548000314194
+        },
+        "r2": {
+          "mean": 0.947811828488246,
+          "std": 0.004201318614042782
+        }
+      }
+    },
+    {
+      "model": "joint_raw",
+      "domain": "milling",
+      "fraction": 0.1,
+      "n": 5,
+      "metrics": {
+        "rmse": {
+          "mean": 0.1058576039139004,
+          "std": 0.014138117897660417
+        },
+        "mae": {
+          "mean": 0.08821029421962696,
+          "std": 0.01395361621853613
+        },
+        "r2": {
+          "mean": 0.8402663055634164,
+          "std": 0.03954615308799146
+        }
+      }
+    },
+    {
+      "model": "joint_raw",
+      "domain": "milling",
+      "fraction": 0.2,
+      "n": 5,
+      "metrics": {
+        "rmse": {
+          "mean": 0.07558532733921201,
+          "std": 0.014088455363584282
+        },
+        "mae": {
+          "mean": 0.060939236302524125,
+          "std": 0.012327057942372004
+        },
+        "r2": {
+          "mean": 0.9174761295543495,
+          "std": 0.031850466632879514
+        }
+      }
+    },
+    {
+      "model": "joint_raw",
+      "domain": "milling",
+      "fraction": 1.0,
+      "n": 5,
+      "metrics": {
+        "rmse": {
+          "mean": 0.054400028200646114,
+          "std": 0.009764098971049476
+        },
+        "mae": {
+          "mean": 0.04408968805875545,
+          "std": 0.005979052197153164
+        },
+        "r2": {
+          "mean": 0.957337327679632,
+          "std": 0.01621424028903515
+        }
+      }
+    },
+    {
+      "model": "joint_norm",
+      "domain": "bearing",
+      "fraction": 0.1,
+      "n": 5,
+      "metrics": {
+        "rmse": {
+          "mean": 0.13644182790933582,
+          "std": 0.033479956950521604
+        },
+        "mae": {
+          "mean": 0.10583016788838681,
+          "std": 0.030828379226066564
+        },
+        "r2": {
+          "mean": 0.7781668785966105,
+          "std": 0.12054494793858897
+        }
+      }
+    },
+    {
+      "model": "joint_norm",
+      "domain": "bearing",
+      "fraction": 0.2,
+      "n": 5,
+      "metrics": {
+        "rmse": {
+          "mean": 0.15314471177435524,
+          "std": 0.023904717760590874
+        },
+        "mae": {
+          "mean": 0.12098374734255109,
+          "std": 0.02361814239506205
+        },
+        "r2": {
+          "mean": 0.7281759204161349,
+          "std": 0.08509943769481157
+        }
+      }
+    },
+    {
+      "model": "joint_norm",
+      "domain": "bearing",
+      "fraction": 1.0,
+      "n": 5,
+      "metrics": {
+        "rmse": {
+          "mean": 0.0957789654421775,
+          "std": 0.011682374431251334
+        },
+        "mae": {
+          "mean": 0.07453554189084349,
+          "std": 0.00707600569688218
+        },
+        "r2": {
+          "mean": 0.894469304883413,
+          "std": 0.02692773802762802
+        }
+      }
+    },
+    {
+      "model": "joint_norm",
+      "domain": "battery",
+      "fraction": 0.1,
+      "n": 5,
+      "metrics": {
+        "rmse": {
+          "mean": 0.07154773763680887,
+          "std": 0.0033017338760321898
+        },
+        "mae": {
+          "mean": 0.052738347511714675,
+          "std": 0.002095099014550301
+        },
+        "r2": {
+          "mean": 0.9382163293322374,
+          "std": 0.005709146111150029
+        }
+      }
+    },
+    {
+      "model": "joint_norm",
+      "domain": "battery",
+      "fraction": 1.0,
+      "n": 5,
+      "metrics": {
+        "rmse": {
+          "mean": 0.06612129575161889,
+          "std": 0.0033628341903199654
+        },
+        "mae": {
+          "mean": 0.04750558273487087,
+          "std": 0.0029838009901856886
+        },
+        "r2": {
+          "mean": 0.9472134725154977,
+          "std": 0.005373727406402468
+        }
+      }
+    },
+    {
+      "model": "joint_pcgrad",
+      "domain": "bearing",
+      "fraction": 0.1,
+      "n": 5,
+      "metrics": {
+        "rmse": {
+          "mean": 0.1204083051405136,
+          "std": 0.013399758013412524
+        },
+        "mae": {
+          "mean": 0.09162798501752518,
+          "std": 0.009554518444703033
+        },
+        "r2": {
+          "mean": 0.8335458193523044,
+          "std": 0.03578723589273017
+        }
+      }
+    },
+    {
+      "model": "joint_pcgrad",
+      "domain": "battery",
+      "fraction": 0.1,
+      "n": 5,
+      "metrics": {
+        "rmse": {
+          "mean": 0.07247915292078848,
+          "std": 0.003817684945828045
+        },
+        "mae": {
+          "mean": 0.05318255315334989,
+          "std": 0.0026572799215077753
+        },
+        "r2": {
+          "mean": 0.9365645942998476,
+          "std": 0.006657637126474081
+        }
+      }
+    },
+    {
+      "model": "joint_pcgrad",
+      "domain": "battery",
+      "fraction": 0.2,
+      "n": 5,
+      "metrics": {
+        "rmse": {
+          "mean": 0.06977792374078615,
+          "std": 0.0034953562451791585
+        },
+        "mae": {
+          "mean": 0.049799266321288393,
+          "std": 0.003678562109454104
+        },
+        "r2": {
+          "mean": 0.9412172829740071,
+          "std": 0.005987751709995655
+        }
+      }
+    },
+    {
+      "model": "joint_pcgrad",
+      "domain": "milling",
+      "fraction": 0.2,
+      "n": 5,
+      "metrics": {
+        "rmse": {
+          "mean": 0.08050244952489008,
+          "std": 0.015680324054096046
+        },
+        "mae": {
+          "mean": 0.06419930402019389,
+          "std": 0.018898606108084977
+        },
+        "r2": {
+          "mean": 0.9061568852451434,
+          "std": 0.036670916702554
+        }
+      }
+    },
+    {
+      "model": "joint_pcgrad",
+      "domain": "milling",
+      "fraction": 1.0,
+      "n": 5,
+      "metrics": {
+        "rmse": {
+          "mean": 0.06840704343656315,
+          "std": 0.013344515707700488
+        },
+        "mae": {
+          "mean": 0.05390736082458196,
+          "std": 0.010567998588190766
+        },
+        "r2": {
+          "mean": 0.9322320149269536,
+          "std": 0.023891926342187574
+        }
+      }
+    },
+    {
+      "model": "joint_cagrad",
+      "domain": "bearing",
+      "fraction": 1.0,
+      "n": 5,
+      "metrics": {
+        "rmse": {
+          "mean": 0.08079414571480521,
+          "std": 0.01769573845018986
+        },
+        "mae": {
+          "mean": 0.06511684119500019,
+          "std": 0.012659152688441824
+        },
+        "r2": {
+          "mean": 0.9229425071758415,
+          "std": 0.03385147251447068
+        }
+      }
+    },
+    {
+      "model": "joint_cagrad",
+      "domain": "battery",
+      "fraction": 0.1,
+      "n": 5,
+      "metrics": {
+        "rmse": {
+          "mean": 0.07139035103645612,
+          "std": 0.002934166364088232
+        },
+        "mae": {
+          "mean": 0.05191148289050927,
+          "std": 0.003264114302725459
+        },
+        "r2": {
+          "mean": 0.9385094786403725,
+          "std": 0.005056997595632082
+        }
+      }
+    },
+    {
+      "model": "joint_cagrad",
+      "domain": "milling",
+      "fraction": 0.1,
+      "n": 5,
+      "metrics": {
+        "rmse": {
+          "mean": 0.1021813633744318,
+          "std": 0.015607911352496187
+        },
+        "mae": {
+          "mean": 0.08453681570771214,
+          "std": 0.01206044312326225
+        },
+        "r2": {
+          "mean": 0.8505232363341613,
+          "std": 0.042678948911194274
+        }
+      }
+    },
+    {
+      "model": "joint_cagrad",
+      "domain": "milling",
+      "fraction": 0.2,
+      "n": 5,
+      "metrics": {
+        "rmse": {
+          "mean": 0.08515031631857657,
+          "std": 0.014365274404668288
+        },
+        "mae": {
+          "mean": 0.06848558211724645,
+          "std": 0.013156851500754713
+        },
+        "r2": {
+          "mean": 0.8957805245176118,
+          "std": 0.035579729704809014
+        }
+      }
+    },
+    {
+      "model": "single_bearing_raw",
+      "domain": "bearing",
+      "fraction": 0.2,
+      "n": 5,
+      "metrics": {
+        "rmse": {
+          "mean": 0.1491516298493007,
+          "std": 0.02885678821079187
+        },
+        "mae": {
+          "mean": 0.11125330794099215,
+          "std": 0.020923846304754072
+        },
+        "r2": {
+          "mean": 0.7395224130753543,
+          "std": 0.09996551671788606
+        }
+      }
+    },
+    {
+      "model": "single_bearing_raw",
+      "domain": "bearing",
+      "fraction": 1.0,
+      "n": 5,
+      "metrics": {
+        "rmse": {
+          "mean": 0.1118785823014649,
+          "std": 0.01261675491310412
+        },
+        "mae": {
+          "mean": 0.08383337900646635,
+          "std": 0.009974733183514526
+        },
+        "r2": {
+          "mean": 0.8562558274395087,
+          "std": 0.033272685583113616
+        }
+      }
+    },
+    {
+      "model": "single_bearing_norm",
+      "domain": "bearing",
+      "fraction": 1.0,
+      "n": 5,
+      "metrics": {
+        "rmse": {
+          "mean": 0.11367888695188269,
+          "std": 0.015208437163180303
+        },
+        "mae": {
+          "mean": 0.08646625369988584,
+          "std": 0.01154491363674323
+        },
+        "r2": {
+          "mean": 0.8509835697110091,
+          "std": 0.040253333387534895
+        }
+      }
+    },
+    {
+      "model": "single_battery_raw",
+      "domain": "battery",
+      "fraction": 0.1,
+      "n": 5,
+      "metrics": {
+        "rmse": {
+          "mean": 0.06463521118403652,
+          "std": 0.0052162564906984635
+        },
+        "mae": {
+          "mean": 0.04651304123895352,
+          "std": 0.0033115038712997853
+        },
+        "r2": {
+          "mean": 0.9494014647094644,
+          "std": 0.00819007525397192
+        }
+      }
+    },
+    {
+      "model": "single_battery_norm",
+      "domain": "battery",
+      "fraction": 0.1,
+      "n": 5,
+      "metrics": {
+        "rmse": {
+          "mean": 0.06894094703166498,
+          "std": 0.004425769396259707
+        },
+        "mae": {
+          "mean": 0.04937416520436854,
+          "std": 0.0036816727100066667
+        },
+        "r2": {
+          "mean": 0.9425451599447662,
+          "std": 0.0074950362651444065
+        }
+      }
+    },
+    {
+      "model": "single_battery_norm",
+      "domain": "battery",
+      "fraction": 0.2,
+      "n": 5,
+      "metrics": {
+        "rmse": {
+          "mean": 0.07316199131867855,
+          "std": 0.004412760722960391
+        },
+        "mae": {
+          "mean": 0.051189716098573666,
+          "std": 0.003732306424723401
+        },
+        "r2": {
+          "mean": 0.9353191426087539,
+          "std": 0.00772820471984996
+        }
+      }
+    },
+    {
+      "model": "single_milling_raw",
+      "domain": "milling",
+      "fraction": 0.2,
+      "n": 5,
+      "metrics": {
+        "rmse": {
+          "mean": 0.09730933560152154,
+          "std": 0.018354959388063138
+        },
+        "mae": {
+          "mean": 0.08097305045841627,
+          "std": 0.014229117249944767
+        },
+        "r2": {
+          "mean": 0.8631336610410356,
+          "std": 0.04479391571168522
+        }
+      }
+    },
+    {
+      "model": "single_milling_raw",
+      "domain": "milling",
+      "fraction": 1.0,
+      "n": 5,
+      "metrics": {
+        "rmse": {
+          "mean": 0.06806130784286424,
+          "std": 0.020822405310111015
+        },
+        "mae": {
+          "mean": 0.05751410900746987,
+          "std": 0.021503931068435327
+        },
+        "r2": {
+          "mean": 0.9300225184673636,
+          "std": 0.038773183009942334
+        }
+      }
+    },
+    {
+      "model": "single_milling_norm",
+      "domain": "milling",
+      "fraction": 1.0,
+      "n": 5,
+      "metrics": {
+        "rmse": {
+          "mean": 0.0627216324912585,
+          "std": 0.020321682904672195
+        },
+        "mae": {
+          "mean": 0.0524891769819676,
+          "std": 0.01636371047914263
+        },
+        "r2": {
+          "mean": 0.9400685693504702,
+          "std": 0.03394205242747443
+        }
+      }
+    },
+    {
+      "model": "joint_selection",
+      "domain": "bearing",
+      "fraction": 0.1,
+      "n": 5,
+      "metrics": {
+        "rmse": {
+          "mean": 0.11806079549370967,
+          "std": 0.01978467420338504
+        },
+        "mae": {
+          "mean": 0.08966788233736077,
+          "std": 0.015295441405687261
+        },
+        "r2": {
+          "mean": 0.8379829671101785,
+          "std": 0.05205468096486173
+        }
+      }
+    },
+    {
+      "model": "joint_selection",
+      "domain": "battery",
+      "fraction": 0.1,
+      "n": 5,
+      "metrics": {
+        "rmse": {
+          "mean": 0.07243004261139059,
+          "std": 0.0021451071296281184
+        },
+        "mae": {
+          "mean": 0.05209425788903519,
+          "std": 0.0019492136439674275
+        },
+        "r2": {
+          "mean": 0.9367464719252439,
+          "std": 0.003727579102875261
+        }
+      }
+    },
+    {
+      "model": "joint_selection",
+      "domain": "battery",
+      "fraction": 0.2,
+      "n": 5,
+      "metrics": {
+        "rmse": {
+          "mean": 0.06963022362007402,
+          "std": 0.0022164465935848466
+        },
+        "mae": {
+          "mean": 0.05023157921258912,
+          "std": 0.0024379112698938925
+        },
+        "r2": {
+          "mean": 0.9415357861754685,
+          "std": 0.0037849839295096216
+        }
+      }
+    },
+    {
+      "model": "joint_selection",
+      "domain": "milling",
+      "fraction": 0.2,
+      "n": 5,
+      "metrics": {
+        "rmse": {
+          "mean": 0.08189390956665912,
+          "std": 0.01173295590950763
+        },
+        "mae": {
+          "mean": 0.0676784924558921,
+          "std": 0.011104334501805164
+        },
+        "r2": {
+          "mean": 0.9041977658210778,
+          "std": 0.026477529340484415
+        }
+      }
+    },
+    {
+      "model": "joint_selection",
+      "domain": "milling",
+      "fraction": 1.0,
+      "n": 5,
+      "metrics": {
+        "rmse": {
+          "mean": 0.06855328747239421,
+          "std": 0.015486072002175664
+        },
+        "mae": {
+          "mean": 0.05543359221814022,
+          "std": 0.012328977388012015
+        },
+        "r2": {
+          "mean": 0.9312563398180226,
+          "std": 0.03154005944382214
+        }
+      }
+    }
+  ],
+  "paired": [
+    {
+      "model": "joint_raw",
+      "control": "single_bearing_raw",
+      "domain": "bearing",
+      "fraction": 0.2,
+      "delta_rmse_mean": 0.010291811246225548,
+      "delta_rmse_std": 0.031191472402447674,
+      "wins": 1,
+      "paired_deltas": [
+        0.014008017767020597,
+        0.040763462325622,
+        0.004232084332841446,
+        0.031702976232511657,
+        -0.03924748442686796
+      ],
+      "interpretation": "negative delta favors joint; downstream seeds, one upstream seed only"
+    },
+    {
+      "model": "joint_raw",
+      "control": "single_bearing_raw",
+      "domain": "bearing",
+      "fraction": 1.0,
+      "delta_rmse_mean": -0.00823787685434076,
+      "delta_rmse_std": 0.01558305583325953,
+      "wins": 4,
+      "paired_deltas": [
+        -0.006351537718413847,
+        -0.027504758816012498,
+        -0.017274157727127704,
+        -0.004139263064792328,
+        0.014080333054642583
+      ],
+      "interpretation": "negative delta favors joint; downstream seeds, one upstream seed only"
+    },
+    {
+      "model": "joint_raw",
+      "control": "single_battery_raw",
+      "domain": "battery",
+      "fraction": 0.1,
+      "delta_rmse_mean": 0.005327239023188164,
+      "delta_rmse_std": 0.008956746990669924,
+      "wins": 1,
+      "paired_deltas": [
+        0.004005072076206234,
+        0.010545707956810965,
+        0.011265511212121146,
+        -0.009795199263266378,
+        0.010615103134068854
+      ],
+      "interpretation": "negative delta favors joint; downstream seeds, one upstream seed only"
+    },
+    {
+      "model": "joint_raw",
+      "control": "single_milling_raw",
+      "domain": "milling",
+      "fraction": 0.2,
+      "delta_rmse_mean": -0.021724008262309517,
+      "delta_rmse_std": 0.024157885347622206,
+      "wins": 4,
+      "paired_deltas": [
+        -0.029602561560281196,
+        -0.05165328936633486,
+        -0.03328339817349739,
+        0.006452404710938595,
+        -0.0005331969223727334
+      ],
+      "interpretation": "negative delta favors joint; downstream seeds, one upstream seed only"
+    },
+    {
+      "model": "joint_raw",
+      "control": "single_milling_raw",
+      "domain": "milling",
+      "fraction": 1.0,
+      "delta_rmse_mean": -0.013661279642218124,
+      "delta_rmse_std": 0.01940451654741676,
+      "wins": 4,
+      "paired_deltas": [
+        -0.03517724090304933,
+        0.015582081059557773,
+        -0.021251040211451716,
+        -0.005654940320614851,
+        -0.0218052578355325
+      ],
+      "interpretation": "negative delta favors joint; downstream seeds, one upstream seed only"
+    },
+    {
+      "model": "joint_selection",
+      "control": "single_battery_raw",
+      "domain": "battery",
+      "fraction": 0.1,
+      "delta_rmse_mean": 0.007794831427354085,
+      "delta_rmse_std": 0.004558161864268524,
+      "wins": 0,
+      "paired_deltas": [
+        0.006879275137437191,
+        0.013996257349396607,
+        0.006018470952926111,
+        0.001886906509005054,
+        0.010193247188005461
+      ],
+      "interpretation": "negative delta favors joint; downstream seeds, one upstream seed only"
+    },
+    {
+      "model": "joint_selection",
+      "control": "single_milling_raw",
+      "domain": "milling",
+      "fraction": 0.2,
+      "delta_rmse_mean": -0.015415426034862411,
+      "delta_rmse_std": 0.013627527710795898,
+      "wins": 5,
+      "paired_deltas": [
+        -0.01220049234974041,
+        -0.032883324462682065,
+        -0.025805777198654165,
+        -0.00028584489808344826,
+        -0.00590169126515197
+      ],
+      "interpretation": "negative delta favors joint; downstream seeds, one upstream seed only"
+    },
+    {
+      "model": "joint_selection",
+      "control": "single_milling_raw",
+      "domain": "milling",
+      "fraction": 1.0,
+      "delta_rmse_mean": 0.0004919796295299664,
+      "delta_rmse_std": 0.018972978855333084,
+      "wins": 3,
+      "paired_deltas": [
+        -0.019852115554218605,
+        0.021634222519837952,
+        -0.016035911348062745,
+        0.0178997929354113,
+        -0.0011860904053180715
+      ],
+      "interpretation": "negative delta favors joint; downstream seeds, one upstream seed only"
+    },
+    {
+      "model": "joint_norm",
+      "control": "single_bearing_norm",
+      "domain": "bearing",
+      "fraction": 1.0,
+      "delta_rmse_mean": -0.01789992150970517,
+      "delta_rmse_std": 0.023104034687574306,
+      "wins": 4,
+      "paired_deltas": [
+        0.01463250962027339,
+        -0.04409742785937622,
+        -0.035363287878179245,
+        -0.015772777249576653,
+        -0.00889862418166712
+      ],
+      "interpretation": "negative delta favors joint; downstream seeds, one upstream seed only"
+    },
+    {
+      "model": "joint_norm",
+      "control": "single_battery_norm",
+      "domain": "battery",
+      "fraction": 0.1,
+      "delta_rmse_mean": 0.002606790605143877,
+      "delta_rmse_std": 0.0038897951338858956,
+      "wins": 1,
+      "paired_deltas": [
+        -0.0022425391885414897,
+        0.001368605506104667,
+        0.005547096548717059,
+        0.007487588891728569,
+        0.0008732012677105799
+      ],
+      "interpretation": "negative delta favors joint; downstream seeds, one upstream seed only"
+    },
+    {
+      "model": "joint_pcgrad",
+      "control": "single_battery_norm",
+      "domain": "battery",
+      "fraction": 0.1,
+      "delta_rmse_mean": 0.0035382058891234914,
+      "delta_rmse_std": 0.0036193734343386618,
+      "wins": 0,
+      "paired_deltas": [
+        0.0002947149431730828,
+        0.0012163268400484928,
+        0.006012937697503717,
+        0.00866037979289104,
+        0.0015066701720011233
+      ],
+      "interpretation": "negative delta favors joint; downstream seeds, one upstream seed only"
+    },
+    {
+      "model": "joint_pcgrad",
+      "control": "single_battery_norm",
+      "domain": "battery",
+      "fraction": 0.2,
+      "delta_rmse_mean": -0.003384067577892394,
+      "delta_rmse_std": 0.0019111810081998153,
+      "wins": 5,
+      "paired_deltas": [
+        -0.0008475888432800116,
+        -0.0051549537981929044,
+        -0.003074488969651387,
+        -0.002444010824202633,
+        -0.0053992954541350335
+      ],
+      "interpretation": "negative delta favors joint; downstream seeds, one upstream seed only"
+    },
+    {
+      "model": "joint_pcgrad",
+      "control": "single_milling_norm",
+      "domain": "milling",
+      "fraction": 1.0,
+      "delta_rmse_mean": 0.005685410945304626,
+      "delta_rmse_std": 0.03082062322591126,
+      "wins": 3,
+      "paired_deltas": [
+        -0.034329101410497824,
+        -0.007548084474316305,
+        0.045744303921600955,
+        0.025157572605014687,
+        -0.00059763591527838
+      ],
+      "interpretation": "negative delta favors joint; downstream seeds, one upstream seed only"
+    },
+    {
+      "model": "joint_cagrad",
+      "control": "single_bearing_norm",
+      "domain": "bearing",
+      "fraction": 1.0,
+      "delta_rmse_mean": -0.03288474123707745,
+      "delta_rmse_std": 0.030728256482986962,
+      "wins": 5,
+      "paired_deltas": [
+        -0.023078216309611363,
+        -0.06650083657354464,
+        -0.06420253213887615,
+        -0.010339834316313246,
+        -0.0003022868470418799
+      ],
+      "interpretation": "negative delta favors joint; downstream seeds, one upstream seed only"
+    },
+    {
+      "model": "joint_cagrad",
+      "control": "single_battery_norm",
+      "domain": "battery",
+      "fraction": 0.1,
+      "delta_rmse_mean": 0.0024494040047911337,
+      "delta_rmse_std": 0.006228266199550151,
+      "wins": 2,
+      "paired_deltas": [
+        -0.004202181123622903,
+        0.0014829261699017549,
+        -0.0022517380338810677,
+        0.011059046594822666,
+        0.006158966416735218
+      ],
+      "interpretation": "negative delta favors joint; downstream seeds, one upstream seed only"
+    }
+  ],
+  "rows": [
+    {
+      "seed": 42,
+      "fraction": 0.1,
+      "arm": "full_finetune",
+      "metrics": {
+        "rmse": 0.12981714272409842,
+        "mae": 0.09623206210498875,
+        "r2": 0.808413789491258,
+        "bias": 0.07013925572706235,
+        "n": 37
+      },
+      "head_hash": "7c43d17405a3cb0c4bdf70b5dc1c5f686f2005c7d40cb0431fb9e2489665e75f",
+      "epochs": 34,
+      "best_epoch": 18,
+      "validation_rmse": 0.14529457064310713,
+      "optimizer_updates": 68,
+      "unfrozen_updates": 0,
+      "partial_reached_stage2": null,
+      "sample_order_hash": "efec917f176689de2089735ae211dc7fe7d8b1df7a03ec902e75976bc2dee42d",
+      "seconds": 13.569679737091064,
+      "model": "joint_raw",
+      "domain": "bearing"
+    },
+    {
+      "seed": 43,
+      "fraction": 0.1,
+      "arm": "full_finetune",
+      "metrics": {
+        "rmse": 0.15923215033732546,
+        "mae": 0.12089452957986174,
+        "r2": 0.7117550712358283,
+        "bias": 0.07362685095820878,
+        "n": 37
+      },
+      "head_hash": "06e22bc78c319eafe9177f2f11dc52a1b3c9a0cd66e73b657d2b3de6d263685c",
+      "epochs": 40,
+      "best_epoch": 24,
+      "validation_rmse": 0.11623518328492068,
+      "optimizer_updates": 80,
+      "unfrozen_updates": 0,
+      "partial_reached_stage2": null,
+      "sample_order_hash": "67f5e1b89f8b897798e8eaa3b07be9e23ab53fb4746f6b797e415b26477b0a19",
+      "seconds": 14.010834693908691,
+      "model": "joint_raw",
+      "domain": "bearing"
+    },
+    {
+      "seed": 44,
+      "fraction": 0.1,
+      "arm": "full_finetune",
+      "metrics": {
+        "rmse": 0.09463579600773228,
+        "mae": 0.07772718123286157,
+        "r2": 0.8981851714912877,
+        "bias": 0.015042642232131314,
+        "n": 37
+      },
+      "head_hash": "cc964eefb9c6b17e4290c497e88a101ca9b1f65ed90af87fcd834c5d96157295",
+      "epochs": 40,
+      "best_epoch": 24,
+      "validation_rmse": 0.11422443291876548,
+      "optimizer_updates": 80,
+      "unfrozen_updates": 0,
+      "partial_reached_stage2": null,
+      "sample_order_hash": "73aa034b683f09d534c939edd0a1efcad120c0bbd6fa3ea65e834f1336b8adca",
+      "seconds": 13.571146488189697,
+      "model": "joint_raw",
+      "domain": "bearing"
+    },
+    {
+      "seed": 45,
+      "fraction": 0.1,
+      "arm": "full_finetune",
+      "metrics": {
+        "rmse": 0.1341425440662835,
+        "mae": 0.10346801438041635,
+        "r2": 0.7954341039711179,
+        "bias": 0.05008651114798881,
+        "n": 37
+      },
+      "head_hash": "f756c29ceed4215828ecb7cc14d5dfd051e249a09094d7f7c8683ac2c62072c7",
+      "epochs": 20,
+      "best_epoch": 4,
+      "validation_rmse": 0.09505594758378336,
+      "optimizer_updates": 40,
+      "unfrozen_updates": 0,
+      "partial_reached_stage2": null,
+      "sample_order_hash": "07ca3e084fd61e52c57d506f41db865dfaf10e26cea7f374f27e6bea548ea5f9",
+      "seconds": 6.863312005996704,
+      "model": "joint_raw",
+      "domain": "bearing"
+    },
+    {
+      "seed": 46,
+      "fraction": 0.1,
+      "arm": "full_finetune",
+      "metrics": {
+        "rmse": 0.09107484299465629,
+        "mae": 0.06839667487184743,
+        "r2": 0.9057031864018671,
+        "bias": -0.013184457362906353,
+        "n": 37
+      },
+      "head_hash": "efa585f7e52ca3258998ea5f4f2bbbdf49fb0d9f0ccb991c78eeb212a1184d3b",
+      "epochs": 46,
+      "best_epoch": 30,
+      "validation_rmse": 0.17110600049183447,
+      "optimizer_updates": 92,
+      "unfrozen_updates": 0,
+      "partial_reached_stage2": null,
+      "sample_order_hash": "29ba2dc1e6fcad7d4d107726eda68e19f60b72df6478033cb5a8ad2ed7fe5e22",
+      "seconds": 15.604118585586548,
+      "model": "joint_raw",
+      "domain": "bearing"
+    },
+    {
+      "seed": 42,
+      "fraction": 0.2,
+      "arm": "full_finetune",
+      "metrics": {
+        "rmse": 0.1494957538172501,
+        "mae": 0.11850417611768117,
+        "r2": 0.7459273776820684,
+        "bias": 0.03817168386602724,
+        "n": 37
+      },
+      "head_hash": "7c43d17405a3cb0c4bdf70b5dc1c5f686f2005c7d40cb0431fb9e2489665e75f",
+      "epochs": 54,
+      "best_epoch": 38,
+      "validation_rmse": 0.08228151396196165,
+      "optimizer_updates": 162,
+      "unfrozen_updates": 0,
+      "partial_reached_stage2": null,
+      "sample_order_hash": "99c373ffa24ce44c7727103eafebcbdb39553350204795c6b6a4633b7f6e16c5",
+      "seconds": 36.38179850578308,
+      "model": "joint_raw",
+      "domain": "bearing"
+    },
+    {
+      "seed": 43,
+      "fraction": 0.2,
+      "arm": "full_finetune",
+      "metrics": {
+        "rmse": 0.18206663561246827,
+        "mae": 0.14360287508650407,
+        "r2": 0.6231566210533541,
+        "bias": 0.0864714477211237,
+        "n": 37
+      },
+      "head_hash": "06e22bc78c319eafe9177f2f11dc52a1b3c9a0cd66e73b657d2b3de6d263685c",
+      "epochs": 36,
+      "best_epoch": 20,
+      "validation_rmse": 0.08832908967907667,
+      "optimizer_updates": 108,
+      "unfrozen_updates": 0,
+      "partial_reached_stage2": null,
+      "sample_order_hash": "217fc7186bb8b190b9ef748fdf202cd70d52dbaa7e3c0bcf0b9c3bca353c49d1",
+      "seconds": 23.212138891220093,
+      "model": "joint_raw",
+      "domain": "bearing"
+    },
+    {
+      "seed": 44,
+      "fraction": 0.2,
+      "arm": "full_finetune",
+      "metrics": {
+        "rmse": 0.17100455827096284,
+        "mae": 0.13187852466629968,
+        "r2": 0.6675582733764527,
+        "bias": 0.06729761093250804,
+        "n": 37
+      },
+      "head_hash": "cc964eefb9c6b17e4290c497e88a101ca9b1f65ed90af87fcd834c5d96157295",
+      "epochs": 34,
+      "best_epoch": 18,
+      "validation_rmse": 0.06625547424505879,
+      "optimizer_updates": 102,
+      "unfrozen_updates": 0,
+      "partial_reached_stage2": null,
+      "sample_order_hash": "2749e6e179476c9a4012a6ee6babd7744db984bb90682f0466b89d5c1912d8f4",
+      "seconds": 22.122881174087524,
+      "model": "joint_raw",
+      "domain": "bearing"
+    },
+    {
+      "seed": 45,
+      "fraction": 0.2,
+      "arm": "full_finetune",
+      "metrics": {
+        "rmse": 0.1456217996557827,
+        "mae": 0.11823419728190512,
+        "r2": 0.7589245738775985,
+        "bias": 0.06559503023084756,
+        "n": 37
+      },
+      "head_hash": "f756c29ceed4215828ecb7cc14d5dfd051e249a09094d7f7c8683ac2c62072c7",
+      "epochs": 24,
+      "best_epoch": 8,
+      "validation_rmse": 0.09282894249435567,
+      "optimizer_updates": 72,
+      "unfrozen_updates": 0,
+      "partial_reached_stage2": null,
+      "sample_order_hash": "7ccc4e8a53f2aebb0c91cb8176c4edf855698d8acaa471fb7dc4e02aeb4ec247",
+      "seconds": 15.663187503814697,
+      "model": "joint_raw",
+      "domain": "bearing"
+    },
+    {
+      "seed": 46,
+      "fraction": 0.2,
+      "arm": "full_finetune",
+      "metrics": {
+        "rmse": 0.1490284581211672,
+        "mae": 0.11788307719335363,
+        "r2": 0.7475132619715866,
+        "bias": 0.08309227213062145,
+        "n": 37
+      },
+      "head_hash": "efa585f7e52ca3258998ea5f4f2bbbdf49fb0d9f0ccb991c78eeb212a1184d3b",
+      "epochs": 44,
+      "best_epoch": 28,
+      "validation_rmse": 0.09216659140967702,
+      "optimizer_updates": 132,
+      "unfrozen_updates": 0,
+      "partial_reached_stage2": null,
+      "sample_order_hash": "fb5aa40a91500243a1f1e10e94a5aba676410a333828a39311bdb412706329be",
+      "seconds": 28.86142873764038,
+      "model": "joint_raw",
+      "domain": "bearing"
+    },
+    {
+      "seed": 42,
+      "fraction": 1.0,
+      "arm": "full_finetune",
+      "metrics": {
+        "rmse": 0.09451620403372342,
+        "mae": 0.07128177628525205,
+        "r2": 0.8984423372411819,
+        "bias": 0.04589377952789938,
+        "n": 37
+      },
+      "head_hash": "7c43d17405a3cb0c4bdf70b5dc1c5f686f2005c7d40cb0431fb9e2489665e75f",
+      "epochs": 54,
+      "best_epoch": 38,
+      "validation_rmse": 0.02606778764673192,
+      "optimizer_updates": 756,
+      "unfrozen_updates": 0,
+      "partial_reached_stage2": null,
+      "sample_order_hash": "519b7480dc50f33b5683ed825bf8649e8e0819523a3234bcd819165212b9a96d",
+      "seconds": 172.72096705436707,
+      "model": "joint_raw",
+      "domain": "bearing"
+    },
+    {
+      "seed": 43,
+      "fraction": 1.0,
+      "arm": "full_finetune",
+      "metrics": {
+        "rmse": 0.10369513100720046,
+        "mae": 0.0800988557874351,
+        "r2": 0.8777590026952349,
+        "bias": 0.03388724662363529,
+        "n": 37
+      },
+      "head_hash": "06e22bc78c319eafe9177f2f11dc52a1b3c9a0cd66e73b657d2b3de6d263685c",
+      "epochs": 60,
+      "best_epoch": 44,
+      "validation_rmse": 0.025296589366099725,
+      "optimizer_updates": 840,
+      "unfrozen_updates": 0,
+      "partial_reached_stage2": null,
+      "sample_order_hash": "9a3704f9327ed0ae7048e31258e8b848eded10eec21099cce84efea32b9c564c",
+      "seconds": 190.99076581001282,
+      "model": "joint_raw",
+      "domain": "bearing"
+    },
+    {
+      "seed": 44,
+      "fraction": 1.0,
+      "arm": "full_finetune",
+      "metrics": {
+        "rmse": 0.10032901306466925,
+        "mae": 0.07912255848783094,
+        "r2": 0.8855664857181846,
+        "bias": 0.057723812809264335,
+        "n": 37
+      },
+      "head_hash": "cc964eefb9c6b17e4290c497e88a101ca9b1f65ed90af87fcd834c5d96157295",
+      "epochs": 88,
+      "best_epoch": 72,
+      "validation_rmse": 0.020043941428265547,
+      "optimizer_updates": 1232,
+      "unfrozen_updates": 0,
+      "partial_reached_stage2": null,
+      "sample_order_hash": "d2f83c9adfbefeabcc08356863e00d0a561cb869786e16a3e634d4ffc6aff945",
+      "seconds": 280.2575340270996,
+      "model": "joint_raw",
+      "domain": "bearing"
+    },
+    {
+      "seed": 45,
+      "fraction": 1.0,
+      "arm": "full_finetune",
+      "metrics": {
+        "rmse": 0.10305804704480404,
+        "mae": 0.07952218991075014,
+        "r2": 0.8792564412874789,
+        "bias": 0.040384931187774684,
+        "n": 37
+      },
+      "head_hash": "f756c29ceed4215828ecb7cc14d5dfd051e249a09094d7f7c8683ac2c62072c7",
+      "epochs": 56,
+      "best_epoch": 40,
+      "validation_rmse": 0.02461748977458495,
+      "optimizer_updates": 784,
+      "unfrozen_updates": 0,
+      "partial_reached_stage2": null,
+      "sample_order_hash": "bc47d52fc6e8a4d4e23a7a241eee76075d15214bbd91d5b45e54c143f9da21aa",
+      "seconds": 177.575541973114,
+      "model": "joint_raw",
+      "domain": "bearing"
+    },
+    {
+      "seed": 46,
+      "fraction": 1.0,
+      "arm": "full_finetune",
+      "metrics": {
+        "rmse": 0.11660513208522355,
+        "mae": 0.08610133549852951,
+        "r2": 0.8454263416413533,
+        "bias": 0.06478946922800026,
+        "n": 37
+      },
+      "head_hash": "efa585f7e52ca3258998ea5f4f2bbbdf49fb0d9f0ccb991c78eeb212a1184d3b",
+      "epochs": 54,
+      "best_epoch": 38,
+      "validation_rmse": 0.022841656405712576,
+      "optimizer_updates": 756,
+      "unfrozen_updates": 0,
+      "partial_reached_stage2": null,
+      "sample_order_hash": "a94282061434e7823df8f11d6514ff8ef1a27e08b0643741c047792adf0a11d7",
+      "seconds": 169.24396109580994,
+      "model": "joint_raw",
+      "domain": "bearing"
+    },
+    {
+      "seed": 42,
+      "fraction": 0.1,
+      "arm": "full_finetune",
+      "best_epoch": 52,
+      "stopped_epoch": 68,
+      "updates": 476,
+      "validation_rmse": 0.039794418439689214,
+      "metrics": {
+        "rmse": 0.0679006915710122,
+        "mae": 0.047185291352770276,
+        "r2": 0.9444491087619008,
+        "n": 937,
+        "bias": -0.03688166146151713
+      },
+      "seconds": 29.788105726242065,
+      "model": "joint_raw",
+      "domain": "battery"
+    },
+    {
+      "seed": 43,
+      "fraction": 0.1,
+      "arm": "full_finetune",
+      "best_epoch": 28,
+      "stopped_epoch": 44,
+      "updates": 308,
+      "validation_rmse": 0.03934434971174757,
+      "metrics": {
+        "rmse": 0.07053178894999745,
+        "mae": 0.050379061242992906,
+        "r2": 0.9400605940493587,
+        "n": 937,
+        "bias": -0.032122794081026584
+      },
+      "seconds": 18.73458981513977,
+      "model": "joint_raw",
+      "domain": "battery"
+    },
+    {
+      "seed": 44,
+      "fraction": 0.1,
+      "arm": "full_finetune",
+      "best_epoch": 56,
+      "stopped_epoch": 72,
+      "updates": 504,
+      "validation_rmse": 0.03995031337004993,
+      "metrics": {
+        "rmse": 0.0798862096929108,
+        "mae": 0.0563356405329814,
+        "r2": 0.9231070951881193,
+        "n": 937,
+        "bias": -0.04809923567774377
+      },
+      "seconds": 30.377237558364868,
+      "model": "joint_raw",
+      "domain": "battery"
+    },
+    {
+      "seed": 45,
+      "fraction": 0.1,
+      "arm": "full_finetune",
+      "best_epoch": 36,
+      "stopped_epoch": 52,
+      "updates": 364,
+      "validation_rmse": 0.04201172472158873,
+      "metrics": {
+        "rmse": 0.0614495593520115,
+        "mae": 0.04338599739918284,
+        "r2": 0.9545032702003745,
+        "n": 937,
+        "bias": -0.028921539243708265
+      },
+      "seconds": 21.89762783050537,
+      "model": "joint_raw",
+      "domain": "battery"
+    },
+    {
+      "seed": 46,
+      "fraction": 0.1,
+      "arm": "full_finetune",
+      "best_epoch": 14,
+      "stopped_epoch": 30,
+      "updates": 210,
+      "validation_rmse": 0.04690267968492649,
+      "metrics": {
+        "rmse": 0.07004400147019146,
+        "mae": 0.051324255578120495,
+        "r2": 0.9408867914396484,
+        "n": 937,
+        "bias": -0.03064580890225801
+      },
+      "seconds": 12.645958662033081,
+      "model": "joint_raw",
+      "domain": "battery"
+    },
+    {
+      "seed": 42,
+      "fraction": 0.2,
+      "arm": "full_finetune",
+      "best_epoch": 38,
+      "stopped_epoch": 54,
+      "updates": 702,
+      "validation_rmse": 0.025826563638827595,
+      "metrics": {
+        "rmse": 0.07162017412429227,
+        "mae": 0.05218323528132498,
+        "r2": 0.9381964558129132,
+        "n": 937,
+        "bias": -0.04389827973939868
+      },
+      "seconds": 42.36402726173401,
+      "model": "joint_raw",
+      "domain": "battery"
+    },
+    {
+      "seed": 43,
+      "fraction": 0.2,
+      "arm": "full_finetune",
+      "best_epoch": 92,
+      "stopped_epoch": 108,
+      "updates": 1404,
+      "validation_rmse": 0.02089338318036205,
+      "metrics": {
+        "rmse": 0.06687564487080698,
+        "mae": 0.047867487745782956,
+        "r2": 0.9461136706035875,
+        "n": 937,
+        "bias": -0.03303388314591989
+      },
+      "seconds": 84.28166842460632,
+      "model": "joint_raw",
+      "domain": "battery"
+    },
+    {
+      "seed": 44,
+      "fraction": 0.2,
+      "arm": "full_finetune",
+      "best_epoch": 34,
+      "stopped_epoch": 50,
+      "updates": 650,
+      "validation_rmse": 0.025015207085719235,
+      "metrics": {
+        "rmse": 0.0695823027076084,
+        "mae": 0.05088484352116603,
+        "r2": 0.9416635187740773,
+        "n": 937,
+        "bias": -0.0407793703767309
+      },
+      "seconds": 39.198875427246094,
+      "model": "joint_raw",
+      "domain": "battery"
+    },
+    {
+      "seed": 45,
+      "fraction": 0.2,
+      "arm": "full_finetune",
+      "best_epoch": 42,
+      "stopped_epoch": 58,
+      "updates": 754,
+      "validation_rmse": 0.02569916154790012,
+      "metrics": {
+        "rmse": 0.06859301009948861,
+        "mae": 0.04750412596656028,
+        "r2": 0.9433105349187095,
+        "n": 937,
+        "bias": -0.032834392527501984
+      },
+      "seconds": 45.25639319419861,
+      "model": "joint_raw",
+      "domain": "battery"
+    },
+    {
+      "seed": 46,
+      "fraction": 0.2,
+      "arm": "full_finetune",
+      "best_epoch": 40,
+      "stopped_epoch": 56,
+      "updates": 728,
+      "validation_rmse": 0.025230127489333,
+      "metrics": {
+        "rmse": 0.06733996824573278,
+        "mae": 0.047327050583868456,
+        "r2": 0.9453627980623274,
+        "n": 937,
+        "bias": -0.034748576720132866
+      },
+      "seconds": 43.630661964416504,
+      "model": "joint_raw",
+      "domain": "battery"
+    },
+    {
+      "seed": 42,
+      "fraction": 1.0,
+      "arm": "full_finetune",
+      "best_epoch": 18,
+      "stopped_epoch": 34,
+      "updates": 2176,
+      "validation_rmse": 0.010783957841589493,
+      "metrics": {
+        "rmse": 0.06475634071975435,
+        "mae": 0.04459104011542976,
+        "r2": 0.9494748938382899,
+        "n": 937,
+        "bias": -0.03155450194849451
+      },
+      "seconds": 129.67153906822205,
+      "model": "joint_raw",
+      "domain": "battery"
+    },
+    {
+      "seed": 43,
+      "fraction": 1.0,
+      "arm": "full_finetune",
+      "best_epoch": 22,
+      "stopped_epoch": 38,
+      "updates": 2432,
+      "validation_rmse": 0.009497605101531442,
+      "metrics": {
+        "rmse": 0.06870212182066916,
+        "mae": 0.048716028335751727,
+        "r2": 0.9431300382540669,
+        "n": 937,
+        "bias": -0.03728458336569377
+      },
+      "seconds": 144.6325559616089,
+      "model": "joint_raw",
+      "domain": "battery"
+    },
+    {
+      "seed": 44,
+      "fraction": 1.0,
+      "arm": "full_finetune",
+      "best_epoch": 32,
+      "stopped_epoch": 48,
+      "updates": 3072,
+      "validation_rmse": 0.00984657044446151,
+      "metrics": {
+        "rmse": 0.06394432905731161,
+        "mae": 0.04528306082453631,
+        "r2": 0.9507340677281829,
+        "n": 937,
+        "bias": -0.03580643717555395
+      },
+      "seconds": 182.33162093162537,
+      "model": "joint_raw",
+      "domain": "battery"
+    },
+    {
+      "seed": 45,
+      "fraction": 1.0,
+      "arm": "full_finetune",
+      "best_epoch": 50,
+      "stopped_epoch": 66,
+      "updates": 4224,
+      "validation_rmse": 0.007946954282205461,
+      "metrics": {
+        "rmse": 0.06299700404447517,
+        "mae": 0.044588667920541135,
+        "r2": 0.9521829886884728,
+        "n": 937,
+        "bias": -0.03378171205129017
+      },
+      "seconds": 250.99411273002625,
+      "model": "joint_raw",
+      "domain": "battery"
+    },
+    {
+      "seed": 46,
+      "fraction": 1.0,
+      "arm": "full_finetune",
+      "best_epoch": 82,
+      "stopped_epoch": 98,
+      "updates": 6272,
+      "validation_rmse": 0.007898476407551432,
+      "metrics": {
+        "rmse": 0.06845577078746823,
+        "mae": 0.05142373000713922,
+        "r2": 0.9435371539322167,
+        "n": 937,
+        "bias": -0.03448138860468788
+      },
+      "seconds": 372.4130280017853,
+      "model": "joint_raw",
+      "domain": "battery"
+    },
+    {
+      "seed": 42,
+      "arm": "full_finetune",
+      "train": [
+        "C1",
+        "C4"
+      ],
+      "held": "C6",
+      "best": {
+        "epoch": 18,
+        "stage": 2,
+        "metrics": {
+          "rmse": 0.09491850910617536,
+          "mae": 0.05933524792393049,
+          "r2": 0.9107101716690248,
+          "bias": -0.0143566665550073,
+          "n": 12
+        }
+      },
+      "optimizer_updates": 68,
+      "metrics": {
+        "rmse": 0.11792187376964386,
+        "mae": 0.10133583391655117,
+        "r2": 0.8045716755212108,
+        "bias": 0.005164475784079942,
+        "n": 219
+      },
+      "initial_encoder_hash": "577a5b65ed8f48a2088c5f893cff0d4341a406c2715d877aedea780631d5b385",
+      "final_encoder_hash": "de522263b268a2b58b8695a6a4917ed498cd32944d572680cfe449b1fd0e1bd7",
+      "head_hash": "2b77b2c8126c973810f2bed6dd2c22c5e4ab2619bdb1a32aa86ccf1743401c18",
+      "sample_order_hash": "9459456fb42dc4610b26e3aa7c04a14905a74bcc5a4fb1457b14c95481c95614",
+      "seconds": 15.197546005249023,
+      "fraction": 0.1,
+      "model": "joint_raw",
+      "encoder_lr": 0.0003,
+      "head_lr": 0.001,
+      "domain": "milling"
+    },
+    {
+      "seed": 43,
+      "arm": "full_finetune",
+      "train": [
+        "C1",
+        "C4"
+      ],
+      "held": "C6",
+      "best": {
+        "epoch": 26,
+        "stage": 2,
+        "metrics": {
+          "rmse": 0.08184749646559326,
+          "mae": 0.0486356628437837,
+          "r2": 0.9336087307451871,
+          "bias": -0.013298723846673965,
+          "n": 12
+        }
+      },
+      "optimizer_updates": 84,
+      "metrics": {
+        "rmse": 0.08248926955082357,
+        "mae": 0.06492992001054086,
+        "r2": 0.9043701044459481,
+        "bias": 0.011808668135678114,
+        "n": 219
+      },
+      "initial_encoder_hash": "577a5b65ed8f48a2088c5f893cff0d4341a406c2715d877aedea780631d5b385",
+      "final_encoder_hash": "1b698fbb7e0bdec648f9a0e185b2e6ae0da3c521accaf88e12e54023c9466555",
+      "head_hash": "a07d6694c674f605ac56cb5b324b62aa34c0a5a6ea14084e6efa5605479efa9f",
+      "sample_order_hash": "50a942cc5a47fd413f483d5e096dbb041773cb7496da5194c1d9deee2086e744",
+      "seconds": 16.901577949523926,
+      "fraction": 0.1,
+      "model": "joint_raw",
+      "encoder_lr": 0.0003,
+      "head_lr": 0.001,
+      "domain": "milling"
+    },
+    {
+      "seed": 44,
+      "arm": "full_finetune",
+      "train": [
+        "C1",
+        "C4"
+      ],
+      "held": "C6",
+      "best": {
+        "epoch": 38,
+        "stage": 2,
+        "metrics": {
+          "rmse": 0.0867880068583358,
+          "mae": 0.05092193310459455,
+          "r2": 0.9253517551266387,
+          "bias": -0.016289446502923965,
+          "n": 12
+        }
+      },
+      "optimizer_updates": 108,
+      "metrics": {
+        "rmse": 0.10308357359392739,
+        "mae": 0.08890786566707777,
+        "r2": 0.8506594669164498,
+        "bias": 0.013199935258965786,
+        "n": 219
+      },
+      "initial_encoder_hash": "577a5b65ed8f48a2088c5f893cff0d4341a406c2715d877aedea780631d5b385",
+      "final_encoder_hash": "508c8801d764928102b1e43ee2634beba39d9d4a20dcfbbb81ae72929d51a528",
+      "head_hash": "b17de1b8c6d3daaf36b7ef31bd4b0f065c83e2d17957ce2841fca56f2065112e",
+      "sample_order_hash": "ffe6c8e7d6b3eb65428611094c23ced5832411176393bf3712d7e948f890b37e",
+      "seconds": 21.284701585769653,
+      "fraction": 0.1,
+      "model": "joint_raw",
+      "encoder_lr": 0.0003,
+      "head_lr": 0.001,
+      "domain": "milling"
+    },
+    {
+      "seed": 45,
+      "arm": "full_finetune",
+      "train": [
+        "C1",
+        "C4"
+      ],
+      "held": "C6",
+      "best": {
+        "epoch": 32,
+        "stage": 2,
+        "metrics": {
+          "rmse": 0.09839546121064553,
+          "mae": 0.06480439628163974,
+          "r2": 0.9040488236986572,
+          "bias": -0.007296933482090632,
+          "n": 12
+        }
+      },
+      "optimizer_updates": 96,
+      "metrics": {
+        "rmse": 0.11364772772059964,
+        "mae": 0.09604951157978817,
+        "r2": 0.8184817569384306,
+        "bias": -0.011410331578933758,
+        "n": 219
+      },
+      "initial_encoder_hash": "577a5b65ed8f48a2088c5f893cff0d4341a406c2715d877aedea780631d5b385",
+      "final_encoder_hash": "a351aa8e7a7beea75c561accd49bb8ae3b04e771e3b1e027fe3ca3300f334d8b",
+      "head_hash": "00c3e5d582c76e674337f5650817c185c4fa89b9db75511baf014f8432eb8f1a",
+      "sample_order_hash": "31e224304168c14723f11821e61dbfbca3b5a78c32794ff9b74368180501ab73",
+      "seconds": 19.231147527694702,
+      "fraction": 0.1,
+      "model": "joint_raw",
+      "encoder_lr": 0.0003,
+      "head_lr": 0.001,
+      "domain": "milling"
+    },
+    {
+      "seed": 46,
+      "arm": "full_finetune",
+      "train": [
+        "C1",
+        "C4"
+      ],
+      "held": "C6",
+      "best": {
+        "epoch": 20,
+        "stage": 2,
+        "metrics": {
+          "rmse": 0.10112040942753422,
+          "mae": 0.062269989401102066,
+          "r2": 0.8986607208979938,
+          "bias": -0.03177203113834063,
+          "n": 12
+        }
+      },
+      "optimizer_updates": 72,
+      "metrics": {
+        "rmse": 0.11214557493450744,
+        "mae": 0.08982833992417681,
+        "r2": 0.8232485239950431,
+        "bias": -0.027958383804961153,
+        "n": 219
+      },
+      "initial_encoder_hash": "577a5b65ed8f48a2088c5f893cff0d4341a406c2715d877aedea780631d5b385",
+      "final_encoder_hash": "cf036394eed39f765ef15f598779afefbbd63b80328ea3ff5b2dd686d6d9e04a",
+      "head_hash": "032a6e3421eb9b1762e615ac3fef4f502595b273c0115555ae0f30d1cc0a7fe8",
+      "sample_order_hash": "b3004fcda3acf76cfc6b672cd26b1a3ee8077369d5b8fdcd9d4fcd3e6377fad0",
+      "seconds": 14.36133599281311,
+      "fraction": 0.1,
+      "model": "joint_raw",
+      "encoder_lr": 0.0003,
+      "head_lr": 0.001,
+      "domain": "milling"
+    },
+    {
+      "seed": 42,
+      "arm": "full_finetune",
+      "train": [
+        "C1",
+        "C4"
+      ],
+      "held": "C6",
+      "best": {
+        "epoch": 58,
+        "stage": 2,
+        "metrics": {
+          "rmse": 0.0594725899119437,
+          "mae": 0.027263042719467827,
+          "r2": 0.9595892595814298,
+          "bias": -0.00891042014826899,
+          "n": 23
+        }
+      },
+      "optimizer_updates": 222,
+      "metrics": {
+        "rmse": 0.07605124860004077,
+        "mae": 0.05891840510733732,
+        "r2": 0.9187148029438502,
+        "bias": -0.026576035060668916,
+        "n": 219
+      },
+      "initial_encoder_hash": "577a5b65ed8f48a2088c5f893cff0d4341a406c2715d877aedea780631d5b385",
+      "final_encoder_hash": "ee11e4341b9044886751207a17f2ac8b34cd40d1e97915649ca054e54fce20a8",
+      "head_hash": "2b77b2c8126c973810f2bed6dd2c22c5e4ab2619bdb1a32aa86ccf1743401c18",
+      "sample_order_hash": "dad2816e01a86f7765708f65e0d28941f7bac69ace71a9af1df2d7bf4dd7b6f8",
+      "seconds": 34.84477949142456,
+      "fraction": 0.2,
+      "model": "joint_raw",
+      "encoder_lr": 0.0003,
+      "head_lr": 0.001,
+      "domain": "milling"
+    },
+    {
+      "seed": 43,
+      "arm": "full_finetune",
+      "train": [
+        "C1",
+        "C4"
+      ],
+      "held": "C6",
+      "best": {
+        "epoch": 6,
+        "stage": 2,
+        "metrics": {
+          "rmse": 0.06311530962462457,
+          "mae": 0.04448200697484224,
+          "r2": 0.9544873064537234,
+          "bias": 0.0045066994169484014,
+          "n": 23
+        }
+      },
+      "optimizer_updates": 66,
+      "metrics": {
+        "rmse": 0.05948969611380669,
+        "mae": 0.04943293717915201,
+        "r2": 0.9502626930431548,
+        "bias": 0.009596910144810535,
+        "n": 219
+      },
+      "initial_encoder_hash": "577a5b65ed8f48a2088c5f893cff0d4341a406c2715d877aedea780631d5b385",
+      "final_encoder_hash": "b3f0d0dc0b40b9b333c7d97827f7f28b76ee2d3334c0cd57a86de1acfd32bf61",
+      "head_hash": "a07d6694c674f605ac56cb5b324b62aa34c0a5a6ea14084e6efa5605479efa9f",
+      "sample_order_hash": "789534fe2f2db1137a07008f0b95b136502397174ae6b9f5d180fbd6fe597738",
+      "seconds": 9.61799430847168,
+      "fraction": 0.2,
+      "model": "joint_raw",
+      "encoder_lr": 0.0003,
+      "head_lr": 0.001,
+      "domain": "milling"
+    },
+    {
+      "seed": 44,
+      "arm": "full_finetune",
+      "train": [
+        "C1",
+        "C4"
+      ],
+      "held": "C6",
+      "best": {
+        "epoch": 24,
+        "stage": 2,
+        "metrics": {
+          "rmse": 0.052272787649726885,
+          "mae": 0.030564170816670292,
+          "r2": 0.9687813278443596,
+          "bias": -0.0035817856373994246,
+          "n": 23
+        }
+      },
+      "optimizer_updates": 120,
+      "metrics": {
+        "rmse": 0.07232060506086559,
+        "mae": 0.06399681038525143,
+        "r2": 0.9264939869198229,
+        "bias": -0.004705940169116405,
+        "n": 219
+      },
+      "initial_encoder_hash": "577a5b65ed8f48a2088c5f893cff0d4341a406c2715d877aedea780631d5b385",
+      "final_encoder_hash": "490ec0b1964be1e4207507c954f8d81f33f4371189baecc51388d36a2cdd83e7",
+      "head_hash": "b17de1b8c6d3daaf36b7ef31bd4b0f065c83e2d17957ce2841fca56f2065112e",
+      "sample_order_hash": "35a35d249b3afc89e56eff328ae7e75501d27942bf314ef4b8b9376ab18e7243",
+      "seconds": 17.478530883789062,
+      "fraction": 0.2,
+      "model": "joint_raw",
+      "encoder_lr": 0.0003,
+      "head_lr": 0.001,
+      "domain": "milling"
+    },
+    {
+      "seed": 45,
+      "arm": "full_finetune",
+      "train": [
+        "C1",
+        "C4"
+      ],
+      "held": "C6",
+      "best": {
+        "epoch": 14,
+        "stage": 2,
+        "metrics": {
+          "rmse": 0.07005210357071995,
+          "mae": 0.04146826008091802,
+          "r2": 0.9439332390754148,
+          "bias": -0.017678253028703773,
+          "n": 23
+        }
+      },
+      "optimizer_updates": 90,
+      "metrics": {
+        "rmse": 0.07188922434951757,
+        "mae": 0.05190530409568657,
+        "r2": 0.927368274584561,
+        "bias": -0.037353896076650656,
+        "n": 219
+      },
+      "initial_encoder_hash": "577a5b65ed8f48a2088c5f893cff0d4341a406c2715d877aedea780631d5b385",
+      "final_encoder_hash": "38ea23de87a64271b109e0e7bf577f0bb04ae32054724179898358ad3ce8ac20",
+      "head_hash": "00c3e5d582c76e674337f5650817c185c4fa89b9db75511baf014f8432eb8f1a",
+      "sample_order_hash": "57e9850b8c878cc6c16e19565721d8b832cecccd96785d4421dce0a89998a775",
+      "seconds": 13.12046194076538,
+      "fraction": 0.2,
+      "model": "joint_raw",
+      "encoder_lr": 0.0003,
+      "head_lr": 0.001,
+      "domain": "milling"
+    },
+    {
+      "seed": 46,
+      "arm": "full_finetune",
+      "train": [
+        "C1",
+        "C4"
+      ],
+      "held": "C6",
+      "best": {
+        "epoch": 26,
+        "stage": 2,
+        "metrics": {
+          "rmse": 0.06112904921836251,
+          "mae": 0.029896548260813175,
+          "r2": 0.9573068315820079,
+          "bias": -0.010269115800442903,
+          "n": 23
+        }
+      },
+      "optimizer_updates": 126,
+      "metrics": {
+        "rmse": 0.0981758625718295,
+        "mae": 0.0804427247451933,
+        "r2": 0.8645408902803592,
+        "bias": 0.0020207471881895306,
+        "n": 219
+      },
+      "initial_encoder_hash": "577a5b65ed8f48a2088c5f893cff0d4341a406c2715d877aedea780631d5b385",
+      "final_encoder_hash": "5cf071c77863cd4fe52f580f14ed0b02faf9456a17bf6e853edef2abc64e94a5",
+      "head_hash": "032a6e3421eb9b1762e615ac3fef4f502595b273c0115555ae0f30d1cc0a7fe8",
+      "sample_order_hash": "3548f7dd04a648c12878943db4d1a8fdfc4dfa79d254d5e3d35d7658de5cdd00",
+      "seconds": 18.39849877357483,
+      "fraction": 0.2,
+      "model": "joint_raw",
+      "encoder_lr": 0.0003,
+      "head_lr": 0.001,
+      "domain": "milling"
+    },
+    {
+      "seed": 42,
+      "arm": "full_finetune",
+      "train": [
+        "C1",
+        "C4"
+      ],
+      "held": "C6",
+      "best": {
+        "epoch": 28,
+        "stage": 2,
+        "metrics": {
+          "rmse": 0.008520136235426913,
+          "mae": 0.0065167966383424675,
+          "r2": 0.9990408659972616,
+          "bias": 0.0029961378228935327,
+          "n": 110
+        }
+      },
+      "optimizer_updates": 616,
+      "metrics": {
+        "rmse": 0.04695382712562572,
+        "mae": 0.040298829344207567,
+        "r2": 0.9690157663547005,
+        "bias": 0.018543159074605055,
+        "n": 219
+      },
+      "initial_encoder_hash": "577a5b65ed8f48a2088c5f893cff0d4341a406c2715d877aedea780631d5b385",
+      "final_encoder_hash": "4251a05c445196171bfe0020f741952b648764ef90611ac8d1d30f8583c39c09",
+      "head_hash": "2b77b2c8126c973810f2bed6dd2c22c5e4ab2619bdb1a32aa86ccf1743401c18",
+      "sample_order_hash": "62218d0892bfc6d478636b6f4dd306423eaf1691b426b3830cc94f4a489f0155",
+      "seconds": 99.97155952453613,
+      "fraction": 1.0,
+      "model": "joint_raw",
+      "encoder_lr": 0.0003,
+      "head_lr": 0.001,
+      "domain": "milling"
+    },
+    {
+      "seed": 43,
+      "arm": "full_finetune",
+      "train": [
+        "C1",
+        "C4"
+      ],
+      "held": "C6",
+      "best": {
+        "epoch": 14,
+        "stage": 2,
+        "metrics": {
+          "rmse": 0.01109712737825546,
+          "mae": 0.007514592412520539,
+          "r2": 0.9983729258262829,
+          "bias": 0.004888227666643533,
+          "n": 110
+        }
+      },
+      "optimizer_updates": 420,
+      "metrics": {
+        "rmse": 0.05450716362352706,
+        "mae": 0.04625433523922342,
+        "r2": 0.958245245717599,
+        "bias": -0.0019278651120387801,
+        "n": 219
+      },
+      "initial_encoder_hash": "577a5b65ed8f48a2088c5f893cff0d4341a406c2715d877aedea780631d5b385",
+      "final_encoder_hash": "e3922839ffa1d4c6dd277ef51d90183e8ffc0ce79907aea9f67b2bf916929327",
+      "head_hash": "a07d6694c674f605ac56cb5b324b62aa34c0a5a6ea14084e6efa5605479efa9f",
+      "sample_order_hash": "1cecb58168aabcdf840acbc8ebc4e0f4981c342d904940e267f8d5307f8249d3",
+      "seconds": 66.67051982879639,
+      "fraction": 1.0,
+      "model": "joint_raw",
+      "encoder_lr": 0.0003,
+      "head_lr": 0.001,
+      "domain": "milling"
+    },
+    {
+      "seed": 44,
+      "arm": "full_finetune",
+      "train": [
+        "C1",
+        "C4"
+      ],
+      "held": "C6",
+      "best": {
+        "epoch": 36,
+        "stage": 2,
+        "metrics": {
+          "rmse": 0.00565081059297959,
+          "mae": 0.004516649093817581,
+          "r2": 0.9995781017629219,
+          "bias": -0.0012796523049473762,
+          "n": 110
+        }
+      },
+      "optimizer_updates": 728,
+      "metrics": {
+        "rmse": 0.046824214492398986,
+        "mae": 0.03665113847566658,
+        "r2": 0.9691865897141617,
+        "bias": -0.02910718249931047,
+        "n": 219
+      },
+      "initial_encoder_hash": "577a5b65ed8f48a2088c5f893cff0d4341a406c2715d877aedea780631d5b385",
+      "final_encoder_hash": "dd1c367c9891cf0751d4c0ed746a85e45894f25a98709b855664b3b75f73b7ee",
+      "head_hash": "b17de1b8c6d3daaf36b7ef31bd4b0f065c83e2d17957ce2841fca56f2065112e",
+      "sample_order_hash": "f6b1bd215117cce174b756e146a9b79f274e344dfaf99b39e560112975b73bd6",
+      "seconds": 114.97266483306885,
+      "fraction": 1.0,
+      "model": "joint_raw",
+      "encoder_lr": 0.0003,
+      "head_lr": 0.001,
+      "domain": "milling"
+    },
+    {
+      "seed": 45,
+      "arm": "full_finetune",
+      "train": [
+        "C1",
+        "C4"
+      ],
+      "held": "C6",
+      "best": {
+        "epoch": 24,
+        "stage": 2,
+        "metrics": {
+          "rmse": 0.00969439177480074,
+          "mae": 0.006349756788801063,
+          "r2": 0.9987582695166554,
+          "bias": -0.0010932176458564671,
+          "n": 110
+        }
+      },
+      "optimizer_updates": 560,
+      "metrics": {
+        "rmse": 0.05298973536604683,
+        "mae": 0.04491241994530779,
+        "r2": 0.9605377115365774,
+        "bias": -0.025414416196513665,
+        "n": 219
+      },
+      "initial_encoder_hash": "577a5b65ed8f48a2088c5f893cff0d4341a406c2715d877aedea780631d5b385",
+      "final_encoder_hash": "f377cb4b44cda3d64f3505de26bde623a0a9582ddbc6876528d65fe25bb0f060",
+      "head_hash": "00c3e5d582c76e674337f5650817c185c4fa89b9db75511baf014f8432eb8f1a",
+      "sample_order_hash": "f0b3d62a67125fbaa3054c6cb14bb1cc8dbddf721f088ac2331e2bd2f847f184",
+      "seconds": 88.45829224586487,
+      "fraction": 1.0,
+      "model": "joint_raw",
+      "encoder_lr": 0.0003,
+      "head_lr": 0.001,
+      "domain": "milling"
+    },
+    {
+      "seed": 46,
+      "arm": "full_finetune",
+      "train": [
+        "C1",
+        "C4"
+      ],
+      "held": "C6",
+      "best": {
+        "epoch": 28,
+        "stage": 2,
+        "metrics": {
+          "rmse": 0.01007428909038395,
+          "mae": 0.006298568590798161,
+          "r2": 0.9986590424564671,
+          "bias": -0.0009278678589246489,
+          "n": 110
+        }
+      },
+      "optimizer_updates": 616,
+      "metrics": {
+        "rmse": 0.07072520039563199,
+        "mae": 0.05233171728937185,
+        "r2": 0.929701325075121,
+        "bias": -0.020938504738180333,
+        "n": 219
+      },
+      "initial_encoder_hash": "577a5b65ed8f48a2088c5f893cff0d4341a406c2715d877aedea780631d5b385",
+      "final_encoder_hash": "8279c1af5afc678c294937f7d5cfa6d35460c326740f8edd09bddd4b3363cbbf",
+      "head_hash": "032a6e3421eb9b1762e615ac3fef4f502595b273c0115555ae0f30d1cc0a7fe8",
+      "sample_order_hash": "77a3c7a3e361e70989e47d46e7d0debfe5712b2a1c3eb6871cdfc226e8a286d5",
+      "seconds": 97.45435190200806,
+      "fraction": 1.0,
+      "model": "joint_raw",
+      "encoder_lr": 0.0003,
+      "head_lr": 0.001,
+      "domain": "milling"
+    },
+    {
+      "seed": 42,
+      "fraction": 0.1,
+      "arm": "full_finetune",
+      "metrics": {
+        "rmse": 0.19602113367173613,
+        "mae": 0.16015873673195774,
+        "r2": 0.5631765461926166,
+        "bias": 0.09105659079914158,
+        "n": 37
+      },
+      "head_hash": "7c43d17405a3cb0c4bdf70b5dc1c5f686f2005c7d40cb0431fb9e2489665e75f",
+      "epochs": 30,
+      "best_epoch": 14,
+      "validation_rmse": 0.13589713465577175,
+      "optimizer_updates": 60,
+      "unfrozen_updates": 0,
+      "partial_reached_stage2": null,
+      "sample_order_hash": "b5a043f4ef6db0df5466f666f26f7d68526804e9a37382484c9d8f745eafb30c",
+      "seconds": 10.575148344039917,
+      "model": "joint_norm",
+      "domain": "bearing"
+    },
+    {
+      "seed": 43,
+      "fraction": 0.1,
+      "arm": "full_finetune",
+      "metrics": {
+        "rmse": 0.12460877778251243,
+        "mae": 0.10107123494349621,
+        "r2": 0.8234785737507581,
+        "bias": 0.054293255195827096,
+        "n": 37
+      },
+      "head_hash": "06e22bc78c319eafe9177f2f11dc52a1b3c9a0cd66e73b657d2b3de6d263685c",
+      "epochs": 40,
+      "best_epoch": 24,
+      "validation_rmse": 0.10729502788525888,
+      "optimizer_updates": 80,
+      "unfrozen_updates": 0,
+      "partial_reached_stage2": null,
+      "sample_order_hash": "67f5e1b89f8b897798e8eaa3b07be9e23ab53fb4746f6b797e415b26477b0a19",
+      "seconds": 13.891553163528442,
+      "model": "joint_norm",
+      "domain": "bearing"
+    },
+    {
+      "seed": 44,
+      "fraction": 0.1,
+      "arm": "full_finetune",
+      "metrics": {
+        "rmse": 0.1242771910812152,
+        "mae": 0.09164764898250231,
+        "r2": 0.824416778599544,
+        "bias": 0.051323860732687486,
+        "n": 37
+      },
+      "head_hash": "cc964eefb9c6b17e4290c497e88a101ca9b1f65ed90af87fcd834c5d96157295",
+      "epochs": 52,
+      "best_epoch": 36,
+      "validation_rmse": 0.1078190411361874,
+      "optimizer_updates": 104,
+      "unfrozen_updates": 0,
+      "partial_reached_stage2": null,
+      "sample_order_hash": "a0ae91780d761c919894b0f7d6258c09636ec5501a719fd6c822a9f458180a1a",
+      "seconds": 18.211291313171387,
+      "model": "joint_norm",
+      "domain": "bearing"
+    },
+    {
+      "seed": 45,
+      "fraction": 0.1,
+      "arm": "full_finetune",
+      "metrics": {
+        "rmse": 0.12119179905122561,
+        "mae": 0.08829016787176197,
+        "r2": 0.8330268577621597,
+        "bias": 0.0510231667777171,
+        "n": 37
+      },
+      "head_hash": "f756c29ceed4215828ecb7cc14d5dfd051e249a09094d7f7c8683ac2c62072c7",
+      "epochs": 36,
+      "best_epoch": 20,
+      "validation_rmse": 0.095970705094381,
+      "optimizer_updates": 72,
+      "unfrozen_updates": 0,
+      "partial_reached_stage2": null,
+      "sample_order_hash": "4bd030df3706cda553862b0bcfb56098ae3000419b57fdbca797b0fe45b89a2a",
+      "seconds": 12.648041009902954,
+      "model": "joint_norm",
+      "domain": "bearing"
+    },
+    {
+      "seed": 46,
+      "fraction": 0.1,
+      "arm": "full_finetune",
+      "metrics": {
+        "rmse": 0.11611023795998962,
+        "mae": 0.08798305091221591,
+        "r2": 0.8467356366779735,
+        "bias": 0.056576564555635325,
+        "n": 37
+      },
+      "head_hash": "efa585f7e52ca3258998ea5f4f2bbbdf49fb0d9f0ccb991c78eeb212a1184d3b",
+      "epochs": 38,
+      "best_epoch": 22,
+      "validation_rmse": 0.14175148413996458,
+      "optimizer_updates": 76,
+      "unfrozen_updates": 0,
+      "partial_reached_stage2": null,
+      "sample_order_hash": "5d9097419ce4c8c705b549c714918159c8734bfc71e296deff8d5818a71130b2",
+      "seconds": 13.035259246826172,
+      "model": "joint_norm",
+      "domain": "bearing"
+    },
+    {
+      "seed": 42,
+      "fraction": 0.2,
+      "arm": "full_finetune",
+      "metrics": {
+        "rmse": 0.18322333632241325,
+        "mae": 0.14801332490468347,
+        "r2": 0.6183531087510405,
+        "bias": 0.060227923548302136,
+        "n": 37
+      },
+      "head_hash": "7c43d17405a3cb0c4bdf70b5dc1c5f686f2005c7d40cb0431fb9e2489665e75f",
+      "epochs": 36,
+      "best_epoch": 20,
+      "validation_rmse": 0.07691287179083771,
+      "optimizer_updates": 108,
+      "unfrozen_updates": 0,
+      "partial_reached_stage2": null,
+      "sample_order_hash": "e74930a3d95098d4fd35505b10ba75e3f7ccddba4b6f491031d2a84b69e83807",
+      "seconds": 22.874715566635132,
+      "model": "joint_norm",
+      "domain": "bearing"
+    },
+    {
+      "seed": 43,
+      "fraction": 0.2,
+      "arm": "full_finetune",
+      "metrics": {
+        "rmse": 0.12761128805876945,
+        "mae": 0.09743406467542455,
+        "r2": 0.8148693441070296,
+        "bias": 0.03546735307050718,
+        "n": 37
+      },
+      "head_hash": "06e22bc78c319eafe9177f2f11dc52a1b3c9a0cd66e73b657d2b3de6d263685c",
+      "epochs": 40,
+      "best_epoch": 24,
+      "validation_rmse": 0.0641634983219344,
+      "optimizer_updates": 120,
+      "unfrozen_updates": 0,
+      "partial_reached_stage2": null,
+      "sample_order_hash": "43acd307cb55efc6b7b987f888d6614e197725295dbff5d2a91ceea759802f61",
+      "seconds": 25.200637578964233,
+      "model": "joint_norm",
+      "domain": "bearing"
+    },
+    {
+      "seed": 44,
+      "fraction": 0.2,
+      "arm": "full_finetune",
+      "metrics": {
+        "rmse": 0.1735582506011157,
+        "mae": 0.1448796521872282,
+        "r2": 0.6575551154248515,
+        "bias": 0.03523902459120428,
+        "n": 37
+      },
+      "head_hash": "cc964eefb9c6b17e4290c497e88a101ca9b1f65ed90af87fcd834c5d96157295",
+      "epochs": 34,
+      "best_epoch": 18,
+      "validation_rmse": 0.06549073005415237,
+      "optimizer_updates": 102,
+      "unfrozen_updates": 0,
+      "partial_reached_stage2": null,
+      "sample_order_hash": "2749e6e179476c9a4012a6ee6babd7744db984bb90682f0466b89d5c1912d8f4",
+      "seconds": 21.241089582443237,
+      "model": "joint_norm",
+      "domain": "bearing"
+    },
+    {
+      "seed": 45,
+      "fraction": 0.2,
+      "arm": "full_finetune",
+      "metrics": {
+        "rmse": 0.14000170296493852,
+        "mae": 0.10771388444747473,
+        "r2": 0.7771735239621324,
+        "bias": 0.04609628932902942,
+        "n": 37
+      },
+      "head_hash": "f756c29ceed4215828ecb7cc14d5dfd051e249a09094d7f7c8683ac2c62072c7",
+      "epochs": 42,
+      "best_epoch": 26,
+      "validation_rmse": 0.07243187752206687,
+      "optimizer_updates": 126,
+      "unfrozen_updates": 0,
+      "partial_reached_stage2": null,
+      "sample_order_hash": "560a02a8d4cc0aababbd74f141b1a6ce4aa7f8017cd5321a99c103e3777e58d1",
+      "seconds": 26.472055196762085,
+      "model": "joint_norm",
+      "domain": "bearing"
+    },
+    {
+      "seed": 46,
+      "fraction": 0.2,
+      "arm": "full_finetune",
+      "metrics": {
+        "rmse": 0.14132898092453913,
+        "mae": 0.10687781049794443,
+        "r2": 0.7729285098356207,
+        "bias": 0.06954008929834173,
+        "n": 37
+      },
+      "head_hash": "efa585f7e52ca3258998ea5f4f2bbbdf49fb0d9f0ccb991c78eeb212a1184d3b",
+      "epochs": 84,
+      "best_epoch": 68,
+      "validation_rmse": 0.0828281877617303,
+      "optimizer_updates": 252,
+      "unfrozen_updates": 0,
+      "partial_reached_stage2": null,
+      "sample_order_hash": "6b9c404684212d4672476799c8879396b11394a5db3ccb329452a1f0d1fb59c5",
+      "seconds": 52.76585364341736,
+      "model": "joint_norm",
+      "domain": "bearing"
+    },
+    {
+      "seed": 42,
+      "fraction": 1.0,
+      "arm": "full_finetune",
+      "metrics": {
+        "rmse": 0.1152966248447696,
+        "mae": 0.08653498667518834,
+        "r2": 0.8488760336627605,
+        "bias": 0.06412358546780574,
+        "n": 37
+      },
+      "head_hash": "7c43d17405a3cb0c4bdf70b5dc1c5f686f2005c7d40cb0431fb9e2489665e75f",
+      "epochs": 64,
+      "best_epoch": 48,
+      "validation_rmse": 0.024439089828214564,
+      "optimizer_updates": 896,
+      "unfrozen_updates": 0,
+      "partial_reached_stage2": null,
+      "sample_order_hash": "27bb79914f5547495449642d12c3a308f010756d236db3cf6f3e51d3e92f7ae9",
+      "seconds": 103.89023399353027,
+      "model": "joint_norm",
+      "domain": "bearing"
+    },
+    {
+      "seed": 43,
+      "fraction": 1.0,
+      "arm": "full_finetune",
+      "metrics": {
+        "rmse": 0.08840265270603355,
+        "mae": 0.0706644312453431,
+        "r2": 0.9111554587038445,
+        "bias": 0.035412147691523704,
+        "n": 37
+      },
+      "head_hash": "06e22bc78c319eafe9177f2f11dc52a1b3c9a0cd66e73b657d2b3de6d263685c",
+      "epochs": 60,
+      "best_epoch": 44,
+      "validation_rmse": 0.02246330142360155,
+      "optimizer_updates": 840,
+      "unfrozen_updates": 0,
+      "partial_reached_stage2": null,
+      "sample_order_hash": "9a3704f9327ed0ae7048e31258e8b848eded10eec21099cce84efea32b9c564c",
+      "seconds": 97.28951787948608,
+      "model": "joint_norm",
+      "domain": "bearing"
+    },
+    {
+      "seed": 44,
+      "fraction": 1.0,
+      "arm": "full_finetune",
+      "metrics": {
+        "rmse": 0.09233151202991435,
+        "mae": 0.07470740765534542,
+        "r2": 0.9030829803273948,
+        "bias": 0.009913063784306115,
+        "n": 37
+      },
+      "head_hash": "cc964eefb9c6b17e4290c497e88a101ca9b1f65ed90af87fcd834c5d96157295",
+      "epochs": 54,
+      "best_epoch": 38,
+      "validation_rmse": 0.02293947843199697,
+      "optimizer_updates": 756,
+      "unfrozen_updates": 0,
+      "partial_reached_stage2": null,
+      "sample_order_hash": "ffa5ee5d18e6ab5e1ed45dc91f29f00bae633507b025d7ab15c6595caae3b424",
+      "seconds": 87.08368945121765,
+      "model": "joint_norm",
+      "domain": "bearing"
+    },
+    {
+      "seed": 45,
+      "fraction": 1.0,
+      "arm": "full_finetune",
+      "metrics": {
+        "rmse": 0.08591451728434113,
+        "mae": 0.06853732713372321,
+        "r2": 0.9160862240583665,
+        "bias": 0.04490888123778072,
+        "n": 37
+      },
+      "head_hash": "f756c29ceed4215828ecb7cc14d5dfd051e249a09094d7f7c8683ac2c62072c7",
+      "epochs": 68,
+      "best_epoch": 52,
+      "validation_rmse": 0.027525551764446904,
+      "optimizer_updates": 952,
+      "unfrozen_updates": 0,
+      "partial_reached_stage2": null,
+      "sample_order_hash": "f26c7017509b0fa37578a382e1a8172c8be1e9a6e7eae9b0b16c5bc14aec5ad9",
+      "seconds": 110.10216450691223,
+      "model": "joint_norm",
+      "domain": "bearing"
+    },
+    {
+      "seed": 46,
+      "fraction": 1.0,
+      "arm": "full_finetune",
+      "metrics": {
+        "rmse": 0.09694952034582885,
+        "mae": 0.07223355674461739,
+        "r2": 0.8931458276646993,
+        "bias": 0.048336977743216464,
+        "n": 37
+      },
+      "head_hash": "efa585f7e52ca3258998ea5f4f2bbbdf49fb0d9f0ccb991c78eeb212a1184d3b",
+      "epochs": 52,
+      "best_epoch": 36,
+      "validation_rmse": 0.024345424037966325,
+      "optimizer_updates": 728,
+      "unfrozen_updates": 0,
+      "partial_reached_stage2": null,
+      "sample_order_hash": "1e866284f2daef96a5cdc9a97bc72a5e5a2c3843190c42432b87b6f42808342f",
+      "seconds": 88.81457734107971,
+      "model": "joint_norm",
+      "domain": "bearing"
+    },
+    {
+      "seed": 42,
+      "fraction": 0.1,
+      "arm": "full_finetune",
+      "best_epoch": 12,
+      "stopped_epoch": 28,
+      "updates": 196,
+      "validation_rmse": 0.04032625677616175,
+      "metrics": {
+        "rmse": 0.07357717614639304,
+        "mae": 0.05474261339632605,
+        "r2": 0.9347727802648859,
+        "n": 937,
+        "bias": -0.03088458846477253
+      },
+      "seconds": 7.5661399364471436,
+      "model": "joint_norm",
+      "domain": "battery"
+    },
+    {
+      "seed": 43,
+      "fraction": 0.1,
+      "arm": "full_finetune",
+      "best_epoch": 48,
+      "stopped_epoch": 64,
+      "updates": 448,
+      "validation_rmse": 0.039033101174745746,
+      "metrics": {
+        "rmse": 0.06886320991450752,
+        "mae": 0.04963676575640875,
+        "r2": 0.9428630359075704,
+        "n": 937,
+        "bias": -0.042925688675172394
+      },
+      "seconds": 15.825336694717407,
+      "model": "joint_norm",
+      "domain": "battery"
+    },
+    {
+      "seed": 44,
+      "fraction": 0.1,
+      "arm": "full_finetune",
+      "best_epoch": 56,
+      "stopped_epoch": 72,
+      "updates": 504,
+      "validation_rmse": 0.03697509538330249,
+      "metrics": {
+        "rmse": 0.07584832493724615,
+        "mae": 0.05342028319702475,
+        "r2": 0.9306838194944738,
+        "n": 937,
+        "bias": -0.04495298518702833
+      },
+      "seconds": 17.751219749450684,
+      "model": "joint_norm",
+      "domain": "battery"
+    },
+    {
+      "seed": 45,
+      "fraction": 0.1,
+      "arm": "full_finetune",
+      "best_epoch": 12,
+      "stopped_epoch": 28,
+      "updates": 196,
+      "validation_rmse": 0.044923736352669566,
+      "metrics": {
+        "rmse": 0.0716145119871012,
+        "mae": 0.054244028701046394,
+        "r2": 0.938206227537643,
+        "n": 937,
+        "bias": -0.024810241504990782
+      },
+      "seconds": 7.118265867233276,
+      "model": "joint_norm",
+      "domain": "battery"
+    },
+    {
+      "seed": 46,
+      "fraction": 0.1,
+      "arm": "full_finetune",
+      "best_epoch": 14,
+      "stopped_epoch": 30,
+      "updates": 210,
+      "validation_rmse": 0.04350266449674282,
+      "metrics": {
+        "rmse": 0.0678354651987964,
+        "mae": 0.051648046507767484,
+        "r2": 0.9445557834566142,
+        "n": 937,
+        "bias": -0.021362381482848712
+      },
+      "seconds": 7.597617149353027,
+      "model": "joint_norm",
+      "domain": "battery"
+    },
+    {
+      "seed": 42,
+      "fraction": 1.0,
+      "arm": "full_finetune",
+      "best_epoch": 24,
+      "stopped_epoch": 40,
+      "updates": 2560,
+      "validation_rmse": 0.009935316831501888,
+      "metrics": {
+        "rmse": 0.06560542905936231,
+        "mae": 0.045281151231585055,
+        "r2": 0.9481412318893514,
+        "n": 937,
+        "bias": -0.030519166435020614
+      },
+      "seconds": 151.19167804718018,
+      "model": "joint_norm",
+      "domain": "battery"
+    },
+    {
+      "seed": 43,
+      "fraction": 1.0,
+      "arm": "full_finetune",
+      "best_epoch": 70,
+      "stopped_epoch": 86,
+      "updates": 5504,
+      "validation_rmse": 0.007715235377547582,
+      "metrics": {
+        "rmse": 0.06275446036275768,
+        "mae": 0.04485539214639838,
+        "r2": 0.9525504787959234,
+        "n": 937,
+        "bias": -0.03351660964567226
+      },
+      "seconds": 328.38246035575867,
+      "model": "joint_norm",
+      "domain": "battery"
+    },
+    {
+      "seed": 44,
+      "fraction": 1.0,
+      "arm": "full_finetune",
+      "best_epoch": 64,
+      "stopped_epoch": 80,
+      "updates": 5120,
+      "validation_rmse": 0.00726383776934013,
+      "metrics": {
+        "rmse": 0.06950889471406918,
+        "mae": 0.05129073438728616,
+        "r2": 0.9417865415820172,
+        "n": 937,
+        "bias": -0.03895148480501873
+      },
+      "seconds": 305.5349180698395,
+      "model": "joint_norm",
+      "domain": "battery"
+    },
+    {
+      "seed": 45,
+      "fraction": 1.0,
+      "arm": "full_finetune",
+      "best_epoch": 24,
+      "stopped_epoch": 40,
+      "updates": 2560,
+      "validation_rmse": 0.010623041959447358,
+      "metrics": {
+        "rmse": 0.06968807356921077,
+        "mae": 0.05013835791790641,
+        "r2": 0.9414860314152174,
+        "n": 937,
+        "bias": -0.0372485716622462
+      },
+      "seconds": 153.0202465057373,
+      "model": "joint_norm",
+      "domain": "battery"
+    },
+    {
+      "seed": 46,
+      "fraction": 1.0,
+      "arm": "full_finetune",
+      "best_epoch": 60,
+      "stopped_epoch": 76,
+      "updates": 4864,
+      "validation_rmse": 0.007157441287228444,
+      "metrics": {
+        "rmse": 0.06304962105269453,
+        "mae": 0.04596227799117836,
+        "r2": 0.9521030788949786,
+        "n": 937,
+        "bias": -0.033851851139161955
+      },
+      "seconds": 289.58053064346313,
+      "model": "joint_norm",
+      "domain": "battery"
+    },
+    {
+      "seed": 42,
+      "fraction": 0.1,
+      "arm": "full_finetune",
+      "metrics": {
+        "rmse": 0.13607795258316516,
+        "mae": 0.0987587485059693,
+        "r2": 0.7894885669057452,
+        "bias": 0.06500486531169028,
+        "n": 37
+      },
+      "head_hash": "7c43d17405a3cb0c4bdf70b5dc1c5f686f2005c7d40cb0431fb9e2489665e75f",
+      "epochs": 66,
+      "best_epoch": 50,
+      "validation_rmse": 0.12143301101556847,
+      "optimizer_updates": 132,
+      "unfrozen_updates": 0,
+      "partial_reached_stage2": null,
+      "sample_order_hash": "c88fd3f9aeb3509ec2dcf835f2d30e0124e4a82d8b3453e91485db62df649bc4",
+      "seconds": 22.303812980651855,
+      "model": "joint_pcgrad",
+      "domain": "bearing"
+    },
+    {
+      "seed": 43,
+      "fraction": 0.1,
+      "arm": "full_finetune",
+      "metrics": {
+        "rmse": 0.1266216401006247,
+        "mae": 0.09861224562533803,
+        "r2": 0.8177296513621475,
+        "bias": 0.04480356053524726,
+        "n": 37
+      },
+      "head_hash": "06e22bc78c319eafe9177f2f11dc52a1b3c9a0cd66e73b657d2b3de6d263685c",
+      "epochs": 40,
+      "best_epoch": 24,
+      "validation_rmse": 0.10868502616104832,
+      "optimizer_updates": 80,
+      "unfrozen_updates": 0,
+      "partial_reached_stage2": null,
+      "sample_order_hash": "67f5e1b89f8b897798e8eaa3b07be9e23ab53fb4746f6b797e415b26477b0a19",
+      "seconds": 13.592804908752441,
+      "model": "joint_pcgrad",
+      "domain": "bearing"
+    },
+    {
+      "seed": 44,
+      "fraction": 0.1,
+      "arm": "full_finetune",
+      "metrics": {
+        "rmse": 0.11681361975191916,
+        "mae": 0.08901066247474503,
+        "r2": 0.8448730982096302,
+        "bias": 0.03697065339499229,
+        "n": 37
+      },
+      "head_hash": "cc964eefb9c6b17e4290c497e88a101ca9b1f65ed90af87fcd834c5d96157295",
+      "epochs": 52,
+      "best_epoch": 36,
+      "validation_rmse": 0.11847087824424613,
+      "optimizer_updates": 104,
+      "unfrozen_updates": 0,
+      "partial_reached_stage2": null,
+      "sample_order_hash": "a0ae91780d761c919894b0f7d6258c09636ec5501a719fd6c822a9f458180a1a",
+      "seconds": 17.659732341766357,
+      "model": "joint_pcgrad",
+      "domain": "bearing"
+    },
+    {
+      "seed": 45,
+      "fraction": 0.1,
+      "arm": "full_finetune",
+      "metrics": {
+        "rmse": 0.09999654796773813,
+        "mae": 0.0760664215965851,
+        "r2": 0.8863236368598729,
+        "bias": 0.03712700840991896,
+        "n": 37
+      },
+      "head_hash": "f756c29ceed4215828ecb7cc14d5dfd051e249a09094d7f7c8683ac2c62072c7",
+      "epochs": 52,
+      "best_epoch": 36,
+      "validation_rmse": 0.09774547409489368,
+      "optimizer_updates": 104,
+      "unfrozen_updates": 0,
+      "partial_reached_stage2": null,
+      "sample_order_hash": "1025046fd23e24466a37880749fb0d8780616e933d48a6878d438eb36fad0865",
+      "seconds": 17.24428129196167,
+      "model": "joint_pcgrad",
+      "domain": "bearing"
+    },
+    {
+      "seed": 46,
+      "fraction": 0.1,
+      "arm": "full_finetune",
+      "metrics": {
+        "rmse": 0.12253176529912077,
+        "mae": 0.09569184688498845,
+        "r2": 0.8293141434241263,
+        "bias": 0.08237874029657326,
+        "n": 37
+      },
+      "head_hash": "efa585f7e52ca3258998ea5f4f2bbbdf49fb0d9f0ccb991c78eeb212a1184d3b",
+      "epochs": 52,
+      "best_epoch": 36,
+      "validation_rmse": 0.13944568456119408,
+      "optimizer_updates": 104,
+      "unfrozen_updates": 0,
+      "partial_reached_stage2": null,
+      "sample_order_hash": "8451215c696711d47e5cc69af7a518d35672e97bb8f38986b85df81c77b7103c",
+      "seconds": 17.54106593132019,
+      "model": "joint_pcgrad",
+      "domain": "bearing"
+    },
+    {
+      "seed": 42,
+      "fraction": 0.1,
+      "arm": "full_finetune",
+      "best_epoch": 12,
+      "stopped_epoch": 28,
+      "updates": 196,
+      "validation_rmse": 0.040473370094033234,
+      "metrics": {
+        "rmse": 0.07611443027810762,
+        "mae": 0.056213221271704236,
+        "r2": 0.9301965902069529,
+        "n": 937,
+        "bias": -0.03396197804771642
+      },
+      "seconds": 12.301132678985596,
+      "model": "joint_pcgrad",
+      "domain": "battery"
+    },
+    {
+      "seed": 43,
+      "fraction": 0.1,
+      "arm": "full_finetune",
+      "best_epoch": 48,
+      "stopped_epoch": 64,
+      "updates": 448,
+      "validation_rmse": 0.03899075187668427,
+      "metrics": {
+        "rmse": 0.06871093124845135,
+        "mae": 0.04929727126109705,
+        "r2": 0.9431154528547256,
+        "n": 937,
+        "bias": -0.04237668639001225
+      },
+      "seconds": 26.83840036392212,
+      "model": "joint_pcgrad",
+      "domain": "battery"
+    },
+    {
+      "seed": 44,
+      "fraction": 0.1,
+      "arm": "full_finetune",
+      "best_epoch": 56,
+      "stopped_epoch": 72,
+      "updates": 504,
+      "validation_rmse": 0.03790935980526168,
+      "metrics": {
+        "rmse": 0.07631416608603281,
+        "mae": 0.0535229072417058,
+        "r2": 0.9298297600624825,
+        "n": 937,
+        "bias": -0.04193150952186042
+      },
+      "seconds": 30.35000991821289,
+      "model": "joint_pcgrad",
+      "domain": "battery"
+    },
+    {
+      "seed": 45,
+      "fraction": 0.1,
+      "arm": "full_finetune",
+      "best_epoch": 12,
+      "stopped_epoch": 28,
+      "updates": 196,
+      "validation_rmse": 0.045468654579588264,
+      "metrics": {
+        "rmse": 0.07278730288826367,
+        "mae": 0.05480278777594707,
+        "r2": 0.9361657309384417,
+        "n": 937,
+        "bias": -0.026769471122697393
+      },
+      "seconds": 12.021671295166016,
+      "model": "joint_pcgrad",
+      "domain": "battery"
+    },
+    {
+      "seed": 46,
+      "fraction": 0.1,
+      "arm": "full_finetune",
+      "best_epoch": 14,
+      "stopped_epoch": 30,
+      "updates": 210,
+      "validation_rmse": 0.04213176850578908,
+      "metrics": {
+        "rmse": 0.06846893410308694,
+        "mae": 0.052076578216295265,
+        "r2": 0.943515437436635,
+        "n": 937,
+        "bias": -0.021646853416597545
+      },
+      "seconds": 12.874491453170776,
+      "model": "joint_pcgrad",
+      "domain": "battery"
+    },
+    {
+      "seed": 42,
+      "fraction": 0.2,
+      "arm": "full_finetune",
+      "best_epoch": 52,
+      "stopped_epoch": 68,
+      "updates": 884,
+      "validation_rmse": 0.02448749498527531,
+      "metrics": {
+        "rmse": 0.06610480422819541,
+        "mae": 0.04544494582018085,
+        "r2": 0.9473487504521548,
+        "n": 937,
+        "bias": -0.03448721610373453
+      },
+      "seconds": 53.26158881187439,
+      "model": "joint_pcgrad",
+      "domain": "battery"
+    },
+    {
+      "seed": 43,
+      "fraction": 0.2,
+      "arm": "full_finetune",
+      "best_epoch": 58,
+      "stopped_epoch": 74,
+      "updates": 962,
+      "validation_rmse": 0.021158875649170263,
+      "metrics": {
+        "rmse": 0.06837749352324286,
+        "mae": 0.050047110665287414,
+        "r2": 0.9436662074841748,
+        "n": 937,
+        "bias": -0.039708989249440975
+      },
+      "seconds": 57.389601707458496,
+      "model": "joint_pcgrad",
+      "domain": "battery"
+    },
+    {
+      "seed": 44,
+      "fraction": 0.2,
+      "arm": "full_finetune",
+      "best_epoch": 50,
+      "stopped_epoch": 66,
+      "updates": 858,
+      "validation_rmse": 0.024510530996811827,
+      "metrics": {
+        "rmse": 0.07542633666206712,
+        "mae": 0.05529117144161205,
+        "r2": 0.9314529662461828,
+        "n": 937,
+        "bias": -0.043059136757772246
+      },
+      "seconds": 51.33577561378479,
+      "model": "joint_pcgrad",
+      "domain": "battery"
+    },
+    {
+      "seed": 45,
+      "fraction": 0.2,
+      "arm": "full_finetune",
+      "best_epoch": 48,
+      "stopped_epoch": 64,
+      "updates": 832,
+      "validation_rmse": 0.02516482743605823,
+      "metrics": {
+        "rmse": 0.06866974644729311,
+        "mae": 0.047694989873181826,
+        "r2": 0.9431836247336061,
+        "n": 937,
+        "bias": -0.03134529060746763
+      },
+      "seconds": 49.853330850601196,
+      "model": "joint_pcgrad",
+      "domain": "battery"
+    },
+    {
+      "seed": 46,
+      "fraction": 0.2,
+      "arm": "full_finetune",
+      "best_epoch": 60,
+      "stopped_epoch": 76,
+      "updates": 988,
+      "validation_rmse": 0.025367587311411064,
+      "metrics": {
+        "rmse": 0.07031123784313224,
+        "mae": 0.05051811380617981,
+        "r2": 0.9404348659539165,
+        "n": 937,
+        "bias": -0.036837811570360125
+      },
+      "seconds": 59.20463705062866,
+      "model": "joint_pcgrad",
+      "domain": "battery"
+    },
+    {
+      "seed": 42,
+      "arm": "full_finetune",
+      "train": [
+        "C1",
+        "C4"
+      ],
+      "held": "C6",
+      "best": {
+        "epoch": 22,
+        "stage": 2,
+        "metrics": {
+          "rmse": 0.04568083487361802,
+          "mae": 0.026102837661038273,
+          "r2": 0.976158632079737,
+          "bias": -0.004377896371095077,
+          "n": 23
+        }
+      },
+      "optimizer_updates": 114,
+      "metrics": {
+        "rmse": 0.09476532733994754,
+        "mae": 0.08488805657125091,
+        "r2": 0.8737888570065107,
+        "bias": -0.06247028092254106,
+        "n": 219
+      },
+      "initial_encoder_hash": "3f132e3ff1a2312f32c1e32ee50b387bbcd3b5ba2a484c6e20e5e9f549d1786b",
+      "final_encoder_hash": "600cd5d6a089f963e607f4ee15b6b302a1a549537b857a7dd287f9d3f4562f2d",
+      "head_hash": "2b77b2c8126c973810f2bed6dd2c22c5e4ab2619bdb1a32aa86ccf1743401c18",
+      "sample_order_hash": "a8965db2f053bd28c76814960414236fce21d6d1eb011a56f1a8285083587403",
+      "seconds": 29.17129635810852,
+      "fraction": 0.2,
+      "model": "joint_pcgrad",
+      "encoder_lr": 0.0003,
+      "head_lr": 0.001,
+      "domain": "milling"
+    },
+    {
+      "seed": 43,
+      "arm": "full_finetune",
+      "train": [
+        "C1",
+        "C4"
+      ],
+      "held": "C6",
+      "best": {
+        "epoch": 36,
+        "stage": 2,
+        "metrics": {
+          "rmse": 0.04764062045091054,
+          "mae": 0.02560883695664613,
+          "r2": 0.9740690801690307,
+          "bias": -0.00451588889826899,
+          "n": 23
+        }
+      },
+      "optimizer_updates": 156,
+      "metrics": {
+        "rmse": 0.07259281488320307,
+        "mae": 0.05715263220290207,
+        "r2": 0.9259396023122741,
+        "bias": -0.014779249244458871,
+        "n": 219
+      },
+      "initial_encoder_hash": "3f132e3ff1a2312f32c1e32ee50b387bbcd3b5ba2a484c6e20e5e9f549d1786b",
+      "final_encoder_hash": "436ef02c1bcda0b4ed8ccbeee4ce9b55b179f64368f82a0af8ef02d18cddc40a",
+      "head_hash": "a07d6694c674f605ac56cb5b324b62aa34c0a5a6ea14084e6efa5605479efa9f",
+      "sample_order_hash": "0f58f95a56d18877611b92cf63cfbe8e2e841338245e498575ecbb7feb1df6c9",
+      "seconds": 37.026341676712036,
+      "fraction": 0.2,
+      "model": "joint_pcgrad",
+      "encoder_lr": 0.0003,
+      "head_lr": 0.001,
+      "domain": "milling"
+    },
+    {
+      "seed": 44,
+      "arm": "full_finetune",
+      "train": [
+        "C1",
+        "C4"
+      ],
+      "held": "C6",
+      "best": {
+        "epoch": 26,
+        "stage": 2,
+        "metrics": {
+          "rmse": 0.054396088702013685,
+          "mae": 0.030815513237662937,
+          "r2": 0.9661936369362959,
+          "bias": -0.009271323680877686,
+          "n": 23
+        }
+      },
+      "optimizer_updates": 126,
+      "metrics": {
+        "rmse": 0.06937918324001187,
+        "mae": 0.0513337950974907,
+        "r2": 0.9323516619843399,
+        "bias": -0.042071718565235124,
+        "n": 219
+      },
+      "initial_encoder_hash": "3f132e3ff1a2312f32c1e32ee50b387bbcd3b5ba2a484c6e20e5e9f549d1786b",
+      "final_encoder_hash": "85a8766b04ef6b4ab812767ba19c78931381a6be62311e08eca18b681b3da24e",
+      "head_hash": "b17de1b8c6d3daaf36b7ef31bd4b0f065c83e2d17957ce2841fca56f2065112e",
+      "sample_order_hash": "4bc8a251b1c26dc151b183a2ba03db41ecadee7528706dbc51397bd12ea5a8ab",
+      "seconds": 30.057987213134766,
+      "fraction": 0.2,
+      "model": "joint_pcgrad",
+      "encoder_lr": 0.0003,
+      "head_lr": 0.001,
+      "domain": "milling"
+    },
+    {
+      "seed": 45,
+      "arm": "full_finetune",
+      "train": [
+        "C1",
+        "C4"
+      ],
+      "held": "C6",
+      "best": {
+        "epoch": 38,
+        "stage": 2,
+        "metrics": {
+          "rmse": 0.0458057228683884,
+          "mae": 0.021676653753156246,
+          "r2": 0.9760280928383813,
+          "bias": -0.010470797186312468,
+          "n": 23
+        }
+      },
+      "optimizer_updates": 162,
+      "metrics": {
+        "rmse": 0.06582295650320093,
+        "mae": 0.04399781123433075,
+        "r2": 0.9391089397791369,
+        "bias": -0.037147658562381246,
+        "n": 219
+      },
+      "initial_encoder_hash": "3f132e3ff1a2312f32c1e32ee50b387bbcd3b5ba2a484c6e20e5e9f549d1786b",
+      "final_encoder_hash": "b444bb8aa2b9c8ea88ff7f9d026e8ec1706d01238e9f8d7dc375e88a3b703e53",
+      "head_hash": "00c3e5d582c76e674337f5650817c185c4fa89b9db75511baf014f8432eb8f1a",
+      "sample_order_hash": "6d16db22895ecd8d2eae2f5fc03701abed18d2b5b1b6874eb8ca87e80e078d8d",
+      "seconds": 38.5640869140625,
+      "fraction": 0.2,
+      "model": "joint_pcgrad",
+      "encoder_lr": 0.0003,
+      "head_lr": 0.001,
+      "domain": "milling"
+    },
+    {
+      "seed": 46,
+      "arm": "full_finetune",
+      "train": [
+        "C1",
+        "C4"
+      ],
+      "held": "C6",
+      "best": {
+        "epoch": 34,
+        "stage": 2,
+        "metrics": {
+          "rmse": 0.054642402469878164,
+          "mae": 0.026580838405567665,
+          "r2": 0.9658867830516549,
+          "bias": -0.0036985485450081205,
+          "n": 23
+        }
+      },
+      "optimizer_updates": 150,
+      "metrics": {
+        "rmse": 0.09995196565808707,
+        "mae": 0.083624224994995,
+        "r2": 0.8595953651434552,
+        "bias": 0.007561290139102773,
+        "n": 219
+      },
+      "initial_encoder_hash": "3f132e3ff1a2312f32c1e32ee50b387bbcd3b5ba2a484c6e20e5e9f549d1786b",
+      "final_encoder_hash": "45edf4f8f7b1fc1e018cf0dfd5313cf300d895936f30e7fc5885683432fe0b41",
+      "head_hash": "032a6e3421eb9b1762e615ac3fef4f502595b273c0115555ae0f30d1cc0a7fe8",
+      "sample_order_hash": "8dab3788998ea992c2a3cba94bed6d34e901ce163dbe3dfa583316f54a8c5438",
+      "seconds": 35.35838341712952,
+      "fraction": 0.2,
+      "model": "joint_pcgrad",
+      "encoder_lr": 0.0003,
+      "head_lr": 0.001,
+      "domain": "milling"
+    },
+    {
+      "seed": 42,
+      "arm": "full_finetune",
+      "train": [
+        "C1",
+        "C4"
+      ],
+      "held": "C6",
+      "best": {
+        "epoch": 56,
+        "stage": 2,
+        "metrics": {
+          "rmse": 0.004286345319681013,
+          "mae": 0.0032207426530393686,
+          "r2": 0.9997572492828742,
+          "bias": 0.0002046117220412601,
+          "n": 110
+        }
+      },
+      "optimizer_updates": 1008,
+      "metrics": {
+        "rmse": 0.046594333195322545,
+        "mae": 0.037135169152425575,
+        "r2": 0.969488401027983,
+        "bias": -0.027209239969344715,
+        "n": 219
+      },
+      "initial_encoder_hash": "3f132e3ff1a2312f32c1e32ee50b387bbcd3b5ba2a484c6e20e5e9f549d1786b",
+      "final_encoder_hash": "85f4feda6ebe6591af468214f45407383f745ee8297e4ba20e1951a848943e8b",
+      "head_hash": "2b77b2c8126c973810f2bed6dd2c22c5e4ab2619bdb1a32aa86ccf1743401c18",
+      "sample_order_hash": "fed9cc20f0ab8c2d38360a52bedfd6e7f317d1d2719763b527447b2d8198a3e2",
+      "seconds": 252.90616178512573,
+      "fraction": 1.0,
+      "model": "joint_pcgrad",
+      "encoder_lr": 0.0003,
+      "head_lr": 0.001,
+      "domain": "milling"
+    },
+    {
+      "seed": 43,
+      "arm": "full_finetune",
+      "train": [
+        "C1",
+        "C4"
+      ],
+      "held": "C6",
+      "best": {
+        "epoch": 26,
+        "stage": 2,
+        "metrics": {
+          "rmse": 0.009836782963645915,
+          "mae": 0.007001886601475152,
+          "r2": 0.9987215245640991,
+          "bias": 0.0030715994706208057,
+          "n": 110
+        }
+      },
+      "optimizer_updates": 588,
+      "metrics": {
+        "rmse": 0.07135366538497753,
+        "mae": 0.049872647226707305,
+        "r2": 0.9284464244488955,
+        "bias": -0.035730751099481706,
+        "n": 219
+      },
+      "initial_encoder_hash": "3f132e3ff1a2312f32c1e32ee50b387bbcd3b5ba2a484c6e20e5e9f549d1786b",
+      "final_encoder_hash": "2f898a35d0969312f1b1fbd849cb466eb5c016f1b974b848c84dc2b56f9ce0ac",
+      "head_hash": "a07d6694c674f605ac56cb5b324b62aa34c0a5a6ea14084e6efa5605479efa9f",
+      "sample_order_hash": "984bffb1884d5b7dba85c4be02b9e2ca645d972c2b39e615726958dbb6a19d93",
+      "seconds": 146.89264702796936,
+      "fraction": 1.0,
+      "model": "joint_pcgrad",
+      "encoder_lr": 0.0003,
+      "head_lr": 0.001,
+      "domain": "milling"
+    },
+    {
+      "seed": 44,
+      "arm": "full_finetune",
+      "train": [
+        "C1",
+        "C4"
+      ],
+      "held": "C6",
+      "best": {
+        "epoch": 16,
+        "stage": 2,
+        "metrics": {
+          "rmse": 0.011407180971276515,
+          "mae": 0.008138954995030706,
+          "r2": 0.9982807348004028,
+          "bias": 0.00033167582005262376,
+          "n": 110
+        }
+      },
+      "optimizer_updates": 448,
+      "metrics": {
+        "rmse": 0.08316909113809054,
+        "mae": 0.06218479407449427,
+        "r2": 0.902787373564423,
+        "bias": -0.054422558676536496,
+        "n": 219
+      },
+      "initial_encoder_hash": "3f132e3ff1a2312f32c1e32ee50b387bbcd3b5ba2a484c6e20e5e9f549d1786b",
+      "final_encoder_hash": "109f36ee15c2266ea666547ea73d04cac82754c31da934ebb454f81fc904190f",
+      "head_hash": "b17de1b8c6d3daaf36b7ef31bd4b0f065c83e2d17957ce2841fca56f2065112e",
+      "sample_order_hash": "cb9ac332410d98fb177ab412e2ee8eab5d80d35247378fbdbbf8be421e0a2131",
+      "seconds": 112.45921516418457,
+      "fraction": 1.0,
+      "model": "joint_pcgrad",
+      "encoder_lr": 0.0003,
+      "head_lr": 0.001,
+      "domain": "milling"
+    },
+    {
+      "seed": 45,
+      "arm": "full_finetune",
+      "train": [
+        "C1",
+        "C4"
+      ],
+      "held": "C6",
+      "best": {
+        "epoch": 50,
+        "stage": 2,
+        "metrics": {
+          "rmse": 0.005647420625835959,
+          "mae": 0.004460964538156986,
+          "r2": 0.9995786078114393,
+          "bias": 0.0008710046552798965,
+          "n": 110
+        }
+      },
+      "optimizer_updates": 924,
+      "metrics": {
+        "rmse": 0.0695965493881649,
+        "mae": 0.06120537162320391,
+        "r2": 0.9319271112002627,
+        "bias": -0.060831528782130107,
+        "n": 219
+      },
+      "initial_encoder_hash": "3f132e3ff1a2312f32c1e32ee50b387bbcd3b5ba2a484c6e20e5e9f549d1786b",
+      "final_encoder_hash": "bf7621fdb817e096b479f9d51326c067b5923a2178cf5bad7ee5e9ebde5fe916",
+      "head_hash": "00c3e5d582c76e674337f5650817c185c4fa89b9db75511baf014f8432eb8f1a",
+      "sample_order_hash": "98b29746722e6d53d37d68423a384211098e17a462b1fe1784a99de672f3f337",
+      "seconds": 231.0456416606903,
+      "fraction": 1.0,
+      "model": "joint_pcgrad",
+      "encoder_lr": 0.0003,
+      "head_lr": 0.001,
+      "domain": "milling"
+    },
+    {
+      "seed": 46,
+      "arm": "full_finetune",
+      "train": [
+        "C1",
+        "C4"
+      ],
+      "held": "C6",
+      "best": {
+        "epoch": 60,
+        "stage": 2,
+        "metrics": {
+          "rmse": 0.005623551397842732,
+          "mae": 0.00410386494953524,
+          "r2": 0.9995821623722954,
+          "bias": 0.0015235259620980783,
+          "n": 110
+        }
+      },
+      "optimizer_updates": 1064,
+      "metrics": {
+        "rmse": 0.07132157807626018,
+        "mae": 0.05913882204607877,
+        "r2": 0.9285107643932043,
+        "bias": -0.024794031457643802,
+        "n": 219
+      },
+      "initial_encoder_hash": "3f132e3ff1a2312f32c1e32ee50b387bbcd3b5ba2a484c6e20e5e9f549d1786b",
+      "final_encoder_hash": "e1759f8bb00f585efa601a1f35b46557954d1a930103ca7c5fc755d3dd30eeba",
+      "head_hash": "032a6e3421eb9b1762e615ac3fef4f502595b273c0115555ae0f30d1cc0a7fe8",
+      "sample_order_hash": "acaa6878b5fc455435e14eda9efb9bc71c40bd72374a3240a10d864123280410",
+      "seconds": 265.64739775657654,
+      "fraction": 1.0,
+      "model": "joint_pcgrad",
+      "encoder_lr": 0.0003,
+      "head_lr": 0.001,
+      "domain": "milling"
+    },
+    {
+      "seed": 42,
+      "fraction": 1.0,
+      "arm": "full_finetune",
+      "metrics": {
+        "rmse": 0.07758589891488485,
+        "mae": 0.06562233781693755,
+        "r2": 0.931566973450944,
+        "bias": 0.028220023708166304,
+        "n": 37
+      },
+      "head_hash": "7c43d17405a3cb0c4bdf70b5dc1c5f686f2005c7d40cb0431fb9e2489665e75f",
+      "epochs": 106,
+      "best_epoch": 90,
+      "validation_rmse": 0.02118322006684952,
+      "optimizer_updates": 1484,
+      "unfrozen_updates": 0,
+      "partial_reached_stage2": null,
+      "sample_order_hash": "77ff3739af6067010b307ae7f00913b99a8c01112bd55dd0e31db32b940a6ed3",
+      "seconds": 324.7521824836731,
+      "model": "joint_cagrad",
+      "domain": "bearing"
+    },
+    {
+      "seed": 43,
+      "fraction": 1.0,
+      "arm": "full_finetune",
+      "metrics": {
+        "rmse": 0.06599924399186513,
+        "mae": 0.05589316427909039,
+        "r2": 0.9504802918074379,
+        "bias": -0.002408908780764889,
+        "n": 37
+      },
+      "head_hash": "06e22bc78c319eafe9177f2f11dc52a1b3c9a0cd66e73b657d2b3de6d263685c",
+      "epochs": 60,
+      "best_epoch": 44,
+      "validation_rmse": 0.025289658328050642,
+      "optimizer_updates": 840,
+      "unfrozen_updates": 0,
+      "partial_reached_stage2": null,
+      "sample_order_hash": "9a3704f9327ed0ae7048e31258e8b848eded10eec21099cce84efea32b9c564c",
+      "seconds": 183.43674445152283,
+      "model": "joint_cagrad",
+      "domain": "bearing"
+    },
+    {
+      "seed": 44,
+      "fraction": 1.0,
+      "arm": "full_finetune",
+      "metrics": {
+        "rmse": 0.06349226776921744,
+        "mae": 0.049447764567024,
+        "r2": 0.9541708467162838,
+        "bias": -0.01930067008612929,
+        "n": 37
+      },
+      "head_hash": "cc964eefb9c6b17e4290c497e88a101ca9b1f65ed90af87fcd834c5d96157295",
+      "epochs": 54,
+      "best_epoch": 38,
+      "validation_rmse": 0.02464305009655602,
+      "optimizer_updates": 756,
+      "unfrozen_updates": 0,
+      "partial_reached_stage2": null,
+      "sample_order_hash": "ffa5ee5d18e6ab5e1ed45dc91f29f00bae633507b025d7ab15c6595caae3b424",
+      "seconds": 165.5548689365387,
+      "model": "joint_cagrad",
+      "domain": "bearing"
+    },
+    {
+      "seed": 45,
+      "fraction": 1.0,
+      "arm": "full_finetune",
+      "metrics": {
+        "rmse": 0.09134746021760454,
+        "mae": 0.07478106933066973,
+        "r2": 0.9051378181991223,
+        "bias": 0.058560345070184885,
+        "n": 37
+      },
+      "head_hash": "f756c29ceed4215828ecb7cc14d5dfd051e249a09094d7f7c8683ac2c62072c7",
+      "epochs": 110,
+      "best_epoch": 94,
+      "validation_rmse": 0.025057372340289173,
+      "optimizer_updates": 1540,
+      "unfrozen_updates": 0,
+      "partial_reached_stage2": null,
+      "sample_order_hash": "baf77384164128c3a4193ef0a63fc76d603dfdb208f09a14475ec157d674d309",
+      "seconds": 337.83908128738403,
+      "model": "joint_cagrad",
+      "domain": "bearing"
+    },
+    {
+      "seed": 46,
+      "fraction": 1.0,
+      "arm": "full_finetune",
+      "metrics": {
+        "rmse": 0.10554585768045409,
+        "mae": 0.07983986998127925,
+        "r2": 0.8733566057054192,
+        "bias": 0.0562001886097966,
+        "n": 37
+      },
+      "head_hash": "efa585f7e52ca3258998ea5f4f2bbbdf49fb0d9f0ccb991c78eeb212a1184d3b",
+      "epochs": 52,
+      "best_epoch": 36,
+      "validation_rmse": 0.024873487390628918,
+      "optimizer_updates": 728,
+      "unfrozen_updates": 0,
+      "partial_reached_stage2": null,
+      "sample_order_hash": "1e866284f2daef96a5cdc9a97bc72a5e5a2c3843190c42432b87b6f42808342f",
+      "seconds": 159.72448110580444,
+      "model": "joint_cagrad",
+      "domain": "bearing"
+    },
+    {
+      "seed": 42,
+      "fraction": 0.1,
+      "arm": "full_finetune",
+      "best_epoch": 12,
+      "stopped_epoch": 28,
+      "updates": 196,
+      "validation_rmse": 0.04335344348391038,
+      "metrics": {
+        "rmse": 0.07161753421131163,
+        "mae": 0.053567265028684634,
+        "r2": 0.9382010118747655,
+        "n": 937,
+        "bias": -0.02693456903511505
+      },
+      "seconds": 12.305063486099243,
+      "model": "joint_cagrad",
+      "domain": "battery"
+    },
+    {
+      "seed": 43,
+      "fraction": 0.1,
+      "arm": "full_finetune",
+      "best_epoch": 68,
+      "stopped_epoch": 84,
+      "updates": 588,
+      "validation_rmse": 0.03707876133068476,
+      "metrics": {
+        "rmse": 0.06897753057830461,
+        "mae": 0.04798472164846806,
+        "r2": 0.9426731708825744,
+        "n": 937,
+        "bias": -0.03844158912550662
+      },
+      "seconds": 35.17650389671326,
+      "model": "joint_cagrad",
+      "domain": "battery"
+    },
+    {
+      "seed": 44,
+      "fraction": 0.1,
+      "arm": "full_finetune",
+      "best_epoch": 44,
+      "stopped_epoch": 60,
+      "updates": 420,
+      "validation_rmse": 0.037059731587186326,
+      "metrics": {
+        "rmse": 0.06804949035464802,
+        "mae": 0.048938453788377086,
+        "r2": 0.944205371566289,
+        "n": 937,
+        "bias": -0.03140481138152638
+      },
+      "seconds": 25.304436445236206,
+      "model": "joint_cagrad",
+      "domain": "battery"
+    },
+    {
+      "seed": 45,
+      "fraction": 0.1,
+      "arm": "full_finetune",
+      "best_epoch": 30,
+      "stopped_epoch": 46,
+      "updates": 322,
+      "validation_rmse": 0.040212377673445945,
+      "metrics": {
+        "rmse": 0.0751859696901953,
+        "mae": 0.05356705352204793,
+        "r2": 0.9318891584379628,
+        "n": 937,
+        "bias": -0.04313219861418661
+      },
+      "seconds": 19.322542905807495,
+      "model": "joint_cagrad",
+      "domain": "battery"
+    },
+    {
+      "seed": 46,
+      "fraction": 0.1,
+      "arm": "full_finetune",
+      "best_epoch": 14,
+      "stopped_epoch": 30,
+      "updates": 210,
+      "validation_rmse": 0.041220567341869165,
+      "metrics": {
+        "rmse": 0.07312123034782103,
+        "mae": 0.055499920464968634,
+        "r2": 0.9355786804402709,
+        "n": 937,
+        "bias": -0.02364163266459088
+      },
+      "seconds": 12.804019451141357,
+      "model": "joint_cagrad",
+      "domain": "battery"
+    },
+    {
+      "seed": 42,
+      "arm": "full_finetune",
+      "train": [
+        "C1",
+        "C4"
+      ],
+      "held": "C6",
+      "best": {
+        "epoch": 36,
+        "stage": 2,
+        "metrics": {
+          "rmse": 0.058668564907817654,
+          "mae": 0.040907684713602066,
+          "r2": 0.9658876921839846,
+          "bias": -0.0088635024925073,
+          "n": 12
+        }
+      },
+      "optimizer_updates": 104,
+      "metrics": {
+        "rmse": 0.094297314891644,
+        "mae": 0.08249139299692765,
+        "r2": 0.8750324031167126,
+        "bias": -0.01918715806295202,
+        "n": 219
+      },
+      "initial_encoder_hash": "b9ada210d65e630c0f444d2a5ea1f5f090eb329208e07678c8487e1343a38af7",
+      "final_encoder_hash": "5e2729dbe8158b0dbe6995512e6cc5fa9d80108b98988f77f9c6b0de9ff09300",
+      "head_hash": "2b77b2c8126c973810f2bed6dd2c22c5e4ab2619bdb1a32aa86ccf1743401c18",
+      "sample_order_hash": "7fd580a0293f7df9b1b667bbf9c41fed6c6fbfcd15918de43aba6d8cb21da665",
+      "seconds": 20.29580283164978,
+      "fraction": 0.1,
+      "model": "joint_cagrad",
+      "encoder_lr": 0.0003,
+      "head_lr": 0.001,
+      "domain": "milling"
+    },
+    {
+      "seed": 43,
+      "arm": "full_finetune",
+      "train": [
+        "C1",
+        "C4"
+      ],
+      "held": "C6",
+      "best": {
+        "epoch": 34,
+        "stage": 2,
+        "metrics": {
+          "rmse": 0.07876913785449158,
+          "mae": 0.04624707127610842,
+          "r2": 0.9385088867211044,
+          "bias": -0.022169166555007298,
+          "n": 12
+        }
+      },
+      "optimizer_updates": 100,
+      "metrics": {
+        "rmse": 0.1098725680908712,
+        "mae": 0.09018205511532554,
+        "r2": 0.830340838318572,
+        "bias": -0.05031898954126252,
+        "n": 219
+      },
+      "initial_encoder_hash": "b9ada210d65e630c0f444d2a5ea1f5f090eb329208e07678c8487e1343a38af7",
+      "final_encoder_hash": "10ee48136ff610aedf73b59e9c4ecc730829056ca36a60d843b5015e41c604d2",
+      "head_hash": "a07d6694c674f605ac56cb5b324b62aa34c0a5a6ea14084e6efa5605479efa9f",
+      "sample_order_hash": "0238c4d3f5732a97caf7e3a592a3419422845935e478de20911bd3814313abfc",
+      "seconds": 18.938260793685913,
+      "fraction": 0.1,
+      "model": "joint_cagrad",
+      "encoder_lr": 0.0003,
+      "head_lr": 0.001,
+      "domain": "milling"
+    },
+    {
+      "seed": 44,
+      "arm": "full_finetune",
+      "train": [
+        "C1",
+        "C4"
+      ],
+      "held": "C6",
+      "best": {
+        "epoch": 44,
+        "stage": 2,
+        "metrics": {
+          "rmse": 0.08804281795163808,
+          "mae": 0.05237165714303652,
+          "r2": 0.9231775699635192,
+          "bias": -0.015862200409173965,
+          "n": 12
+        }
+      },
+      "optimizer_updates": 120,
+      "metrics": {
+        "rmse": 0.11577632288731037,
+        "mae": 0.09194122469605512,
+        "r2": 0.811618491739271,
+        "bias": -0.004873159775280789,
+        "n": 219
+      },
+      "initial_encoder_hash": "b9ada210d65e630c0f444d2a5ea1f5f090eb329208e07678c8487e1343a38af7",
+      "final_encoder_hash": "d76309698aaba056e67a20a69b36f1646acf2ddbdb5af2e5152b7749971d31e0",
+      "head_hash": "b17de1b8c6d3daaf36b7ef31bd4b0f065c83e2d17957ce2841fca56f2065112e",
+      "sample_order_hash": "136fb6c6cbedb1faa17b18216a35821296c9f6be1c97f60f1f4c779d5886213b",
+      "seconds": 22.842684030532837,
+      "fraction": 0.1,
+      "model": "joint_cagrad",
+      "encoder_lr": 0.0003,
+      "head_lr": 0.001,
+      "domain": "milling"
+    },
+    {
+      "seed": 45,
+      "arm": "full_finetune",
+      "train": [
+        "C1",
+        "C4"
+      ],
+      "held": "C6",
+      "best": {
+        "epoch": 50,
+        "stage": 2,
+        "metrics": {
+          "rmse": 0.08086195171870099,
+          "mae": 0.05849433566133181,
+          "r2": 0.9351979700280897,
+          "bias": 0.0034859441220760345,
+          "n": 12
+        }
+      },
+      "optimizer_updates": 132,
+      "metrics": {
+        "rmse": 0.07847319729192248,
+        "mae": 0.06436512708136616,
+        "r2": 0.913455103848621,
+        "bias": -0.007303418051536497,
+        "n": 219
+      },
+      "initial_encoder_hash": "b9ada210d65e630c0f444d2a5ea1f5f090eb329208e07678c8487e1343a38af7",
+      "final_encoder_hash": "d39d95331e1129d4170c7c7ce8894e792438e00d018288377833ba97d1408b3a",
+      "head_hash": "00c3e5d582c76e674337f5650817c185c4fa89b9db75511baf014f8432eb8f1a",
+      "sample_order_hash": "6847f6c3334e161ceea3fd64189fe0ad0399073ac1860a8135c8f0b1c781d820",
+      "seconds": 24.79738712310791,
+      "fraction": 0.1,
+      "model": "joint_cagrad",
+      "encoder_lr": 0.0003,
+      "head_lr": 0.001,
+      "domain": "milling"
+    },
+    {
+      "seed": 46,
+      "arm": "full_finetune",
+      "train": [
+        "C1",
+        "C4"
+      ],
+      "held": "C6",
+      "best": {
+        "epoch": 34,
+        "stage": 2,
+        "metrics": {
+          "rmse": 0.08256209866591255,
+          "mae": 0.05151716495553652,
+          "r2": 0.932444358939626,
+          "bias": -0.009392473846673965,
+          "n": 12
+        }
+      },
+      "optimizer_updates": 100,
+      "metrics": {
+        "rmse": 0.11248741371041097,
+        "mae": 0.09370427864888624,
+        "r2": 0.8221693446476294,
+        "bias": -0.011936515939664352,
+        "n": 219
+      },
+      "initial_encoder_hash": "b9ada210d65e630c0f444d2a5ea1f5f090eb329208e07678c8487e1343a38af7",
+      "final_encoder_hash": "f3da776d120d75f2e7fe7a73f2fd1bcc3ee7ad9cf08d61a956a4aea56285b660",
+      "head_hash": "032a6e3421eb9b1762e615ac3fef4f502595b273c0115555ae0f30d1cc0a7fe8",
+      "sample_order_hash": "33fe110bbc499c1f2f95278f8d2d6e9ca2189dc5731ee1fdb979d2039807cb57",
+      "seconds": 19.00363063812256,
+      "fraction": 0.1,
+      "model": "joint_cagrad",
+      "encoder_lr": 0.0003,
+      "head_lr": 0.001,
+      "domain": "milling"
+    },
+    {
+      "seed": 42,
+      "arm": "full_finetune",
+      "train": [
+        "C1",
+        "C4"
+      ],
+      "held": "C6",
+      "best": {
+        "epoch": 26,
+        "stage": 2,
+        "metrics": {
+          "rmse": 0.043441504466965986,
+          "mae": 0.024366971591244572,
+          "r2": 0.9784388053983332,
+          "bias": 0.0004730716995570971,
+          "n": 23
+        }
+      },
+      "optimizer_updates": 126,
+      "metrics": {
+        "rmse": 0.08033932231055031,
+        "mae": 0.07219790899062946,
+        "r2": 0.909290015317364,
+        "bias": -0.024738848987609557,
+        "n": 219
+      },
+      "initial_encoder_hash": "b9ada210d65e630c0f444d2a5ea1f5f090eb329208e07678c8487e1343a38af7",
+      "final_encoder_hash": "cd2b4574aa67a4e7f20450c1edd7b95a96117e97b4e9160b79cdb84f0aa00d7f",
+      "head_hash": "2b77b2c8126c973810f2bed6dd2c22c5e4ab2619bdb1a32aa86ccf1743401c18",
+      "sample_order_hash": "8df271a23d7ec95d5adbd8a19b335f7602d64fb41ba694770a24b0df9dc36014",
+      "seconds": 30.47175407409668,
+      "fraction": 0.2,
+      "model": "joint_cagrad",
+      "encoder_lr": 0.0003,
+      "head_lr": 0.001,
+      "domain": "milling"
+    },
+    {
+      "seed": 43,
+      "arm": "full_finetune",
+      "train": [
+        "C1",
+        "C4"
+      ],
+      "held": "C6",
+      "best": {
+        "epoch": 42,
+        "stage": 2,
+        "metrics": {
+          "rmse": 0.05454815945791528,
+          "mae": 0.026093418183534042,
+          "r2": 0.9660043532804078,
+          "bias": -0.009515464305877686,
+          "n": 23
+        }
+      },
+      "optimizer_updates": 174,
+      "metrics": {
+        "rmse": 0.08914867083549306,
+        "mae": 0.06732830477104476,
+        "r2": 0.8883063430145878,
+        "bias": -0.024243878953362982,
+        "n": 219
+      },
+      "initial_encoder_hash": "b9ada210d65e630c0f444d2a5ea1f5f090eb329208e07678c8487e1343a38af7",
+      "final_encoder_hash": "3b0a747c1abb7718c71ea24d2cbeb28e8f42ccdc91d511f74985b2557b3e787b",
+      "head_hash": "a07d6694c674f605ac56cb5b324b62aa34c0a5a6ea14084e6efa5605479efa9f",
+      "sample_order_hash": "e3cd384bca0d8471ca2d0d55abb15a9c38d8765980441e259c0744bfe3682cc6",
+      "seconds": 40.83075284957886,
+      "fraction": 0.2,
+      "model": "joint_cagrad",
+      "encoder_lr": 0.0003,
+      "head_lr": 0.001,
+      "domain": "milling"
+    },
+    {
+      "seed": 44,
+      "arm": "full_finetune",
+      "train": [
+        "C1",
+        "C4"
+      ],
+      "held": "C6",
+      "best": {
+        "epoch": 26,
+        "stage": 2,
+        "metrics": {
+          "rmse": 0.05753299778507234,
+          "mae": 0.03587091228236323,
+          "r2": 0.9621821258600944,
+          "bias": -0.011128915392834208,
+          "n": 23
+        }
+      },
+      "optimizer_updates": 126,
+      "metrics": {
+        "rmse": 0.0820418407172567,
+        "mae": 0.06861496982526154,
+        "r2": 0.905404700366911,
+        "bias": 0.0011133021254041424,
+        "n": 219
+      },
+      "initial_encoder_hash": "b9ada210d65e630c0f444d2a5ea1f5f090eb329208e07678c8487e1343a38af7",
+      "final_encoder_hash": "b0f4177b61e0fb5720d12b8508ce9c8c526462903890abe8195fe5205ff77645",
+      "head_hash": "b17de1b8c6d3daaf36b7ef31bd4b0f065c83e2d17957ce2841fca56f2065112e",
+      "sample_order_hash": "4bc8a251b1c26dc151b183a2ba03db41ecadee7528706dbc51397bd12ea5a8ab",
+      "seconds": 29.117984294891357,
+      "fraction": 0.2,
+      "model": "joint_cagrad",
+      "encoder_lr": 0.0003,
+      "head_lr": 0.001,
+      "domain": "milling"
+    },
+    {
+      "seed": 45,
+      "arm": "full_finetune",
+      "train": [
+        "C1",
+        "C4"
+      ],
+      "held": "C6",
+      "best": {
+        "epoch": 40,
+        "stage": 2,
+        "metrics": {
+          "rmse": 0.0467160725618067,
+          "mae": 0.027491375156070873,
+          "r2": 0.9750657819343934,
+          "bias": -0.00695729514826899,
+          "n": 23
+        }
+      },
+      "optimizer_updates": 168,
+      "metrics": {
+        "rmse": 0.06750269010966736,
+        "mae": 0.048790292078671665,
+        "r2": 0.9359615330028914,
+        "bias": -0.028334070520143802,
+        "n": 219
+      },
+      "initial_encoder_hash": "b9ada210d65e630c0f444d2a5ea1f5f090eb329208e07678c8487e1343a38af7",
+      "final_encoder_hash": "db17636371f5ac10778ef17e9da23fe58b1d5fd204ea954a172bb7aed84d8b44",
+      "head_hash": "00c3e5d582c76e674337f5650817c185c4fa89b9db75511baf014f8432eb8f1a",
+      "sample_order_hash": "19fbcc41c4caf0ff40482c68b29d3867c870c1e3db5edd3f5fd3ff009f6b5bc9",
+      "seconds": 39.45852708816528,
+      "fraction": 0.2,
+      "model": "joint_cagrad",
+      "encoder_lr": 0.0003,
+      "head_lr": 0.001,
+      "domain": "milling"
+    },
+    {
+      "seed": 46,
+      "arm": "full_finetune",
+      "train": [
+        "C1",
+        "C4"
+      ],
+      "held": "C6",
+      "best": {
+        "epoch": 28,
+        "stage": 2,
+        "metrics": {
+          "rmse": 0.052680375149629734,
+          "mae": 0.02685753353264021,
+          "r2": 0.9682925860355743,
+          "bias": -0.005036014577616816,
+          "n": 23
+        }
+      },
+      "optimizer_updates": 132,
+      "metrics": {
+        "rmse": 0.10671905761991542,
+        "mae": 0.08549643492062478,
+        "r2": 0.8399400308863052,
+        "bias": -0.02570649310861412,
+        "n": 219
+      },
+      "initial_encoder_hash": "b9ada210d65e630c0f444d2a5ea1f5f090eb329208e07678c8487e1343a38af7",
+      "final_encoder_hash": "9f4dd7aeeece6f7338cde1031cbd7e4452bc718d3422c1506640f254a9688a2e",
+      "head_hash": "032a6e3421eb9b1762e615ac3fef4f502595b273c0115555ae0f30d1cc0a7fe8",
+      "sample_order_hash": "4e3a363cc1a62a3c6ed8622a472f50ef7b3a0d41f6a4468e152f8a3450e8be11",
+      "seconds": 30.701488733291626,
+      "fraction": 0.2,
+      "model": "joint_cagrad",
+      "encoder_lr": 0.0003,
+      "head_lr": 0.001,
+      "domain": "milling"
+    },
+    {
+      "seed": 42,
+      "fraction": 0.2,
+      "arm": "full_finetune",
+      "metrics": {
+        "rmse": 0.1354877360502295,
+        "mae": 0.10298199881170247,
+        "r2": 0.7913107265472239,
+        "bias": 0.03883113943644472,
+        "n": 37
+      },
+      "head_hash": "7c43d17405a3cb0c4bdf70b5dc1c5f686f2005c7d40cb0431fb9e2489665e75f",
+      "epochs": 40,
+      "best_epoch": 24,
+      "validation_rmse": 0.07271522777723126,
+      "optimizer_updates": 120,
+      "unfrozen_updates": 0,
+      "partial_reached_stage2": null,
+      "sample_order_hash": "74cc00deb83b2727ff0ef8783ab18664a65fcf1aca3e83214af3fa3d0b0507ed",
+      "seconds": 25.481849908828735,
+      "model": "single_bearing_raw",
+      "domain": "bearing"
+    },
+    {
+      "seed": 43,
+      "fraction": 0.2,
+      "arm": "full_finetune",
+      "metrics": {
+        "rmse": 0.14130317328684627,
+        "mae": 0.10235191765870597,
+        "r2": 0.7730114318754722,
+        "bias": 0.06074225988138367,
+        "n": 37
+      },
+      "head_hash": "06e22bc78c319eafe9177f2f11dc52a1b3c9a0cd66e73b657d2b3de6d263685c",
+      "epochs": 32,
+      "best_epoch": 16,
+      "validation_rmse": 0.07655412566204331,
+      "optimizer_updates": 96,
+      "unfrozen_updates": 0,
+      "partial_reached_stage2": null,
+      "sample_order_hash": "62d40392b7e69b4ecc6af3ce526608e8f620e6d824e2ec673ae28627298aa311",
+      "seconds": 19.939683198928833,
+      "model": "single_bearing_raw",
+      "domain": "bearing"
+    },
+    {
+      "seed": 44,
+      "fraction": 0.2,
+      "arm": "full_finetune",
+      "metrics": {
+        "rmse": 0.1667724739381214,
+        "mae": 0.12628495174686652,
+        "r2": 0.6838094415308944,
+        "bias": 0.0856793595830331,
+        "n": 37
+      },
+      "head_hash": "cc964eefb9c6b17e4290c497e88a101ca9b1f65ed90af87fcd834c5d96157295",
+      "epochs": 28,
+      "best_epoch": 12,
+      "validation_rmse": 0.08269221302564295,
+      "optimizer_updates": 84,
+      "unfrozen_updates": 0,
+      "partial_reached_stage2": null,
+      "sample_order_hash": "7b91723f0780bacea790f41b5fe1fc92fbbed99917d6bce6db0e186c627f966f",
+      "seconds": 17.632258653640747,
+      "model": "single_bearing_raw",
+      "domain": "bearing"
+    },
+    {
+      "seed": 45,
+      "fraction": 0.2,
+      "arm": "full_finetune",
+      "metrics": {
+        "rmse": 0.11391882342327105,
+        "mae": 0.08610039491307091,
+        "r2": 0.8524663330734839,
+        "bias": 0.009994944456864047,
+        "n": 37
+      },
+      "head_hash": "f756c29ceed4215828ecb7cc14d5dfd051e249a09094d7f7c8683ac2c62072c7",
+      "epochs": 38,
+      "best_epoch": 22,
+      "validation_rmse": 0.09365549723791235,
+      "optimizer_updates": 114,
+      "unfrozen_updates": 0,
+      "partial_reached_stage2": null,
+      "sample_order_hash": "426c5a4ad689554441f8a0ae1308b5685badb5f2527d4679c20606c8eca96c51",
+      "seconds": 23.76167607307434,
+      "model": "single_bearing_raw",
+      "domain": "bearing"
+    },
+    {
+      "seed": 46,
+      "fraction": 0.2,
+      "arm": "full_finetune",
+      "metrics": {
+        "rmse": 0.18827594254803515,
+        "mae": 0.13854727657461488,
+        "r2": 0.5970141323496966,
+        "bias": 0.11022751098750411,
+        "n": 37
+      },
+      "head_hash": "efa585f7e52ca3258998ea5f4f2bbbdf49fb0d9f0ccb991c78eeb212a1184d3b",
+      "epochs": 44,
+      "best_epoch": 28,
+      "validation_rmse": 0.07726240350513564,
+      "optimizer_updates": 132,
+      "unfrozen_updates": 0,
+      "partial_reached_stage2": null,
+      "sample_order_hash": "fb5aa40a91500243a1f1e10e94a5aba676410a333828a39311bdb412706329be",
+      "seconds": 27.775663137435913,
+      "model": "single_bearing_raw",
+      "domain": "bearing"
+    },
+    {
+      "seed": 42,
+      "fraction": 1.0,
+      "arm": "full_finetune",
+      "metrics": {
+        "rmse": 0.10086774175213727,
+        "mae": 0.07138889006062134,
+        "r2": 0.8843342572751794,
+        "bias": 0.04671934594375056,
+        "n": 37
+      },
+      "head_hash": "7c43d17405a3cb0c4bdf70b5dc1c5f686f2005c7d40cb0431fb9e2489665e75f",
+      "epochs": 56,
+      "best_epoch": 40,
+      "validation_rmse": 0.030187137053855874,
+      "optimizer_updates": 784,
+      "unfrozen_updates": 0,
+      "partial_reached_stage2": null,
+      "sample_order_hash": "64d81cde89106d681a8e27d9a8984b61e1c94062f8252da1f22aba3a536ffeb1",
+      "seconds": 169.02389121055603,
+      "model": "single_bearing_raw",
+      "domain": "bearing"
+    },
+    {
+      "seed": 43,
+      "fraction": 1.0,
+      "arm": "full_finetune",
+      "metrics": {
+        "rmse": 0.13119988982321296,
+        "mae": 0.09704862902494701,
+        "r2": 0.8043106927267234,
+        "bias": 0.0829208485681463,
+        "n": 37
+      },
+      "head_hash": "06e22bc78c319eafe9177f2f11dc52a1b3c9a0cd66e73b657d2b3de6d263685c",
+      "epochs": 90,
+      "best_epoch": 74,
+      "validation_rmse": 0.019255490482984552,
+      "optimizer_updates": 1260,
+      "unfrozen_updates": 0,
+      "partial_reached_stage2": null,
+      "sample_order_hash": "3b2da12303cdfadecfed53f2271d59868d8067c1511fc0d3d97ecf0351d18add",
+      "seconds": 271.8776168823242,
+      "model": "single_bearing_raw",
+      "domain": "bearing"
+    },
+    {
+      "seed": 44,
+      "fraction": 1.0,
+      "arm": "full_finetune",
+      "metrics": {
+        "rmse": 0.11760317079179695,
+        "mae": 0.0887375055636103,
+        "r2": 0.8427689851075197,
+        "bias": 0.07376813732490346,
+        "n": 37
+      },
+      "head_hash": "cc964eefb9c6b17e4290c497e88a101ca9b1f65ed90af87fcd834c5d96157295",
+      "epochs": 58,
+      "best_epoch": 42,
+      "validation_rmse": 0.026546874804669437,
+      "optimizer_updates": 812,
+      "unfrozen_updates": 0,
+      "partial_reached_stage2": null,
+      "sample_order_hash": "a9107c5e2b908d833e627fce8d7d95c5c2f7782cc4fff2e55c0494f216abd6de",
+      "seconds": 176.2169268131256,
+      "model": "single_bearing_raw",
+      "domain": "bearing"
+    },
+    {
+      "seed": 45,
+      "fraction": 1.0,
+      "arm": "full_finetune",
+      "metrics": {
+        "rmse": 0.10719731010959636,
+        "mae": 0.0847589418392729,
+        "r2": 0.8693624789338401,
+        "bias": 0.06501564831548445,
+        "n": 37
+      },
+      "head_hash": "f756c29ceed4215828ecb7cc14d5dfd051e249a09094d7f7c8683ac2c62072c7",
+      "epochs": 54,
+      "best_epoch": 38,
+      "validation_rmse": 0.025613678196464377,
+      "optimizer_updates": 756,
+      "unfrozen_updates": 0,
+      "partial_reached_stage2": null,
+      "sample_order_hash": "fdd8eef84fa5aab2950d9f3f64143ae51778d98ab03a8d7d4d757bf72de5198e",
+      "seconds": 165.7238028049469,
+      "model": "single_bearing_raw",
+      "domain": "bearing"
+    },
+    {
+      "seed": 46,
+      "fraction": 1.0,
+      "arm": "full_finetune",
+      "metrics": {
+        "rmse": 0.10252479903058097,
+        "mae": 0.07723292854388018,
+        "r2": 0.8805027231542814,
+        "bias": 0.05809138659891244,
+        "n": 37
+      },
+      "head_hash": "efa585f7e52ca3258998ea5f4f2bbbdf49fb0d9f0ccb991c78eeb212a1184d3b",
+      "epochs": 56,
+      "best_epoch": 40,
+      "validation_rmse": 0.03274687136596689,
+      "optimizer_updates": 784,
+      "unfrozen_updates": 0,
+      "partial_reached_stage2": null,
+      "sample_order_hash": "797bd3f29843326c2650bc2cb9b60915a17af61a8f5312fa6f982160c9035ab8",
+      "seconds": 171.8497908115387,
+      "model": "single_bearing_raw",
+      "domain": "bearing"
+    },
+    {
+      "seed": 42,
+      "fraction": 1.0,
+      "arm": "full_finetune",
+      "metrics": {
+        "rmse": 0.10066411522449621,
+        "mae": 0.08107118313578335,
+        "r2": 0.8848007858155521,
+        "bias": 0.042954196448664404,
+        "n": 37
+      },
+      "head_hash": "7c43d17405a3cb0c4bdf70b5dc1c5f686f2005c7d40cb0431fb9e2489665e75f",
+      "epochs": 118,
+      "best_epoch": 102,
+      "validation_rmse": 0.019992000326922863,
+      "optimizer_updates": 1652,
+      "unfrozen_updates": 0,
+      "partial_reached_stage2": null,
+      "sample_order_hash": "ac57548478f7efe71da345434ef05c3b2c85f77835e4619f7032d00d7eef5b57",
+      "seconds": 362.40749621391296,
+      "model": "single_bearing_norm",
+      "domain": "bearing"
+    },
+    {
+      "seed": 43,
+      "fraction": 1.0,
+      "arm": "full_finetune",
+      "metrics": {
+        "rmse": 0.13250008056540977,
+        "mae": 0.10119869806677909,
+        "r2": 0.8004129128814598,
+        "bias": 0.07071558028660915,
+        "n": 37
+      },
+      "head_hash": "06e22bc78c319eafe9177f2f11dc52a1b3c9a0cd66e73b657d2b3de6d263685c",
+      "epochs": 70,
+      "best_epoch": 54,
+      "validation_rmse": 0.02537230455437409,
+      "optimizer_updates": 980,
+      "unfrozen_updates": 0,
+      "partial_reached_stage2": null,
+      "sample_order_hash": "93368856220c80cb45ef131a08a2b58ac61169d4e781ec4d4d48e9ded35359f0",
+      "seconds": 215.63293647766113,
+      "model": "single_bearing_norm",
+      "domain": "bearing"
+    },
+    {
+      "seed": 44,
+      "fraction": 1.0,
+      "arm": "full_finetune",
+      "metrics": {
+        "rmse": 0.1276947999080936,
+        "mae": 0.09622549935168512,
+        "r2": 0.8146269570491445,
+        "bias": 0.08172766104139187,
+        "n": 37
+      },
+      "head_hash": "cc964eefb9c6b17e4290c497e88a101ca9b1f65ed90af87fcd834c5d96157295",
+      "epochs": 58,
+      "best_epoch": 42,
+      "validation_rmse": 0.025120688114920454,
+      "optimizer_updates": 812,
+      "unfrozen_updates": 0,
+      "partial_reached_stage2": null,
+      "sample_order_hash": "a9107c5e2b908d833e627fce8d7d95c5c2f7782cc4fff2e55c0494f216abd6de",
+      "seconds": 178.84416842460632,
+      "model": "single_bearing_norm",
+      "domain": "bearing"
+    },
+    {
+      "seed": 45,
+      "fraction": 1.0,
+      "arm": "full_finetune",
+      "metrics": {
+        "rmse": 0.10168729453391778,
+        "mae": 0.07908648116564429,
+        "r2": 0.8824470477068272,
+        "bias": 0.028183594195021165,
+        "n": 37
+      },
+      "head_hash": "f756c29ceed4215828ecb7cc14d5dfd051e249a09094d7f7c8683ac2c62072c7",
+      "epochs": 58,
+      "best_epoch": 42,
+      "validation_rmse": 0.022099730358411732,
+      "optimizer_updates": 812,
+      "unfrozen_updates": 0,
+      "partial_reached_stage2": null,
+      "sample_order_hash": "165584f6dd12154803b6f3b26f26170f67d666a5494691311e017d2fb617554e",
+      "seconds": 177.86730575561523,
+      "model": "single_bearing_norm",
+      "domain": "bearing"
+    },
+    {
+      "seed": 46,
+      "fraction": 1.0,
+      "arm": "full_finetune",
+      "metrics": {
+        "rmse": 0.10584814452749597,
+        "mae": 0.07474940677953733,
+        "r2": 0.8726301451020618,
+        "bias": 0.05451828709526642,
+        "n": 37
+      },
+      "head_hash": "efa585f7e52ca3258998ea5f4f2bbbdf49fb0d9f0ccb991c78eeb212a1184d3b",
+      "epochs": 116,
+      "best_epoch": 100,
+      "validation_rmse": 0.01900283027451514,
+      "optimizer_updates": 1624,
+      "unfrozen_updates": 0,
+      "partial_reached_stage2": null,
+      "sample_order_hash": "3a2a594c15dceae8f8922b22b105b711cfccec797e274a0e5545e009f5c20045",
+      "seconds": 354.805312871933,
+      "model": "single_bearing_norm",
+      "domain": "bearing"
+    },
+    {
+      "seed": 42,
+      "fraction": 0.1,
+      "arm": "full_finetune",
+      "best_epoch": 54,
+      "stopped_epoch": 70,
+      "updates": 490,
+      "validation_rmse": 0.0373256465659203,
+      "metrics": {
+        "rmse": 0.06389561949480596,
+        "mae": 0.04508028409255941,
+        "r2": 0.9508090957423697,
+        "n": 937,
+        "bias": -0.028617081855072887
+      },
+      "seconds": 15.522504568099976,
+      "model": "single_battery_raw",
+      "domain": "battery"
+    },
+    {
+      "seed": 43,
+      "fraction": 0.1,
+      "arm": "full_finetune",
+      "best_epoch": 24,
+      "stopped_epoch": 40,
+      "updates": 280,
+      "validation_rmse": 0.03770866013545851,
+      "metrics": {
+        "rmse": 0.05998608099318649,
+        "mae": 0.0427545271838718,
+        "r2": 0.9566445583213751,
+        "n": 937,
+        "bias": -0.02795137951782683
+      },
+      "seconds": 8.649099826812744,
+      "model": "single_battery_raw",
+      "domain": "battery"
+    },
+    {
+      "seed": 44,
+      "fraction": 0.1,
+      "arm": "full_finetune",
+      "best_epoch": 36,
+      "stopped_epoch": 52,
+      "updates": 364,
+      "validation_rmse": 0.040170381711673475,
+      "metrics": {
+        "rmse": 0.06862069848078965,
+        "mae": 0.04865591858614041,
+        "r2": 0.9432647589329511,
+        "n": 937,
+        "bias": -0.033079945262155734
+      },
+      "seconds": 11.079912900924683,
+      "model": "single_battery_raw",
+      "domain": "battery"
+    },
+    {
+      "seed": 45,
+      "fraction": 0.1,
+      "arm": "full_finetune",
+      "best_epoch": 30,
+      "stopped_epoch": 46,
+      "updates": 322,
+      "validation_rmse": 0.03949704776111982,
+      "metrics": {
+        "rmse": 0.07124475861527788,
+        "mae": 0.051074237898171046,
+        "r2": 0.938842675949705,
+        "n": 937,
+        "bias": -0.03657428744291785
+      },
+      "seconds": 9.847716808319092,
+      "model": "single_battery_raw",
+      "domain": "battery"
+    },
+    {
+      "seed": 46,
+      "fraction": 0.1,
+      "arm": "full_finetune",
+      "best_epoch": 16,
+      "stopped_epoch": 32,
+      "updates": 224,
+      "validation_rmse": 0.04133750205358967,
+      "metrics": {
+        "rmse": 0.05942889833612261,
+        "mae": 0.04500023843402494,
+        "r2": 0.9574462346009207,
+        "n": 937,
+        "bias": -0.018699759551350788
+      },
+      "seconds": 6.946547031402588,
+      "model": "single_battery_raw",
+      "domain": "battery"
+    },
+    {
+      "seed": 42,
+      "fraction": 0.1,
+      "arm": "full_finetune",
+      "best_epoch": 12,
+      "stopped_epoch": 28,
+      "updates": 196,
+      "validation_rmse": 0.036277781101699935,
+      "metrics": {
+        "rmse": 0.07581971533493453,
+        "mae": 0.05543564436977119,
+        "r2": 0.9307361010537691,
+        "n": 937,
+        "bias": -0.032613051034959394
+      },
+      "seconds": 8.473547458648682,
+      "model": "single_battery_norm",
+      "domain": "battery"
+    },
+    {
+      "seed": 43,
+      "fraction": 0.1,
+      "arm": "full_finetune",
+      "best_epoch": 24,
+      "stopped_epoch": 40,
+      "updates": 280,
+      "validation_rmse": 0.04249433791998363,
+      "metrics": {
+        "rmse": 0.06749460440840285,
+        "mae": 0.04776783212234158,
+        "r2": 0.9451115776275749,
+        "n": 937,
+        "bias": -0.0369457898749955
+      },
+      "seconds": 8.743598461151123,
+      "model": "single_battery_norm",
+      "domain": "battery"
+    },
+    {
+      "seed": 44,
+      "fraction": 0.1,
+      "arm": "full_finetune",
+      "best_epoch": 94,
+      "stopped_epoch": 110,
+      "updates": 770,
+      "validation_rmse": 0.03477526796640681,
+      "metrics": {
+        "rmse": 0.07030122838852909,
+        "mae": 0.05023756881543657,
+        "r2": 0.9404518240415601,
+        "n": 937,
+        "bias": -0.042964161863190735
+      },
+      "seconds": 23.02981424331665,
+      "model": "single_battery_norm",
+      "domain": "battery"
+    },
+    {
+      "seed": 45,
+      "fraction": 0.1,
+      "arm": "full_finetune",
+      "best_epoch": 36,
+      "stopped_epoch": 52,
+      "updates": 364,
+      "validation_rmse": 0.039107588892788266,
+      "metrics": {
+        "rmse": 0.06412692309537263,
+        "mae": 0.046651372998622875,
+        "r2": 0.9504523067252172,
+        "n": 937,
+        "bias": -0.02494095876492886
+      },
+      "seconds": 11.06112265586853,
+      "model": "single_battery_norm",
+      "domain": "battery"
+    },
+    {
+      "seed": 46,
+      "fraction": 0.1,
+      "arm": "full_finetune",
+      "best_epoch": 42,
+      "stopped_epoch": 58,
+      "updates": 406,
+      "validation_rmse": 0.03530780631442932,
+      "metrics": {
+        "rmse": 0.06696226393108581,
+        "mae": 0.04677840771567049,
+        "r2": 0.9459739902757102,
+        "n": 937,
+        "bias": -0.033116249082830666
+      },
+      "seconds": 12.239795446395874,
+      "model": "single_battery_norm",
+      "domain": "battery"
+    },
+    {
+      "seed": 42,
+      "fraction": 0.2,
+      "arm": "full_finetune",
+      "best_epoch": 112,
+      "stopped_epoch": 128,
+      "updates": 1664,
+      "validation_rmse": 0.023389713110916137,
+      "metrics": {
+        "rmse": 0.06695239307147542,
+        "mae": 0.04606797537153136,
+        "r2": 0.9459899169729438,
+        "n": 937,
+        "bias": -0.03394414001694118
+      },
+      "seconds": 52.40254259109497,
+      "model": "single_battery_norm",
+      "domain": "battery"
+    },
+    {
+      "seed": 43,
+      "fraction": 0.2,
+      "arm": "full_finetune",
+      "best_epoch": 78,
+      "stopped_epoch": 94,
+      "updates": 1222,
+      "validation_rmse": 0.025432272942094145,
+      "metrics": {
+        "rmse": 0.07353244732143577,
+        "mae": 0.05217649745769807,
+        "r2": 0.9348520616463258,
+        "n": 937,
+        "bias": -0.03885609314408205
+      },
+      "seconds": 38.392958879470825,
+      "model": "single_battery_norm",
+      "domain": "battery"
+    },
+    {
+      "seed": 44,
+      "fraction": 0.2,
+      "arm": "full_finetune",
+      "best_epoch": 50,
+      "stopped_epoch": 66,
+      "updates": 858,
+      "validation_rmse": 0.028142433722882387,
+      "metrics": {
+        "rmse": 0.07850082563171851,
+        "mae": 0.056247434826824205,
+        "r2": 0.9257509186503866,
+        "n": 937,
+        "bias": -0.04774949679314184
+      },
+      "seconds": 27.535829305648804,
+      "model": "single_battery_norm",
+      "domain": "battery"
+    },
+    {
+      "seed": 45,
+      "fraction": 0.2,
+      "arm": "full_finetune",
+      "best_epoch": 28,
+      "stopped_epoch": 44,
+      "updates": 572,
+      "validation_rmse": 0.026148372406294196,
+      "metrics": {
+        "rmse": 0.07111375727149574,
+        "mae": 0.04960846626661965,
+        "r2": 0.9390673753110846,
+        "n": 937,
+        "bias": -0.03625092447835757
+      },
+      "seconds": 18.105556964874268,
+      "model": "single_battery_norm",
+      "domain": "battery"
+    },
+    {
+      "seed": 46,
+      "fraction": 0.2,
+      "arm": "full_finetune",
+      "best_epoch": 46,
+      "stopped_epoch": 62,
+      "updates": 806,
+      "validation_rmse": 0.026961147692358193,
+      "metrics": {
+        "rmse": 0.07571053329726728,
+        "mae": 0.051848206570195066,
+        "r2": 0.9309354404630288,
+        "n": 937,
+        "bias": -0.04391232817090865
+      },
+      "seconds": 25.358775854110718,
+      "model": "single_battery_norm",
+      "domain": "battery"
+    },
+    {
+      "seed": 42,
+      "arm": "full_finetune",
+      "train": [
+        "C1",
+        "C4"
+      ],
+      "held": "C6",
+      "best": {
+        "epoch": 10,
+        "stage": 2,
+        "metrics": {
+          "rmse": 0.061399828605433464,
+          "mae": 0.04217751842478047,
+          "r2": 0.9569277635491116,
+          "bias": 0.003508907297383184,
+          "n": 23
+        }
+      },
+      "optimizer_updates": 78,
+      "metrics": {
+        "rmse": 0.10565381016032196,
+        "mae": 0.08739546693640349,
+        "r2": 0.8431194538334653,
+        "bias": 0.011050605921066242,
+        "n": 219
+      },
+      "initial_encoder_hash": "ea93d09d33c672aa01d7f7cc452898a6f4b088b0676a88d0df531507ead702b4",
+      "final_encoder_hash": "3003c62a1dc9dcf3a2b15adadc95b81b84873baa85b2537a06d6a5bfc057df7f",
+      "head_hash": "2b77b2c8126c973810f2bed6dd2c22c5e4ab2619bdb1a32aa86ccf1743401c18",
+      "sample_order_hash": "80655e0f7421f566df42dbf01770574e590d9228fd569f18af28ee53f89de4b5",
+      "seconds": 12.240507364273071,
+      "fraction": 0.2,
+      "model": "single_milling_raw",
+      "encoder_lr": 0.0003,
+      "head_lr": 0.001,
+      "domain": "milling"
+    },
+    {
+      "seed": 43,
+      "arm": "full_finetune",
+      "train": [
+        "C1",
+        "C4"
+      ],
+      "held": "C6",
+      "best": {
+        "epoch": 22,
+        "stage": 2,
+        "metrics": {
+          "rmse": 0.05037961283636758,
+          "mae": 0.025779141032177467,
+          "r2": 0.971001685479516,
+          "bias": -0.0058958141700081205,
+          "n": 23
+        }
+      },
+      "optimizer_updates": 114,
+      "metrics": {
+        "rmse": 0.11114298548014155,
+        "mae": 0.09189477090438887,
+        "r2": 0.8263947388088793,
+        "bias": 0.01595571436855483,
+        "n": 219
+      },
+      "initial_encoder_hash": "ea93d09d33c672aa01d7f7cc452898a6f4b088b0676a88d0df531507ead702b4",
+      "final_encoder_hash": "ca9520ae5604d5b02b9f5d8de199beb5f688efd3d9cc2c04d2c6d1999c628ede",
+      "head_hash": "a07d6694c674f605ac56cb5b324b62aa34c0a5a6ea14084e6efa5605479efa9f",
+      "sample_order_hash": "426fd43f6445c4d63ceb9a0935dc6e2bfaf2c28c717c713142123bac35bbb8fe",
+      "seconds": 15.703398942947388,
+      "fraction": 0.2,
+      "model": "single_milling_raw",
+      "encoder_lr": 0.0003,
+      "head_lr": 0.001,
+      "domain": "milling"
+    },
+    {
+      "seed": 44,
+      "arm": "full_finetune",
+      "train": [
+        "C1",
+        "C4"
+      ],
+      "held": "C6",
+      "best": {
+        "epoch": 30,
+        "stage": 2,
+        "metrics": {
+          "rmse": 0.05380651426667098,
+          "mae": 0.025984787422677746,
+          "r2": 0.9669224891159147,
+          "bias": -0.011500433735225512,
+          "n": 23
+        }
+      },
+      "optimizer_updates": 138,
+      "metrics": {
+        "rmse": 0.10560400323436298,
+        "mae": 0.08782493146604191,
+        "r2": 0.8432673310557611,
+        "bias": -0.0030604992444588715,
+        "n": 219
+      },
+      "initial_encoder_hash": "ea93d09d33c672aa01d7f7cc452898a6f4b088b0676a88d0df531507ead702b4",
+      "final_encoder_hash": "9ad0aa7989d6f4d0507c9e45e3d73ecc4ceabcf2ccdea36d2854c2fa55172a76",
+      "head_hash": "b17de1b8c6d3daaf36b7ef31bd4b0f065c83e2d17957ce2841fca56f2065112e",
+      "sample_order_hash": "725d7d38484e39bf40b3a7bbb9d6ece1883e1225fbda1ac26ae7983dcb3a5650",
+      "seconds": 19.10808253288269,
+      "fraction": 0.2,
+      "model": "single_milling_raw",
+      "encoder_lr": 0.0003,
+      "head_lr": 0.001,
+      "domain": "milling"
+    },
+    {
+      "seed": 45,
+      "arm": "full_finetune",
+      "train": [
+        "C1",
+        "C4"
+      ],
+      "held": "C6",
+      "best": {
+        "epoch": 36,
+        "stage": 2,
+        "metrics": {
+          "rmse": 0.05065745198486857,
+          "mae": 0.029342480327772057,
+          "r2": 0.9706809571921339,
+          "bias": -0.005964810433595077,
+          "n": 23
+        }
+      },
+      "optimizer_updates": 156,
+      "metrics": {
+        "rmse": 0.06543681963857897,
+        "mae": 0.056431814726254984,
+        "r2": 0.9398212541245,
+        "bias": -0.016939726556102708,
+        "n": 219
+      },
+      "initial_encoder_hash": "ea93d09d33c672aa01d7f7cc452898a6f4b088b0676a88d0df531507ead702b4",
+      "final_encoder_hash": "5be611507e6f3bf27ec5d09afce4a02d56cb970dcd5eca1c055e15e5c81bd1fe",
+      "head_hash": "00c3e5d582c76e674337f5650817c185c4fa89b9db75511baf014f8432eb8f1a",
+      "sample_order_hash": "70843a43501bf58ce1a17c4cca94a29c26f6b5018f362c6150c942d580891b1a",
+      "seconds": 21.447686195373535,
+      "fraction": 0.2,
+      "model": "single_milling_raw",
+      "encoder_lr": 0.0003,
+      "head_lr": 0.001,
+      "domain": "milling"
+    },
+    {
+      "seed": 46,
+      "arm": "full_finetune",
+      "train": [
+        "C1",
+        "C4"
+      ],
+      "held": "C6",
+      "best": {
+        "epoch": 30,
+        "stage": 2,
+        "metrics": {
+          "rmse": 0.047401390188614195,
+          "mae": 0.02600757194601971,
+          "r2": 0.9743288536634627,
+          "bias": -0.00476002952326899,
+          "n": 23
+        }
+      },
+      "optimizer_updates": 138,
+      "metrics": {
+        "rmse": 0.09870905949420224,
+        "mae": 0.08131826825899212,
+        "r2": 0.8630655273825723,
+        "bias": 0.004027382462162134,
+        "n": 219
+      },
+      "initial_encoder_hash": "ea93d09d33c672aa01d7f7cc452898a6f4b088b0676a88d0df531507ead702b4",
+      "final_encoder_hash": "bf98d13c0f7ec43f6f25a06a4c3b41a0d549af555fc29dd219ffae658bd9337c",
+      "head_hash": "032a6e3421eb9b1762e615ac3fef4f502595b273c0115555ae0f30d1cc0a7fe8",
+      "sample_order_hash": "6d07b15ca7fe19320498a3d476c17b1999bec019765c354feb8abaf75941ab29",
+      "seconds": 18.986137628555298,
+      "fraction": 0.2,
+      "model": "single_milling_raw",
+      "encoder_lr": 0.0003,
+      "head_lr": 0.001,
+      "domain": "milling"
+    },
+    {
+      "seed": 42,
+      "arm": "full_finetune",
+      "train": [
+        "C1",
+        "C4"
+      ],
+      "held": "C6",
+      "best": {
+        "epoch": 24,
+        "stage": 2,
+        "metrics": {
+          "rmse": 0.01064246648420078,
+          "mae": 0.006549033133143729,
+          "r2": 0.9985035204316605,
+          "bias": 0.00013858278027989646,
+          "n": 110
+        }
+      },
+      "optimizer_updates": 560,
+      "metrics": {
+        "rmse": 0.08213106802867505,
+        "mae": 0.07282498959009642,
+        "r2": 0.9051988279962072,
+        "bias": 0.017527578666500034,
+        "n": 219
+      },
+      "initial_encoder_hash": "ea93d09d33c672aa01d7f7cc452898a6f4b088b0676a88d0df531507ead702b4",
+      "final_encoder_hash": "e415ae65610f5845f340a2be9d444cd3386f4706c30416f0a3bca87de33b4626",
+      "head_hash": "2b77b2c8126c973810f2bed6dd2c22c5e4ab2619bdb1a32aa86ccf1743401c18",
+      "sample_order_hash": "e61ea71497bf224ed870879fa044151ffb3d79341571619fd0a1d81bd772e75f",
+      "seconds": 82.43432474136353,
+      "fraction": 1.0,
+      "model": "single_milling_raw",
+      "encoder_lr": 0.0003,
+      "head_lr": 0.001,
+      "domain": "milling"
+    },
+    {
+      "seed": 43,
+      "arm": "full_finetune",
+      "train": [
+        "C1",
+        "C4"
+      ],
+      "held": "C6",
+      "best": {
+        "epoch": 46,
+        "stage": 2,
+        "metrics": {
+          "rmse": 0.006538963148263414,
+          "mae": 0.004397844743322242,
+          "r2": 0.9994350578361461,
+          "bias": 0.0011617539450526238,
+          "n": 110
+        }
+      },
+      "optimizer_updates": 868,
+      "metrics": {
+        "rmse": 0.03892508256396929,
+        "mae": 0.02964210078613535,
+        "r2": 0.9787059705447905,
+        "bias": -0.004439503596627821,
+        "n": 219
+      },
+      "initial_encoder_hash": "ea93d09d33c672aa01d7f7cc452898a6f4b088b0676a88d0df531507ead702b4",
+      "final_encoder_hash": "47cd2100baa73b96a175e13945700ceebe2a69b407bf56b03cc60c2d8043f958",
+      "head_hash": "a07d6694c674f605ac56cb5b324b62aa34c0a5a6ea14084e6efa5605479efa9f",
+      "sample_order_hash": "1fe64f4c097032b749aa75705b1c9bcbb948b9023d1837b5b313b4d3147d839a",
+      "seconds": 125.77557969093323,
+      "fraction": 1.0,
+      "model": "single_milling_raw",
+      "encoder_lr": 0.0003,
+      "head_lr": 0.001,
+      "domain": "milling"
+    },
+    {
+      "seed": 44,
+      "arm": "full_finetune",
+      "train": [
+        "C1",
+        "C4"
+      ],
+      "held": "C6",
+      "best": {
+        "epoch": 36,
+        "stage": 2,
+        "metrics": {
+          "rmse": 0.009719194066932309,
+          "mae": 0.005215687253935771,
+          "r2": 0.9987519076613344,
+          "bias": 0.0016489254649389874,
+          "n": 110
+        }
+      },
+      "optimizer_updates": 728,
+      "metrics": {
+        "rmse": 0.0680752547038507,
+        "mae": 0.05110773196248295,
+        "r2": 0.9348705642776824,
+        "bias": -0.03197555614371686,
+        "n": 219
+      },
+      "initial_encoder_hash": "ea93d09d33c672aa01d7f7cc452898a6f4b088b0676a88d0df531507ead702b4",
+      "final_encoder_hash": "8fd691ef546bdda1d675760e55781b3ce74bac885fa0a1c7759a11f55f82ecf8",
+      "head_hash": "b17de1b8c6d3daaf36b7ef31bd4b0f065c83e2d17957ce2841fca56f2065112e",
+      "sample_order_hash": "f6b1bd215117cce174b756e146a9b79f274e344dfaf99b39e560112975b73bd6",
+      "seconds": 105.8979320526123,
+      "fraction": 1.0,
+      "model": "single_milling_raw",
+      "encoder_lr": 0.0003,
+      "head_lr": 0.001,
+      "domain": "milling"
+    },
+    {
+      "seed": 45,
+      "arm": "full_finetune",
+      "train": [
+        "C1",
+        "C4"
+      ],
+      "held": "C6",
+      "best": {
+        "epoch": 50,
+        "stage": 2,
+        "metrics": {
+          "rmse": 0.007128530637552106,
+          "mae": 0.004397199252112345,
+          "r2": 0.9993285924039126,
+          "bias": 0.0005330918356776237,
+          "n": 110
+        }
+      },
+      "optimizer_updates": 924,
+      "metrics": {
+        "rmse": 0.05864467568666168,
+        "mae": 0.04942686941270551,
+        "r2": 0.9516656432238885,
+        "bias": -0.03872063765770088,
+        "n": 219
+      },
+      "initial_encoder_hash": "ea93d09d33c672aa01d7f7cc452898a6f4b088b0676a88d0df531507ead702b4",
+      "final_encoder_hash": "bac3a0b0ac0f2f7a1f5ba52b518143e12697d6e0d4da30918ad5d2fd06b3edb6",
+      "head_hash": "00c3e5d582c76e674337f5650817c185c4fa89b9db75511baf014f8432eb8f1a",
+      "sample_order_hash": "98b29746722e6d53d37d68423a384211098e17a462b1fe1784a99de672f3f337",
+      "seconds": 133.8603594303131,
+      "fraction": 1.0,
+      "model": "single_milling_raw",
+      "encoder_lr": 0.0003,
+      "head_lr": 0.001,
+      "domain": "milling"
+    },
+    {
+      "seed": 46,
+      "arm": "full_finetune",
+      "train": [
+        "C1",
+        "C4"
+      ],
+      "held": "C6",
+      "best": {
+        "epoch": 42,
+        "stage": 2,
+        "metrics": {
+          "rmse": 0.007336078832172115,
+          "mae": 0.004669116454368288,
+          "r2": 0.9992889269999123,
+          "bias": -0.0004917439242655581,
+          "n": 110
+        }
+      },
+      "optimizer_updates": 812,
+      "metrics": {
+        "rmse": 0.09253045823116449,
+        "mae": 0.08456885328592911,
+        "r2": 0.8796715862942491,
+        "bias": 0.014627990695609622,
+        "n": 219
+      },
+      "initial_encoder_hash": "ea93d09d33c672aa01d7f7cc452898a6f4b088b0676a88d0df531507ead702b4",
+      "final_encoder_hash": "6dd8bd60003a56a316417da60232d823c732021e4ff21d592bb02e5dba3f8afe",
+      "head_hash": "032a6e3421eb9b1762e615ac3fef4f502595b273c0115555ae0f30d1cc0a7fe8",
+      "sample_order_hash": "7ad1678c0c55f6949cf0ef7e251b49d821b90d81100864acadb5303ffcacdd12",
+      "seconds": 117.57046937942505,
+      "fraction": 1.0,
+      "model": "single_milling_raw",
+      "encoder_lr": 0.0003,
+      "head_lr": 0.001,
+      "domain": "milling"
+    },
+    {
+      "seed": 42,
+      "arm": "full_finetune",
+      "train": [
+        "C1",
+        "C4"
+      ],
+      "held": "C6",
+      "best": {
+        "epoch": 22,
+        "stage": 2,
+        "metrics": {
+          "rmse": 0.009139886679755743,
+          "mae": 0.00639461659911004,
+          "r2": 0.9988962573315296,
+          "bias": 0.002557794428007169,
+          "n": 110
+        }
+      },
+      "optimizer_updates": 532,
+      "metrics": {
+        "rmse": 0.08092343460582037,
+        "mae": 0.06564174453434471,
+        "r2": 0.9079661945377799,
+        "bias": 0.046672841223577656,
+        "n": 219
+      },
+      "initial_encoder_hash": "5efa0292d8c2555718f6b291477d58ad546a7b74452093168c2db254fb584264",
+      "final_encoder_hash": "9786c50db28e4dc35f7712ad5db451fc39d2f038c5123669e75f9bc54de5cbf0",
+      "head_hash": "2b77b2c8126c973810f2bed6dd2c22c5e4ab2619bdb1a32aa86ccf1743401c18",
+      "sample_order_hash": "f4fb1a8cdc449e88d8a37d62e7fe04cd85799dbc5d85b006ed2153c0928b4101",
+      "seconds": 79.03695011138916,
+      "fraction": 1.0,
+      "model": "single_milling_norm",
+      "encoder_lr": 0.0003,
+      "head_lr": 0.001,
+      "domain": "milling"
+    },
+    {
+      "seed": 43,
+      "arm": "full_finetune",
+      "train": [
+        "C1",
+        "C4"
+      ],
+      "held": "C6",
+      "best": {
+        "epoch": 14,
+        "stage": 2,
+        "metrics": {
+          "rmse": 0.00991469046627279,
+          "mae": 0.006557527811012485,
+          "r2": 0.9987011932714661,
+          "bias": 0.0003338952802798965,
+          "n": 110
+        }
+      },
+      "optimizer_updates": 420,
+      "metrics": {
+        "rmse": 0.07890174985929384,
+        "mae": 0.06615907964658112,
+        "r2": 0.9125072563591562,
+        "bias": -0.03024483321991549,
+        "n": 219
+      },
+      "initial_encoder_hash": "5efa0292d8c2555718f6b291477d58ad546a7b74452093168c2db254fb584264",
+      "final_encoder_hash": "4ed452a02b38274ed34ebf4bda2c2c9c84c05b0c70b37eaa619e44d6b08b0240",
+      "head_hash": "a07d6694c674f605ac56cb5b324b62aa34c0a5a6ea14084e6efa5605479efa9f",
+      "sample_order_hash": "1cecb58168aabcdf840acbc8ebc4e0f4981c342d904940e267f8d5307f8249d3",
+      "seconds": 61.44809699058533,
+      "fraction": 1.0,
+      "model": "single_milling_norm",
+      "encoder_lr": 0.0003,
+      "head_lr": 0.001,
+      "domain": "milling"
+    },
+    {
+      "seed": 44,
+      "arm": "full_finetune",
+      "train": [
+        "C1",
+        "C4"
+      ],
+      "held": "C6",
+      "best": {
+        "epoch": 34,
+        "stage": 2,
+        "metrics": {
+          "rmse": 0.008794579982262069,
+          "mae": 0.006431160206821831,
+          "r2": 0.9989780811376752,
+          "bias": 0.0009986236183480784,
+          "n": 110
+        }
+      },
+      "optimizer_updates": 700,
+      "metrics": {
+        "rmse": 0.037424787216489584,
+        "mae": 0.030544693020414817,
+        "r2": 0.9803158146764246,
+        "bias": -0.020961358084356133,
+        "n": 219
+      },
+      "initial_encoder_hash": "5efa0292d8c2555718f6b291477d58ad546a7b74452093168c2db254fb584264",
+      "final_encoder_hash": "5a31c51d976a1187729a11e7506b62d5cd80fae09a0ac9433b0d214a5f6a9337",
+      "head_hash": "b17de1b8c6d3daaf36b7ef31bd4b0f065c83e2d17957ce2841fca56f2065112e",
+      "sample_order_hash": "80b83583ebb8dac6bcb915023e7b035b9ddfb4f27fd5aa10fb9aa04bd1ddbff3",
+      "seconds": 102.34950423240662,
+      "fraction": 1.0,
+      "model": "single_milling_norm",
+      "encoder_lr": 0.0003,
+      "head_lr": 0.001,
+      "domain": "milling"
+    },
+    {
+      "seed": 45,
+      "arm": "full_finetune",
+      "train": [
+        "C1",
+        "C4"
+      ],
+      "held": "C6",
+      "best": {
+        "epoch": 54,
+        "stage": 2,
+        "metrics": {
+          "rmse": 0.007830275294365073,
+          "mae": 0.0044392048127271915,
+          "r2": 0.9991898969418133,
+          "bias": -0.0006459964100610126,
+          "n": 110
+        }
+      },
+      "optimizer_updates": 980,
+      "metrics": {
+        "rmse": 0.04443897678315021,
+        "mae": 0.039615384881388924,
+        "r2": 0.9722459180086764,
+        "bias": -0.03856958261346572,
+        "n": 219
+      },
+      "initial_encoder_hash": "5efa0292d8c2555718f6b291477d58ad546a7b74452093168c2db254fb584264",
+      "final_encoder_hash": "5140c2d90d27e2687f9572d415825f96f0e282911801263ed297ebebf071defc",
+      "head_hash": "00c3e5d582c76e674337f5650817c185c4fa89b9db75511baf014f8432eb8f1a",
+      "sample_order_hash": "c8fb141e9cd8042d8e230c9ffc9d17cfbb386152897baaaed6591a4f36ec5f32",
+      "seconds": 143.03974437713623,
+      "fraction": 1.0,
+      "model": "single_milling_norm",
+      "encoder_lr": 0.0003,
+      "head_lr": 0.001,
+      "domain": "milling"
+    },
+    {
+      "seed": 46,
+      "arm": "full_finetune",
+      "train": [
+        "C1",
+        "C4"
+      ],
+      "held": "C6",
+      "best": {
+        "epoch": 30,
+        "stage": 2,
+        "metrics": {
+          "rmse": 0.007864026727417364,
+          "mae": 0.005567062459886074,
+          "r2": 0.9991828981925847,
+          "bias": -0.0006249115379019217,
+          "n": 110
+        }
+      },
+      "optimizer_updates": 644,
+      "metrics": {
+        "rmse": 0.07191921399153856,
+        "mae": 0.06048498282710847,
+        "r2": 0.9273076631703142,
+        "bias": 0.009844395161933823,
+        "n": 219
+      },
+      "initial_encoder_hash": "5efa0292d8c2555718f6b291477d58ad546a7b74452093168c2db254fb584264",
+      "final_encoder_hash": "225412a062e6c288cea3c5f0c8800d491b74086afdd62706eac6f3ca72fb5181",
+      "head_hash": "032a6e3421eb9b1762e615ac3fef4f502595b273c0115555ae0f30d1cc0a7fe8",
+      "sample_order_hash": "0d961caed125839d235ae15ce73121d3146addd5d17dd7af6d6e6c9836e8dfe9",
+      "seconds": 94.18839526176453,
+      "fraction": 1.0,
+      "model": "single_milling_norm",
+      "encoder_lr": 0.0003,
+      "head_lr": 0.001,
+      "domain": "milling"
+    },
+    {
+      "seed": 42,
+      "fraction": 0.1,
+      "arm": "full_finetune",
+      "metrics": {
+        "rmse": 0.11755149110265181,
+        "mae": 0.08730516205164227,
+        "r2": 0.8429071423450477,
+        "bias": 0.055427583941334,
+        "n": 37
+      },
+      "head_hash": "7c43d17405a3cb0c4bdf70b5dc1c5f686f2005c7d40cb0431fb9e2489665e75f",
+      "epochs": 34,
+      "best_epoch": 18,
+      "validation_rmse": 0.1369916115123312,
+      "optimizer_updates": 68,
+      "unfrozen_updates": 0,
+      "partial_reached_stage2": null,
+      "sample_order_hash": "efec917f176689de2089735ae211dc7fe7d8b1df7a03ec902e75976bc2dee42d",
+      "seconds": 6.1775336265563965,
+      "model": "joint_selection",
+      "domain": "bearing"
+    },
+    {
+      "seed": 43,
+      "fraction": 0.1,
+      "arm": "full_finetune",
+      "metrics": {
+        "rmse": 0.14064700909713085,
+        "mae": 0.10735228501663015,
+        "r2": 0.775114653604978,
+        "bias": 0.08196118640134463,
+        "n": 37
+      },
+      "head_hash": "06e22bc78c319eafe9177f2f11dc52a1b3c9a0cd66e73b657d2b3de6d263685c",
+      "epochs": 72,
+      "best_epoch": 56,
+      "validation_rmse": 0.11387196958793169,
+      "optimizer_updates": 144,
+      "unfrozen_updates": 0,
+      "partial_reached_stage2": null,
+      "sample_order_hash": "1932cdaef4ac0e90b119f4db4e8f3b2aa6f00f078f5e1841f2b0e4fcf0dfde8e",
+      "seconds": 12.307981491088867,
+      "model": "joint_selection",
+      "domain": "bearing"
+    },
+    {
+      "seed": 44,
+      "fraction": 0.1,
+      "arm": "full_finetune",
+      "metrics": {
+        "rmse": 0.10979886296099631,
+        "mae": 0.08474776596837752,
+        "r2": 0.862944698082871,
+        "bias": 0.05023842169022238,
+        "n": 37
+      },
+      "head_hash": "cc964eefb9c6b17e4290c497e88a101ca9b1f65ed90af87fcd834c5d96157295",
+      "epochs": 96,
+      "best_epoch": 80,
+      "validation_rmse": 0.10381262456490417,
+      "optimizer_updates": 192,
+      "unfrozen_updates": 0,
+      "partial_reached_stage2": null,
+      "sample_order_hash": "48315d6714cdb3c38800a3a1cadd8ae085a3f71d8ae41079bdbbf8de527d8597",
+      "seconds": 16.465867042541504,
+      "model": "joint_selection",
+      "domain": "bearing"
+    },
+    {
+      "seed": 45,
+      "fraction": 0.1,
+      "arm": "full_finetune",
+      "metrics": {
+        "rmse": 0.13226788242701645,
+        "mae": 0.1008862608892692,
+        "r2": 0.8011118278196385,
+        "bias": 0.03414160420967115,
+        "n": 37
+      },
+      "head_hash": "f756c29ceed4215828ecb7cc14d5dfd051e249a09094d7f7c8683ac2c62072c7",
+      "epochs": 20,
+      "best_epoch": 4,
+      "validation_rmse": 0.10254636476283831,
+      "optimizer_updates": 40,
+      "unfrozen_updates": 0,
+      "partial_reached_stage2": null,
+      "sample_order_hash": "07ca3e084fd61e52c57d506f41db865dfaf10e26cea7f374f27e6bea548ea5f9",
+      "seconds": 3.437340497970581,
+      "model": "joint_selection",
+      "domain": "bearing"
+    },
+    {
+      "seed": 46,
+      "fraction": 0.1,
+      "arm": "full_finetune",
+      "metrics": {
+        "rmse": 0.09003873188075291,
+        "mae": 0.06804793776088469,
+        "r2": 0.9078365136983568,
+        "bias": -0.005304490140563733,
+        "n": 37
+      },
+      "head_hash": "efa585f7e52ca3258998ea5f4f2bbbdf49fb0d9f0ccb991c78eeb212a1184d3b",
+      "epochs": 46,
+      "best_epoch": 30,
+      "validation_rmse": 0.16980977352831675,
+      "optimizer_updates": 92,
+      "unfrozen_updates": 0,
+      "partial_reached_stage2": null,
+      "sample_order_hash": "29ba2dc1e6fcad7d4d107726eda68e19f60b72df6478033cb5a8ad2ed7fe5e22",
+      "seconds": 7.906488656997681,
+      "model": "joint_selection",
+      "domain": "bearing"
+    },
+    {
+      "seed": 42,
+      "fraction": 0.1,
+      "arm": "full_finetune",
+      "best_epoch": 18,
+      "stopped_epoch": 34,
+      "updates": 238,
+      "validation_rmse": 0.04243158924696299,
+      "metrics": {
+        "rmse": 0.07077489463224315,
+        "mae": 0.0499181218664962,
+        "r2": 0.9396466892620938,
+        "n": 937,
+        "bias": -0.037147210367727654
+      },
+      "seconds": 7.72296667098999,
+      "model": "joint_selection",
+      "domain": "battery"
+    },
+    {
+      "seed": 43,
+      "fraction": 0.1,
+      "arm": "full_finetune",
+      "best_epoch": 20,
+      "stopped_epoch": 36,
+      "updates": 252,
+      "validation_rmse": 0.03991835175446342,
+      "metrics": {
+        "rmse": 0.0739823383425831,
+        "mae": 0.054006549761816465,
+        "r2": 0.9340524382107713,
+        "n": 937,
+        "bias": -0.046398326344569404
+      },
+      "seconds": 7.780292749404907,
+      "model": "joint_selection",
+      "domain": "battery"
+    },
+    {
+      "seed": 44,
+      "fraction": 0.1,
+      "arm": "full_finetune",
+      "best_epoch": 44,
+      "stopped_epoch": 60,
+      "updates": 420,
+      "validation_rmse": 0.03897368285894632,
+      "metrics": {
+        "rmse": 0.07463916943371576,
+        "mae": 0.05423420210684011,
+        "r2": 0.9328762468079624,
+        "n": 937,
+        "bias": -0.047699887473971095
+      },
+      "seconds": 12.689993381500244,
+      "model": "joint_selection",
+      "domain": "battery"
+    },
+    {
+      "seed": 45,
+      "fraction": 0.1,
+      "arm": "full_finetune",
+      "best_epoch": 30,
+      "stopped_epoch": 46,
+      "updates": 322,
+      "validation_rmse": 0.04045318299131857,
+      "metrics": {
+        "rmse": 0.07313166512428293,
+        "mae": 0.05163894491389458,
+        "r2": 0.9355602926196458,
+        "n": 937,
+        "bias": -0.04576673983420338
+      },
+      "seconds": 9.84168815612793,
+      "model": "joint_selection",
+      "domain": "battery"
+    },
+    {
+      "seed": 46,
+      "fraction": 0.1,
+      "arm": "full_finetune",
+      "best_epoch": 14,
+      "stopped_epoch": 30,
+      "updates": 210,
+      "validation_rmse": 0.04682300393694078,
+      "metrics": {
+        "rmse": 0.06962214552412807,
+        "mae": 0.050673470796128633,
+        "r2": 0.9415966927257461,
+        "n": 937,
+        "bias": -0.031928965966480614
+      },
+      "seconds": 6.507771730422974,
+      "model": "joint_selection",
+      "domain": "battery"
+    },
+    {
+      "seed": 42,
+      "fraction": 0.2,
+      "arm": "full_finetune",
+      "best_epoch": 38,
+      "stopped_epoch": 54,
+      "updates": 702,
+      "validation_rmse": 0.025355384459299534,
+      "metrics": {
+        "rmse": 0.0734457748875599,
+        "mae": 0.05429394360136722,
+        "r2": 0.9350055504206572,
+        "n": 937,
+        "bias": -0.04377778935750098
+      },
+      "seconds": 21.67024326324463,
+      "model": "joint_selection",
+      "domain": "battery"
+    },
+    {
+      "seed": 43,
+      "fraction": 0.2,
+      "arm": "full_finetune",
+      "best_epoch": 60,
+      "stopped_epoch": 76,
+      "updates": 988,
+      "validation_rmse": 0.021276339290827867,
+      "metrics": {
+        "rmse": 0.06875589685526713,
+        "mae": 0.04944411520334308,
+        "r2": 0.9430409760550635,
+        "n": 937,
+        "bias": -0.03960715601789261
+      },
+      "seconds": 29.850992441177368,
+      "model": "joint_selection",
+      "domain": "battery"
+    },
+    {
+      "seed": 44,
+      "fraction": 0.2,
+      "arm": "full_finetune",
+      "best_epoch": 34,
+      "stopped_epoch": 50,
+      "updates": 650,
+      "validation_rmse": 0.024120571374893072,
+      "metrics": {
+        "rmse": 0.06962152801410872,
+        "mae": 0.05056362985031979,
+        "r2": 0.9415977287313789,
+        "n": 937,
+        "bias": -0.0395388503234909
+      },
+      "seconds": 19.69714379310608,
+      "model": "joint_selection",
+      "domain": "battery"
+    },
+    {
+      "seed": 45,
+      "fraction": 0.2,
+      "arm": "full_finetune",
+      "best_epoch": 42,
+      "stopped_epoch": 58,
+      "updates": 754,
+      "validation_rmse": 0.025462722107765214,
+      "metrics": {
+        "rmse": 0.06828169778855796,
+        "mae": 0.04856121268177061,
+        "r2": 0.9438239423332988,
+        "n": 937,
+        "bias": -0.03365415196692852
+      },
+      "seconds": 22.80253839492798,
+      "model": "joint_selection",
+      "domain": "battery"
+    },
+    {
+      "seed": 46,
+      "fraction": 0.2,
+      "arm": "full_finetune",
+      "best_epoch": 40,
+      "stopped_epoch": 56,
+      "updates": 728,
+      "validation_rmse": 0.025562414820244076,
+      "metrics": {
+        "rmse": 0.0680462205548764,
+        "mae": 0.04829499472614493,
+        "r2": 0.9442107333369437,
+        "n": 937,
+        "bias": -0.035962165423282275
+      },
+      "seconds": 22.021780490875244,
+      "model": "joint_selection",
+      "domain": "battery"
+    },
+    {
+      "seed": 42,
+      "arm": "full_finetune",
+      "train": [
+        "C1",
+        "C4"
+      ],
+      "held": "C6",
+      "best": {
+        "epoch": 44,
+        "stage": 2,
+        "metrics": {
+          "rmse": 0.06074012419000342,
+          "mae": 0.0336286010949508,
+          "r2": 0.9578483620075557,
+          "bias": 0.001417789770209271,
+          "n": 23
+        }
+      },
+      "optimizer_updates": 180,
+      "metrics": {
+        "rmse": 0.09345331781058155,
+        "mae": 0.07733862099054878,
+        "r2": 0.8772594077442996,
+        "bias": -0.031597082435098144,
+        "n": 219
+      },
+      "initial_encoder_hash": "865facfca8abbf8f386db9c063a8297c99d0c4021e6daeaf70436c5b718fee57",
+      "final_encoder_hash": "5369a87802a615a1ce24960a2b484d7fa89ed504d9fdd8f4635ae30e198b0ab4",
+      "head_hash": "2b77b2c8126c973810f2bed6dd2c22c5e4ab2619bdb1a32aa86ccf1743401c18",
+      "sample_order_hash": "d1927ecfe96c1009c156293ad128e2d90739a6d25e8cedca3fb38d66621ff429",
+      "seconds": 25.804295778274536,
+      "fraction": 0.2,
+      "model": "joint_selection",
+      "encoder_lr": 0.0003,
+      "head_lr": 0.001,
+      "domain": "milling"
+    },
+    {
+      "seed": 43,
+      "arm": "full_finetune",
+      "train": [
+        "C1",
+        "C4"
+      ],
+      "held": "C6",
+      "best": {
+        "epoch": 18,
+        "stage": 2,
+        "metrics": {
+          "rmse": 0.057816435113219225,
+          "mae": 0.02937577405701513,
+          "r2": 0.961808587150816,
+          "bias": -0.00842213889826899,
+          "n": 23
+        }
+      },
+      "optimizer_updates": 102,
+      "metrics": {
+        "rmse": 0.07825966101745949,
+        "mae": 0.06263366222942937,
+        "r2": 0.9139254639559835,
+        "bias": 0.0036260554073676127,
+        "n": 219
+      },
+      "initial_encoder_hash": "865facfca8abbf8f386db9c063a8297c99d0c4021e6daeaf70436c5b718fee57",
+      "final_encoder_hash": "cfe6e38ab043cc586e7285c83e7974c23380937a541019fb60bacc175532bf2c",
+      "head_hash": "a07d6694c674f605ac56cb5b324b62aa34c0a5a6ea14084e6efa5605479efa9f",
+      "sample_order_hash": "4a796e1e35b6694c5184836b5aef8eab6ec853b7668fa2b44fe337d00a109e18",
+      "seconds": 14.064517498016357,
+      "fraction": 0.2,
+      "model": "joint_selection",
+      "encoder_lr": 0.0003,
+      "head_lr": 0.001,
+      "domain": "milling"
+    },
+    {
+      "seed": 44,
+      "arm": "full_finetune",
+      "train": [
+        "C1",
+        "C4"
+      ],
+      "held": "C6",
+      "best": {
+        "epoch": 24,
+        "stage": 2,
+        "metrics": {
+          "rmse": 0.05572410753572926,
+          "mae": 0.038270533084869385,
+          "r2": 0.9645227990456386,
+          "bias": 0.007914053357165792,
+          "n": 23
+        }
+      },
+      "optimizer_updates": 120,
+      "metrics": {
+        "rmse": 0.07979822603570881,
+        "mae": 0.0691086878898005,
+        "r2": 0.910507788721671,
+        "bias": -0.008400378667974853,
+        "n": 219
+      },
+      "initial_encoder_hash": "865facfca8abbf8f386db9c063a8297c99d0c4021e6daeaf70436c5b718fee57",
+      "final_encoder_hash": "f1ec5a900634fc73502c00e9115ee885cc3dedddb723973fdc028ba487f076b0",
+      "head_hash": "b17de1b8c6d3daaf36b7ef31bd4b0f065c83e2d17957ce2841fca56f2065112e",
+      "sample_order_hash": "35a35d249b3afc89e56eff328ae7e75501d27942bf314ef4b8b9376ab18e7243",
+      "seconds": 16.35734462738037,
+      "fraction": 0.2,
+      "model": "joint_selection",
+      "encoder_lr": 0.0003,
+      "head_lr": 0.001,
+      "domain": "milling"
+    },
+    {
+      "seed": 45,
+      "arm": "full_finetune",
+      "train": [
+        "C1",
+        "C4"
+      ],
+      "held": "C6",
+      "best": {
+        "epoch": 50,
+        "stage": 2,
+        "metrics": {
+          "rmse": 0.0626323114853885,
+          "mae": 0.0349989740744881,
+          "r2": 0.9551812247525744,
+          "bias": -0.002690141615660294,
+          "n": 23
+        }
+      },
+      "optimizer_updates": 198,
+      "metrics": {
+        "rmse": 0.06515097474049553,
+        "mae": 0.05134903435854743,
+        "r2": 0.9403458583658175,
+        "bias": -0.01206583243509814,
+        "n": 219
+      },
+      "initial_encoder_hash": "865facfca8abbf8f386db9c063a8297c99d0c4021e6daeaf70436c5b718fee57",
+      "final_encoder_hash": "0e9beaaf8a2c222f20c93df87639fd5c3a233b9bb802d1ea7e87bc3b07399186",
+      "head_hash": "00c3e5d582c76e674337f5650817c185c4fa89b9db75511baf014f8432eb8f1a",
+      "sample_order_hash": "6220160437e6034dc52141060736b45b0eb55ac1539bef828d79519df494c4e4",
+      "seconds": 27.04693627357483,
+      "fraction": 0.2,
+      "model": "joint_selection",
+      "encoder_lr": 0.0003,
+      "head_lr": 0.001,
+      "domain": "milling"
+    },
+    {
+      "seed": 46,
+      "arm": "full_finetune",
+      "train": [
+        "C1",
+        "C4"
+      ],
+      "held": "C6",
+      "best": {
+        "epoch": 8,
+        "stage": 2,
+        "metrics": {
+          "rmse": 0.06887172537504661,
+          "mae": 0.043551275263661926,
+          "r2": 0.9458067706978782,
+          "bias": -0.0024990750395733376,
+          "n": 23
+        }
+      },
+      "optimizer_updates": 72,
+      "metrics": {
+        "rmse": 0.09280736822905027,
+        "mae": 0.0779624568111344,
+        "r2": 0.8789503103176176,
+        "bias": 0.02892303742791556,
+        "n": 219
+      },
+      "initial_encoder_hash": "865facfca8abbf8f386db9c063a8297c99d0c4021e6daeaf70436c5b718fee57",
+      "final_encoder_hash": "8d4d9d8cff931590121695969b93c57ec37307dd77f422a5b40007ba75b2e81d",
+      "head_hash": "032a6e3421eb9b1762e615ac3fef4f502595b273c0115555ae0f30d1cc0a7fe8",
+      "sample_order_hash": "c00efeedb9d7492a1b398bf676be59af2d36bbd8445ec2cff7e947342b9ad9f8",
+      "seconds": 9.876991748809814,
+      "fraction": 0.2,
+      "model": "joint_selection",
+      "encoder_lr": 0.0003,
+      "head_lr": 0.001,
+      "domain": "milling"
+    },
+    {
+      "seed": 42,
+      "arm": "full_finetune",
+      "train": [
+        "C1",
+        "C4"
+      ],
+      "held": "C6",
+      "best": {
+        "epoch": 38,
+        "stage": 2,
+        "metrics": {
+          "rmse": 0.008776647195480304,
+          "mae": 0.00616431955925443,
+          "r2": 0.9989822444221597,
+          "bias": 0.0012405447831208055,
+          "n": 110
+        }
+      },
+      "optimizer_updates": 756,
+      "metrics": {
+        "rmse": 0.062278952474456445,
+        "mae": 0.05106507665711587,
+        "r2": 0.9454893495906272,
+        "bias": -0.012839501812952021,
+        "n": 219
+      },
+      "initial_encoder_hash": "865facfca8abbf8f386db9c063a8297c99d0c4021e6daeaf70436c5b718fee57",
+      "final_encoder_hash": "84b0933466454459529f1cccb999e6ea54f1788544d059fab4cb22586297c4a2",
+      "head_hash": "2b77b2c8126c973810f2bed6dd2c22c5e4ab2619bdb1a32aa86ccf1743401c18",
+      "sample_order_hash": "6c2cc216a1b787c23de835b62525b6a3bbef5609070e48692e46c73cdd637691",
+      "seconds": 110.2115170955658,
+      "fraction": 1.0,
+      "model": "joint_selection",
+      "encoder_lr": 0.0003,
+      "head_lr": 0.001,
+      "domain": "milling"
+    },
+    {
+      "seed": 43,
+      "arm": "full_finetune",
+      "train": [
+        "C1",
+        "C4"
+      ],
+      "held": "C6",
+      "best": {
+        "epoch": 14,
+        "stage": 2,
+        "metrics": {
+          "rmse": 0.01208063001685541,
+          "mae": 0.007714826766062867,
+          "r2": 0.9980717409561135,
+          "bias": -0.00011665514585646716,
+          "n": 110
+        }
+      },
+      "optimizer_updates": 420,
+      "metrics": {
+        "rmse": 0.06055930508380724,
+        "mae": 0.054334555624996964,
+        "r2": 0.9484580872255431,
+        "bias": 0.0030708863149018595,
+        "n": 219
+      },
+      "initial_encoder_hash": "865facfca8abbf8f386db9c063a8297c99d0c4021e6daeaf70436c5b718fee57",
+      "final_encoder_hash": "e52fdb8fe0d58cbf0f486fbbb673570499a721671ddcd10318fbdb3e9d0452dc",
+      "head_hash": "a07d6694c674f605ac56cb5b324b62aa34c0a5a6ea14084e6efa5605479efa9f",
+      "sample_order_hash": "1cecb58168aabcdf840acbc8ebc4e0f4981c342d904940e267f8d5307f8249d3",
+      "seconds": 60.916938066482544,
+      "fraction": 1.0,
+      "model": "joint_selection",
+      "encoder_lr": 0.0003,
+      "head_lr": 0.001,
+      "domain": "milling"
+    },
+    {
+      "seed": 44,
+      "arm": "full_finetune",
+      "train": [
+        "C1",
+        "C4"
+      ],
+      "held": "C6",
+      "best": {
+        "epoch": 52,
+        "stage": 2,
+        "metrics": {
+          "rmse": 0.00606089812516585,
+          "mae": 0.0046761124140836975,
+          "r2": 0.9995146442513471,
+          "bias": 0.00046040451323444196,
+          "n": 110
+        }
+      },
+      "optimizer_updates": 952,
+      "metrics": {
+        "rmse": 0.052039343355787956,
+        "mae": 0.04038868011421945,
+        "r2": 0.9619405610901406,
+        "bias": -0.0193198189505091,
+        "n": 219
+      },
+      "initial_encoder_hash": "865facfca8abbf8f386db9c063a8297c99d0c4021e6daeaf70436c5b718fee57",
+      "final_encoder_hash": "96b09403e10e5b268d26dbd5b13ddbe8729214b9a05c7e100cb3a906460b95b0",
+      "head_hash": "b17de1b8c6d3daaf36b7ef31bd4b0f065c83e2d17957ce2841fca56f2065112e",
+      "sample_order_hash": "7db7dde18ce5401c5280a96d5f553ac655d4a3707a4330caf26b1a3ae8a67f01",
+      "seconds": 138.34689140319824,
+      "fraction": 1.0,
+      "model": "joint_selection",
+      "encoder_lr": 0.0003,
+      "head_lr": 0.001,
+      "domain": "milling"
+    },
+    {
+      "seed": 45,
+      "arm": "full_finetune",
+      "train": [
+        "C1",
+        "C4"
+      ],
+      "held": "C6",
+      "best": {
+        "epoch": 18,
+        "stage": 2,
+        "metrics": {
+          "rmse": 0.009043549805115104,
+          "mae": 0.005723240446637978,
+          "r2": 0.9989194022004836,
+          "bias": -5.118106915192171e-05,
+          "n": 110
+        }
+      },
+      "optimizer_updates": 476,
+      "metrics": {
+        "rmse": 0.07654446862207298,
+        "mae": 0.057000953623319056,
+        "r2": 0.9176570559281603,
+        "bias": -0.041942402069801335,
+        "n": 219
+      },
+      "initial_encoder_hash": "865facfca8abbf8f386db9c063a8297c99d0c4021e6daeaf70436c5b718fee57",
+      "final_encoder_hash": "447cf063aa0cf9f8ee423c89535b46471572ffbe50326cf021b78ad0e7d2f920",
+      "head_hash": "00c3e5d582c76e674337f5650817c185c4fa89b9db75511baf014f8432eb8f1a",
+      "sample_order_hash": "d4d0b8dd40b7f23caf4122ba3a4d00fb4f31b89c5e062232c5cca04e6666eb29",
+      "seconds": 69.05656886100769,
+      "fraction": 1.0,
+      "model": "joint_selection",
+      "encoder_lr": 0.0003,
+      "head_lr": 0.001,
+      "domain": "milling"
+    },
+    {
+      "seed": 46,
+      "arm": "full_finetune",
+      "train": [
+        "C1",
+        "C4"
+      ],
+      "held": "C6",
+      "best": {
+        "epoch": 64,
+        "stage": 2,
+        "metrics": {
+          "rmse": 0.00907105272367666,
+          "mae": 0.0059742427515712656,
+          "r2": 0.9989128196560184,
+          "bias": -0.0028970839455723764,
+          "n": 110
+        }
+      },
+      "optimizer_updates": 1120,
+      "metrics": {
+        "rmse": 0.09134436782584641,
+        "mae": 0.07437869507104974,
+        "r2": 0.8827366452556413,
+        "bias": -0.025982405458785357,
+        "n": 219
+      },
+      "initial_encoder_hash": "865facfca8abbf8f386db9c063a8297c99d0c4021e6daeaf70436c5b718fee57",
+      "final_encoder_hash": "c958206a03f55a9ac93c0575c78cd5cf2666f0accd331a8f53aa4e6347cfa499",
+      "head_hash": "032a6e3421eb9b1762e615ac3fef4f502595b273c0115555ae0f30d1cc0a7fe8",
+      "sample_order_hash": "cf00ebeec2d53829eea68d5183504002dd67796d1aebd8a134077c9729bb9a57",
+      "seconds": 162.6936490535736,
+      "fraction": 1.0,
+      "model": "joint_selection",
+      "encoder_lr": 0.0003,
+      "head_lr": 0.001,
+      "domain": "milling"
+    }
+  ]
+}

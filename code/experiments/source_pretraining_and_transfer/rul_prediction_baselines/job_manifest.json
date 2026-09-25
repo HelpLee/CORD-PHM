@@ -1,0 +1,4056 @@
+{
+  "jobs": [
+    {
+      "model": "native_xgboost",
+      "domain": "bearing",
+      "fraction": 0.1,
+      "seed": 42
+    },
+    {
+      "model": "native_xgboost",
+      "domain": "bearing",
+      "fraction": 0.1,
+      "seed": 43
+    },
+    {
+      "model": "native_xgboost",
+      "domain": "bearing",
+      "fraction": 0.1,
+      "seed": 44
+    },
+    {
+      "model": "native_xgboost",
+      "domain": "bearing",
+      "fraction": 0.1,
+      "seed": 45
+    },
+    {
+      "model": "native_xgboost",
+      "domain": "bearing",
+      "fraction": 0.1,
+      "seed": 46
+    },
+    {
+      "model": "native_xgboost",
+      "domain": "bearing",
+      "fraction": 0.2,
+      "seed": 42
+    },
+    {
+      "model": "native_xgboost",
+      "domain": "bearing",
+      "fraction": 0.2,
+      "seed": 43
+    },
+    {
+      "model": "native_xgboost",
+      "domain": "bearing",
+      "fraction": 0.2,
+      "seed": 44
+    },
+    {
+      "model": "native_xgboost",
+      "domain": "bearing",
+      "fraction": 0.2,
+      "seed": 45
+    },
+    {
+      "model": "native_xgboost",
+      "domain": "bearing",
+      "fraction": 0.2,
+      "seed": 46
+    },
+    {
+      "model": "native_xgboost",
+      "domain": "bearing",
+      "fraction": 1.0,
+      "seed": 42
+    },
+    {
+      "model": "native_xgboost",
+      "domain": "bearing",
+      "fraction": 1.0,
+      "seed": 43
+    },
+    {
+      "model": "native_xgboost",
+      "domain": "bearing",
+      "fraction": 1.0,
+      "seed": 44
+    },
+    {
+      "model": "native_xgboost",
+      "domain": "bearing",
+      "fraction": 1.0,
+      "seed": 45
+    },
+    {
+      "model": "native_xgboost",
+      "domain": "bearing",
+      "fraction": 1.0,
+      "seed": 46
+    },
+    {
+      "model": "native_xgboost",
+      "domain": "battery",
+      "fraction": 0.1,
+      "seed": 42
+    },
+    {
+      "model": "native_xgboost",
+      "domain": "battery",
+      "fraction": 0.1,
+      "seed": 43
+    },
+    {
+      "model": "native_xgboost",
+      "domain": "battery",
+      "fraction": 0.1,
+      "seed": 44
+    },
+    {
+      "model": "native_xgboost",
+      "domain": "battery",
+      "fraction": 0.1,
+      "seed": 45
+    },
+    {
+      "model": "native_xgboost",
+      "domain": "battery",
+      "fraction": 0.1,
+      "seed": 46
+    },
+    {
+      "model": "native_xgboost",
+      "domain": "battery",
+      "fraction": 0.2,
+      "seed": 42
+    },
+    {
+      "model": "native_xgboost",
+      "domain": "battery",
+      "fraction": 0.2,
+      "seed": 43
+    },
+    {
+      "model": "native_xgboost",
+      "domain": "battery",
+      "fraction": 0.2,
+      "seed": 44
+    },
+    {
+      "model": "native_xgboost",
+      "domain": "battery",
+      "fraction": 0.2,
+      "seed": 45
+    },
+    {
+      "model": "native_xgboost",
+      "domain": "battery",
+      "fraction": 0.2,
+      "seed": 46
+    },
+    {
+      "model": "native_xgboost",
+      "domain": "battery",
+      "fraction": 1.0,
+      "seed": 42
+    },
+    {
+      "model": "native_xgboost",
+      "domain": "battery",
+      "fraction": 1.0,
+      "seed": 43
+    },
+    {
+      "model": "native_xgboost",
+      "domain": "battery",
+      "fraction": 1.0,
+      "seed": 44
+    },
+    {
+      "model": "native_xgboost",
+      "domain": "battery",
+      "fraction": 1.0,
+      "seed": 45
+    },
+    {
+      "model": "native_xgboost",
+      "domain": "battery",
+      "fraction": 1.0,
+      "seed": 46
+    },
+    {
+      "model": "native_xgboost",
+      "domain": "milling",
+      "fraction": 0.1,
+      "seed": 42
+    },
+    {
+      "model": "native_xgboost",
+      "domain": "milling",
+      "fraction": 0.1,
+      "seed": 43
+    },
+    {
+      "model": "native_xgboost",
+      "domain": "milling",
+      "fraction": 0.1,
+      "seed": 44
+    },
+    {
+      "model": "native_xgboost",
+      "domain": "milling",
+      "fraction": 0.1,
+      "seed": 45
+    },
+    {
+      "model": "native_xgboost",
+      "domain": "milling",
+      "fraction": 0.1,
+      "seed": 46
+    },
+    {
+      "model": "native_xgboost",
+      "domain": "milling",
+      "fraction": 0.2,
+      "seed": 42
+    },
+    {
+      "model": "native_xgboost",
+      "domain": "milling",
+      "fraction": 0.2,
+      "seed": 43
+    },
+    {
+      "model": "native_xgboost",
+      "domain": "milling",
+      "fraction": 0.2,
+      "seed": 44
+    },
+    {
+      "model": "native_xgboost",
+      "domain": "milling",
+      "fraction": 0.2,
+      "seed": 45
+    },
+    {
+      "model": "native_xgboost",
+      "domain": "milling",
+      "fraction": 0.2,
+      "seed": 46
+    },
+    {
+      "model": "native_xgboost",
+      "domain": "milling",
+      "fraction": 1.0,
+      "seed": 42
+    },
+    {
+      "model": "native_xgboost",
+      "domain": "milling",
+      "fraction": 1.0,
+      "seed": 43
+    },
+    {
+      "model": "native_xgboost",
+      "domain": "milling",
+      "fraction": 1.0,
+      "seed": 44
+    },
+    {
+      "model": "native_xgboost",
+      "domain": "milling",
+      "fraction": 1.0,
+      "seed": 45
+    },
+    {
+      "model": "native_xgboost",
+      "domain": "milling",
+      "fraction": 1.0,
+      "seed": 46
+    },
+    {
+      "model": "native_random_forest",
+      "domain": "bearing",
+      "fraction": 0.1,
+      "seed": 42
+    },
+    {
+      "model": "native_random_forest",
+      "domain": "bearing",
+      "fraction": 0.1,
+      "seed": 43
+    },
+    {
+      "model": "native_random_forest",
+      "domain": "bearing",
+      "fraction": 0.1,
+      "seed": 44
+    },
+    {
+      "model": "native_random_forest",
+      "domain": "bearing",
+      "fraction": 0.1,
+      "seed": 45
+    },
+    {
+      "model": "native_random_forest",
+      "domain": "bearing",
+      "fraction": 0.1,
+      "seed": 46
+    },
+    {
+      "model": "native_random_forest",
+      "domain": "bearing",
+      "fraction": 0.2,
+      "seed": 42
+    },
+    {
+      "model": "native_random_forest",
+      "domain": "bearing",
+      "fraction": 0.2,
+      "seed": 43
+    },
+    {
+      "model": "native_random_forest",
+      "domain": "bearing",
+      "fraction": 0.2,
+      "seed": 44
+    },
+    {
+      "model": "native_random_forest",
+      "domain": "bearing",
+      "fraction": 0.2,
+      "seed": 45
+    },
+    {
+      "model": "native_random_forest",
+      "domain": "bearing",
+      "fraction": 0.2,
+      "seed": 46
+    },
+    {
+      "model": "native_random_forest",
+      "domain": "bearing",
+      "fraction": 1.0,
+      "seed": 42
+    },
+    {
+      "model": "native_random_forest",
+      "domain": "bearing",
+      "fraction": 1.0,
+      "seed": 43
+    },
+    {
+      "model": "native_random_forest",
+      "domain": "bearing",
+      "fraction": 1.0,
+      "seed": 44
+    },
+    {
+      "model": "native_random_forest",
+      "domain": "bearing",
+      "fraction": 1.0,
+      "seed": 45
+    },
+    {
+      "model": "native_random_forest",
+      "domain": "bearing",
+      "fraction": 1.0,
+      "seed": 46
+    },
+    {
+      "model": "native_random_forest",
+      "domain": "battery",
+      "fraction": 0.1,
+      "seed": 42
+    },
+    {
+      "model": "native_random_forest",
+      "domain": "battery",
+      "fraction": 0.1,
+      "seed": 43
+    },
+    {
+      "model": "native_random_forest",
+      "domain": "battery",
+      "fraction": 0.1,
+      "seed": 44
+    },
+    {
+      "model": "native_random_forest",
+      "domain": "battery",
+      "fraction": 0.1,
+      "seed": 45
+    },
+    {
+      "model": "native_random_forest",
+      "domain": "battery",
+      "fraction": 0.1,
+      "seed": 46
+    },
+    {
+      "model": "native_random_forest",
+      "domain": "battery",
+      "fraction": 0.2,
+      "seed": 42
+    },
+    {
+      "model": "native_random_forest",
+      "domain": "battery",
+      "fraction": 0.2,
+      "seed": 43
+    },
+    {
+      "model": "native_random_forest",
+      "domain": "battery",
+      "fraction": 0.2,
+      "seed": 44
+    },
+    {
+      "model": "native_random_forest",
+      "domain": "battery",
+      "fraction": 0.2,
+      "seed": 45
+    },
+    {
+      "model": "native_random_forest",
+      "domain": "battery",
+      "fraction": 0.2,
+      "seed": 46
+    },
+    {
+      "model": "native_random_forest",
+      "domain": "battery",
+      "fraction": 1.0,
+      "seed": 42
+    },
+    {
+      "model": "native_random_forest",
+      "domain": "battery",
+      "fraction": 1.0,
+      "seed": 43
+    },
+    {
+      "model": "native_random_forest",
+      "domain": "battery",
+      "fraction": 1.0,
+      "seed": 44
+    },
+    {
+      "model": "native_random_forest",
+      "domain": "battery",
+      "fraction": 1.0,
+      "seed": 45
+    },
+    {
+      "model": "native_random_forest",
+      "domain": "battery",
+      "fraction": 1.0,
+      "seed": 46
+    },
+    {
+      "model": "native_random_forest",
+      "domain": "milling",
+      "fraction": 0.1,
+      "seed": 42
+    },
+    {
+      "model": "native_random_forest",
+      "domain": "milling",
+      "fraction": 0.1,
+      "seed": 43
+    },
+    {
+      "model": "native_random_forest",
+      "domain": "milling",
+      "fraction": 0.1,
+      "seed": 44
+    },
+    {
+      "model": "native_random_forest",
+      "domain": "milling",
+      "fraction": 0.1,
+      "seed": 45
+    },
+    {
+      "model": "native_random_forest",
+      "domain": "milling",
+      "fraction": 0.1,
+      "seed": 46
+    },
+    {
+      "model": "native_random_forest",
+      "domain": "milling",
+      "fraction": 0.2,
+      "seed": 42
+    },
+    {
+      "model": "native_random_forest",
+      "domain": "milling",
+      "fraction": 0.2,
+      "seed": 43
+    },
+    {
+      "model": "native_random_forest",
+      "domain": "milling",
+      "fraction": 0.2,
+      "seed": 44
+    },
+    {
+      "model": "native_random_forest",
+      "domain": "milling",
+      "fraction": 0.2,
+      "seed": 45
+    },
+    {
+      "model": "native_random_forest",
+      "domain": "milling",
+      "fraction": 0.2,
+      "seed": 46
+    },
+    {
+      "model": "native_random_forest",
+      "domain": "milling",
+      "fraction": 1.0,
+      "seed": 42
+    },
+    {
+      "model": "native_random_forest",
+      "domain": "milling",
+      "fraction": 1.0,
+      "seed": 43
+    },
+    {
+      "model": "native_random_forest",
+      "domain": "milling",
+      "fraction": 1.0,
+      "seed": 44
+    },
+    {
+      "model": "native_random_forest",
+      "domain": "milling",
+      "fraction": 1.0,
+      "seed": 45
+    },
+    {
+      "model": "native_random_forest",
+      "domain": "milling",
+      "fraction": 1.0,
+      "seed": 46
+    },
+    {
+      "model": "native_cnn_lstm_attention",
+      "domain": "bearing",
+      "fraction": 0.1,
+      "seed": 42
+    },
+    {
+      "model": "native_cnn_lstm_attention",
+      "domain": "bearing",
+      "fraction": 0.1,
+      "seed": 43
+    },
+    {
+      "model": "native_cnn_lstm_attention",
+      "domain": "bearing",
+      "fraction": 0.1,
+      "seed": 44
+    },
+    {
+      "model": "native_cnn_lstm_attention",
+      "domain": "bearing",
+      "fraction": 0.1,
+      "seed": 45
+    },
+    {
+      "model": "native_cnn_lstm_attention",
+      "domain": "bearing",
+      "fraction": 0.1,
+      "seed": 46
+    },
+    {
+      "model": "native_cnn_lstm_attention",
+      "domain": "bearing",
+      "fraction": 0.2,
+      "seed": 42
+    },
+    {
+      "model": "native_cnn_lstm_attention",
+      "domain": "bearing",
+      "fraction": 0.2,
+      "seed": 43
+    },
+    {
+      "model": "native_cnn_lstm_attention",
+      "domain": "bearing",
+      "fraction": 0.2,
+      "seed": 44
+    },
+    {
+      "model": "native_cnn_lstm_attention",
+      "domain": "bearing",
+      "fraction": 0.2,
+      "seed": 45
+    },
+    {
+      "model": "native_cnn_lstm_attention",
+      "domain": "bearing",
+      "fraction": 0.2,
+      "seed": 46
+    },
+    {
+      "model": "native_cnn_lstm_attention",
+      "domain": "bearing",
+      "fraction": 1.0,
+      "seed": 42
+    },
+    {
+      "model": "native_cnn_lstm_attention",
+      "domain": "bearing",
+      "fraction": 1.0,
+      "seed": 43
+    },
+    {
+      "model": "native_cnn_lstm_attention",
+      "domain": "bearing",
+      "fraction": 1.0,
+      "seed": 44
+    },
+    {
+      "model": "native_cnn_lstm_attention",
+      "domain": "bearing",
+      "fraction": 1.0,
+      "seed": 45
+    },
+    {
+      "model": "native_cnn_lstm_attention",
+      "domain": "bearing",
+      "fraction": 1.0,
+      "seed": 46
+    },
+    {
+      "model": "native_cnn_lstm_attention",
+      "domain": "battery",
+      "fraction": 0.1,
+      "seed": 42
+    },
+    {
+      "model": "native_cnn_lstm_attention",
+      "domain": "battery",
+      "fraction": 0.1,
+      "seed": 43
+    },
+    {
+      "model": "native_cnn_lstm_attention",
+      "domain": "battery",
+      "fraction": 0.1,
+      "seed": 44
+    },
+    {
+      "model": "native_cnn_lstm_attention",
+      "domain": "battery",
+      "fraction": 0.1,
+      "seed": 45
+    },
+    {
+      "model": "native_cnn_lstm_attention",
+      "domain": "battery",
+      "fraction": 0.1,
+      "seed": 46
+    },
+    {
+      "model": "native_cnn_lstm_attention",
+      "domain": "battery",
+      "fraction": 0.2,
+      "seed": 42
+    },
+    {
+      "model": "native_cnn_lstm_attention",
+      "domain": "battery",
+      "fraction": 0.2,
+      "seed": 43
+    },
+    {
+      "model": "native_cnn_lstm_attention",
+      "domain": "battery",
+      "fraction": 0.2,
+      "seed": 44
+    },
+    {
+      "model": "native_cnn_lstm_attention",
+      "domain": "battery",
+      "fraction": 0.2,
+      "seed": 45
+    },
+    {
+      "model": "native_cnn_lstm_attention",
+      "domain": "battery",
+      "fraction": 0.2,
+      "seed": 46
+    },
+    {
+      "model": "native_cnn_lstm_attention",
+      "domain": "battery",
+      "fraction": 1.0,
+      "seed": 42
+    },
+    {
+      "model": "native_cnn_lstm_attention",
+      "domain": "battery",
+      "fraction": 1.0,
+      "seed": 43
+    },
+    {
+      "model": "native_cnn_lstm_attention",
+      "domain": "battery",
+      "fraction": 1.0,
+      "seed": 44
+    },
+    {
+      "model": "native_cnn_lstm_attention",
+      "domain": "battery",
+      "fraction": 1.0,
+      "seed": 45
+    },
+    {
+      "model": "native_cnn_lstm_attention",
+      "domain": "battery",
+      "fraction": 1.0,
+      "seed": 46
+    },
+    {
+      "model": "native_cnn_lstm_attention",
+      "domain": "milling",
+      "fraction": 0.1,
+      "seed": 42
+    },
+    {
+      "model": "native_cnn_lstm_attention",
+      "domain": "milling",
+      "fraction": 0.1,
+      "seed": 43
+    },
+    {
+      "model": "native_cnn_lstm_attention",
+      "domain": "milling",
+      "fraction": 0.1,
+      "seed": 44
+    },
+    {
+      "model": "native_cnn_lstm_attention",
+      "domain": "milling",
+      "fraction": 0.1,
+      "seed": 45
+    },
+    {
+      "model": "native_cnn_lstm_attention",
+      "domain": "milling",
+      "fraction": 0.1,
+      "seed": 46
+    },
+    {
+      "model": "native_cnn_lstm_attention",
+      "domain": "milling",
+      "fraction": 0.2,
+      "seed": 42
+    },
+    {
+      "model": "native_cnn_lstm_attention",
+      "domain": "milling",
+      "fraction": 0.2,
+      "seed": 43
+    },
+    {
+      "model": "native_cnn_lstm_attention",
+      "domain": "milling",
+      "fraction": 0.2,
+      "seed": 44
+    },
+    {
+      "model": "native_cnn_lstm_attention",
+      "domain": "milling",
+      "fraction": 0.2,
+      "seed": 45
+    },
+    {
+      "model": "native_cnn_lstm_attention",
+      "domain": "milling",
+      "fraction": 0.2,
+      "seed": 46
+    },
+    {
+      "model": "native_cnn_lstm_attention",
+      "domain": "milling",
+      "fraction": 1.0,
+      "seed": 42
+    },
+    {
+      "model": "native_cnn_lstm_attention",
+      "domain": "milling",
+      "fraction": 1.0,
+      "seed": 43
+    },
+    {
+      "model": "native_cnn_lstm_attention",
+      "domain": "milling",
+      "fraction": 1.0,
+      "seed": 44
+    },
+    {
+      "model": "native_cnn_lstm_attention",
+      "domain": "milling",
+      "fraction": 1.0,
+      "seed": 45
+    },
+    {
+      "model": "native_cnn_lstm_attention",
+      "domain": "milling",
+      "fraction": 1.0,
+      "seed": 46
+    },
+    {
+      "model": "native_tcn",
+      "domain": "bearing",
+      "fraction": 0.1,
+      "seed": 42
+    },
+    {
+      "model": "native_tcn",
+      "domain": "bearing",
+      "fraction": 0.1,
+      "seed": 43
+    },
+    {
+      "model": "native_tcn",
+      "domain": "bearing",
+      "fraction": 0.1,
+      "seed": 44
+    },
+    {
+      "model": "native_tcn",
+      "domain": "bearing",
+      "fraction": 0.1,
+      "seed": 45
+    },
+    {
+      "model": "native_tcn",
+      "domain": "bearing",
+      "fraction": 0.1,
+      "seed": 46
+    },
+    {
+      "model": "native_tcn",
+      "domain": "bearing",
+      "fraction": 0.2,
+      "seed": 42
+    },
+    {
+      "model": "native_tcn",
+      "domain": "bearing",
+      "fraction": 0.2,
+      "seed": 43
+    },
+    {
+      "model": "native_tcn",
+      "domain": "bearing",
+      "fraction": 0.2,
+      "seed": 44
+    },
+    {
+      "model": "native_tcn",
+      "domain": "bearing",
+      "fraction": 0.2,
+      "seed": 45
+    },
+    {
+      "model": "native_tcn",
+      "domain": "bearing",
+      "fraction": 0.2,
+      "seed": 46
+    },
+    {
+      "model": "native_tcn",
+      "domain": "bearing",
+      "fraction": 1.0,
+      "seed": 42
+    },
+    {
+      "model": "native_tcn",
+      "domain": "bearing",
+      "fraction": 1.0,
+      "seed": 43
+    },
+    {
+      "model": "native_tcn",
+      "domain": "bearing",
+      "fraction": 1.0,
+      "seed": 44
+    },
+    {
+      "model": "native_tcn",
+      "domain": "bearing",
+      "fraction": 1.0,
+      "seed": 45
+    },
+    {
+      "model": "native_tcn",
+      "domain": "bearing",
+      "fraction": 1.0,
+      "seed": 46
+    },
+    {
+      "model": "native_tcn",
+      "domain": "battery",
+      "fraction": 0.1,
+      "seed": 42
+    },
+    {
+      "model": "native_tcn",
+      "domain": "battery",
+      "fraction": 0.1,
+      "seed": 43
+    },
+    {
+      "model": "native_tcn",
+      "domain": "battery",
+      "fraction": 0.1,
+      "seed": 44
+    },
+    {
+      "model": "native_tcn",
+      "domain": "battery",
+      "fraction": 0.1,
+      "seed": 45
+    },
+    {
+      "model": "native_tcn",
+      "domain": "battery",
+      "fraction": 0.1,
+      "seed": 46
+    },
+    {
+      "model": "native_tcn",
+      "domain": "battery",
+      "fraction": 0.2,
+      "seed": 42
+    },
+    {
+      "model": "native_tcn",
+      "domain": "battery",
+      "fraction": 0.2,
+      "seed": 43
+    },
+    {
+      "model": "native_tcn",
+      "domain": "battery",
+      "fraction": 0.2,
+      "seed": 44
+    },
+    {
+      "model": "native_tcn",
+      "domain": "battery",
+      "fraction": 0.2,
+      "seed": 45
+    },
+    {
+      "model": "native_tcn",
+      "domain": "battery",
+      "fraction": 0.2,
+      "seed": 46
+    },
+    {
+      "model": "native_tcn",
+      "domain": "battery",
+      "fraction": 1.0,
+      "seed": 42
+    },
+    {
+      "model": "native_tcn",
+      "domain": "battery",
+      "fraction": 1.0,
+      "seed": 43
+    },
+    {
+      "model": "native_tcn",
+      "domain": "battery",
+      "fraction": 1.0,
+      "seed": 44
+    },
+    {
+      "model": "native_tcn",
+      "domain": "battery",
+      "fraction": 1.0,
+      "seed": 45
+    },
+    {
+      "model": "native_tcn",
+      "domain": "battery",
+      "fraction": 1.0,
+      "seed": 46
+    },
+    {
+      "model": "native_tcn",
+      "domain": "milling",
+      "fraction": 0.1,
+      "seed": 42
+    },
+    {
+      "model": "native_tcn",
+      "domain": "milling",
+      "fraction": 0.1,
+      "seed": 43
+    },
+    {
+      "model": "native_tcn",
+      "domain": "milling",
+      "fraction": 0.1,
+      "seed": 44
+    },
+    {
+      "model": "native_tcn",
+      "domain": "milling",
+      "fraction": 0.1,
+      "seed": 45
+    },
+    {
+      "model": "native_tcn",
+      "domain": "milling",
+      "fraction": 0.1,
+      "seed": 46
+    },
+    {
+      "model": "native_tcn",
+      "domain": "milling",
+      "fraction": 0.2,
+      "seed": 42
+    },
+    {
+      "model": "native_tcn",
+      "domain": "milling",
+      "fraction": 0.2,
+      "seed": 43
+    },
+    {
+      "model": "native_tcn",
+      "domain": "milling",
+      "fraction": 0.2,
+      "seed": 44
+    },
+    {
+      "model": "native_tcn",
+      "domain": "milling",
+      "fraction": 0.2,
+      "seed": 45
+    },
+    {
+      "model": "native_tcn",
+      "domain": "milling",
+      "fraction": 0.2,
+      "seed": 46
+    },
+    {
+      "model": "native_tcn",
+      "domain": "milling",
+      "fraction": 1.0,
+      "seed": 42
+    },
+    {
+      "model": "native_tcn",
+      "domain": "milling",
+      "fraction": 1.0,
+      "seed": 43
+    },
+    {
+      "model": "native_tcn",
+      "domain": "milling",
+      "fraction": 1.0,
+      "seed": 44
+    },
+    {
+      "model": "native_tcn",
+      "domain": "milling",
+      "fraction": 1.0,
+      "seed": 45
+    },
+    {
+      "model": "native_tcn",
+      "domain": "milling",
+      "fraction": 1.0,
+      "seed": 46
+    },
+    {
+      "model": "native_patchtst",
+      "domain": "bearing",
+      "fraction": 0.1,
+      "seed": 42
+    },
+    {
+      "model": "native_patchtst",
+      "domain": "bearing",
+      "fraction": 0.1,
+      "seed": 43
+    },
+    {
+      "model": "native_patchtst",
+      "domain": "bearing",
+      "fraction": 0.1,
+      "seed": 44
+    },
+    {
+      "model": "native_patchtst",
+      "domain": "bearing",
+      "fraction": 0.1,
+      "seed": 45
+    },
+    {
+      "model": "native_patchtst",
+      "domain": "bearing",
+      "fraction": 0.1,
+      "seed": 46
+    },
+    {
+      "model": "native_patchtst",
+      "domain": "bearing",
+      "fraction": 0.2,
+      "seed": 42
+    },
+    {
+      "model": "native_patchtst",
+      "domain": "bearing",
+      "fraction": 0.2,
+      "seed": 43
+    },
+    {
+      "model": "native_patchtst",
+      "domain": "bearing",
+      "fraction": 0.2,
+      "seed": 44
+    },
+    {
+      "model": "native_patchtst",
+      "domain": "bearing",
+      "fraction": 0.2,
+      "seed": 45
+    },
+    {
+      "model": "native_patchtst",
+      "domain": "bearing",
+      "fraction": 0.2,
+      "seed": 46
+    },
+    {
+      "model": "native_patchtst",
+      "domain": "bearing",
+      "fraction": 1.0,
+      "seed": 42
+    },
+    {
+      "model": "native_patchtst",
+      "domain": "bearing",
+      "fraction": 1.0,
+      "seed": 43
+    },
+    {
+      "model": "native_patchtst",
+      "domain": "bearing",
+      "fraction": 1.0,
+      "seed": 44
+    },
+    {
+      "model": "native_patchtst",
+      "domain": "bearing",
+      "fraction": 1.0,
+      "seed": 45
+    },
+    {
+      "model": "native_patchtst",
+      "domain": "bearing",
+      "fraction": 1.0,
+      "seed": 46
+    },
+    {
+      "model": "native_patchtst",
+      "domain": "battery",
+      "fraction": 0.1,
+      "seed": 42
+    },
+    {
+      "model": "native_patchtst",
+      "domain": "battery",
+      "fraction": 0.1,
+      "seed": 43
+    },
+    {
+      "model": "native_patchtst",
+      "domain": "battery",
+      "fraction": 0.1,
+      "seed": 44
+    },
+    {
+      "model": "native_patchtst",
+      "domain": "battery",
+      "fraction": 0.1,
+      "seed": 45
+    },
+    {
+      "model": "native_patchtst",
+      "domain": "battery",
+      "fraction": 0.1,
+      "seed": 46
+    },
+    {
+      "model": "native_patchtst",
+      "domain": "battery",
+      "fraction": 0.2,
+      "seed": 42
+    },
+    {
+      "model": "native_patchtst",
+      "domain": "battery",
+      "fraction": 0.2,
+      "seed": 43
+    },
+    {
+      "model": "native_patchtst",
+      "domain": "battery",
+      "fraction": 0.2,
+      "seed": 44
+    },
+    {
+      "model": "native_patchtst",
+      "domain": "battery",
+      "fraction": 0.2,
+      "seed": 45
+    },
+    {
+      "model": "native_patchtst",
+      "domain": "battery",
+      "fraction": 0.2,
+      "seed": 46
+    },
+    {
+      "model": "native_patchtst",
+      "domain": "battery",
+      "fraction": 1.0,
+      "seed": 42
+    },
+    {
+      "model": "native_patchtst",
+      "domain": "battery",
+      "fraction": 1.0,
+      "seed": 43
+    },
+    {
+      "model": "native_patchtst",
+      "domain": "battery",
+      "fraction": 1.0,
+      "seed": 44
+    },
+    {
+      "model": "native_patchtst",
+      "domain": "battery",
+      "fraction": 1.0,
+      "seed": 45
+    },
+    {
+      "model": "native_patchtst",
+      "domain": "battery",
+      "fraction": 1.0,
+      "seed": 46
+    },
+    {
+      "model": "native_patchtst",
+      "domain": "milling",
+      "fraction": 0.1,
+      "seed": 42
+    },
+    {
+      "model": "native_patchtst",
+      "domain": "milling",
+      "fraction": 0.1,
+      "seed": 43
+    },
+    {
+      "model": "native_patchtst",
+      "domain": "milling",
+      "fraction": 0.1,
+      "seed": 44
+    },
+    {
+      "model": "native_patchtst",
+      "domain": "milling",
+      "fraction": 0.1,
+      "seed": 45
+    },
+    {
+      "model": "native_patchtst",
+      "domain": "milling",
+      "fraction": 0.1,
+      "seed": 46
+    },
+    {
+      "model": "native_patchtst",
+      "domain": "milling",
+      "fraction": 0.2,
+      "seed": 42
+    },
+    {
+      "model": "native_patchtst",
+      "domain": "milling",
+      "fraction": 0.2,
+      "seed": 43
+    },
+    {
+      "model": "native_patchtst",
+      "domain": "milling",
+      "fraction": 0.2,
+      "seed": 44
+    },
+    {
+      "model": "native_patchtst",
+      "domain": "milling",
+      "fraction": 0.2,
+      "seed": 45
+    },
+    {
+      "model": "native_patchtst",
+      "domain": "milling",
+      "fraction": 0.2,
+      "seed": 46
+    },
+    {
+      "model": "native_patchtst",
+      "domain": "milling",
+      "fraction": 1.0,
+      "seed": 42
+    },
+    {
+      "model": "native_patchtst",
+      "domain": "milling",
+      "fraction": 1.0,
+      "seed": 43
+    },
+    {
+      "model": "native_patchtst",
+      "domain": "milling",
+      "fraction": 1.0,
+      "seed": 44
+    },
+    {
+      "model": "native_patchtst",
+      "domain": "milling",
+      "fraction": 1.0,
+      "seed": 45
+    },
+    {
+      "model": "native_patchtst",
+      "domain": "milling",
+      "fraction": 1.0,
+      "seed": 46
+    },
+    {
+      "model": "native_itransformer",
+      "domain": "bearing",
+      "fraction": 0.1,
+      "seed": 42
+    },
+    {
+      "model": "native_itransformer",
+      "domain": "bearing",
+      "fraction": 0.1,
+      "seed": 43
+    },
+    {
+      "model": "native_itransformer",
+      "domain": "bearing",
+      "fraction": 0.1,
+      "seed": 44
+    },
+    {
+      "model": "native_itransformer",
+      "domain": "bearing",
+      "fraction": 0.1,
+      "seed": 45
+    },
+    {
+      "model": "native_itransformer",
+      "domain": "bearing",
+      "fraction": 0.1,
+      "seed": 46
+    },
+    {
+      "model": "native_itransformer",
+      "domain": "bearing",
+      "fraction": 0.2,
+      "seed": 42
+    },
+    {
+      "model": "native_itransformer",
+      "domain": "bearing",
+      "fraction": 0.2,
+      "seed": 43
+    },
+    {
+      "model": "native_itransformer",
+      "domain": "bearing",
+      "fraction": 0.2,
+      "seed": 44
+    },
+    {
+      "model": "native_itransformer",
+      "domain": "bearing",
+      "fraction": 0.2,
+      "seed": 45
+    },
+    {
+      "model": "native_itransformer",
+      "domain": "bearing",
+      "fraction": 0.2,
+      "seed": 46
+    },
+    {
+      "model": "native_itransformer",
+      "domain": "bearing",
+      "fraction": 1.0,
+      "seed": 42
+    },
+    {
+      "model": "native_itransformer",
+      "domain": "bearing",
+      "fraction": 1.0,
+      "seed": 43
+    },
+    {
+      "model": "native_itransformer",
+      "domain": "bearing",
+      "fraction": 1.0,
+      "seed": 44
+    },
+    {
+      "model": "native_itransformer",
+      "domain": "bearing",
+      "fraction": 1.0,
+      "seed": 45
+    },
+    {
+      "model": "native_itransformer",
+      "domain": "bearing",
+      "fraction": 1.0,
+      "seed": 46
+    },
+    {
+      "model": "native_itransformer",
+      "domain": "battery",
+      "fraction": 0.1,
+      "seed": 42
+    },
+    {
+      "model": "native_itransformer",
+      "domain": "battery",
+      "fraction": 0.1,
+      "seed": 43
+    },
+    {
+      "model": "native_itransformer",
+      "domain": "battery",
+      "fraction": 0.1,
+      "seed": 44
+    },
+    {
+      "model": "native_itransformer",
+      "domain": "battery",
+      "fraction": 0.1,
+      "seed": 45
+    },
+    {
+      "model": "native_itransformer",
+      "domain": "battery",
+      "fraction": 0.1,
+      "seed": 46
+    },
+    {
+      "model": "native_itransformer",
+      "domain": "battery",
+      "fraction": 0.2,
+      "seed": 42
+    },
+    {
+      "model": "native_itransformer",
+      "domain": "battery",
+      "fraction": 0.2,
+      "seed": 43
+    },
+    {
+      "model": "native_itransformer",
+      "domain": "battery",
+      "fraction": 0.2,
+      "seed": 44
+    },
+    {
+      "model": "native_itransformer",
+      "domain": "battery",
+      "fraction": 0.2,
+      "seed": 45
+    },
+    {
+      "model": "native_itransformer",
+      "domain": "battery",
+      "fraction": 0.2,
+      "seed": 46
+    },
+    {
+      "model": "native_itransformer",
+      "domain": "battery",
+      "fraction": 1.0,
+      "seed": 42
+    },
+    {
+      "model": "native_itransformer",
+      "domain": "battery",
+      "fraction": 1.0,
+      "seed": 43
+    },
+    {
+      "model": "native_itransformer",
+      "domain": "battery",
+      "fraction": 1.0,
+      "seed": 44
+    },
+    {
+      "model": "native_itransformer",
+      "domain": "battery",
+      "fraction": 1.0,
+      "seed": 45
+    },
+    {
+      "model": "native_itransformer",
+      "domain": "battery",
+      "fraction": 1.0,
+      "seed": 46
+    },
+    {
+      "model": "native_itransformer",
+      "domain": "milling",
+      "fraction": 0.1,
+      "seed": 42
+    },
+    {
+      "model": "native_itransformer",
+      "domain": "milling",
+      "fraction": 0.1,
+      "seed": 43
+    },
+    {
+      "model": "native_itransformer",
+      "domain": "milling",
+      "fraction": 0.1,
+      "seed": 44
+    },
+    {
+      "model": "native_itransformer",
+      "domain": "milling",
+      "fraction": 0.1,
+      "seed": 45
+    },
+    {
+      "model": "native_itransformer",
+      "domain": "milling",
+      "fraction": 0.1,
+      "seed": 46
+    },
+    {
+      "model": "native_itransformer",
+      "domain": "milling",
+      "fraction": 0.2,
+      "seed": 42
+    },
+    {
+      "model": "native_itransformer",
+      "domain": "milling",
+      "fraction": 0.2,
+      "seed": 43
+    },
+    {
+      "model": "native_itransformer",
+      "domain": "milling",
+      "fraction": 0.2,
+      "seed": 44
+    },
+    {
+      "model": "native_itransformer",
+      "domain": "milling",
+      "fraction": 0.2,
+      "seed": 45
+    },
+    {
+      "model": "native_itransformer",
+      "domain": "milling",
+      "fraction": 0.2,
+      "seed": 46
+    },
+    {
+      "model": "native_itransformer",
+      "domain": "milling",
+      "fraction": 1.0,
+      "seed": 42
+    },
+    {
+      "model": "native_itransformer",
+      "domain": "milling",
+      "fraction": 1.0,
+      "seed": 43
+    },
+    {
+      "model": "native_itransformer",
+      "domain": "milling",
+      "fraction": 1.0,
+      "seed": 44
+    },
+    {
+      "model": "native_itransformer",
+      "domain": "milling",
+      "fraction": 1.0,
+      "seed": 45
+    },
+    {
+      "model": "native_itransformer",
+      "domain": "milling",
+      "fraction": 1.0,
+      "seed": 46
+    },
+    {
+      "model": "native_moment_frozen",
+      "domain": "bearing",
+      "fraction": 0.1,
+      "seed": 42
+    },
+    {
+      "model": "native_moment_frozen",
+      "domain": "bearing",
+      "fraction": 0.1,
+      "seed": 43
+    },
+    {
+      "model": "native_moment_frozen",
+      "domain": "bearing",
+      "fraction": 0.1,
+      "seed": 44
+    },
+    {
+      "model": "native_moment_frozen",
+      "domain": "bearing",
+      "fraction": 0.1,
+      "seed": 45
+    },
+    {
+      "model": "native_moment_frozen",
+      "domain": "bearing",
+      "fraction": 0.1,
+      "seed": 46
+    },
+    {
+      "model": "native_moment_frozen",
+      "domain": "bearing",
+      "fraction": 0.2,
+      "seed": 42
+    },
+    {
+      "model": "native_moment_frozen",
+      "domain": "bearing",
+      "fraction": 0.2,
+      "seed": 43
+    },
+    {
+      "model": "native_moment_frozen",
+      "domain": "bearing",
+      "fraction": 0.2,
+      "seed": 44
+    },
+    {
+      "model": "native_moment_frozen",
+      "domain": "bearing",
+      "fraction": 0.2,
+      "seed": 45
+    },
+    {
+      "model": "native_moment_frozen",
+      "domain": "bearing",
+      "fraction": 0.2,
+      "seed": 46
+    },
+    {
+      "model": "native_moment_frozen",
+      "domain": "bearing",
+      "fraction": 1.0,
+      "seed": 42
+    },
+    {
+      "model": "native_moment_frozen",
+      "domain": "bearing",
+      "fraction": 1.0,
+      "seed": 43
+    },
+    {
+      "model": "native_moment_frozen",
+      "domain": "bearing",
+      "fraction": 1.0,
+      "seed": 44
+    },
+    {
+      "model": "native_moment_frozen",
+      "domain": "bearing",
+      "fraction": 1.0,
+      "seed": 45
+    },
+    {
+      "model": "native_moment_frozen",
+      "domain": "bearing",
+      "fraction": 1.0,
+      "seed": 46
+    },
+    {
+      "model": "native_moment_frozen",
+      "domain": "battery",
+      "fraction": 0.1,
+      "seed": 42
+    },
+    {
+      "model": "native_moment_frozen",
+      "domain": "battery",
+      "fraction": 0.1,
+      "seed": 43
+    },
+    {
+      "model": "native_moment_frozen",
+      "domain": "battery",
+      "fraction": 0.1,
+      "seed": 44
+    },
+    {
+      "model": "native_moment_frozen",
+      "domain": "battery",
+      "fraction": 0.1,
+      "seed": 45
+    },
+    {
+      "model": "native_moment_frozen",
+      "domain": "battery",
+      "fraction": 0.1,
+      "seed": 46
+    },
+    {
+      "model": "native_moment_frozen",
+      "domain": "battery",
+      "fraction": 0.2,
+      "seed": 42
+    },
+    {
+      "model": "native_moment_frozen",
+      "domain": "battery",
+      "fraction": 0.2,
+      "seed": 43
+    },
+    {
+      "model": "native_moment_frozen",
+      "domain": "battery",
+      "fraction": 0.2,
+      "seed": 44
+    },
+    {
+      "model": "native_moment_frozen",
+      "domain": "battery",
+      "fraction": 0.2,
+      "seed": 45
+    },
+    {
+      "model": "native_moment_frozen",
+      "domain": "battery",
+      "fraction": 0.2,
+      "seed": 46
+    },
+    {
+      "model": "native_moment_frozen",
+      "domain": "battery",
+      "fraction": 1.0,
+      "seed": 42
+    },
+    {
+      "model": "native_moment_frozen",
+      "domain": "battery",
+      "fraction": 1.0,
+      "seed": 43
+    },
+    {
+      "model": "native_moment_frozen",
+      "domain": "battery",
+      "fraction": 1.0,
+      "seed": 44
+    },
+    {
+      "model": "native_moment_frozen",
+      "domain": "battery",
+      "fraction": 1.0,
+      "seed": 45
+    },
+    {
+      "model": "native_moment_frozen",
+      "domain": "battery",
+      "fraction": 1.0,
+      "seed": 46
+    },
+    {
+      "model": "native_moment_frozen",
+      "domain": "milling",
+      "fraction": 0.1,
+      "seed": 42
+    },
+    {
+      "model": "native_moment_frozen",
+      "domain": "milling",
+      "fraction": 0.1,
+      "seed": 43
+    },
+    {
+      "model": "native_moment_frozen",
+      "domain": "milling",
+      "fraction": 0.1,
+      "seed": 44
+    },
+    {
+      "model": "native_moment_frozen",
+      "domain": "milling",
+      "fraction": 0.1,
+      "seed": 45
+    },
+    {
+      "model": "native_moment_frozen",
+      "domain": "milling",
+      "fraction": 0.1,
+      "seed": 46
+    },
+    {
+      "model": "native_moment_frozen",
+      "domain": "milling",
+      "fraction": 0.2,
+      "seed": 42
+    },
+    {
+      "model": "native_moment_frozen",
+      "domain": "milling",
+      "fraction": 0.2,
+      "seed": 43
+    },
+    {
+      "model": "native_moment_frozen",
+      "domain": "milling",
+      "fraction": 0.2,
+      "seed": 44
+    },
+    {
+      "model": "native_moment_frozen",
+      "domain": "milling",
+      "fraction": 0.2,
+      "seed": 45
+    },
+    {
+      "model": "native_moment_frozen",
+      "domain": "milling",
+      "fraction": 0.2,
+      "seed": 46
+    },
+    {
+      "model": "native_moment_frozen",
+      "domain": "milling",
+      "fraction": 1.0,
+      "seed": 42
+    },
+    {
+      "model": "native_moment_frozen",
+      "domain": "milling",
+      "fraction": 1.0,
+      "seed": 43
+    },
+    {
+      "model": "native_moment_frozen",
+      "domain": "milling",
+      "fraction": 1.0,
+      "seed": 44
+    },
+    {
+      "model": "native_moment_frozen",
+      "domain": "milling",
+      "fraction": 1.0,
+      "seed": 45
+    },
+    {
+      "model": "native_moment_frozen",
+      "domain": "milling",
+      "fraction": 1.0,
+      "seed": 46
+    },
+    {
+      "model": "native_moment_full",
+      "domain": "bearing",
+      "fraction": 0.1,
+      "seed": 42
+    },
+    {
+      "model": "native_moment_full",
+      "domain": "bearing",
+      "fraction": 0.1,
+      "seed": 43
+    },
+    {
+      "model": "native_moment_full",
+      "domain": "bearing",
+      "fraction": 0.1,
+      "seed": 44
+    },
+    {
+      "model": "native_moment_full",
+      "domain": "bearing",
+      "fraction": 0.1,
+      "seed": 45
+    },
+    {
+      "model": "native_moment_full",
+      "domain": "bearing",
+      "fraction": 0.1,
+      "seed": 46
+    },
+    {
+      "model": "native_moment_full",
+      "domain": "bearing",
+      "fraction": 0.2,
+      "seed": 42
+    },
+    {
+      "model": "native_moment_full",
+      "domain": "bearing",
+      "fraction": 0.2,
+      "seed": 43
+    },
+    {
+      "model": "native_moment_full",
+      "domain": "bearing",
+      "fraction": 0.2,
+      "seed": 44
+    },
+    {
+      "model": "native_moment_full",
+      "domain": "bearing",
+      "fraction": 0.2,
+      "seed": 45
+    },
+    {
+      "model": "native_moment_full",
+      "domain": "bearing",
+      "fraction": 0.2,
+      "seed": 46
+    },
+    {
+      "model": "native_moment_full",
+      "domain": "bearing",
+      "fraction": 1.0,
+      "seed": 42
+    },
+    {
+      "model": "native_moment_full",
+      "domain": "bearing",
+      "fraction": 1.0,
+      "seed": 43
+    },
+    {
+      "model": "native_moment_full",
+      "domain": "bearing",
+      "fraction": 1.0,
+      "seed": 44
+    },
+    {
+      "model": "native_moment_full",
+      "domain": "bearing",
+      "fraction": 1.0,
+      "seed": 45
+    },
+    {
+      "model": "native_moment_full",
+      "domain": "bearing",
+      "fraction": 1.0,
+      "seed": 46
+    },
+    {
+      "model": "native_moment_full",
+      "domain": "battery",
+      "fraction": 0.1,
+      "seed": 42
+    },
+    {
+      "model": "native_moment_full",
+      "domain": "battery",
+      "fraction": 0.1,
+      "seed": 43
+    },
+    {
+      "model": "native_moment_full",
+      "domain": "battery",
+      "fraction": 0.1,
+      "seed": 44
+    },
+    {
+      "model": "native_moment_full",
+      "domain": "battery",
+      "fraction": 0.1,
+      "seed": 45
+    },
+    {
+      "model": "native_moment_full",
+      "domain": "battery",
+      "fraction": 0.1,
+      "seed": 46
+    },
+    {
+      "model": "native_moment_full",
+      "domain": "battery",
+      "fraction": 0.2,
+      "seed": 42
+    },
+    {
+      "model": "native_moment_full",
+      "domain": "battery",
+      "fraction": 0.2,
+      "seed": 43
+    },
+    {
+      "model": "native_moment_full",
+      "domain": "battery",
+      "fraction": 0.2,
+      "seed": 44
+    },
+    {
+      "model": "native_moment_full",
+      "domain": "battery",
+      "fraction": 0.2,
+      "seed": 45
+    },
+    {
+      "model": "native_moment_full",
+      "domain": "battery",
+      "fraction": 0.2,
+      "seed": 46
+    },
+    {
+      "model": "native_moment_full",
+      "domain": "battery",
+      "fraction": 1.0,
+      "seed": 42
+    },
+    {
+      "model": "native_moment_full",
+      "domain": "battery",
+      "fraction": 1.0,
+      "seed": 43
+    },
+    {
+      "model": "native_moment_full",
+      "domain": "battery",
+      "fraction": 1.0,
+      "seed": 44
+    },
+    {
+      "model": "native_moment_full",
+      "domain": "battery",
+      "fraction": 1.0,
+      "seed": 45
+    },
+    {
+      "model": "native_moment_full",
+      "domain": "battery",
+      "fraction": 1.0,
+      "seed": 46
+    },
+    {
+      "model": "native_moment_full",
+      "domain": "milling",
+      "fraction": 0.1,
+      "seed": 42
+    },
+    {
+      "model": "native_moment_full",
+      "domain": "milling",
+      "fraction": 0.1,
+      "seed": 43
+    },
+    {
+      "model": "native_moment_full",
+      "domain": "milling",
+      "fraction": 0.1,
+      "seed": 44
+    },
+    {
+      "model": "native_moment_full",
+      "domain": "milling",
+      "fraction": 0.1,
+      "seed": 45
+    },
+    {
+      "model": "native_moment_full",
+      "domain": "milling",
+      "fraction": 0.1,
+      "seed": 46
+    },
+    {
+      "model": "native_moment_full",
+      "domain": "milling",
+      "fraction": 0.2,
+      "seed": 42
+    },
+    {
+      "model": "native_moment_full",
+      "domain": "milling",
+      "fraction": 0.2,
+      "seed": 43
+    },
+    {
+      "model": "native_moment_full",
+      "domain": "milling",
+      "fraction": 0.2,
+      "seed": 44
+    },
+    {
+      "model": "native_moment_full",
+      "domain": "milling",
+      "fraction": 0.2,
+      "seed": 45
+    },
+    {
+      "model": "native_moment_full",
+      "domain": "milling",
+      "fraction": 0.2,
+      "seed": 46
+    },
+    {
+      "model": "native_moment_full",
+      "domain": "milling",
+      "fraction": 1.0,
+      "seed": 42
+    },
+    {
+      "model": "native_moment_full",
+      "domain": "milling",
+      "fraction": 1.0,
+      "seed": 43
+    },
+    {
+      "model": "native_moment_full",
+      "domain": "milling",
+      "fraction": 1.0,
+      "seed": 44
+    },
+    {
+      "model": "native_moment_full",
+      "domain": "milling",
+      "fraction": 1.0,
+      "seed": 45
+    },
+    {
+      "model": "native_moment_full",
+      "domain": "milling",
+      "fraction": 1.0,
+      "seed": 46
+    },
+    {
+      "model": "controlled_mlp",
+      "domain": "bearing",
+      "fraction": 0.1,
+      "seed": 42
+    },
+    {
+      "model": "controlled_mlp",
+      "domain": "bearing",
+      "fraction": 0.1,
+      "seed": 43
+    },
+    {
+      "model": "controlled_mlp",
+      "domain": "bearing",
+      "fraction": 0.1,
+      "seed": 44
+    },
+    {
+      "model": "controlled_mlp",
+      "domain": "bearing",
+      "fraction": 0.1,
+      "seed": 45
+    },
+    {
+      "model": "controlled_mlp",
+      "domain": "bearing",
+      "fraction": 0.1,
+      "seed": 46
+    },
+    {
+      "model": "controlled_mlp",
+      "domain": "bearing",
+      "fraction": 0.2,
+      "seed": 42
+    },
+    {
+      "model": "controlled_mlp",
+      "domain": "bearing",
+      "fraction": 0.2,
+      "seed": 43
+    },
+    {
+      "model": "controlled_mlp",
+      "domain": "bearing",
+      "fraction": 0.2,
+      "seed": 44
+    },
+    {
+      "model": "controlled_mlp",
+      "domain": "bearing",
+      "fraction": 0.2,
+      "seed": 45
+    },
+    {
+      "model": "controlled_mlp",
+      "domain": "bearing",
+      "fraction": 0.2,
+      "seed": 46
+    },
+    {
+      "model": "controlled_mlp",
+      "domain": "bearing",
+      "fraction": 1.0,
+      "seed": 42
+    },
+    {
+      "model": "controlled_mlp",
+      "domain": "bearing",
+      "fraction": 1.0,
+      "seed": 43
+    },
+    {
+      "model": "controlled_mlp",
+      "domain": "bearing",
+      "fraction": 1.0,
+      "seed": 44
+    },
+    {
+      "model": "controlled_mlp",
+      "domain": "bearing",
+      "fraction": 1.0,
+      "seed": 45
+    },
+    {
+      "model": "controlled_mlp",
+      "domain": "bearing",
+      "fraction": 1.0,
+      "seed": 46
+    },
+    {
+      "model": "controlled_mlp",
+      "domain": "battery",
+      "fraction": 0.1,
+      "seed": 42
+    },
+    {
+      "model": "controlled_mlp",
+      "domain": "battery",
+      "fraction": 0.1,
+      "seed": 43
+    },
+    {
+      "model": "controlled_mlp",
+      "domain": "battery",
+      "fraction": 0.1,
+      "seed": 44
+    },
+    {
+      "model": "controlled_mlp",
+      "domain": "battery",
+      "fraction": 0.1,
+      "seed": 45
+    },
+    {
+      "model": "controlled_mlp",
+      "domain": "battery",
+      "fraction": 0.1,
+      "seed": 46
+    },
+    {
+      "model": "controlled_mlp",
+      "domain": "battery",
+      "fraction": 0.2,
+      "seed": 42
+    },
+    {
+      "model": "controlled_mlp",
+      "domain": "battery",
+      "fraction": 0.2,
+      "seed": 43
+    },
+    {
+      "model": "controlled_mlp",
+      "domain": "battery",
+      "fraction": 0.2,
+      "seed": 44
+    },
+    {
+      "model": "controlled_mlp",
+      "domain": "battery",
+      "fraction": 0.2,
+      "seed": 45
+    },
+    {
+      "model": "controlled_mlp",
+      "domain": "battery",
+      "fraction": 0.2,
+      "seed": 46
+    },
+    {
+      "model": "controlled_mlp",
+      "domain": "battery",
+      "fraction": 1.0,
+      "seed": 42
+    },
+    {
+      "model": "controlled_mlp",
+      "domain": "battery",
+      "fraction": 1.0,
+      "seed": 43
+    },
+    {
+      "model": "controlled_mlp",
+      "domain": "battery",
+      "fraction": 1.0,
+      "seed": 44
+    },
+    {
+      "model": "controlled_mlp",
+      "domain": "battery",
+      "fraction": 1.0,
+      "seed": 45
+    },
+    {
+      "model": "controlled_mlp",
+      "domain": "battery",
+      "fraction": 1.0,
+      "seed": 46
+    },
+    {
+      "model": "controlled_mlp",
+      "domain": "milling",
+      "fraction": 0.1,
+      "seed": 42
+    },
+    {
+      "model": "controlled_mlp",
+      "domain": "milling",
+      "fraction": 0.1,
+      "seed": 43
+    },
+    {
+      "model": "controlled_mlp",
+      "domain": "milling",
+      "fraction": 0.1,
+      "seed": 44
+    },
+    {
+      "model": "controlled_mlp",
+      "domain": "milling",
+      "fraction": 0.1,
+      "seed": 45
+    },
+    {
+      "model": "controlled_mlp",
+      "domain": "milling",
+      "fraction": 0.1,
+      "seed": 46
+    },
+    {
+      "model": "controlled_mlp",
+      "domain": "milling",
+      "fraction": 0.2,
+      "seed": 42
+    },
+    {
+      "model": "controlled_mlp",
+      "domain": "milling",
+      "fraction": 0.2,
+      "seed": 43
+    },
+    {
+      "model": "controlled_mlp",
+      "domain": "milling",
+      "fraction": 0.2,
+      "seed": 44
+    },
+    {
+      "model": "controlled_mlp",
+      "domain": "milling",
+      "fraction": 0.2,
+      "seed": 45
+    },
+    {
+      "model": "controlled_mlp",
+      "domain": "milling",
+      "fraction": 0.2,
+      "seed": 46
+    },
+    {
+      "model": "controlled_mlp",
+      "domain": "milling",
+      "fraction": 1.0,
+      "seed": 42
+    },
+    {
+      "model": "controlled_mlp",
+      "domain": "milling",
+      "fraction": 1.0,
+      "seed": 43
+    },
+    {
+      "model": "controlled_mlp",
+      "domain": "milling",
+      "fraction": 1.0,
+      "seed": 44
+    },
+    {
+      "model": "controlled_mlp",
+      "domain": "milling",
+      "fraction": 1.0,
+      "seed": 45
+    },
+    {
+      "model": "controlled_mlp",
+      "domain": "milling",
+      "fraction": 1.0,
+      "seed": 46
+    },
+    {
+      "model": "controlled_tcn",
+      "domain": "bearing",
+      "fraction": 0.1,
+      "seed": 42
+    },
+    {
+      "model": "controlled_tcn",
+      "domain": "bearing",
+      "fraction": 0.1,
+      "seed": 43
+    },
+    {
+      "model": "controlled_tcn",
+      "domain": "bearing",
+      "fraction": 0.1,
+      "seed": 44
+    },
+    {
+      "model": "controlled_tcn",
+      "domain": "bearing",
+      "fraction": 0.1,
+      "seed": 45
+    },
+    {
+      "model": "controlled_tcn",
+      "domain": "bearing",
+      "fraction": 0.1,
+      "seed": 46
+    },
+    {
+      "model": "controlled_tcn",
+      "domain": "bearing",
+      "fraction": 0.2,
+      "seed": 42
+    },
+    {
+      "model": "controlled_tcn",
+      "domain": "bearing",
+      "fraction": 0.2,
+      "seed": 43
+    },
+    {
+      "model": "controlled_tcn",
+      "domain": "bearing",
+      "fraction": 0.2,
+      "seed": 44
+    },
+    {
+      "model": "controlled_tcn",
+      "domain": "bearing",
+      "fraction": 0.2,
+      "seed": 45
+    },
+    {
+      "model": "controlled_tcn",
+      "domain": "bearing",
+      "fraction": 0.2,
+      "seed": 46
+    },
+    {
+      "model": "controlled_tcn",
+      "domain": "bearing",
+      "fraction": 1.0,
+      "seed": 42
+    },
+    {
+      "model": "controlled_tcn",
+      "domain": "bearing",
+      "fraction": 1.0,
+      "seed": 43
+    },
+    {
+      "model": "controlled_tcn",
+      "domain": "bearing",
+      "fraction": 1.0,
+      "seed": 44
+    },
+    {
+      "model": "controlled_tcn",
+      "domain": "bearing",
+      "fraction": 1.0,
+      "seed": 45
+    },
+    {
+      "model": "controlled_tcn",
+      "domain": "bearing",
+      "fraction": 1.0,
+      "seed": 46
+    },
+    {
+      "model": "controlled_tcn",
+      "domain": "battery",
+      "fraction": 0.1,
+      "seed": 42
+    },
+    {
+      "model": "controlled_tcn",
+      "domain": "battery",
+      "fraction": 0.1,
+      "seed": 43
+    },
+    {
+      "model": "controlled_tcn",
+      "domain": "battery",
+      "fraction": 0.1,
+      "seed": 44
+    },
+    {
+      "model": "controlled_tcn",
+      "domain": "battery",
+      "fraction": 0.1,
+      "seed": 45
+    },
+    {
+      "model": "controlled_tcn",
+      "domain": "battery",
+      "fraction": 0.1,
+      "seed": 46
+    },
+    {
+      "model": "controlled_tcn",
+      "domain": "battery",
+      "fraction": 0.2,
+      "seed": 42
+    },
+    {
+      "model": "controlled_tcn",
+      "domain": "battery",
+      "fraction": 0.2,
+      "seed": 43
+    },
+    {
+      "model": "controlled_tcn",
+      "domain": "battery",
+      "fraction": 0.2,
+      "seed": 44
+    },
+    {
+      "model": "controlled_tcn",
+      "domain": "battery",
+      "fraction": 0.2,
+      "seed": 45
+    },
+    {
+      "model": "controlled_tcn",
+      "domain": "battery",
+      "fraction": 0.2,
+      "seed": 46
+    },
+    {
+      "model": "controlled_tcn",
+      "domain": "battery",
+      "fraction": 1.0,
+      "seed": 42
+    },
+    {
+      "model": "controlled_tcn",
+      "domain": "battery",
+      "fraction": 1.0,
+      "seed": 43
+    },
+    {
+      "model": "controlled_tcn",
+      "domain": "battery",
+      "fraction": 1.0,
+      "seed": 44
+    },
+    {
+      "model": "controlled_tcn",
+      "domain": "battery",
+      "fraction": 1.0,
+      "seed": 45
+    },
+    {
+      "model": "controlled_tcn",
+      "domain": "battery",
+      "fraction": 1.0,
+      "seed": 46
+    },
+    {
+      "model": "controlled_tcn",
+      "domain": "milling",
+      "fraction": 0.1,
+      "seed": 42
+    },
+    {
+      "model": "controlled_tcn",
+      "domain": "milling",
+      "fraction": 0.1,
+      "seed": 43
+    },
+    {
+      "model": "controlled_tcn",
+      "domain": "milling",
+      "fraction": 0.1,
+      "seed": 44
+    },
+    {
+      "model": "controlled_tcn",
+      "domain": "milling",
+      "fraction": 0.1,
+      "seed": 45
+    },
+    {
+      "model": "controlled_tcn",
+      "domain": "milling",
+      "fraction": 0.1,
+      "seed": 46
+    },
+    {
+      "model": "controlled_tcn",
+      "domain": "milling",
+      "fraction": 0.2,
+      "seed": 42
+    },
+    {
+      "model": "controlled_tcn",
+      "domain": "milling",
+      "fraction": 0.2,
+      "seed": 43
+    },
+    {
+      "model": "controlled_tcn",
+      "domain": "milling",
+      "fraction": 0.2,
+      "seed": 44
+    },
+    {
+      "model": "controlled_tcn",
+      "domain": "milling",
+      "fraction": 0.2,
+      "seed": 45
+    },
+    {
+      "model": "controlled_tcn",
+      "domain": "milling",
+      "fraction": 0.2,
+      "seed": 46
+    },
+    {
+      "model": "controlled_tcn",
+      "domain": "milling",
+      "fraction": 1.0,
+      "seed": 42
+    },
+    {
+      "model": "controlled_tcn",
+      "domain": "milling",
+      "fraction": 1.0,
+      "seed": 43
+    },
+    {
+      "model": "controlled_tcn",
+      "domain": "milling",
+      "fraction": 1.0,
+      "seed": 44
+    },
+    {
+      "model": "controlled_tcn",
+      "domain": "milling",
+      "fraction": 1.0,
+      "seed": 45
+    },
+    {
+      "model": "controlled_tcn",
+      "domain": "milling",
+      "fraction": 1.0,
+      "seed": 46
+    },
+    {
+      "model": "controlled_cnn_lstm_attention",
+      "domain": "bearing",
+      "fraction": 0.1,
+      "seed": 42
+    },
+    {
+      "model": "controlled_cnn_lstm_attention",
+      "domain": "bearing",
+      "fraction": 0.1,
+      "seed": 43
+    },
+    {
+      "model": "controlled_cnn_lstm_attention",
+      "domain": "bearing",
+      "fraction": 0.1,
+      "seed": 44
+    },
+    {
+      "model": "controlled_cnn_lstm_attention",
+      "domain": "bearing",
+      "fraction": 0.1,
+      "seed": 45
+    },
+    {
+      "model": "controlled_cnn_lstm_attention",
+      "domain": "bearing",
+      "fraction": 0.1,
+      "seed": 46
+    },
+    {
+      "model": "controlled_cnn_lstm_attention",
+      "domain": "bearing",
+      "fraction": 0.2,
+      "seed": 42
+    },
+    {
+      "model": "controlled_cnn_lstm_attention",
+      "domain": "bearing",
+      "fraction": 0.2,
+      "seed": 43
+    },
+    {
+      "model": "controlled_cnn_lstm_attention",
+      "domain": "bearing",
+      "fraction": 0.2,
+      "seed": 44
+    },
+    {
+      "model": "controlled_cnn_lstm_attention",
+      "domain": "bearing",
+      "fraction": 0.2,
+      "seed": 45
+    },
+    {
+      "model": "controlled_cnn_lstm_attention",
+      "domain": "bearing",
+      "fraction": 0.2,
+      "seed": 46
+    },
+    {
+      "model": "controlled_cnn_lstm_attention",
+      "domain": "bearing",
+      "fraction": 1.0,
+      "seed": 42
+    },
+    {
+      "model": "controlled_cnn_lstm_attention",
+      "domain": "bearing",
+      "fraction": 1.0,
+      "seed": 43
+    },
+    {
+      "model": "controlled_cnn_lstm_attention",
+      "domain": "bearing",
+      "fraction": 1.0,
+      "seed": 44
+    },
+    {
+      "model": "controlled_cnn_lstm_attention",
+      "domain": "bearing",
+      "fraction": 1.0,
+      "seed": 45
+    },
+    {
+      "model": "controlled_cnn_lstm_attention",
+      "domain": "bearing",
+      "fraction": 1.0,
+      "seed": 46
+    },
+    {
+      "model": "controlled_cnn_lstm_attention",
+      "domain": "battery",
+      "fraction": 0.1,
+      "seed": 42
+    },
+    {
+      "model": "controlled_cnn_lstm_attention",
+      "domain": "battery",
+      "fraction": 0.1,
+      "seed": 43
+    },
+    {
+      "model": "controlled_cnn_lstm_attention",
+      "domain": "battery",
+      "fraction": 0.1,
+      "seed": 44
+    },
+    {
+      "model": "controlled_cnn_lstm_attention",
+      "domain": "battery",
+      "fraction": 0.1,
+      "seed": 45
+    },
+    {
+      "model": "controlled_cnn_lstm_attention",
+      "domain": "battery",
+      "fraction": 0.1,
+      "seed": 46
+    },
+    {
+      "model": "controlled_cnn_lstm_attention",
+      "domain": "battery",
+      "fraction": 0.2,
+      "seed": 42
+    },
+    {
+      "model": "controlled_cnn_lstm_attention",
+      "domain": "battery",
+      "fraction": 0.2,
+      "seed": 43
+    },
+    {
+      "model": "controlled_cnn_lstm_attention",
+      "domain": "battery",
+      "fraction": 0.2,
+      "seed": 44
+    },
+    {
+      "model": "controlled_cnn_lstm_attention",
+      "domain": "battery",
+      "fraction": 0.2,
+      "seed": 45
+    },
+    {
+      "model": "controlled_cnn_lstm_attention",
+      "domain": "battery",
+      "fraction": 0.2,
+      "seed": 46
+    },
+    {
+      "model": "controlled_cnn_lstm_attention",
+      "domain": "battery",
+      "fraction": 1.0,
+      "seed": 42
+    },
+    {
+      "model": "controlled_cnn_lstm_attention",
+      "domain": "battery",
+      "fraction": 1.0,
+      "seed": 43
+    },
+    {
+      "model": "controlled_cnn_lstm_attention",
+      "domain": "battery",
+      "fraction": 1.0,
+      "seed": 44
+    },
+    {
+      "model": "controlled_cnn_lstm_attention",
+      "domain": "battery",
+      "fraction": 1.0,
+      "seed": 45
+    },
+    {
+      "model": "controlled_cnn_lstm_attention",
+      "domain": "battery",
+      "fraction": 1.0,
+      "seed": 46
+    },
+    {
+      "model": "controlled_cnn_lstm_attention",
+      "domain": "milling",
+      "fraction": 0.1,
+      "seed": 42
+    },
+    {
+      "model": "controlled_cnn_lstm_attention",
+      "domain": "milling",
+      "fraction": 0.1,
+      "seed": 43
+    },
+    {
+      "model": "controlled_cnn_lstm_attention",
+      "domain": "milling",
+      "fraction": 0.1,
+      "seed": 44
+    },
+    {
+      "model": "controlled_cnn_lstm_attention",
+      "domain": "milling",
+      "fraction": 0.1,
+      "seed": 45
+    },
+    {
+      "model": "controlled_cnn_lstm_attention",
+      "domain": "milling",
+      "fraction": 0.1,
+      "seed": 46
+    },
+    {
+      "model": "controlled_cnn_lstm_attention",
+      "domain": "milling",
+      "fraction": 0.2,
+      "seed": 42
+    },
+    {
+      "model": "controlled_cnn_lstm_attention",
+      "domain": "milling",
+      "fraction": 0.2,
+      "seed": 43
+    },
+    {
+      "model": "controlled_cnn_lstm_attention",
+      "domain": "milling",
+      "fraction": 0.2,
+      "seed": 44
+    },
+    {
+      "model": "controlled_cnn_lstm_attention",
+      "domain": "milling",
+      "fraction": 0.2,
+      "seed": 45
+    },
+    {
+      "model": "controlled_cnn_lstm_attention",
+      "domain": "milling",
+      "fraction": 0.2,
+      "seed": 46
+    },
+    {
+      "model": "controlled_cnn_lstm_attention",
+      "domain": "milling",
+      "fraction": 1.0,
+      "seed": 42
+    },
+    {
+      "model": "controlled_cnn_lstm_attention",
+      "domain": "milling",
+      "fraction": 1.0,
+      "seed": 43
+    },
+    {
+      "model": "controlled_cnn_lstm_attention",
+      "domain": "milling",
+      "fraction": 1.0,
+      "seed": 44
+    },
+    {
+      "model": "controlled_cnn_lstm_attention",
+      "domain": "milling",
+      "fraction": 1.0,
+      "seed": 45
+    },
+    {
+      "model": "controlled_cnn_lstm_attention",
+      "domain": "milling",
+      "fraction": 1.0,
+      "seed": 46
+    },
+    {
+      "model": "controlled_patchtst",
+      "domain": "bearing",
+      "fraction": 0.1,
+      "seed": 42
+    },
+    {
+      "model": "controlled_patchtst",
+      "domain": "bearing",
+      "fraction": 0.1,
+      "seed": 43
+    },
+    {
+      "model": "controlled_patchtst",
+      "domain": "bearing",
+      "fraction": 0.1,
+      "seed": 44
+    },
+    {
+      "model": "controlled_patchtst",
+      "domain": "bearing",
+      "fraction": 0.1,
+      "seed": 45
+    },
+    {
+      "model": "controlled_patchtst",
+      "domain": "bearing",
+      "fraction": 0.1,
+      "seed": 46
+    },
+    {
+      "model": "controlled_patchtst",
+      "domain": "bearing",
+      "fraction": 0.2,
+      "seed": 42
+    },
+    {
+      "model": "controlled_patchtst",
+      "domain": "bearing",
+      "fraction": 0.2,
+      "seed": 43
+    },
+    {
+      "model": "controlled_patchtst",
+      "domain": "bearing",
+      "fraction": 0.2,
+      "seed": 44
+    },
+    {
+      "model": "controlled_patchtst",
+      "domain": "bearing",
+      "fraction": 0.2,
+      "seed": 45
+    },
+    {
+      "model": "controlled_patchtst",
+      "domain": "bearing",
+      "fraction": 0.2,
+      "seed": 46
+    },
+    {
+      "model": "controlled_patchtst",
+      "domain": "bearing",
+      "fraction": 1.0,
+      "seed": 42
+    },
+    {
+      "model": "controlled_patchtst",
+      "domain": "bearing",
+      "fraction": 1.0,
+      "seed": 43
+    },
+    {
+      "model": "controlled_patchtst",
+      "domain": "bearing",
+      "fraction": 1.0,
+      "seed": 44
+    },
+    {
+      "model": "controlled_patchtst",
+      "domain": "bearing",
+      "fraction": 1.0,
+      "seed": 45
+    },
+    {
+      "model": "controlled_patchtst",
+      "domain": "bearing",
+      "fraction": 1.0,
+      "seed": 46
+    },
+    {
+      "model": "controlled_patchtst",
+      "domain": "battery",
+      "fraction": 0.1,
+      "seed": 42
+    },
+    {
+      "model": "controlled_patchtst",
+      "domain": "battery",
+      "fraction": 0.1,
+      "seed": 43
+    },
+    {
+      "model": "controlled_patchtst",
+      "domain": "battery",
+      "fraction": 0.1,
+      "seed": 44
+    },
+    {
+      "model": "controlled_patchtst",
+      "domain": "battery",
+      "fraction": 0.1,
+      "seed": 45
+    },
+    {
+      "model": "controlled_patchtst",
+      "domain": "battery",
+      "fraction": 0.1,
+      "seed": 46
+    },
+    {
+      "model": "controlled_patchtst",
+      "domain": "battery",
+      "fraction": 0.2,
+      "seed": 42
+    },
+    {
+      "model": "controlled_patchtst",
+      "domain": "battery",
+      "fraction": 0.2,
+      "seed": 43
+    },
+    {
+      "model": "controlled_patchtst",
+      "domain": "battery",
+      "fraction": 0.2,
+      "seed": 44
+    },
+    {
+      "model": "controlled_patchtst",
+      "domain": "battery",
+      "fraction": 0.2,
+      "seed": 45
+    },
+    {
+      "model": "controlled_patchtst",
+      "domain": "battery",
+      "fraction": 0.2,
+      "seed": 46
+    },
+    {
+      "model": "controlled_patchtst",
+      "domain": "battery",
+      "fraction": 1.0,
+      "seed": 42
+    },
+    {
+      "model": "controlled_patchtst",
+      "domain": "battery",
+      "fraction": 1.0,
+      "seed": 43
+    },
+    {
+      "model": "controlled_patchtst",
+      "domain": "battery",
+      "fraction": 1.0,
+      "seed": 44
+    },
+    {
+      "model": "controlled_patchtst",
+      "domain": "battery",
+      "fraction": 1.0,
+      "seed": 45
+    },
+    {
+      "model": "controlled_patchtst",
+      "domain": "battery",
+      "fraction": 1.0,
+      "seed": 46
+    },
+    {
+      "model": "controlled_patchtst",
+      "domain": "milling",
+      "fraction": 0.1,
+      "seed": 42
+    },
+    {
+      "model": "controlled_patchtst",
+      "domain": "milling",
+      "fraction": 0.1,
+      "seed": 43
+    },
+    {
+      "model": "controlled_patchtst",
+      "domain": "milling",
+      "fraction": 0.1,
+      "seed": 44
+    },
+    {
+      "model": "controlled_patchtst",
+      "domain": "milling",
+      "fraction": 0.1,
+      "seed": 45
+    },
+    {
+      "model": "controlled_patchtst",
+      "domain": "milling",
+      "fraction": 0.1,
+      "seed": 46
+    },
+    {
+      "model": "controlled_patchtst",
+      "domain": "milling",
+      "fraction": 0.2,
+      "seed": 42
+    },
+    {
+      "model": "controlled_patchtst",
+      "domain": "milling",
+      "fraction": 0.2,
+      "seed": 43
+    },
+    {
+      "model": "controlled_patchtst",
+      "domain": "milling",
+      "fraction": 0.2,
+      "seed": 44
+    },
+    {
+      "model": "controlled_patchtst",
+      "domain": "milling",
+      "fraction": 0.2,
+      "seed": 45
+    },
+    {
+      "model": "controlled_patchtst",
+      "domain": "milling",
+      "fraction": 0.2,
+      "seed": 46
+    },
+    {
+      "model": "controlled_patchtst",
+      "domain": "milling",
+      "fraction": 1.0,
+      "seed": 42
+    },
+    {
+      "model": "controlled_patchtst",
+      "domain": "milling",
+      "fraction": 1.0,
+      "seed": 43
+    },
+    {
+      "model": "controlled_patchtst",
+      "domain": "milling",
+      "fraction": 1.0,
+      "seed": 44
+    },
+    {
+      "model": "controlled_patchtst",
+      "domain": "milling",
+      "fraction": 1.0,
+      "seed": 45
+    },
+    {
+      "model": "controlled_patchtst",
+      "domain": "milling",
+      "fraction": 1.0,
+      "seed": 46
+    },
+    {
+      "model": "controlled_itransformer",
+      "domain": "bearing",
+      "fraction": 0.1,
+      "seed": 42
+    },
+    {
+      "model": "controlled_itransformer",
+      "domain": "bearing",
+      "fraction": 0.1,
+      "seed": 43
+    },
+    {
+      "model": "controlled_itransformer",
+      "domain": "bearing",
+      "fraction": 0.1,
+      "seed": 44
+    },
+    {
+      "model": "controlled_itransformer",
+      "domain": "bearing",
+      "fraction": 0.1,
+      "seed": 45
+    },
+    {
+      "model": "controlled_itransformer",
+      "domain": "bearing",
+      "fraction": 0.1,
+      "seed": 46
+    },
+    {
+      "model": "controlled_itransformer",
+      "domain": "bearing",
+      "fraction": 0.2,
+      "seed": 42
+    },
+    {
+      "model": "controlled_itransformer",
+      "domain": "bearing",
+      "fraction": 0.2,
+      "seed": 43
+    },
+    {
+      "model": "controlled_itransformer",
+      "domain": "bearing",
+      "fraction": 0.2,
+      "seed": 44
+    },
+    {
+      "model": "controlled_itransformer",
+      "domain": "bearing",
+      "fraction": 0.2,
+      "seed": 45
+    },
+    {
+      "model": "controlled_itransformer",
+      "domain": "bearing",
+      "fraction": 0.2,
+      "seed": 46
+    },
+    {
+      "model": "controlled_itransformer",
+      "domain": "bearing",
+      "fraction": 1.0,
+      "seed": 42
+    },
+    {
+      "model": "controlled_itransformer",
+      "domain": "bearing",
+      "fraction": 1.0,
+      "seed": 43
+    },
+    {
+      "model": "controlled_itransformer",
+      "domain": "bearing",
+      "fraction": 1.0,
+      "seed": 44
+    },
+    {
+      "model": "controlled_itransformer",
+      "domain": "bearing",
+      "fraction": 1.0,
+      "seed": 45
+    },
+    {
+      "model": "controlled_itransformer",
+      "domain": "bearing",
+      "fraction": 1.0,
+      "seed": 46
+    },
+    {
+      "model": "controlled_itransformer",
+      "domain": "battery",
+      "fraction": 0.1,
+      "seed": 42
+    },
+    {
+      "model": "controlled_itransformer",
+      "domain": "battery",
+      "fraction": 0.1,
+      "seed": 43
+    },
+    {
+      "model": "controlled_itransformer",
+      "domain": "battery",
+      "fraction": 0.1,
+      "seed": 44
+    },
+    {
+      "model": "controlled_itransformer",
+      "domain": "battery",
+      "fraction": 0.1,
+      "seed": 45
+    },
+    {
+      "model": "controlled_itransformer",
+      "domain": "battery",
+      "fraction": 0.1,
+      "seed": 46
+    },
+    {
+      "model": "controlled_itransformer",
+      "domain": "battery",
+      "fraction": 0.2,
+      "seed": 42
+    },
+    {
+      "model": "controlled_itransformer",
+      "domain": "battery",
+      "fraction": 0.2,
+      "seed": 43
+    },
+    {
+      "model": "controlled_itransformer",
+      "domain": "battery",
+      "fraction": 0.2,
+      "seed": 44
+    },
+    {
+      "model": "controlled_itransformer",
+      "domain": "battery",
+      "fraction": 0.2,
+      "seed": 45
+    },
+    {
+      "model": "controlled_itransformer",
+      "domain": "battery",
+      "fraction": 0.2,
+      "seed": 46
+    },
+    {
+      "model": "controlled_itransformer",
+      "domain": "battery",
+      "fraction": 1.0,
+      "seed": 42
+    },
+    {
+      "model": "controlled_itransformer",
+      "domain": "battery",
+      "fraction": 1.0,
+      "seed": 43
+    },
+    {
+      "model": "controlled_itransformer",
+      "domain": "battery",
+      "fraction": 1.0,
+      "seed": 44
+    },
+    {
+      "model": "controlled_itransformer",
+      "domain": "battery",
+      "fraction": 1.0,
+      "seed": 45
+    },
+    {
+      "model": "controlled_itransformer",
+      "domain": "battery",
+      "fraction": 1.0,
+      "seed": 46
+    },
+    {
+      "model": "controlled_itransformer",
+      "domain": "milling",
+      "fraction": 0.1,
+      "seed": 42
+    },
+    {
+      "model": "controlled_itransformer",
+      "domain": "milling",
+      "fraction": 0.1,
+      "seed": 43
+    },
+    {
+      "model": "controlled_itransformer",
+      "domain": "milling",
+      "fraction": 0.1,
+      "seed": 44
+    },
+    {
+      "model": "controlled_itransformer",
+      "domain": "milling",
+      "fraction": 0.1,
+      "seed": 45
+    },
+    {
+      "model": "controlled_itransformer",
+      "domain": "milling",
+      "fraction": 0.1,
+      "seed": 46
+    },
+    {
+      "model": "controlled_itransformer",
+      "domain": "milling",
+      "fraction": 0.2,
+      "seed": 42
+    },
+    {
+      "model": "controlled_itransformer",
+      "domain": "milling",
+      "fraction": 0.2,
+      "seed": 43
+    },
+    {
+      "model": "controlled_itransformer",
+      "domain": "milling",
+      "fraction": 0.2,
+      "seed": 44
+    },
+    {
+      "model": "controlled_itransformer",
+      "domain": "milling",
+      "fraction": 0.2,
+      "seed": 45
+    },
+    {
+      "model": "controlled_itransformer",
+      "domain": "milling",
+      "fraction": 0.2,
+      "seed": 46
+    },
+    {
+      "model": "controlled_itransformer",
+      "domain": "milling",
+      "fraction": 1.0,
+      "seed": 42
+    },
+    {
+      "model": "controlled_itransformer",
+      "domain": "milling",
+      "fraction": 1.0,
+      "seed": 43
+    },
+    {
+      "model": "controlled_itransformer",
+      "domain": "milling",
+      "fraction": 1.0,
+      "seed": 44
+    },
+    {
+      "model": "controlled_itransformer",
+      "domain": "milling",
+      "fraction": 1.0,
+      "seed": 45
+    },
+    {
+      "model": "controlled_itransformer",
+      "domain": "milling",
+      "fraction": 1.0,
+      "seed": 46
+    },
+    {
+      "model": "controlled_moment_frozen",
+      "domain": "bearing",
+      "fraction": 0.1,
+      "seed": 42
+    },
+    {
+      "model": "controlled_moment_frozen",
+      "domain": "bearing",
+      "fraction": 0.1,
+      "seed": 43
+    },
+    {
+      "model": "controlled_moment_frozen",
+      "domain": "bearing",
+      "fraction": 0.1,
+      "seed": 44
+    },
+    {
+      "model": "controlled_moment_frozen",
+      "domain": "bearing",
+      "fraction": 0.1,
+      "seed": 45
+    },
+    {
+      "model": "controlled_moment_frozen",
+      "domain": "bearing",
+      "fraction": 0.1,
+      "seed": 46
+    },
+    {
+      "model": "controlled_moment_frozen",
+      "domain": "bearing",
+      "fraction": 0.2,
+      "seed": 42
+    },
+    {
+      "model": "controlled_moment_frozen",
+      "domain": "bearing",
+      "fraction": 0.2,
+      "seed": 43
+    },
+    {
+      "model": "controlled_moment_frozen",
+      "domain": "bearing",
+      "fraction": 0.2,
+      "seed": 44
+    },
+    {
+      "model": "controlled_moment_frozen",
+      "domain": "bearing",
+      "fraction": 0.2,
+      "seed": 45
+    },
+    {
+      "model": "controlled_moment_frozen",
+      "domain": "bearing",
+      "fraction": 0.2,
+      "seed": 46
+    },
+    {
+      "model": "controlled_moment_frozen",
+      "domain": "bearing",
+      "fraction": 1.0,
+      "seed": 42
+    },
+    {
+      "model": "controlled_moment_frozen",
+      "domain": "bearing",
+      "fraction": 1.0,
+      "seed": 43
+    },
+    {
+      "model": "controlled_moment_frozen",
+      "domain": "bearing",
+      "fraction": 1.0,
+      "seed": 44
+    },
+    {
+      "model": "controlled_moment_frozen",
+      "domain": "bearing",
+      "fraction": 1.0,
+      "seed": 45
+    },
+    {
+      "model": "controlled_moment_frozen",
+      "domain": "bearing",
+      "fraction": 1.0,
+      "seed": 46
+    },
+    {
+      "model": "controlled_moment_frozen",
+      "domain": "battery",
+      "fraction": 0.1,
+      "seed": 42
+    },
+    {
+      "model": "controlled_moment_frozen",
+      "domain": "battery",
+      "fraction": 0.1,
+      "seed": 43
+    },
+    {
+      "model": "controlled_moment_frozen",
+      "domain": "battery",
+      "fraction": 0.1,
+      "seed": 44
+    },
+    {
+      "model": "controlled_moment_frozen",
+      "domain": "battery",
+      "fraction": 0.1,
+      "seed": 45
+    },
+    {
+      "model": "controlled_moment_frozen",
+      "domain": "battery",
+      "fraction": 0.1,
+      "seed": 46
+    },
+    {
+      "model": "controlled_moment_frozen",
+      "domain": "battery",
+      "fraction": 0.2,
+      "seed": 42
+    },
+    {
+      "model": "controlled_moment_frozen",
+      "domain": "battery",
+      "fraction": 0.2,
+      "seed": 43
+    },
+    {
+      "model": "controlled_moment_frozen",
+      "domain": "battery",
+      "fraction": 0.2,
+      "seed": 44
+    },
+    {
+      "model": "controlled_moment_frozen",
+      "domain": "battery",
+      "fraction": 0.2,
+      "seed": 45
+    },
+    {
+      "model": "controlled_moment_frozen",
+      "domain": "battery",
+      "fraction": 0.2,
+      "seed": 46
+    },
+    {
+      "model": "controlled_moment_frozen",
+      "domain": "battery",
+      "fraction": 1.0,
+      "seed": 42
+    },
+    {
+      "model": "controlled_moment_frozen",
+      "domain": "battery",
+      "fraction": 1.0,
+      "seed": 43
+    },
+    {
+      "model": "controlled_moment_frozen",
+      "domain": "battery",
+      "fraction": 1.0,
+      "seed": 44
+    },
+    {
+      "model": "controlled_moment_frozen",
+      "domain": "battery",
+      "fraction": 1.0,
+      "seed": 45
+    },
+    {
+      "model": "controlled_moment_frozen",
+      "domain": "battery",
+      "fraction": 1.0,
+      "seed": 46
+    },
+    {
+      "model": "controlled_moment_frozen",
+      "domain": "milling",
+      "fraction": 0.1,
+      "seed": 42
+    },
+    {
+      "model": "controlled_moment_frozen",
+      "domain": "milling",
+      "fraction": 0.1,
+      "seed": 43
+    },
+    {
+      "model": "controlled_moment_frozen",
+      "domain": "milling",
+      "fraction": 0.1,
+      "seed": 44
+    },
+    {
+      "model": "controlled_moment_frozen",
+      "domain": "milling",
+      "fraction": 0.1,
+      "seed": 45
+    },
+    {
+      "model": "controlled_moment_frozen",
+      "domain": "milling",
+      "fraction": 0.1,
+      "seed": 46
+    },
+    {
+      "model": "controlled_moment_frozen",
+      "domain": "milling",
+      "fraction": 0.2,
+      "seed": 42
+    },
+    {
+      "model": "controlled_moment_frozen",
+      "domain": "milling",
+      "fraction": 0.2,
+      "seed": 43
+    },
+    {
+      "model": "controlled_moment_frozen",
+      "domain": "milling",
+      "fraction": 0.2,
+      "seed": 44
+    },
+    {
+      "model": "controlled_moment_frozen",
+      "domain": "milling",
+      "fraction": 0.2,
+      "seed": 45
+    },
+    {
+      "model": "controlled_moment_frozen",
+      "domain": "milling",
+      "fraction": 0.2,
+      "seed": 46
+    },
+    {
+      "model": "controlled_moment_frozen",
+      "domain": "milling",
+      "fraction": 1.0,
+      "seed": 42
+    },
+    {
+      "model": "controlled_moment_frozen",
+      "domain": "milling",
+      "fraction": 1.0,
+      "seed": 43
+    },
+    {
+      "model": "controlled_moment_frozen",
+      "domain": "milling",
+      "fraction": 1.0,
+      "seed": 44
+    },
+    {
+      "model": "controlled_moment_frozen",
+      "domain": "milling",
+      "fraction": 1.0,
+      "seed": 45
+    },
+    {
+      "model": "controlled_moment_frozen",
+      "domain": "milling",
+      "fraction": 1.0,
+      "seed": 46
+    },
+    {
+      "model": "controlled_moment_full",
+      "domain": "bearing",
+      "fraction": 0.1,
+      "seed": 42
+    },
+    {
+      "model": "controlled_moment_full",
+      "domain": "bearing",
+      "fraction": 0.1,
+      "seed": 43
+    },
+    {
+      "model": "controlled_moment_full",
+      "domain": "bearing",
+      "fraction": 0.1,
+      "seed": 44
+    },
+    {
+      "model": "controlled_moment_full",
+      "domain": "bearing",
+      "fraction": 0.1,
+      "seed": 45
+    },
+    {
+      "model": "controlled_moment_full",
+      "domain": "bearing",
+      "fraction": 0.1,
+      "seed": 46
+    },
+    {
+      "model": "controlled_moment_full",
+      "domain": "bearing",
+      "fraction": 0.2,
+      "seed": 42
+    },
+    {
+      "model": "controlled_moment_full",
+      "domain": "bearing",
+      "fraction": 0.2,
+      "seed": 43
+    },
+    {
+      "model": "controlled_moment_full",
+      "domain": "bearing",
+      "fraction": 0.2,
+      "seed": 44
+    },
+    {
+      "model": "controlled_moment_full",
+      "domain": "bearing",
+      "fraction": 0.2,
+      "seed": 45
+    },
+    {
+      "model": "controlled_moment_full",
+      "domain": "bearing",
+      "fraction": 0.2,
+      "seed": 46
+    },
+    {
+      "model": "controlled_moment_full",
+      "domain": "bearing",
+      "fraction": 1.0,
+      "seed": 42
+    },
+    {
+      "model": "controlled_moment_full",
+      "domain": "bearing",
+      "fraction": 1.0,
+      "seed": 43
+    },
+    {
+      "model": "controlled_moment_full",
+      "domain": "bearing",
+      "fraction": 1.0,
+      "seed": 44
+    },
+    {
+      "model": "controlled_moment_full",
+      "domain": "bearing",
+      "fraction": 1.0,
+      "seed": 45
+    },
+    {
+      "model": "controlled_moment_full",
+      "domain": "bearing",
+      "fraction": 1.0,
+      "seed": 46
+    },
+    {
+      "model": "controlled_moment_full",
+      "domain": "battery",
+      "fraction": 0.1,
+      "seed": 42
+    },
+    {
+      "model": "controlled_moment_full",
+      "domain": "battery",
+      "fraction": 0.1,
+      "seed": 43
+    },
+    {
+      "model": "controlled_moment_full",
+      "domain": "battery",
+      "fraction": 0.1,
+      "seed": 44
+    },
+    {
+      "model": "controlled_moment_full",
+      "domain": "battery",
+      "fraction": 0.1,
+      "seed": 45
+    },
+    {
+      "model": "controlled_moment_full",
+      "domain": "battery",
+      "fraction": 0.1,
+      "seed": 46
+    },
+    {
+      "model": "controlled_moment_full",
+      "domain": "battery",
+      "fraction": 0.2,
+      "seed": 42
+    },
+    {
+      "model": "controlled_moment_full",
+      "domain": "battery",
+      "fraction": 0.2,
+      "seed": 43
+    },
+    {
+      "model": "controlled_moment_full",
+      "domain": "battery",
+      "fraction": 0.2,
+      "seed": 44
+    },
+    {
+      "model": "controlled_moment_full",
+      "domain": "battery",
+      "fraction": 0.2,
+      "seed": 45
+    },
+    {
+      "model": "controlled_moment_full",
+      "domain": "battery",
+      "fraction": 0.2,
+      "seed": 46
+    },
+    {
+      "model": "controlled_moment_full",
+      "domain": "battery",
+      "fraction": 1.0,
+      "seed": 42
+    },
+    {
+      "model": "controlled_moment_full",
+      "domain": "battery",
+      "fraction": 1.0,
+      "seed": 43
+    },
+    {
+      "model": "controlled_moment_full",
+      "domain": "battery",
+      "fraction": 1.0,
+      "seed": 44
+    },
+    {
+      "model": "controlled_moment_full",
+      "domain": "battery",
+      "fraction": 1.0,
+      "seed": 45
+    },
+    {
+      "model": "controlled_moment_full",
+      "domain": "battery",
+      "fraction": 1.0,
+      "seed": 46
+    },
+    {
+      "model": "controlled_moment_full",
+      "domain": "milling",
+      "fraction": 0.1,
+      "seed": 42
+    },
+    {
+      "model": "controlled_moment_full",
+      "domain": "milling",
+      "fraction": 0.1,
+      "seed": 43
+    },
+    {
+      "model": "controlled_moment_full",
+      "domain": "milling",
+      "fraction": 0.1,
+      "seed": 44
+    },
+    {
+      "model": "controlled_moment_full",
+      "domain": "milling",
+      "fraction": 0.1,
+      "seed": 45
+    },
+    {
+      "model": "controlled_moment_full",
+      "domain": "milling",
+      "fraction": 0.1,
+      "seed": 46
+    },
+    {
+      "model": "controlled_moment_full",
+      "domain": "milling",
+      "fraction": 0.2,
+      "seed": 42
+    },
+    {
+      "model": "controlled_moment_full",
+      "domain": "milling",
+      "fraction": 0.2,
+      "seed": 43
+    },
+    {
+      "model": "controlled_moment_full",
+      "domain": "milling",
+      "fraction": 0.2,
+      "seed": 44
+    },
+    {
+      "model": "controlled_moment_full",
+      "domain": "milling",
+      "fraction": 0.2,
+      "seed": 45
+    },
+    {
+      "model": "controlled_moment_full",
+      "domain": "milling",
+      "fraction": 0.2,
+      "seed": 46
+    },
+    {
+      "model": "controlled_moment_full",
+      "domain": "milling",
+      "fraction": 1.0,
+      "seed": 42
+    },
+    {
+      "model": "controlled_moment_full",
+      "domain": "milling",
+      "fraction": 1.0,
+      "seed": 43
+    },
+    {
+      "model": "controlled_moment_full",
+      "domain": "milling",
+      "fraction": 1.0,
+      "seed": 44
+    },
+    {
+      "model": "controlled_moment_full",
+      "domain": "milling",
+      "fraction": 1.0,
+      "seed": 45
+    },
+    {
+      "model": "controlled_moment_full",
+      "domain": "milling",
+      "fraction": 1.0,
+      "seed": 46
+    }
+  ],
+  "count": 675,
+  "legacy_results_reused": false
+}
